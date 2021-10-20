@@ -135,7 +135,7 @@ Connection ~ 6950 4500
 Wire Wire Line
 	7650 3650 7100 3650
 Text GLabel 7650 4100 2    50   Input ~ 0
-DSP_GPIO
+DSP_GPIO16
 Wire Wire Line
 	7650 3650 7650 4500
 Text Notes 4000 2550 0    50   ~ 0
