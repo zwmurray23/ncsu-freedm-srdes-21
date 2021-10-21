@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IFE98
+D LED FIBER OPTIC 50MBPS 650NM RED RoHS : Compliant
+K
+F https://i-fiberoptics.com/pdf/ife98-2-20.pdf
+$ENDCMP
+#
+#End Doc Library

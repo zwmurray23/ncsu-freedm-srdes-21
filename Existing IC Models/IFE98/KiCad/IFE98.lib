@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IFE98
+#/13540120/637722/2.49/5/4/Connector
+DEF IFE98 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "IFE98" 850 200 50 H V L CNN
+F2 "IFE98" 850 100 50 H I L CNN
+F3 "https://i-fiberoptics.com/pdf/ife98-2-20.pdf" 850 0 50 H I L CNN
+F4 "LED FIBER OPTIC 50MBPS 650NM RED RoHS : Compliant" 850 -100 50 H I L CNN "Description"
+F5 "8.705" 850 -200 50 H I L CNN "Height"
+F6 "Industrial Fiberoptics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IFE98" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X K_1 1 0 0 200 R 50 50 0 0 P
+X K_2 2 0 -100 200 R 50 50 0 0 P
+X A 3 0 -200 200 R 50 50 0 0 P
+X K_3 4 0 -300 200 R 50 50 0 0 P
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
