@@ -1,0 +1,122 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_CP1_Small
+#
+DEF Device_CP1_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP1_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IFE98_IFE98
+#
+DEF IFE98_IFE98 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "IFE98_IFE98" 850 200 50 H V L CNN
+F2 "IFE98" 850 100 50 H I L CNN
+F3 "https://i-fiberoptics.com/pdf/ife98-2-20.pdf" 850 0 50 H I L CNN
+F4 "LED FIBER OPTIC 50MBPS 650NM RED RoHS : Compliant" 850 -100 50 H I L CNN "Description"
+F5 "8.705" 850 -200 50 H I L CNN "Height"
+F6 "Industrial Fiberoptics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IFE98" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+X K_1 1 0 0 200 R 50 50 0 0 P
+X K_2 2 0 -100 200 R 50 50 0 0 P
+X A 3 0 -200 200 R 50 50 0 0 P
+X K_3 4 0 -300 200 R 50 50 0 0 P
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TLV3501AID_TLV3501AID
+#
+DEF TLV3501AID_TLV3501AID IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "TLV3501AID_TLV3501AID" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tlv3501.pdf" 950 0 50 H I L CNN
+F4 "4.5ns Rail-to-Rail, High Speed Comparator in Microsized Packages" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TLV3501AID" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TLV3501AID" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV3501AID?qs=m96fseALk3X7x6f01EkGWg%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TLV3501AID" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tlv3501aid/texas-instruments?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 1100 -300 200 L 50 50 0 0 P
+X OUT 6 1100 -200 200 L 50 50 0 0 P
+X V+ 7 1100 -100 200 L 50 50 0 0 P
+X SHDN 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
