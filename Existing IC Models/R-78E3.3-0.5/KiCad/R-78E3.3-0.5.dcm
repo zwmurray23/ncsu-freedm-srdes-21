@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R-78E3.3-0.5
+D Switching Regulator 6-28Vin 3.3Vout 0.5A Switching Regulator, 6
+K
+F http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+$ENDCMP
+#
+#End Doc Library
