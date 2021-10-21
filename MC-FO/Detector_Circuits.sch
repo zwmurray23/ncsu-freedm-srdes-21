@@ -209,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 3500 7250 3500
 Wire Wire Line
-	5750 2400 6850 2400
+	5750 2400 6250 2400
 Wire Wire Line
 	6850 2450 6850 2400
 Connection ~ 6850 2400
@@ -285,4 +285,13 @@ Text Notes 2700 2800 0    50   ~ 0
 This IC is incorrect. Should be\nIF-D97, but I couldn't find\na model for it. 
 Text Notes 8200 4150 0    50   ~ 0
 Is an additional opamp needed? The typical configuration includes \nthe one I placed in this schematic -- zach
+Text GLabel 6000 2000 0    50   Input ~ 0
+Regulated_5V
+Wire Wire Line
+	6000 2000 6250 2000
+Wire Wire Line
+	6250 2000 6250 2400
+Connection ~ 6250 2400
+Wire Wire Line
+	6250 2400 6850 2400
 $EndSCHEMATC

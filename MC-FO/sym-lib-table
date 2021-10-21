@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name TLV3501AID)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/TLV3501AID/KiCad/TLV3501AID.lib")(options "")(descr ""))
+  (lib (name R-78E5.0-0.5)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/R-78E5.0-0.5/KiCad/R-78E5.0-0.5.lib")(options "")(descr ""))
+  (lib (name R-78E3.3-0.5)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/R-78E3.3-0.5/KiCad/R-78E3.3-0.5.lib")(options "")(descr ""))
+  (lib (name IFE98)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/IFE98/KiCad/IFE98.lib")(options "")(descr ""))
+  (lib (name 74ACT08SCX)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/74ACT08SCX/KiCad/74ACT08SCX.lib")(options "")(descr ""))
+)
