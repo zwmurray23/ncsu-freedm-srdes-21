@@ -4,4 +4,5 @@
   (lib (name R-78E3.3-0.5)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/R-78E3.3-0.5/KiCad/R-78E3.3-0.5.lib")(options "")(descr ""))
   (lib (name IFE98)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/IFE98/KiCad/IFE98.lib")(options "")(descr ""))
   (lib (name 74ACT08SCX)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/74ACT08SCX/KiCad/74ACT08SCX.lib")(options "")(descr ""))
+  (lib (name Existing_IC_Models)(type Legacy)(uri ${KIPRJMOD}/Existing_IC_Models.lib)(options "")(descr ""))
 )
