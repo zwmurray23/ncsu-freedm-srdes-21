@@ -35,7 +35,7 @@ Wire Wire Line
 $Sheet
 S 2750 6700 750  250 
 U 6175C442
-F0 "Sheet6175C441" 50
+F0 "Voltage Regulation" 50
 F1 "Voltage_Regulation.sch" 50
 F2 "Vdd" I R 3500 6850 50 
 $EndSheet
@@ -65,7 +65,7 @@ S 2750 3700 750  250
 U 6171C819
 F0 "Detector1" 50
 F1 "Detector_Circuits.sch" 50
-F2 "EPWM" I R 3500 3850 50 
+F2 "DPWM" I R 3500 3850 50 
 $EndSheet
 $Sheet
 S 2750 1200 750  250 
@@ -81,7 +81,7 @@ S 2750 6050 750  250
 U 61724A08
 F0 "Detector2" 50
 F1 "Detector_Circuits.sch" 50
-F2 "EPWM" I R 3500 6200 50 
+F2 "DPWM" I R 3500 6200 50 
 $EndSheet
 Wire Wire Line
 	3500 2750 4200 2750
@@ -109,17 +109,26 @@ S 2750 4350 750  250
 U 6176CA10
 F0 "Emitter4" 50
 F1 "Emitter_Circuits.sch" 50
+F2 "EPWM" I R 3500 4500 50 
 $EndSheet
 $Sheet
 S 2750 4900 750  250 
 U 6176CA81
 F0 "Emitter5" 50
 F1 "Emitter_Circuits.sch" 50
+F2 "EPWM" I R 3500 5050 50 
 $EndSheet
 $Sheet
 S 2750 5450 750  250 
 U 6176CAE4
 F0 "Emitter6" 50
 F1 "Emitter_Circuits.sch" 50
+F2 "EPWM" I R 3500 5600 50 
 $EndSheet
+Wire Wire Line
+	3500 5600 4350 5600
+Wire Wire Line
+	3500 5050 4400 5050
+Wire Wire Line
+	3500 4500 4450 4500
 $EndSCHEMATC
