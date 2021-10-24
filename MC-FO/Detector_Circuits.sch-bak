@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -112,14 +112,14 @@ Connection ~ 4950 2850
 $Comp
 L power:GND #PWR?
 U 1 1 6174213D
-P 6600 4050
+P 6650 4100
 AR Path="/6171C819/6174213D" Ref="#PWR?"  Part="1" 
 AR Path="/61724A08/6174213D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6600 3800 50  0001 C CNN
-F 1 "GND" H 6605 3877 50  0000 C CNN
-F 2 "" H 6600 4050 50  0001 C CNN
-F 3 "" H 6600 4050 50  0001 C CNN
-	1    6600 4050
+F 0 "#PWR?" H 6650 3850 50  0001 C CNN
+F 1 "GND" H 6655 3927 50  0000 C CNN
+F 2 "" H 6650 4100 50  0001 C CNN
+F 3 "" H 6650 4100 50  0001 C CNN
+	1    6650 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -147,19 +147,6 @@ F 2 "" H 7050 4600 50  0001 C CNN
 F 3 "~" H 7050 4600 50  0001 C CNN
 	1    7050 4600
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61747C8A
-P 5750 5150
-AR Path="/6171C819/61747C8A" Ref="#PWR?"  Part="1" 
-AR Path="/61724A08/61747C8A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5750 4900 50  0001 C CNN
-F 1 "GND" H 5755 4977 50  0000 C CNN
-F 2 "" H 5750 5150 50  0001 C CNN
-F 3 "" H 5750 5150 50  0001 C CNN
-	1    5750 5150
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5750 5150 5750 5000
@@ -206,65 +193,35 @@ F 3 "" H 4300 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 2400 4300 3300
-Text GLabel 6000 2000 0    50   Input ~ 0
-5V
 Wire Wire Line
 	6000 2000 6250 2000
 Wire Wire Line
 	6250 2000 6250 2400
 Connection ~ 6250 2400
 Wire Wire Line
-	6250 2400 6650 2400
+	6250 2400 6700 2400
 Wire Wire Line
-	6650 3300 6650 2400
-Connection ~ 6650 2400
+	6700 3300 6700 2400
+Connection ~ 6700 2400
 Wire Wire Line
-	6650 2400 7350 2400
+	6700 2400 7350 2400
 Connection ~ 6200 4600
 Wire Wire Line
 	6200 4600 6950 4600
 Wire Wire Line
 	5750 4600 6200 4600
 Wire Wire Line
-	4000 3500 6350 3500
+	7800 3600 8100 3600
 Wire Wire Line
-	7800 3550 8100 3550
-$Comp
-L Existing_IC_Models:TLV3501AID U?
-U 1 1 61744BAA
-P 6500 3250
-AR Path="/6171C819/61744BAA" Ref="U?"  Part="1" 
-AR Path="/61724A08/61744BAA" Ref="U?"  Part="1" 
-F 0 "U?" H 7000 3150 50  0000 L CNN
-F 1 "TLV3501AID" H 6850 3050 50  0000 L CNN
-F 2 "" H 6500 3250 50  0001 C CNN
-F 3 "" H 6500 3250 50  0001 C CNN
-	1    6500 3250
-	1    0    0    -1  
-$EndComp
-Connection ~ 6350 3500
-Wire Wire Line
-	6350 3500 6450 3500
-Wire Wire Line
-	6200 3600 6350 3600
+	6200 3600 6450 3600
 Wire Wire Line
 	6200 3600 6200 4600
 Wire Wire Line
-	6600 3850 6600 3900
-Wire Wire Line
-	6700 3800 6700 3900
-Connection ~ 6600 3900
-Wire Wire Line
-	6600 3900 6600 4050
-Wire Wire Line
-	6600 3900 6700 3900
-Connection ~ 7800 3550
-Wire Wire Line
-	7800 4600 7800 3550
+	7800 4600 7800 3600
 Wire Wire Line
 	7150 4600 7800 4600
 Wire Wire Line
-	7000 3550 7800 3550
+	7100 3600 7800 3600
 $Comp
 L Existing_IC_Models:IFD97 U?
 U 1 1 61758365
@@ -278,6 +235,39 @@ F 3 "" H 3700 4700 50  0001 C CNN
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
-Text HLabel 8100 3550 2    50   Input ~ 0
+Text HLabel 8100 3600 2    50   Input ~ 0
 DPWM
+Text Notes 10650 3250 2    50   ~ 0
+could add a stage to make 3.3 v. or a different comparator. Or resistor devider
+Text HLabel 6000 2000 0    50   Input ~ 0
+5V
+Wire Wire Line
+	4000 3500 6450 3500
+$Comp
+L Existing_IC_Models:TLV3501AID U?
+U 1 1 61744BAA
+P 6600 3900
+AR Path="/6171C819/61744BAA" Ref="U?"  Part="1" 
+AR Path="/61724A08/61744BAA" Ref="U?"  Part="1" 
+F 0 "U?" H 7100 3800 50  0000 L CNN
+F 1 "TLV3501AID" H 6950 3700 50  0000 L CNN
+F 2 "" H 6600 3900 50  0001 C CNN
+F 3 "" H 6600 3900 50  0001 C CNN
+	1    6600 3900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3800 6800 4000
+Wire Wire Line
+	6800 4000 6650 4000
+Wire Wire Line
+	6650 4000 6650 4100
+Wire Wire Line
+	6650 3900 6650 4000
+Connection ~ 6650 4000
+Connection ~ 7800 3600
+Wire Wire Line
+	7800 3600 7800 3550
+Text HLabel 5750 5150 3    50   Input ~ 0
+GND2
 $EndSCHEMATC

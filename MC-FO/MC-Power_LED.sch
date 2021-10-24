@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 2 12
 Title ""
 Date ""
 Rev ""
@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR?
-U 1 1 617675F1
-P 6000 5150
-AR Path="/617675F1" Ref="#PWR?"  Part="1" 
-AR Path="/61766F1E/617675F1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6000 4900 50  0001 C CNN
-F 1 "GND" H 6005 4977 50  0000 C CNN
-F 2 "" H 6000 5150 50  0001 C CNN
-F 3 "" H 6000 5150 50  0001 C CNN
-	1    6000 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 61767EC2
@@ -58,4 +45,6 @@ Wire Wire Line
 	6000 4900 6000 5150
 Text HLabel 6800 3700 2    50   Input ~ 0
 Vdd
+Text HLabel 6000 5150 0    50   Input ~ 0
+GND1
 $EndSCHEMATC

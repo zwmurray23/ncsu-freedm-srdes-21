@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -44,19 +44,6 @@ Wire Wire Line
 	3600 4800 3600 5150
 Wire Wire Line
 	3600 5150 4150 5150
-Text GLabel 4150 5150 2    50   Input ~ 0
-5V
-$Comp
-L power:GND #PWR?
-U 1 1 61717715
-P 3300 4900
-F 0 "#PWR?" H 3300 4650 50  0001 C CNN
-F 1 "GND" H 3305 4727 50  0000 C CNN
-F 2 "" H 3300 4900 50  0001 C CNN
-F 3 "" H 3300 4900 50  0001 C CNN
-	1    3300 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5950 4700 5650 4700
 Wire Wire Line
@@ -65,19 +52,6 @@ Wire Wire Line
 	5950 4800 5950 5150
 Wire Wire Line
 	5950 5150 6500 5150
-Text GLabel 6500 5150 2    50   Input ~ 0
-3V3
-$Comp
-L power:GND #PWR?
-U 1 1 6171CE7D
-P 5650 4900
-F 0 "#PWR?" H 5650 4650 50  0001 C CNN
-F 1 "GND" H 5655 4727 50  0000 C CNN
-F 2 "" H 5650 4900 50  0001 C CNN
-F 3 "" H 5650 4900 50  0001 C CNN
-	1    5650 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L R-78E3.3-0.5:R-78E3.3-0.5 T?
 U 1 1 6171D286
@@ -108,4 +82,16 @@ Wire Wire Line
 	5700 4600 5950 4600
 Text HLabel 4750 3900 0    50   Input ~ 0
 Vdd
+Text Notes 3700 2550 2    50   ~ 0
+add comparatorson both and logically AND together for LED on power status\n\n\n (windowed comparators or voltage supervisors)
+Text Notes 2550 3650 2    50   ~ 0
+zach planning on adding caps. Pi Filter
+Text HLabel 6500 5150 2    50   Input ~ 0
+3V3
+Text HLabel 4150 5150 2    50   Input ~ 0
+5V
+Text HLabel 3300 4900 0    50   Input ~ 0
+GND1
+Text HLabel 5650 4900 0    50   Input ~ 0
+GND1
 $EndSCHEMATC

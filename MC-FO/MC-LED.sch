@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 12 11
 Title ""
 Date ""
 Rev ""
@@ -41,17 +41,6 @@ Wire Wire Line
 	3200 3650 2400 3650
 Wire Wire Line
 	2400 3650 2400 3900
-$Comp
-L power:GND #PWR?
-U 1 1 6170978E
-P 2600 4500
-F 0 "#PWR?" H 2600 4250 50  0001 C CNN
-F 1 "GND" H 2605 4327 50  0000 C CNN
-F 2 "" H 2600 4500 50  0001 C CNN
-F 3 "" H 2600 4500 50  0001 C CNN
-	1    2600 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2400 4200 2400 4500
 Text Notes 6500 4950 0    50   ~ 10
@@ -82,17 +71,6 @@ Wire Wire Line
 	6800 3650 6000 3650
 Wire Wire Line
 	6000 3650 6000 3900
-$Comp
-L power:GND #PWR?
-U 1 1 61713532
-P 6950 4500
-F 0 "#PWR?" H 6950 4250 50  0001 C CNN
-F 1 "GND" H 6955 4327 50  0000 C CNN
-F 2 "" H 6950 4500 50  0001 C CNN
-F 3 "" H 6950 4500 50  0001 C CNN
-	1    6950 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6000 4200 6000 4500
 Wire Wire Line
@@ -111,8 +89,12 @@ Wire Wire Line
 	2400 4500 2600 4500
 Wire Wire Line
 	4000 3650 3500 3650
-Text GLabel 4000 3650 2    50   Input ~ 0
+Text HLabel 4000 3650 2    50   Input ~ 0
 3V3
 Text HLabel 7650 3650 2    50   Input ~ 0
 StatusLED
+Text HLabel 2600 4500 2    50   Input ~ 0
+GND1
+Text HLabel 6950 4500 2    50   Input ~ 0
+GND1
 $EndSCHEMATC
