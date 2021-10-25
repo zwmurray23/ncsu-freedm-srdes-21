@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10450 5150 0    50   Input ~ 0
-3V3
-Text GLabel 10450 5350 0    50   Input ~ 0
-5V
-$Comp
-L power:GND #PWR?
-U 1 1 6175A5B5
-P 10400 5550
-F 0 "#PWR?" H 10400 5300 50  0001 C CNN
-F 1 "GND" H 10405 5377 50  0000 C CNN
-F 2 "" H 10400 5550 50  0001 C CNN
-F 3 "" H 10400 5550 50  0001 C CNN
-	1    10400 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 2200 6550 2200
 $Sheet
@@ -155,8 +140,6 @@ F3 "3V3" I L 7250 1550 50
 F4 "5V" I L 7250 1250 50 
 F5 "GND1" I L 7250 1400 50 
 $EndSheet
-Text Notes 6250 1000 0    50   ~ 0
-is the vreg sheet supposed to supply the 3v3 and 5 v \nvoltages to the detectors and emitters?
 Wire Wire Line
 	3500 2750 3500 3850
 $Sheet
@@ -232,17 +215,6 @@ Wire Wire Line
 Connection ~ 4300 5900
 Wire Wire Line
 	4300 5900 4300 6950
-$Comp
-L power:GND1 #PWR?
-U 1 1 617C7B3D
-P 6850 2950
-F 0 "#PWR?" H 6850 2700 50  0001 C CNN
-F 1 "GND1" H 6855 2777 50  0000 C CNN
-F 2 "" H 6850 2950 50  0001 C CNN
-F 3 "" H 6850 2950 50  0001 C CNN
-	1    6850 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 1400 6850 1400
 Wire Wire Line
@@ -250,17 +222,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 2500 6850 2500
 Connection ~ 6850 2500
-$Comp
-L power:GND2 #PWR?
-U 1 1 617BB8F9
-P 3750 7350
-F 0 "#PWR?" H 3750 7100 50  0001 C CNN
-F 1 "GND2" H 3755 7177 50  0000 C CNN
-F 2 "" H 3750 7350 50  0001 C CNN
-F 3 "" H 3750 7350 50  0001 C CNN
-	1    3750 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3750 6950 3750 7350
 Wire Wire Line
@@ -279,4 +240,10 @@ Wire Wire Line
 Connection ~ 5200 1250
 Wire Wire Line
 	5200 1250 3500 1250
+Text HLabel 6700 2950 0    50   Input ~ 0
+GND1
+Wire Wire Line
+	6850 2950 6700 2950
+Text HLabel 3750 7350 0    50   Input ~ 0
+GND2
 $EndSCHEMATC

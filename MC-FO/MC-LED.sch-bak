@@ -65,8 +65,6 @@ F 3 "~" H 9350 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9350 4450 9350 4750
-Text Notes 7950 950  0    50   ~ 0
-voltage drop issues from DSP pins? output at 3.3 or 1V, etc?\nalso consider using a "through hole style" diode with it parallel to board?\nby thru hole I mean with the long leads like for breadboard\n
 Wire Wire Line
 	3800 5750 4000 5750
 Text HLabel 7900 2450 0    50   Input ~ 0
