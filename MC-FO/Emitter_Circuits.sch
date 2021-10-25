@@ -13,50 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5350 5450 0    50   ~ 10
+Text Notes 4300 5450 0    50   ~ 10
 Emitter CKT
-$Comp
-L Device:C_Small C12
-U 1 1 61730A88
-P 6050 3150
-AR Path="/61717EAF/61730A88" Ref="C12"  Part="1" 
-AR Path="/617509F7/61730A88" Ref="C22"  Part="1" 
-AR Path="/61750A2A/61730A88" Ref="C?"  Part="1" 
-AR Path="/6176CA10/61730A88" Ref="C?"  Part="1" 
-AR Path="/6176CA81/61730A88" Ref="C?"  Part="1" 
-AR Path="/6176CAE4/61730A88" Ref="C?"  Part="1" 
-F 0 "C12" H 6100 3050 50  0000 L CNN
-F 1 "10 uF" H 6100 2950 50  0000 L CNN
-F 2 "" H 6050 3150 50  0001 C CNN
-F 3 "~" H 6050 3150 50  0001 C CNN
-	1    6050 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 3000 6050 3050
-$Comp
-L Device:C_Small C13
-U 1 1 61733718
-P 6450 3150
-AR Path="/61717EAF/61733718" Ref="C13"  Part="1" 
-AR Path="/617509F7/61733718" Ref="C23"  Part="1" 
-AR Path="/61750A2A/61733718" Ref="C?"  Part="1" 
-AR Path="/6176CA10/61733718" Ref="C?"  Part="1" 
-AR Path="/6176CA81/61733718" Ref="C?"  Part="1" 
-AR Path="/6176CAE4/61733718" Ref="C?"  Part="1" 
-F 0 "C13" H 6500 3050 50  0000 L CNN
-F 1 "0.1 uF" H 6500 2950 50  0000 L CNN
-F 2 "" H 6450 3150 50  0001 C CNN
-F 3 "~" H 6450 3150 50  0001 C CNN
-	1    6450 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 3500 6050 3250
-Wire Wire Line
-	6450 3500 6450 3250
-Wire Wire Line
-	6450 3050 6450 3000
 $Comp
 L IFE98:IFE98 J?
 U 1 1 61710D71
@@ -82,8 +40,6 @@ F 11 "" H 8550 3450 50  0001 L CNN "Arrow Price/Stock"
 	1    7700 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 4750 5100 4750
 $Comp
 L Device:R_Small_US R?
 U 1 1 617428A7
@@ -148,12 +104,6 @@ F 3 "~" H 7300 3300 50  0001 C CNN
 	1    7300 3300
 	-1   0    0    1   
 $EndComp
-Connection ~ 6050 3000
-Wire Wire Line
-	6050 3000 6450 3000
-Connection ~ 6450 3000
-Wire Wire Line
-	6450 3000 7300 3000
 Wire Wire Line
 	7300 3000 7300 3200
 Wire Wire Line
@@ -178,90 +128,147 @@ Connection ~ 7500 4350
 Connection ~ 7300 4450
 Wire Wire Line
 	7300 4450 7700 4450
-Text HLabel 3800 4350 0    50   Input ~ 0
-EPWM
-Text Notes 4850 5300 2    50   ~ 0
-look for \nsingle gate. can accept 3.3v\n
-Text HLabel 4200 3000 0    50   Input ~ 0
-5V
-Text HLabel 7500 4750 0    50   Input ~ 0
-GND2
-Text HLabel 4950 4750 0    50   Input ~ 0
-GND2
-$Comp
-L Existing_IC_Models:SN74AHCT1G08GBV3 A?
-U 1 1 617D50A6
-P 5650 4250
-F 0 "A?" H 5650 4465 50  0000 C CNN
-F 1 "SN74AHCT1G08GBV3" H 5650 4374 50  0000 C CNN
-F 2 "" H 5650 4250 50  0001 C CNN
-F 3 "" H 5650 4250 50  0001 C CNN
-	1    5650 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5100 4750 5100 4450
-Wire Wire Line
-	5100 4450 5400 4450
-Wire Wire Line
-	5900 4450 6500 4450
-Wire Wire Line
-	3800 4350 5400 4350
-Wire Wire Line
-	5300 3500 5300 3700
+	4900 3100 4900 3250
 $Comp
 L Device:C_Small C11
 U 1 1 6171F0C9
-P 5300 3400
+P 4900 3350
 AR Path="/61717EAF/6171F0C9" Ref="C11"  Part="1" 
 AR Path="/617509F7/6171F0C9" Ref="C21"  Part="1" 
 AR Path="/61750A2A/6171F0C9" Ref="C?"  Part="1" 
 AR Path="/6176CA10/6171F0C9" Ref="C?"  Part="1" 
 AR Path="/6176CA81/6171F0C9" Ref="C?"  Part="1" 
 AR Path="/6176CAE4/6171F0C9" Ref="C?"  Part="1" 
-F 0 "C11" H 5350 3300 50  0000 L CNN
-F 1 "0.1 uF" H 5350 3200 50  0000 L CNN
-F 2 "" H 5300 3400 50  0001 C CNN
-F 3 "~" H 5300 3400 50  0001 C CNN
-	1    5300 3400
+F 0 "C11" H 4950 3250 50  0000 L CNN
+F 1 "0.1 uF" H 4950 3150 50  0000 L CNN
+F 2 "" H 4900 3350 50  0001 C CNN
+F 3 "~" H 4900 3350 50  0001 C CNN
+	1    4900 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3150 5300 3300
+	4900 3450 4900 3650
 Wire Wire Line
-	4200 3000 4400 3000
+	6150 3000 7300 3000
+Connection ~ 6150 3000
 Wire Wire Line
-	4400 4250 5400 4250
-Connection ~ 4400 3000
+	5750 3000 6150 3000
+Connection ~ 5750 3000
 Wire Wire Line
-	4400 3000 5850 3000
+	5950 3500 6150 3500
 Wire Wire Line
-	5850 3000 5850 3150
+	6150 3050 6150 3000
+Connection ~ 5950 3500
 Wire Wire Line
-	5850 4000 6150 4000
+	6150 3500 6150 3250
 Wire Wire Line
-	6150 4000 6150 4300
+	5750 3500 5750 3250
 Wire Wire Line
-	6150 4300 5900 4300
-Connection ~ 5850 3000
+	5950 3500 5750 3500
+$Comp
+L power:GND #PWR?
+U 1 1 61735A2B
+P 5950 3500
+AR Path="/61717EAF/61735A2B" Ref="#PWR?"  Part="1" 
+AR Path="/617509F7/61735A2B" Ref="#PWR?"  Part="1" 
+AR Path="/61750A2A/61735A2B" Ref="#PWR?"  Part="1" 
+AR Path="/6176CA10/61735A2B" Ref="#PWR?"  Part="1" 
+AR Path="/6176CA81/61735A2B" Ref="#PWR?"  Part="1" 
+AR Path="/6176CAE4/61735A2B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5950 3250 50  0001 C CNN
+F 1 "GND" H 5955 3327 50  0000 C CNN
+F 2 "" H 5950 3500 50  0001 C CNN
+F 3 "" H 5950 3500 50  0001 C CNN
+	1    5950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 61733718
+P 6150 3150
+AR Path="/61717EAF/61733718" Ref="C13"  Part="1" 
+AR Path="/617509F7/61733718" Ref="C23"  Part="1" 
+AR Path="/61750A2A/61733718" Ref="C?"  Part="1" 
+AR Path="/6176CA10/61733718" Ref="C?"  Part="1" 
+AR Path="/6176CA81/61733718" Ref="C?"  Part="1" 
+AR Path="/6176CAE4/61733718" Ref="C?"  Part="1" 
+F 0 "C13" H 6200 3050 50  0000 L CNN
+F 1 "0.1 uF" H 6200 2950 50  0000 L CNN
+F 2 "" H 6150 3150 50  0001 C CNN
+F 3 "~" H 6150 3150 50  0001 C CNN
+	1    6150 3150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5850 3000 6050 3000
+	5750 3000 5750 3050
+$Comp
+L Device:C_Small C12
+U 1 1 61730A88
+P 5750 3150
+AR Path="/61717EAF/61730A88" Ref="C12"  Part="1" 
+AR Path="/617509F7/61730A88" Ref="C22"  Part="1" 
+AR Path="/61750A2A/61730A88" Ref="C?"  Part="1" 
+AR Path="/6176CA10/61730A88" Ref="C?"  Part="1" 
+AR Path="/6176CA81/61730A88" Ref="C?"  Part="1" 
+AR Path="/6176CAE4/61730A88" Ref="C?"  Part="1" 
+F 0 "C12" H 5800 3050 50  0000 L CNN
+F 1 "10 uF" H 5800 2950 50  0000 L CNN
+F 2 "" H 5750 3150 50  0001 C CNN
+F 3 "~" H 5750 3150 50  0001 C CNN
+	1    5750 3150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5850 3150 5300 3150
-Connection ~ 5850 3150
-Wire Wire Line
-	5850 3150 5850 4000
-Text HLabel 5300 3700 0    50   Input ~ 0
+	5900 5250 8550 5250
+Text HLabel 8550 5250 2    50   Input ~ 0
+EPWM
+Text HLabel 4300 3000 0    50   Input ~ 0
+5V
+Text HLabel 7500 4750 0    50   Input ~ 0
+GND2
+Text HLabel 4800 3650 0    50   Input ~ 0
 GND2
 Wire Wire Line
-	6050 3500 6250 3500
+	4300 3000 5350 3000
 Wire Wire Line
-	6250 3500 6250 3550
-Connection ~ 6250 3500
+	5350 3000 5350 3100
+Connection ~ 5350 3000
 Wire Wire Line
-	6250 3500 6450 3500
-Text HLabel 6250 3550 0    50   Input ~ 0
+	5350 3000 5750 3000
+Wire Wire Line
+	4900 3100 5350 3100
+Connection ~ 5350 3100
+Wire Wire Line
+	3900 4750 4250 4750
+$Comp
+L Existing_IC_Models:74ACT08SCX U?
+U 1 1 61804FDE
+P 4650 4000
+F 0 "U?" H 4650 4115 50  0000 C CNN
+F 1 "74ACT08SCX" H 4650 4024 50  0000 C CNN
+F 2 "" H 4650 4000 50  0001 C CNN
+F 3 "" H 4650 4000 50  0001 C CNN
+	1    4650 4000
+	1    0    0    -1  
+$EndComp
+Text HLabel 3900 4750 0    50   Input ~ 0
 GND2
 Wire Wire Line
-	4400 3000 4400 4250
+	5050 4450 6500 4450
+Wire Wire Line
+	5350 3100 5350 4150
+Wire Wire Line
+	5050 4150 5350 4150
+Wire Wire Line
+	5050 4250 5350 4250
+Wire Wire Line
+	5350 4250 5350 4150
+Connection ~ 5350 4150
+Wire Wire Line
+	5900 5250 5900 4350
+Wire Wire Line
+	5050 4350 5900 4350
+Wire Wire Line
+	4900 3650 4800 3650
 $EndSCHEMATC
