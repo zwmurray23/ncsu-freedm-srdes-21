@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -27,10 +27,10 @@ $EndComp
 Text Notes 2750 4950 0    50   ~ 10
 Power Indicator LED CKT
 $Comp
-L Device:R_US R?
+L Device:R_US R10
 U 1 1 61706570
 P 3350 3650
-F 0 "R?" V 3145 3650 50  0000 C CNN
+F 0 "R10" V 3145 3650 50  0000 C CNN
 F 1 "500 Ohm - 1.1V" V 3236 3650 50  0000 C CNN
 F 2 "" V 3390 3640 50  0001 C CNN
 F 3 "~" H 3350 3650 50  0001 C CNN
@@ -57,10 +57,10 @@ F 3 "~" H 6000 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R11
 U 1 1 61713526
 P 6950 3650
-F 0 "R?" V 6745 3650 50  0000 C CNN
+F 0 "R11" V 6745 3650 50  0000 C CNN
 F 1 "500 Ohm - 1.1V" V 6836 3650 50  0000 C CNN
 F 2 "" V 6990 3640 50  0001 C CNN
 F 3 "~" H 6950 3650 50  0001 C CNN
