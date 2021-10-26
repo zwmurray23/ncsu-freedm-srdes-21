@@ -69,8 +69,6 @@ F2 "EPWM" I R 2500 3700 50
 F3 "5V" I R 2500 3850 50 
 F4 "GND2" I R 2500 3950 50 
 $EndSheet
-Text HLabel 9300 800  2    79   Input ~ 0
-24V
 Wire Wire Line
 	2500 2600 3200 2600
 Wire Wire Line
@@ -81,8 +79,6 @@ Wire Wire Line
 	2500 5600 3400 5600
 Wire Wire Line
 	2500 1600 3100 1600
-Wire Wire Line
-	3500 1750 2500 1750
 Wire Wire Line
 	3500 6750 2500 6750
 Wire Wire Line
@@ -98,7 +94,6 @@ Wire Wire Line
 	3500 3850 3500 4750
 Wire Wire Line
 	2500 2750 3500 2750
-Connection ~ 3500 2750
 Wire Wire Line
 	3500 4800 3500 4750
 Connection ~ 3500 4750
@@ -152,19 +147,6 @@ F3 "3V3" I L 7250 2300 50
 F4 "GND1" I L 7250 2500 50 
 F5 "5V" I L 7250 2400 50 
 $EndSheet
-Wire Wire Line
-	9300 800  8750 800 
-Wire Wire Line
-	8750 800  8750 1300
-Wire Wire Line
-	8250 1300 8750 1300
-Connection ~ 3500 1750
-Wire Wire Line
-	3500 1750 3500 2750
-Wire Wire Line
-	7250 1250 5200 1250
-Wire Wire Line
-	3500 1250 3500 1750
 Wire Wire Line
 	7250 1550 5550 1550
 Wire Wire Line
@@ -233,17 +215,64 @@ Text HLabel 6550 2200 0    50   Input ~ 0
 GPIO
 Wire Wire Line
 	6850 2500 6850 2950
-Wire Wire Line
-	5200 1250 5200 2400
-Wire Wire Line
-	5200 2400 7250 2400
-Connection ~ 5200 1250
-Wire Wire Line
-	5200 1250 3500 1250
 Text HLabel 6700 2950 0    50   Input ~ 0
 GND1
 Wire Wire Line
 	6850 2950 6700 2950
 Text HLabel 3750 7350 0    50   Input ~ 0
 GND2
+Text Notes 4150 3550 0    50   ~ 0
+Do we really need two GNDs?
+Text Notes 4150 3650 0    50   ~ 0
+no H pins in top level\n
+Text GLabel 3100 1600 2    50   Input ~ 0
+EPWM1
+Text GLabel 3200 2600 2    50   Input ~ 0
+EPWM2
+Text GLabel 3100 1750 2    50   Input ~ 0
+5V
+Wire Wire Line
+	3100 1750 2500 1750
+Text Notes 4150 3750 0    50   ~ 0
+Switch 5V to net label? PWM lines to net labels?
+Text GLabel 7250 1250 0    50   Input ~ 0
+5V
+Text GLabel 7250 2400 0    50   Input ~ 0
+5V
+Text GLabel 8400 3400 0    50   Input ~ 0
+EPWM1
+Text GLabel 8400 3500 0    50   Input ~ 0
+EPWM2
+Text GLabel 8750 1300 2    50   Input ~ 0
+24V
+Wire Wire Line
+	8750 1300 8250 1300
+Text GLabel 8400 4200 0    50   Input ~ 0
+24V
+$Comp
+L power:GND #PWR?
+U 1 1 6179D3DC
+P 8400 4350
+F 0 "#PWR?" H 8400 4100 50  0001 C CNN
+F 1 "GND" H 8405 4177 50  0000 C CNN
+F 2 "" H 8400 4350 50  0001 C CNN
+F 3 "" H 8400 4350 50  0001 C CNN
+	1    8400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB25_Female J1
+U 1 1 6179E2FC
+P 8850 4600
+F 0 "J1" H 9030 4646 50  0000 L CNN
+F 1 "DB25_Female" H 9030 4555 50  0000 L CNN
+F 2 "" H 8850 4600 50  0001 C CNN
+F 3 " ~" H 8850 4600 50  0001 C CNN
+	1    8850 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 4150 3850 0    50   ~ 0
+set foot print for all parts\n
+Text Notes 4150 3950 0    50   ~ 0
+Set references for all parts\n
 $EndSCHEMATC
