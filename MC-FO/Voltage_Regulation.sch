@@ -17,27 +17,6 @@ Text Notes 3750 5450 0    50   ~ 0
 24V -> 5V Circuit
 Text Notes 7000 5450 0    50   ~ 0
 24V -> 3.3V Circuit
-$Comp
-L R-78E5.0-0.5:R-78E5.0-0.5 IC?
-U 1 1 61715B51
-P 3600 4600
-AR Path="/61715B51" Ref="IC?"  Part="1" 
-AR Path="/6175C442/61715B51" Ref="IC1"  Part="1" 
-F 0 "IC1" H 4428 4546 50  0000 L CNN
-F 1 "R-78E5.0-0.5" H 4428 4455 50  0000 L CNN
-F 2 "R78E5005" H 4450 4700 50  0001 L CNN
-F 3 "http://docs-emea.rs-online.com/webdocs/10a2/0900766b810a2db7.pdf" H 4450 4600 50  0001 L CNN
-F 4 "Switching Regulator,7-28Vin,5Vout 0.5A Switching Regulator, 7" H 4450 4500 50  0001 L CNN "Description"
-F 5 "10.9" H 4450 4400 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 4450 4300 50  0001 L CNN "Manufacturer_Name"
-F 7 "R-78E5.0-0.5" H 4450 4200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-R-78E5.0-0.5" H 4450 4100 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78E50-05?qs=JeAkOuORR2UvBuiB2kZVZQ%3D%3D" H 4450 4000 50  0001 L CNN "Mouser Price/Stock"
-F 10 "R-78E5.0-0.5" H 4450 3900 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/r-78e5.0-0.5/recom-power" H 4450 3800 50  0001 L CNN "Arrow Price/Stock"
-	1    3600 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1650 4900 1650 5100
 Wire Wire Line
@@ -48,19 +27,6 @@ Wire Wire Line
 	6950 4800 6950 5150
 Wire Wire Line
 	6950 5150 7500 5150
-$Comp
-L R-78E3.3-0.5:R-78E3.3-0.5 T?
-U 1 1 6171D286
-P 6950 4600
-AR Path="/6171D286" Ref="T?"  Part="1" 
-AR Path="/6175C442/6171D286" Ref="T1"  Part="1" 
-F 0 "T1" H 7778 4546 50  0000 L CNN
-F 1 "R-78E3.3-0.5" H 7778 4455 50  0000 L CNN
-F 2 "R78E1205" H 7800 4700 50  0001 L CNN
-F 3 "http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 7800 4600 50  0001 L CNN
-	1    6950 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 3850 4850 3850
 Wire Wire Line
@@ -106,7 +72,7 @@ U 1 1 61767909
 P 2650 4600
 F 0 "L1" V 2850 4600 50  0000 L CNN
 F 1 "12 uH" V 2750 4500 50  0000 L CNN
-F 2 "" H 2650 4600 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2650 4600 50  0001 C CNN
 F 3 "~" H 2650 4600 50  0001 C CNN
 	1    2650 4600
 	0    -1   -1   0   
@@ -173,7 +139,7 @@ U 1 1 61773AE9
 P 6150 4600
 F 0 "L2" V 6350 4600 50  0000 L CNN
 F 1 "12 uH" V 6250 4500 50  0000 L CNN
-F 2 "" H 6150 4600 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 6150 4600 50  0001 C CNN
 F 3 "~" H 6150 4600 50  0001 C CNN
 	1    6150 4600
 	0    -1   -1   0   
@@ -212,4 +178,42 @@ Wire Wire Line
 Wire Wire Line
 	6850 4700 6950 4700
 Connection ~ 6400 4900
+$Comp
+L Existing_IC_Models:R-78E3.3-0.5 U20
+U 1 1 617858EA
+P 6950 4600
+F 0 "U20" H 7778 4546 50  0000 L CNN
+F 1 "R-78E3.3-0.5" H 7778 4455 50  0000 L CNN
+F 2 "Package_SIP:SIP3_11.6x8.5mm" H 7800 4700 50  0001 L CNN
+F 3 "http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 7800 4600 50  0001 L CNN
+F 4 "Switching Regulator 6-28Vin 3.3Vout 0.5A Switching Regulator, 6" H 7800 4500 50  0001 L CNN "Description"
+F 5 "10.9" H 7800 4400 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 7800 4300 50  0001 L CNN "Manufacturer_Name"
+F 7 "R-78E3.3-0.5" H 7800 4200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-R-78E3.3-0.5" H 7800 4100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78E33-05?qs=W2iVYWQZWNCE79Y%252BXUlz8Q%3D%3D" H 7800 4000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "R-78E3.3-0.5" H 7800 3900 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/r-78e3.3-0.5/recom-power" H 7800 3800 50  0001 L CNN "Arrow Price/Stock"
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Existing_IC_Models:R-78E5.0-0.5 U19
+U 1 1 617A1AF8
+P 3600 4600
+F 0 "U19" H 4428 4546 50  0000 L CNN
+F 1 "R-78E5.0-0.5" H 4428 4455 50  0000 L CNN
+F 2 "Package_SIP:SIP3_11.6x8.5mm" H 4450 4700 50  0001 L CNN
+F 3 "http://docs-emea.rs-online.com/webdocs/10a2/0900766b810a2db7.pdf" H 4450 4600 50  0001 L CNN
+F 4 "Switching Regulator,7-28Vin,5Vout 0.5A Switching Regulator, 7" H 4450 4500 50  0001 L CNN "Description"
+F 5 "10.9" H 4450 4400 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 4450 4300 50  0001 L CNN "Manufacturer_Name"
+F 7 "R-78E5.0-0.5" H 4450 4200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-R-78E5.0-0.5" H 4450 4100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R-78E50-05?qs=JeAkOuORR2UvBuiB2kZVZQ%3D%3D" H 4450 4000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "R-78E5.0-0.5" H 4450 3900 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/r-78e5.0-0.5/recom-power" H 4450 3800 50  0001 L CNN "Arrow Price/Stock"
+	1    3600 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
