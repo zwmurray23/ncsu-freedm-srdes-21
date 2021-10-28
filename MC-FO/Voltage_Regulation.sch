@@ -155,71 +155,65 @@ F 11 "https://www.arrow.com/en/products/r-78e5.0-0.5/recom-power" H 4450 3800 50
 	1    3600 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Existing_IC_Models:GMC55X7R106M100NT C31
-U 1 1 617C2E30
-P 1900 4700
-F 0 "C31" H 1992 4735 50  0000 L CNN
-F 1 "GMC55X7R106M100NT" H 1992 4655 35  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric" H 1900 4700 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC55X7R106M100NT/14288754" H 1900 4700 50  0001 C CNN
-	1    1900 4700
-	1    0    0    -1  
-$EndComp
 Connection ~ 1900 4900
 Wire Wire Line
 	1900 4900 2750 4900
 Wire Wire Line
 	1650 4900 1900 4900
 Wire Wire Line
-	1900 4900 1900 4800
-Connection ~ 1900 4600
-Wire Wire Line
-	1900 4600 1650 4600
-Wire Wire Line
-	2300 4600 1900 4600
-$Comp
-L Existing_IC_Models:GMC55X7R106M100NT C33
-U 1 1 617C96A7
-P 5400 4750
-F 0 "C33" H 5492 4785 50  0000 L CNN
-F 1 "GMC55X7R106M100NT" H 5492 4705 35  0000 L CNN
-F 2 "Capacitor_SMD:C_2220_5650Metric" H 5400 4750 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC55X7R106M100NT/14288754" H 5400 4750 50  0001 C CNN
-	1    5400 4750
-	1    0    0    -1  
-$EndComp
+	1900 4900 1900 4850
 Wire Wire Line
 	5400 4300 5400 4600
 Connection ~ 5400 4600
 $Comp
-L Existing_IC_Models:CGA6M3X7S2A475M200AE C34
-U 1 1 617CD2CA
+L Device:C_Small C31
+U 1 1 617DD2CC
+P 1900 4750
+F 0 "C31" H 1992 4796 50  0000 L CNN
+F 1 "10 uF" H 1992 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1900 4750 50  0001 C CNN
+F 3 "~" H 1900 4750 50  0001 C CNN
+	1    1900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4600 1900 4600
+Wire Wire Line
+	1900 4650 1900 4600
+Connection ~ 1900 4600
+Wire Wire Line
+	1900 4600 1650 4600
+$Comp
+L Device:C_Small C32
+U 1 1 617DF962
+P 2750 4750
+F 0 "C32" H 2842 4796 50  0000 L CNN
+F 1 "4.7 uF" H 2842 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2750 4750 50  0001 C CNN
+F 3 "~" H 2750 4750 50  0001 C CNN
+	1    2750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C34
+U 1 1 617E1CA5
 P 6150 4750
-F 0 "C34" H 6242 4780 50  0000 L CNN
-F 1 "CGA6M3X7S2A475M200AE" H 6242 4704 30  0000 L CNN
+F 0 "C34" H 6242 4796 50  0000 L CNN
+F 1 "4.7 uF" H 6242 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 6150 4750 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/CGA6M3X7S2A475M200AE/2782508" H 6150 4750 50  0001 C CNN
+F 3 "~" H 6150 4750 50  0001 C CNN
 	1    6150 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Existing_IC_Models:CGA6M3X7S2A475M200AE C32
-U 1 1 617D1DBC
-P 2750 4750
-F 0 "C32" H 2842 4780 50  0000 L CNN
-F 1 "CGA6M3X7S2A475M200AE" H 2842 4704 30  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 2750 4750 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/CGA6M3X7S2A475M200AE/2782508" H 2750 4750 50  0001 C CNN
-	1    2750 4750
+L Device:C_Small C33
+U 1 1 617E2200
+P 5400 4750
+F 0 "C33" H 5492 4796 50  0000 L CNN
+F 1 "10 uF" H 5492 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5400 4750 50  0001 C CNN
+F 3 "~" H 5400 4750 50  0001 C CNN
+	1    5400 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 1700 4800 0    50   ~ 0
-10uF
-Text Notes 5200 4850 0    50   ~ 0
-10uF
-Text Notes 2550 4850 0    50   ~ 0
-4.7uF
-Text Notes 6200 4900 0    50   ~ 0
-4.7uF
 $EndSCHEMATC
