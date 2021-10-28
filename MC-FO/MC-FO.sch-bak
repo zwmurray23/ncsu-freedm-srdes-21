@@ -70,14 +70,6 @@ F3 "5V" I R 2500 3850 50
 F4 "GND2" I R 2500 3950 50 
 $EndSheet
 Wire Wire Line
-	2500 3700 3150 3700
-Wire Wire Line
-	2500 4650 3150 4650
-Wire Wire Line
-	2500 5600 3150 5600
-Wire Wire Line
-	2500 1600 3100 1600
-Wire Wire Line
 	3500 6750 2500 6750
 Wire Wire Line
 	2500 5750 3500 5750
@@ -181,8 +173,6 @@ Connection ~ 2850 2900
 Wire Wire Line
 	2850 2900 2850 3950
 Wire Wire Line
-	2500 6600 3150 6600
-Wire Wire Line
 	3500 4800 3500 5750
 Wire Wire Line
 	4950 4900 4300 4900
@@ -215,14 +205,14 @@ Text Notes 4150 3550 0    50   ~ 0
 Do we really need two GNDs?
 Text Notes 4150 3650 0    50   ~ 0
 no H pins in top level\n
-Text GLabel 3100 1600 2    50   Input ~ 0
-EPWM1
-Text GLabel 3100 2600 2    50   Input ~ 0
-EPWM2
+Text GLabel 3050 1600 2    50   Input ~ 0
+EPWM1A
+Text GLabel 3050 2600 2    50   Input ~ 0
+EPWM1B
 Text GLabel 8250 3400 0    50   Input ~ 0
-EPWM1
+EPWM1A
 Text GLabel 8250 3600 0    50   Input ~ 0
-EPWM2
+EPWM1B
 Text GLabel 8750 1300 2    50   Input ~ 0
 24V
 Wire Wire Line
@@ -245,25 +235,25 @@ set foot print for all parts\n
 Text Notes 4150 3950 0    50   ~ 0
 Set references for all parts\n
 Text GLabel 8250 3800 0    50   Input ~ 0
-EPWM3
+RESET1
 Text GLabel 8250 4000 0    50   Input ~ 0
-EPWM4
+EPWM2A
 Text GLabel 8250 4200 0    50   Input ~ 0
-EPWM5
+EPWM2B
 Text GLabel 8250 4400 0    50   Input ~ 0
-EPWM6
+RESET2
 Text GLabel 8250 4800 0    50   Input ~ 0
-DPWM1
+STATUS1
 Text GLabel 8250 5000 0    50   Input ~ 0
-DPWM2
-Text GLabel 3150 3700 2    50   Input ~ 0
-EPWM3
-Text GLabel 3150 4650 2    50   Input ~ 0
-EPWM4
-Text GLabel 3150 5600 2    50   Input ~ 0
-EPWM5
-Text GLabel 3150 6600 2    50   Input ~ 0
-EPWM6
+STATUS2
+Text GLabel 3050 3700 2    50   Input ~ 0
+RESET1
+Text GLabel 3050 4650 2    50   Input ~ 0
+EPWM2A
+Text GLabel 3050 5600 2    50   Input ~ 0
+EPWM2B
+Text GLabel 3050 6600 2    50   Input ~ 0
+RESET2
 Text GLabel 8250 5200 0    50   Input ~ 0
 GPIO
 Wire Wire Line
@@ -291,9 +281,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 5700 8100 5850
 Text GLabel 4100 4600 0    50   Input ~ 0
-DPWM1
+STATUS1
 Text GLabel 4100 5600 0    50   Input ~ 0
-DPWM2
+STATUS2
 Wire Wire Line
 	7250 1250 5200 1250
 Wire Wire Line
@@ -304,8 +294,6 @@ Wire Wire Line
 	3500 1750 3500 2750
 Connection ~ 3500 1750
 Connection ~ 3500 2750
-Wire Wire Line
-	3100 2600 2500 2600
 $Comp
 L power:GND1 #PWR02
 U 1 1 617AD6F4
@@ -348,4 +336,16 @@ Wire Wire Line
 Connection ~ 5200 1250
 Wire Wire Line
 	5200 1250 3500 1250
+Wire Wire Line
+	2500 6600 3050 6600
+Wire Wire Line
+	2500 5600 3050 5600
+Wire Wire Line
+	2500 4650 3050 4650
+Wire Wire Line
+	2500 3700 3050 3700
+Wire Wire Line
+	2500 2600 3050 2600
+Wire Wire Line
+	2500 1600 3050 1600
 $EndSCHEMATC

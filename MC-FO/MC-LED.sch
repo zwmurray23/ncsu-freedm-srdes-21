@@ -150,7 +150,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 2150 2500 2150
 Wire Wire Line
-	2500 2150 2500 2750
+	2500 2150 2500 2550
 Wire Wire Line
 	2500 2750 2400 2750
 Wire Wire Line
@@ -169,7 +169,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2150 4750 2150
 Wire Wire Line
-	4750 2150 4750 2750
+	4750 2150 4750 2550
 Wire Wire Line
 	4750 2750 4650 2750
 Text HLabel 5300 2150 2    50   Input ~ 0
@@ -307,7 +307,7 @@ Connection ~ 9400 2950
 Wire Wire Line
 	9350 2150 9250 2150
 Wire Wire Line
-	9250 2150 9250 2750
+	9250 2150 9250 2550
 Wire Wire Line
 	9250 2750 9000 2750
 Wire Wire Line
@@ -330,6 +330,8 @@ $Comp
 L Existing_IC_Models:550-0207-010-1163401 D1
 U 1 1 61797676
 P 3750 5000
+AR Path="/61797676" Ref="D1"  Part="1" 
+AR Path="/6175812E/61797676" Ref="D1"  Part="1" 
 F 0 "D1" V 3789 4782 50  0000 R CNN
 F 1 "550-2207-004F" V 3698 4782 50  0000 R CNN
 F 2 "Footprints_MC-FO:550-2207-004F" H 3750 5100 50  0001 C CNN
@@ -341,6 +343,8 @@ $Comp
 L Existing_IC_Models:550-0207-010-1163401 D2
 U 1 1 6179851C
 P 9300 4000
+AR Path="/6179851C" Ref="D2"  Part="1" 
+AR Path="/6175812E/6179851C" Ref="D2"  Part="1" 
 F 0 "D2" V 9339 3782 50  0000 R CNN
 F 1 "550-2207-004F" V 9248 3782 50  0000 R CNN
 F 2 "Footprints_MC-FO:550-2207-004F" H 9300 4100 50  0001 C CNN
@@ -348,4 +352,19 @@ F 3 "" H 9300 4100 50  0001 C CNN
 	1    9300 4000
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	9250 2550 9000 2550
+Connection ~ 9250 2550
+Wire Wire Line
+	9250 2550 9250 2750
+Wire Wire Line
+	4750 2550 4650 2550
+Connection ~ 4750 2550
+Wire Wire Line
+	4750 2550 4750 2750
+Wire Wire Line
+	2400 2550 2500 2550
+Connection ~ 2500 2550
+Wire Wire Line
+	2500 2550 2500 2750
 $EndSCHEMATC
