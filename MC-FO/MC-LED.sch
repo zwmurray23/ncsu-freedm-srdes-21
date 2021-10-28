@@ -13,21 +13,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2750 6050 0    50   ~ 10
+Text Notes 2750 6350 0    50   ~ 10
 Power Indicator LED CKT
 $Comp
 L Device:R_US R20
 U 1 1 61706570
-P 3850 4350
-F 0 "R20" H 3700 4250 50  0000 C CNN
-F 1 "500 Ohm" H 3600 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4340 50  0001 C CNN
-F 3 "~" H 3850 4350 50  0001 C CNN
-	1    3850 4350
+P 3850 4650
+F 0 "R20" H 3700 4550 50  0000 C CNN
+F 1 "500 Ohm" H 3600 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4640 50  0001 C CNN
+F 3 "~" H 3850 4650 50  0001 C CNN
+	1    3850 4650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3850 5150 3850 5450
+	3850 5450 3850 5750
 Text Notes 8350 4950 0    50   ~ 10
 Module Status LED CKT
 $Comp
@@ -44,10 +44,10 @@ $EndComp
 Wire Wire Line
 	9400 4150 9400 4450
 Wire Wire Line
-	3850 5450 4050 5450
+	3850 5750 4050 5750
 Text HLabel 7950 2150 0    50   Input ~ 0
 StatusLED
-Text HLabel 4050 5450 2    50   Input ~ 0
+Text HLabel 4050 5750 2    50   Input ~ 0
 GND1
 Text HLabel 9650 4450 2    50   Input ~ 0
 GND1
@@ -116,11 +116,9 @@ Wire Wire Line
 Wire Wire Line
 	4900 2950 4900 3900
 Wire Wire Line
-	3400 4000 3850 4000
+	3850 4300 3850 4500
 Wire Wire Line
-	3850 4000 3850 4200
-Wire Wire Line
-	3850 4500 3850 4850
+	3850 4800 3850 5150
 Text HLabel 2950 2150 2    50   Input ~ 0
 3V3
 $Comp
@@ -329,14 +327,14 @@ Wire Wire Line
 $Comp
 L Existing_IC_Models:550-0207-010-1163401 D1
 U 1 1 61797676
-P 3750 5000
+P 3750 5300
 AR Path="/61797676" Ref="D1"  Part="1" 
 AR Path="/6175812E/61797676" Ref="D1"  Part="1" 
-F 0 "D1" V 3789 4782 50  0000 R CNN
-F 1 "550-2207-004F" V 3698 4782 50  0000 R CNN
-F 2 "Footprints_MC-FO:550-2207-004F" H 3750 5100 50  0001 C CNN
-F 3 "" H 3750 5100 50  0001 C CNN
-	1    3750 5000
+F 0 "D1" V 3789 5082 50  0000 R CNN
+F 1 "550-2207-004F" V 3698 5082 50  0000 R CNN
+F 2 "Footprints_MC-FO:550-2207-004F" H 3750 5400 50  0001 C CNN
+F 3 "" H 3750 5400 50  0001 C CNN
+	1    3750 5300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -367,4 +365,65 @@ Wire Wire Line
 Connection ~ 2500 2550
 Wire Wire Line
 	2500 2550 2500 2750
+Text Notes 8200 1700 0    50   ~ 0
+Voltage Drop Considerations?\n
+Wire Wire Line
+	2600 3900 2400 3900
+Wire Wire Line
+	2400 3900 2400 4200
+Wire Wire Line
+	2400 4200 2600 4200
+Wire Wire Line
+	2400 4200 2400 4550
+Wire Wire Line
+	2400 4550 3500 4550
+Wire Wire Line
+	3500 4550 3500 4300
+Wire Wire Line
+	3500 4300 3400 4300
+Connection ~ 2400 4200
+Wire Wire Line
+	3500 4300 3850 4300
+Connection ~ 3500 4300
+Wire Wire Line
+	3650 4000 3650 4100
+Wire Wire Line
+	3400 4000 3650 4000
+Wire Wire Line
+	3400 4100 3650 4100
+Wire Wire Line
+	3650 4100 3650 4700
+Wire Wire Line
+	3650 4700 2300 4700
+Wire Wire Line
+	2300 4700 2300 4100
+Wire Wire Line
+	2300 3800 2600 3800
+Connection ~ 3650 4100
+Wire Wire Line
+	2300 4100 2600 4100
+Connection ~ 2300 4100
+Wire Wire Line
+	2300 4100 2300 3800
+Text HLabel 2050 3450 0    50   Input ~ 0
+5V
+Text HLabel 4050 3700 2    50   Input ~ 0
+5V
+Wire Wire Line
+	4050 3700 3800 3700
+Wire Wire Line
+	3800 3700 3800 4200
+Wire Wire Line
+	3800 4200 3400 4200
+Wire Wire Line
+	2050 3450 2150 3450
+Wire Wire Line
+	2150 3450 2150 3700
+Wire Wire Line
+	2150 3700 2600 3700
+Wire Wire Line
+	2150 3700 2150 4000
+Wire Wire Line
+	2150 4000 2600 4000
+Connection ~ 2150 3700
 $EndSCHEMATC
