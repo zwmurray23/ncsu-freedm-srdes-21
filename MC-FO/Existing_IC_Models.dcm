@@ -34,6 +34,18 @@ $CMP APT2012SGC
 D LED
 $ENDCMP
 #
+$CMP CGA6M3X7S2A475M200AE
+D 4.7 uF
+K capacitor cap
+F https://www.digikey.com/en/products/detail/tdk-corporation/CGA6M3X7S2A475M200AE/2782508
+$ENDCMP
+#
+$CMP GMC55X7R106M100NT
+D 10 uF
+K capacitor cap
+F https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC55X7R106M100NT/14288754
+$ENDCMP
+#
 $CMP R-78E3.3-0.5
 D Switching Regulator 6-28Vin 3.3Vout 0.5A Switching Regulator, 6
 F http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
