@@ -1,4 +1,4 @@
-19217713822354213
+19214443309130507
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50876,26 +50876,12 @@ emi filter
 5
 5
 Footprints_MC-FO
-550-2207-004F
+5502207004F
 550-2207-004F-1
 LED
 0
 2
 2
-Footprints_MC-FO
-IFD97
-IFE98-2
-Connector
-0
-5
-5
-Footprints_MC-FO
-IFE98
-IFE98-2
-Connector
-0
-5
-5
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
