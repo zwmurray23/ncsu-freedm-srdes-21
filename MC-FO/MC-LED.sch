@@ -26,11 +26,7 @@ F 3 "~" H 3850 4650 50  0001 C CNN
 	1    3850 4650
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3850 5450 3850 5750
-Wire Wire Line
-	3850 5750 4050 5750
-Text HLabel 4050 5750 2    50   Input ~ 0
+Text HLabel 4900 5500 3    50   Input ~ 0
 GND1
 Text HLabel 3400 2150 0    50   Input ~ 0
 5V
@@ -98,8 +94,6 @@ Wire Wire Line
 	4900 2950 4900 3900
 Wire Wire Line
 	3850 4300 3850 4500
-Wire Wire Line
-	3850 4800 3850 5150
 Text HLabel 2950 2150 2    50   Input ~ 0
 3V3
 $Comp
@@ -224,14 +218,14 @@ Wire Wire Line
 $Comp
 L Existing_IC_Models:550-2207-004F D?
 U 1 1 61797676
-P 3750 5300
+P 3750 5050
 AR Path="/61797676" Ref="D?"  Part="1" 
 AR Path="/6175812E/61797676" Ref="D181"  Part="1" 
-F 0 "D181" V 3789 5082 50  0000 R CNN
-F 1 "550-2207-004F" V 3698 5082 50  0000 R CNN
-F 2 "Footprints_MC-FO:550-2207-004F" H 3750 5400 50  0001 C CNN
-F 3 "" H 3750 5400 50  0001 C CNN
-	1    3750 5300
+F 0 "D181" V 3789 4832 50  0000 R CNN
+F 1 "550-2207-004F" V 3698 4832 50  0000 R CNN
+F 2 "Footprints_MC-FO:550-2207-004F" H 3750 5150 50  0001 C CNN
+F 3 "" H 3750 5150 50  0001 C CNN
+	1    3750 5050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -309,40 +303,67 @@ Text Notes 7700 4700 0    50   ~ 0
 Delete status led /gpio signal
 Text Notes 5800 2700 0    50   ~ 0
 if one or the other is not working pull the global reset down 
-Text Notes 4500 4100 0    50   ~ 0
+Text Notes 5900 5100 0    50   ~ 0
 74LVC1G07: should be an open drain buffer\n
 Wire Wire Line
-	3650 4100 4450 4100
-Wire Wire Line
-	4450 4100 4450 4050
-Wire Wire Line
-	4450 4050 4500 4050
-Wire Wire Line
-	6250 4050 6600 4050
+	6000 4100 6350 4100
 Text Notes 7600 3800 0    50   ~ 0
 reset to connector and to all transcievers
-Connection ~ 6600 4050
+Connection ~ 6350 4100
 Wire Wire Line
-	6600 4050 7300 4050
+	6350 4100 7050 4100
 $Comp
 L Device:R_Small_US R19
 U 1 1 6182FD38
-P 6600 3450
-F 0 "R19" H 6668 3496 50  0000 L CNN
-F 1 "10 K" H 6668 3405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6600 3450 50  0001 C CNN
-F 3 "~" H 6600 3450 50  0001 C CNN
-	1    6600 3450
+P 6350 3500
+F 0 "R19" H 6418 3546 50  0000 L CNN
+F 1 "10 K" H 6418 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 3500 50  0001 C CNN
+F 3 "~" H 6350 3500 50  0001 C CNN
+	1    6350 3500
 	1    0    0    -1  
 $EndComp
-Text HLabel 6700 3050 2    50   Input ~ 0
+Text HLabel 6450 3100 2    50   Input ~ 0
 3V3
 Wire Wire Line
-	6700 3050 6600 3050
+	6450 3100 6350 3100
 Wire Wire Line
-	6600 3050 6600 3350
+	6350 3100 6350 3400
 Wire Wire Line
-	6600 3550 6600 4050
-Text HLabel 7300 4050 2    50   Output ~ 0
+	6350 3600 6350 4100
+Text HLabel 7050 4100 2    50   Output ~ 0
 RESET_FO
+$Comp
+L Existing_IC_Models:74LVC1G07QDCKTQ1 U184
+U 1 1 617E8424
+P 5750 4100
+F 0 "U184" H 5600 4350 50  0000 C CNN
+F 1 "74LVC1G07QDCKTQ1" H 5350 4250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5750 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5750 4100 50  0001 C CNN
+	1    5750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4000 5750 3100
+Wire Wire Line
+	5750 3100 6350 3100
+Connection ~ 6350 3100
+Wire Wire Line
+	5750 5400 4900 5400
+Wire Wire Line
+	4900 5400 4900 5500
+Wire Wire Line
+	5750 4200 5750 5400
+Wire Wire Line
+	3850 4800 3850 4900
+Wire Wire Line
+	3850 5200 3850 5400
+Wire Wire Line
+	3850 5400 4900 5400
+Connection ~ 4900 5400
+Wire Wire Line
+	3650 4100 5450 4100
+Text Notes 6150 5200 0    50   ~ 0
+out of stock -- had to improvise\n
 $EndSCHEMATC
