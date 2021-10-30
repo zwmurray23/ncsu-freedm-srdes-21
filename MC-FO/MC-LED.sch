@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -28,28 +28,9 @@ F 3 "~" H 3850 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 5450 3850 5750
-Text Notes 8350 4950 0    50   ~ 10
-Module Status LED CKT
-$Comp
-L Device:R_US R184
-U 1 1 61713526
-P 9400 3450
-F 0 "R184" H 9250 3350 50  0000 C CNN
-F 1 "500 Ohm" H 9150 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9440 3440 50  0001 C CNN
-F 3 "~" H 9400 3450 50  0001 C CNN
-	1    9400 3450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9400 4150 9400 4450
 Wire Wire Line
 	3850 5750 4050 5750
-Text HLabel 7950 2150 0    50   Input ~ 0
-StatusLED
 Text HLabel 4050 5750 2    50   Input ~ 0
-GND1
-Text HLabel 9650 4450 2    50   Input ~ 0
 GND1
 Text HLabel 3400 2150 0    50   Input ~ 0
 5V
@@ -184,12 +165,12 @@ Connection ~ 4900 2950
 $Comp
 L Device:C_Small C181
 U 1 1 617CFF8B
-P 1350 3100
-F 0 "C181" H 1442 3146 50  0000 L CNN
-F 1 "1 uF" H 1442 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1350 3100 50  0001 C CNN
-F 3 "~" H 1350 3100 50  0001 C CNN
-	1    1350 3100
+P 1350 3450
+F 0 "C181" H 1442 3496 50  0000 L CNN
+F 1 "1 uF or unpop" H 1442 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1350 3450 50  0001 C CNN
+F 3 "~" H 1350 3450 50  0001 C CNN
+	1    1350 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -206,13 +187,13 @@ $EndComp
 Wire Wire Line
 	1600 2950 1350 2950
 Wire Wire Line
-	1350 2950 1350 3000
+	1350 2950 1350 3350
 Text HLabel 1200 4300 0    50   Input ~ 0
 GND1
 Wire Wire Line
 	2600 4300 1350 4300
 Wire Wire Line
-	1350 4300 1350 3200
+	1350 4300 1350 3550
 Wire Wire Line
 	1350 4300 1200 4300
 Connection ~ 1350 4300
@@ -241,90 +222,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 3550 4050 3550
 $Comp
-L Existing_IC_Models:TPS3703A5330DSER U184
-U 1 1 617FD968
-P 8600 2250
-F 0 "U184" H 8600 2215 50  0000 C CNN
-F 1 "TPS3703A5330DSER" H 8600 2124 50  0000 C CNN
-F 2 "Package_SON:WSON-6_1.5x1.5mm_P0.5mm" H 8600 2250 50  0001 C CNN
-F 3 "" H 8600 2250 50  0001 C CNN
-	1    8600 2250
-	1    0    0    -1  
-$EndComp
-Text HLabel 7300 2150 0    50   Input ~ 0
-3V3
-$Comp
-L Device:C_Small C183
-U 1 1 6180E36A
-P 8150 3250
-F 0 "C183" H 8242 3296 50  0000 L CNN
-F 1 "1 uF" H 8242 3205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8150 3250 50  0001 C CNN
-F 3 "~" H 8150 3250 50  0001 C CNN
-	1    8150 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 2950 8150 2950
-Wire Wire Line
-	8150 2950 8150 3150
-Wire Wire Line
-	8150 3350 8150 3500
-Text HLabel 7950 3500 0    50   Input ~ 0
-GND1
-Wire Wire Line
-	8150 3500 7950 3500
-Text HLabel 9350 2150 2    50   Input ~ 0
-GND1
-Text HLabel 9850 2150 2    50   Input ~ 0
-3V3
-$Comp
-L Device:R_Small_US R185
-U 1 1 61820038
-P 9750 2500
-F 0 "R185" H 9818 2546 50  0000 L CNN
-F 1 "10 K" H 9818 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9750 2500 50  0001 C CNN
-F 3 "~" H 9750 2500 50  0001 C CNN
-	1    9750 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 2150 9750 2150
-Wire Wire Line
-	9750 2150 9750 2400
-Wire Wire Line
-	9750 2600 9750 2950
-Wire Wire Line
-	9750 2950 9400 2950
-Wire Wire Line
-	9400 2950 9400 3300
-Wire Wire Line
-	9400 2950 9000 2950
-Connection ~ 9400 2950
-Wire Wire Line
-	9350 2150 9250 2150
-Wire Wire Line
-	9250 2150 9250 2550
-Wire Wire Line
-	9250 2750 9000 2750
-Wire Wire Line
-	7950 2150 8050 2150
-Wire Wire Line
-	8050 2150 8050 2550
-Wire Wire Line
-	8050 2550 8200 2550
-Wire Wire Line
-	7300 2150 7400 2150
-Wire Wire Line
-	7400 2150 7400 2750
-Wire Wire Line
-	7400 2750 8200 2750
-Wire Wire Line
-	9400 3600 9400 3850
-Wire Wire Line
-	9650 4450 9400 4450
-$Comp
 L Existing_IC_Models:550-2207-004F D?
 U 1 1 61797676
 P 3750 5300
@@ -337,24 +234,6 @@ F 3 "" H 3750 5400 50  0001 C CNN
 	1    3750 5300
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Existing_IC_Models:550-2207-004F D?
-U 1 1 6179851C
-P 9300 4000
-AR Path="/6179851C" Ref="D?"  Part="1" 
-AR Path="/6175812E/6179851C" Ref="D182"  Part="1" 
-F 0 "D182" V 9339 3782 50  0000 R CNN
-F 1 "550-2207-004F" V 9248 3782 50  0000 R CNN
-F 2 "Footprints_MC-FO:550-2207-004F" H 9300 4100 50  0001 C CNN
-F 3 "" H 9300 4100 50  0001 C CNN
-	1    9300 4000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9250 2550 9000 2550
-Connection ~ 9250 2550
-Wire Wire Line
-	9250 2550 9250 2750
 Wire Wire Line
 	4750 2550 4650 2550
 Connection ~ 4750 2550
@@ -365,8 +244,6 @@ Wire Wire Line
 Connection ~ 2500 2550
 Wire Wire Line
 	2500 2550 2500 2750
-Text Notes 8200 1700 0    50   ~ 0
-Voltage Drop Considerations?\n
 Wire Wire Line
 	2600 3900 2400 3900
 Wire Wire Line
@@ -405,7 +282,7 @@ Wire Wire Line
 Connection ~ 2300 4100
 Wire Wire Line
 	2300 4100 2300 3800
-Text HLabel 2050 3450 0    50   Input ~ 0
+Text HLabel 2050 3350 0    50   Input ~ 0
 5V
 Text HLabel 4050 3700 2    50   Input ~ 0
 5V
@@ -416,9 +293,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 4200 3400 4200
 Wire Wire Line
-	2050 3450 2150 3450
+	2050 3350 2150 3350
 Wire Wire Line
-	2150 3450 2150 3700
+	2150 3350 2150 3700
 Wire Wire Line
 	2150 3700 2600 3700
 Wire Wire Line
@@ -428,4 +305,44 @@ Wire Wire Line
 Connection ~ 2150 3700
 Text Notes 4050 7350 2    50   ~ 0
 add comparatorson both and logically AND together for LED on power status\n\n\n (windowed comparators or voltage supervisors)
+Text Notes 7700 4700 0    50   ~ 0
+Delete status led /gpio signal
+Text Notes 5800 2700 0    50   ~ 0
+if one or the other is not working pull the global reset down 
+Text Notes 4500 4100 0    50   ~ 0
+74LVC1G07: should be an open drain buffer\n
+Wire Wire Line
+	3650 4100 4450 4100
+Wire Wire Line
+	4450 4100 4450 4050
+Wire Wire Line
+	4450 4050 4500 4050
+Wire Wire Line
+	6250 4050 6600 4050
+Text Notes 7600 3800 0    50   ~ 0
+reset to connector and to all transcievers
+Connection ~ 6600 4050
+Wire Wire Line
+	6600 4050 7300 4050
+$Comp
+L Device:R_Small_US R19
+U 1 1 6182FD38
+P 6600 3450
+F 0 "R19" H 6668 3496 50  0000 L CNN
+F 1 "10 K" H 6668 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6600 3450 50  0001 C CNN
+F 3 "~" H 6600 3450 50  0001 C CNN
+	1    6600 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 3050 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	6700 3050 6600 3050
+Wire Wire Line
+	6600 3050 6600 3350
+Wire Wire Line
+	6600 3550 6600 4050
+Text HLabel 7300 4050 2    50   Output ~ 0
+RESET_FO
 $EndSCHEMATC

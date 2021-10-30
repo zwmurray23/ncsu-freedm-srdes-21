@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -18,22 +18,20 @@ Text Notes 8250 4800 0    50   ~ 0
 Wire Wire Line
 	3700 4900 3700 5100
 Wire Wire Line
-	5650 4800 5650 5150
-Wire Wire Line
-	5650 2550 5650 2900
-Text HLabel 6000 3450 2    50   Input ~ 0
+	5650 4800 5650 5050
+Text HLabel 5350 2950 0    50   Output ~ 0
 3V3
-Text HLabel 5850 5700 2    50   Input ~ 0
+Text HLabel 5350 5050 0    50   Output ~ 0
 5V
 Text HLabel 3700 5100 0    50   Input ~ 0
 GND1
 Text HLabel 3700 2900 0    50   Input ~ 0
 GND1
 $Comp
-L Device:L_Small L22
+L Device:L_Small L3
 U 1 1 61767909
 P 4450 4600
-F 0 "L22" V 4650 4600 50  0000 L CNN
+F 0 "L3" V 4650 4600 50  0000 L CNN
 F 1 "12 uH" V 4550 4500 50  0000 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 4450 4600 50  0001 C CNN
 F 3 "~" H 4450 4600 50  0001 C CNN
@@ -57,10 +55,10 @@ Wire Wire Line
 	5500 4700 5650 4700
 Connection ~ 4800 4900
 $Comp
-L Device:L_Small L21
+L Device:L_Small L2
 U 1 1 61773AE9
 P 4400 2350
-F 0 "L21" V 4600 2350 50  0000 L CNN
+F 0 "L2" V 4600 2350 50  0000 L CNN
 F 1 "12 uH" V 4500 2250 50  0000 L CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 4400 2350 50  0001 C CNN
 F 3 "~" H 4400 2350 50  0001 C CNN
@@ -93,10 +91,10 @@ Wire Wire Line
 	5550 2450 5650 2450
 Connection ~ 4800 2650
 $Comp
-L Existing_IC_Models:R-78E5.0-0.5 U40
+L Existing_IC_Models:R-78E5.0-0.5 U3
 U 1 1 617A1AF8
 P 5650 4600
-F 0 "U40" H 6478 4546 50  0000 L CNN
+F 0 "U3" H 6478 4546 50  0000 L CNN
 F 1 "R-78E5.0-0.5" H 6478 4455 50  0000 L CNN
 F 2 "Package_SIP:SIP3_11.6x8.5mm" H 6500 4700 50  0001 L CNN
 F 3 "http://docs-emea.rs-online.com/webdocs/10a2/0900766b810a2db7.pdf" H 6500 4600 50  0001 L CNN
@@ -119,10 +117,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 4900 3950 4850
 $Comp
-L Device:C_Small C52
+L Device:C_Small C3
 U 1 1 617DD2CC
 P 3950 4750
-F 0 "C52" H 4042 4796 50  0000 L CNN
+F 0 "C3" H 4042 4796 50  0000 L CNN
 F 1 "10 uF" H 4042 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3950 4750 50  0001 C CNN
 F 3 "~" H 3950 4750 50  0001 C CNN
@@ -135,10 +133,10 @@ Wire Wire Line
 	3950 4650 3950 4600
 Connection ~ 3950 4600
 $Comp
-L Device:C_Small C54
+L Device:C_Small C5
 U 1 1 617DF962
 P 4800 4750
-F 0 "C54" H 4892 4796 50  0000 L CNN
+F 0 "C5" H 4892 4796 50  0000 L CNN
 F 1 "4.7 uF" H 4892 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4800 4750 50  0001 C CNN
 F 3 "~" H 4800 4750 50  0001 C CNN
@@ -146,10 +144,10 @@ F 3 "~" H 4800 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C53
+L Device:C_Small C4
 U 1 1 617E1CA5
 P 4800 2500
-F 0 "C53" H 4892 2546 50  0000 L CNN
+F 0 "C4" H 4892 2546 50  0000 L CNN
 F 1 "4.7 uF" H 4892 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4800 2500 50  0001 C CNN
 F 3 "~" H 4800 2500 50  0001 C CNN
@@ -157,10 +155,10 @@ F 3 "~" H 4800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C51
+L Device:C_Small C2
 U 1 1 617E2200
 P 3950 2500
-F 0 "C51" H 4042 2546 50  0000 L CNN
+F 0 "C2" H 4042 2546 50  0000 L CNN
 F 1 "10 uF" H 4042 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3950 2500 50  0001 C CNN
 F 3 "~" H 3950 2500 50  0001 C CNN
@@ -168,10 +166,10 @@ F 3 "~" H 3950 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C56
+L Device:C_Small C7
 U 1 1 617C79EA
 P 5650 5250
-F 0 "C56" H 5742 5296 50  0000 L CNN
+F 0 "C7" H 5742 5296 50  0000 L CNN
 F 1 "unpopulated" H 5742 5205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 5250 50  0001 C CNN
 F 3 "~" H 5650 5250 50  0001 C CNN
@@ -183,27 +181,27 @@ Wire Wire Line
 Wire Wire Line
 	5650 5700 5850 5700
 $Comp
-L Device:C_Small C55
+L Device:C_Small C6
 U 1 1 617C87F8
-P 5650 3000
-F 0 "C55" H 5742 3046 50  0000 L CNN
-F 1 "unpopulated" H 5742 2955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3000 50  0001 C CNN
-F 3 "~" H 5650 3000 50  0001 C CNN
-	1    5650 3000
+P 5650 3350
+F 0 "C6" H 5742 3396 50  0000 L CNN
+F 1 "unpopulated" H 5742 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+	1    5650 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3100 5650 3450
+	5650 3450 5650 3800
 Wire Wire Line
-	5650 3450 6000 3450
+	5650 3800 6000 3800
 Text HLabel 1450 3450 0    50   Input ~ 0
 Vdd
 $Comp
-L Existing_IC_Models:R-78E3.3-0.5 U39
+L Existing_IC_Models:R-78E3.3-0.5 U2
 U 1 1 617858EA
 P 5650 2350
-F 0 "U39" H 6478 2296 50  0000 L CNN
+F 0 "U2" H 6478 2296 50  0000 L CNN
 F 1 "R-78E3.3-0.5" H 6478 2205 50  0000 L CNN
 F 2 "Package_SIP:SIP3_11.6x8.5mm" H 6500 2450 50  0001 L CNN
 F 3 "http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf" H 6500 2350 50  0001 L CNN
@@ -236,4 +234,20 @@ Wire Wire Line
 	3700 2650 3700 2900
 Wire Wire Line
 	3700 2650 3950 2650
+Text HLabel 6000 3800 2    50   Input ~ 0
+GND1
+Text HLabel 5850 5700 2    50   Input ~ 0
+GND1
+Wire Wire Line
+	5650 3250 5650 2950
+Wire Wire Line
+	5650 2550 5650 2950
+Wire Wire Line
+	5650 2950 5350 2950
+Connection ~ 5650 2950
+Wire Wire Line
+	5650 5050 5350 5050
+Connection ~ 5650 5050
+Wire Wire Line
+	5650 5050 5650 5150
 $EndSCHEMATC

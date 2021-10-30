@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -129,33 +129,11 @@ Wire Wire Line
 	5750 3000 6150 3000
 Connection ~ 5750 3000
 Wire Wire Line
-	5950 3500 6150 3500
-Wire Wire Line
 	6150 3050 6150 3000
-Connection ~ 5950 3500
 Wire Wire Line
 	6150 3500 6150 3250
 Wire Wire Line
 	5750 3500 5750 3250
-Wire Wire Line
-	5950 3500 5750 3500
-$Comp
-L power:GND #PWR027
-U 1 1 61735A2B
-P 5950 3500
-AR Path="/61717EAF/61735A2B" Ref="#PWR027"  Part="1" 
-AR Path="/617509F7/61735A2B" Ref="#PWR041"  Part="1" 
-AR Path="/61750A2A/61735A2B" Ref="#PWR061"  Part="1" 
-AR Path="/6176CA10/61735A2B" Ref="#PWR081"  Part="1" 
-AR Path="/6176CA81/61735A2B" Ref="#PWR0101"  Part="1" 
-AR Path="/6176CAE4/61735A2B" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR027" H 5950 3250 50  0001 C CNN
-F 1 "GND" H 5955 3327 50  0000 C CNN
-F 2 "" H 5950 3500 50  0001 C CNN
-F 3 "" H 5950 3500 50  0001 C CNN
-	1    5950 3500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C35
 U 1 1 61733718
@@ -199,9 +177,7 @@ EPWM
 Text HLabel 4300 3000 0    50   Input ~ 0
 5V
 Text HLabel 7500 4700 0    50   Input ~ 0
-GND2
-Text HLabel 4800 3650 0    50   Input ~ 0
-GND2
+GND1
 Wire Wire Line
 	4300 3000 5350 3000
 Wire Wire Line
@@ -232,7 +208,7 @@ F 3 "" H 4650 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 4050 4750 0    50   Input ~ 0
-GND2
+GND1
 Wire Wire Line
 	5350 3100 5350 4150
 Wire Wire Line
@@ -246,8 +222,6 @@ Wire Wire Line
 	5900 5250 5900 4350
 Wire Wire Line
 	5050 4350 5900 4350
-Wire Wire Line
-	4900 3650 4800 3650
 $Comp
 L Existing_IC_Models:IFE98 U28
 U 1 1 61778B54
@@ -326,4 +300,29 @@ Wire Wire Line
 Wire Wire Line
 	3650 4350 3650 4650
 Connection ~ 3650 4650
+Wire Notes Line
+	1800 2100 3150 2100
+Wire Notes Line
+	3150 2100 3150 1050
+Wire Notes Line
+	3150 1050 1800 1050
+Wire Notes Line
+	1800 1050 1800 2100
+Text HLabel 2400 1500 0    50   Input ~ 0
+RESET_FO
+Wire Wire Line
+	5750 3500 5950 3500
+Wire Wire Line
+	5950 3500 5950 3600
+Connection ~ 5950 3500
+Wire Wire Line
+	5950 3500 6150 3500
+Text HLabel 5950 3600 0    50   Input ~ 0
+GND1
+Text HLabel 4750 3650 0    50   Input ~ 0
+GND1
+Wire Wire Line
+	4750 3650 4900 3650
+Text Notes 3550 1550 0    50   ~ 0
+Was it just make it an input to one of the and gates?
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -18,12 +18,10 @@ Text Notes 8250 4800 0    50   ~ 0
 Wire Wire Line
 	3700 4900 3700 5100
 Wire Wire Line
-	5650 4800 5650 5150
-Wire Wire Line
-	5650 2550 5650 2900
-Text HLabel 6000 3450 2    50   Input ~ 0
+	5650 4800 5650 5050
+Text HLabel 5350 2950 0    50   Output ~ 0
 3V3
-Text HLabel 5850 5700 2    50   Input ~ 0
+Text HLabel 5350 5050 0    50   Output ~ 0
 5V
 Text HLabel 3700 5100 0    50   Input ~ 0
 GND1
@@ -185,18 +183,18 @@ Wire Wire Line
 $Comp
 L Device:C_Small C6
 U 1 1 617C87F8
-P 5650 3000
-F 0 "C6" H 5742 3046 50  0000 L CNN
-F 1 "unpopulated" H 5742 2955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3000 50  0001 C CNN
-F 3 "~" H 5650 3000 50  0001 C CNN
-	1    5650 3000
+P 5650 3350
+F 0 "C6" H 5742 3396 50  0000 L CNN
+F 1 "unpopulated" H 5742 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+	1    5650 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3100 5650 3450
+	5650 3450 5650 3800
 Wire Wire Line
-	5650 3450 6000 3450
+	5650 3800 6000 3800
 Text HLabel 1450 3450 0    50   Input ~ 0
 Vdd
 $Comp
@@ -236,4 +234,20 @@ Wire Wire Line
 	3700 2650 3700 2900
 Wire Wire Line
 	3700 2650 3950 2650
+Text HLabel 6000 3800 2    50   Input ~ 0
+GND1
+Text HLabel 5850 5700 2    50   Input ~ 0
+GND1
+Wire Wire Line
+	5650 3250 5650 2950
+Wire Wire Line
+	5650 2550 5650 2950
+Wire Wire Line
+	5650 2950 5350 2950
+Connection ~ 5650 2950
+Wire Wire Line
+	5650 5050 5350 5050
+Connection ~ 5650 5050
+Wire Wire Line
+	5650 5050 5650 5150
 $EndSCHEMATC
