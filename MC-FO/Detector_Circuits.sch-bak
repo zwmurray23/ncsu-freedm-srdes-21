@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -165,7 +165,7 @@ F 3 "" H 3700 4750 50  0001 C CNN
 	1    3700 3950
 	1    0    0    -1  
 $EndComp
-Text HLabel 9100 3700 2    50   Output ~ 0
+Text HLabel 10000 3650 2    50   Output ~ 0
 DPWM
 Text HLabel 6000 2000 0    50   Input ~ 0
 5V
@@ -223,26 +223,16 @@ Text Notes 8400 700  0    50   ~ 0
 move the or gate to after the comparator
 Text Notes 3100 4550 0    50   ~ 0
 on one detector do or gate and the other using the comparator
-Wire Notes Line
-	1500 950  2900 950 
-Wire Notes Line
-	2900 950  2900 1750
-Wire Notes Line
-	2900 1750 1500 1750
-Wire Notes Line
-	1500 1750 1500 950 
-Text HLabel 2150 1450 0    50   Input ~ 0
+Text HLabel 8800 2000 2    50   Input ~ 0
 RESET_FO
-Wire Wire Line
-	8650 3700 9100 3700
 $Comp
 L Existing_IC_Models:74LVC1G32SE-7 U143
 U 1 1 617F3635
 P 8400 3700
 AR Path="/6171C819/617F3635" Ref="U143"  Part="1" 
 AR Path="/61724A08/617F3635" Ref="U163"  Part="1" 
-F 0 "U143" H 8650 4000 50  0000 C CNN
-F 1 "74LVC1G32SE-7" H 8750 3900 50  0000 C CNN
+F 0 "U143" H 8250 4000 50  0000 C CNN
+F 1 "74LVC1G32SE-7" H 8050 3900 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8400 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8400 3700 50  0001 C CNN
 	1    8400 3700
@@ -265,11 +255,11 @@ Wire Wire Line
 	8100 5350 5750 5350
 Connection ~ 5750 5350
 Wire Wire Line
-	8400 3600 8400 1950
-Text HLabel 8100 1950 0    50   Input ~ 0
+	8400 3600 8400 3300
+Text HLabel 8100 2000 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	8100 1950 8400 1950
+	8100 2000 8400 2000
 Wire Wire Line
 	8400 3800 8400 4050
 Wire Wire Line
@@ -279,4 +269,37 @@ Wire Wire Line
 	8100 4050 8100 5350
 Text Notes 8900 2650 0    50   ~ 0
 added a 5V tolerant(at logic input) OR gate to output\nof the comparator that will output 3.3V signal to DSP\n\n
+$Comp
+L Existing_IC_Models:74LVC1G08SE-7 U144
+U 1 1 61B8527D
+P 9200 3650
+F 0 "U144" H 9400 3900 50  0000 C CNN
+F 1 "74LVC1G08SE-7" H 9600 3800 50  0000 C CNN
+F 2 "" H 9200 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9200 3650 50  0001 C CNN
+	1    9200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2000 8700 2000
+Wire Wire Line
+	8700 2000 8700 3600
+Wire Wire Line
+	8700 3600 8900 3600
+Wire Wire Line
+	8900 3700 8650 3700
+Wire Wire Line
+	8400 3300 9200 3300
+Wire Wire Line
+	9200 3300 9200 3550
+Connection ~ 8400 3300
+Wire Wire Line
+	8400 3300 8400 2000
+Wire Wire Line
+	9200 3750 9200 4050
+Wire Wire Line
+	9200 4050 8400 4050
+Connection ~ 8400 4050
+Wire Wire Line
+	9450 3650 10000 3650
 $EndSCHEMATC
