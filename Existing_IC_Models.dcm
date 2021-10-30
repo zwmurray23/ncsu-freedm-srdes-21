@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32SE-7
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP APT2012SGC
+D LED
+$ENDCMP
+#
+$CMP CGA6M3X7S2A475M200AE
+D 4.7 uF
+K capacitor cap
+F https://www.digikey.com/en/products/detail/tdk-corporation/CGA6M3X7S2A475M200AE/2782508
+$ENDCMP
+#
+$CMP GMC55X7R106M100NT
+D 10 uF
+K capacitor cap
+F https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC55X7R106M100NT/14288754
+$ENDCMP
+#
+$CMP R-78E3.3-0.5
+D Switching Regulator 6-28Vin 3.3Vout 0.5A Switching Regulator, 6
+F http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+$ENDCMP
+#
+$CMP R-78E5.0-0.5
+D Switching Regulator,7-28Vin,5Vout 0.5A Switching Regulator, 7
+F http://docs-emea.rs-online.com/webdocs/10a2/0900766b810a2db7.pdf
+$ENDCMP
+#
+$CMP TLV3501AID
+D 4.5ns Rail-to-Rail, High-Speed Comparator in Microsize Packages
+$ENDCMP
+#
+#End Doc Library
