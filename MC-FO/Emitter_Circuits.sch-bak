@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4300 5450 0    50   ~ 10
+Text Notes 5450 6200 0    50   ~ 10
 Emitter CKT
 $Comp
 L Device:R_Small_US R27
@@ -214,11 +214,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 4150 5350 4150
 Wire Wire Line
-	5050 4250 5350 4250
-Wire Wire Line
-	5350 4250 5350 4150
-Connection ~ 5350 4150
-Wire Wire Line
 	5900 5250 5900 4350
 Wire Wire Line
 	5050 4350 5900 4350
@@ -300,15 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 4350 3650 4650
 Connection ~ 3650 4650
-Wire Notes Line
-	1800 2100 3150 2100
-Wire Notes Line
-	3150 2100 3150 1050
-Wire Notes Line
-	3150 1050 1800 1050
-Wire Notes Line
-	1800 1050 1800 2100
-Text HLabel 2400 1500 0    50   Input ~ 0
+Text HLabel 8550 5100 2    50   Input ~ 0
 RESET_FO
 Wire Wire Line
 	5750 3500 5950 3500
@@ -323,6 +310,34 @@ Text HLabel 4750 3650 0    50   Input ~ 0
 GND1
 Wire Wire Line
 	4750 3650 4900 3650
-Text Notes 3550 1550 0    50   ~ 0
-Was it just make it an input to one of the and gates?
+Wire Wire Line
+	8550 5100 6050 5100
+Wire Wire Line
+	6050 5100 6050 4250
+Wire Wire Line
+	6050 4250 5050 4250
+$Comp
+L Device:R_Small_US R29
+U 1 1 617DC24B
+P 5900 5450
+AR Path="/61717EAF/617DC24B" Ref="R29"  Part="1" 
+AR Path="/617509F7/617DC24B" Ref="R?"  Part="1" 
+AR Path="/61750A2A/617DC24B" Ref="R?"  Part="1" 
+AR Path="/6176CA10/617DC24B" Ref="R?"  Part="1" 
+AR Path="/6176CA81/617DC24B" Ref="R?"  Part="1" 
+AR Path="/6176CAE4/617DC24B" Ref="R?"  Part="1" 
+F 0 "R29" H 6000 5400 50  0000 L CNN
+F 1 "10K" H 6000 5500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 5450 50  0001 C CNN
+F 3 "~" H 5900 5450 50  0001 C CNN
+	1    5900 5450
+	-1   0    0    1   
+$EndComp
+Text HLabel 5900 5650 3    50   Input ~ 0
+GND1
+Wire Wire Line
+	5900 5250 5900 5350
+Connection ~ 5900 5250
+Wire Wire Line
+	5900 5550 5900 5650
 $EndSCHEMATC
