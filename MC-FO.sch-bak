@@ -145,9 +145,9 @@ Wire Wire Line
 Connection ~ 6850 2300
 Wire Wire Line
 	6850 2300 6850 2750
-Text GLabel 3050 1700 2    50   Output ~ 0
+Text GLabel 3050 1700 2    50   Input ~ 0
 EPWM1A
-Text GLabel 3000 2650 2    50   Output ~ 0
+Text GLabel 3000 2650 2    50   Input ~ 0
 EPWM1B
 Text GLabel 8250 3200 0    50   Output ~ 0
 EPWM1A
@@ -182,11 +182,11 @@ Text GLabel 8250 4600 0    50   Input ~ 0
 STATUS1
 Text GLabel 8250 4800 0    50   Input ~ 0
 STATUS2
-Text GLabel 3050 3750 2    50   Output ~ 0
+Text GLabel 3050 3750 2    50   Input ~ 0
 RESET1
-Text GLabel 3050 5700 2    50   Output ~ 0
+Text GLabel 3050 5700 2    50   Input ~ 0
 EPWM2B
-Text GLabel 3050 6650 2    50   Output ~ 0
+Text GLabel 3050 6650 2    50   Input ~ 0
 RESET2
 Wire Wire Line
 	8550 3200 8250 3200
@@ -279,7 +279,7 @@ F3 "5V" I R 2150 4550 50
 F4 "GND1" I R 2150 4850 50 
 F5 "RESET_FO" I R 2150 4400 50 
 $EndSheet
-Text GLabel 3050 4700 2    50   Output ~ 0
+Text GLabel 3050 4700 2    50   Input ~ 0
 EPWM2A
 Wire Wire Line
 	2150 4700 3050 4700
