@@ -731,28 +731,8 @@ F 1 "86094327313755E1LF" H 9700 5076 50  0000 C CNN
 F 2 "Footprints_MC-FO:86094327313755E1LF" H 9650 4250 50  0001 C CNN
 F 3 "~" H 9650 4250 50  0001 C CNN
 	1    9650 4250
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9950 3550 10250 3550
-Wire Wire Line
-	10300 5050 9950 5050
-Wire Wire Line
-	9150 3550 9450 3550
-Wire Wire Line
-	9150 3750 9450 3750
-Wire Wire Line
-	9150 3950 9450 3950
-Wire Wire Line
-	9150 4150 9450 4150
-Wire Wire Line
-	9150 4350 9450 4350
-Wire Wire Line
-	9150 4550 9450 4550
-Wire Wire Line
-	9150 4750 9450 4750
-Wire Wire Line
-	9150 4950 9450 4950
 Text Notes 5700 5200 0    50   ~ 0
 160+
 Text Notes 5600 5100 0    50   ~ 0
@@ -782,4 +762,24 @@ Wire Wire Line
 Wire Wire Line
 	6300 5850 6200 5850
 Connection ~ 6300 5600
+Wire Wire Line
+	9350 3550 9150 3550
+Wire Wire Line
+	9150 3750 9350 3750
+Wire Wire Line
+	9150 3950 9350 3950
+Wire Wire Line
+	9150 4150 9350 4150
+Wire Wire Line
+	9150 4350 9350 4350
+Wire Wire Line
+	9350 4550 9150 4550
+Wire Wire Line
+	9150 4750 9350 4750
+Wire Wire Line
+	9350 4950 9150 4950
+Wire Wire Line
+	9850 5050 10300 5050
+Wire Wire Line
+	10250 3550 9850 3550
 $EndSCHEMATC

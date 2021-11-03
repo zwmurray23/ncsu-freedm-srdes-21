@@ -1,4 +1,4 @@
-19214443309130507
+19225894426286044
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50882,6 +50882,55 @@ LED
 0
 2
 2
+Footprints_MC-FO
+86094327313755E1LF
+DIN41612 connector, type C/2, Horizontal, 3 rows 16 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf
+DIN 41612 IEC 60603 C/2
+0
+32
+32
+Footprints_MC-FO
+IFE98
+IFE98-2
+Connector
+0
+5
+5
+Footprints_MC-FO
+R78E1205
+R-78E-0.5
+Transformer
+0
+3
+3
+Footprints_MC-FO
+R78E5005
+R-78E5.0-0.5-1
+Integrated Circuit
+0
+3
+3
+Footprints_MC-FO
+SOIC127P600X175-8N
++soic d
+Integrated Circuit
+0
+8
+8
+Footprints_MC-FO
+SOIC127P600X175-14N
+M14A (SOIC)
+Integrated Circuit
+0
+14
+14
+Footprints_MC-FO
+TPS3703A5500DSER
+DSE0006A
+Integrated Circuit
+0
+6
+6
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
