@@ -24,9 +24,9 @@ Text HLabel 5350 2950 0    50   Output ~ 0
 Text HLabel 5350 5050 0    50   Output ~ 0
 5V
 Text HLabel 3700 5100 0    50   Input ~ 0
-GND1
+GND
 Text HLabel 3700 2900 0    50   Input ~ 0
-GND1
+GND
 $Comp
 L Device:L_Small L3
 U 1 1 61767909
@@ -235,9 +235,9 @@ Wire Wire Line
 Wire Wire Line
 	3700 2650 3950 2650
 Text HLabel 6000 3800 2    50   Input ~ 0
-GND1
+GND
 Text HLabel 5850 5700 2    50   Input ~ 0
-GND1
+GND
 Wire Wire Line
 	5650 3250 5650 2950
 Wire Wire Line

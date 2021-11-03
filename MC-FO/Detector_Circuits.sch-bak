@@ -193,15 +193,15 @@ Wire Wire Line
 Connection ~ 6650 4050
 Connection ~ 7800 3650
 Text HLabel 5500 5350 0    50   Input ~ 0
-GND1
+GND
 Text HLabel 6650 4150 0    50   Input ~ 0
-GND1
+GND
 Text HLabel 4950 2900 3    50   Input ~ 0
-GND1
+GND
 Text HLabel 4300 3750 0    50   Input ~ 0
-GND1
+GND
 Text HLabel 7600 2650 2    50   Input ~ 0
-GND1
+GND
 Wire Wire Line
 	4700 2850 4950 2850
 Wire Wire Line

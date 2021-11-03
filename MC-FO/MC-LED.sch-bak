@@ -27,7 +27,7 @@ F 3 "~" H 3850 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text HLabel 4900 5500 3    50   Input ~ 0
-GND1
+GND
 Text HLabel 3400 2150 0    50   Input ~ 0
 5V
 $Comp
@@ -79,9 +79,9 @@ Wire Wire Line
 	1350 2750 1600 2750
 Connection ~ 1350 2550
 Text HLabel 2550 2150 2    50   Input ~ 0
-GND1
+GND
 Text HLabel 4800 2150 2    50   Input ~ 0
-GND1
+GND
 Wire Wire Line
 	3450 3700 3400 3700
 Wire Wire Line
@@ -183,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 2950 1350 3350
 Text HLabel 1200 4300 0    50   Input ~ 0
-GND1
+GND
 Wire Wire Line
 	2600 4300 1350 4300
 Wire Wire Line
@@ -192,7 +192,7 @@ Wire Wire Line
 	1350 4300 1200 4300
 Connection ~ 1350 4300
 Text HLabel 4050 3550 2    50   Input ~ 0
-GND1
+GND
 Wire Wire Line
 	3450 2150 3450 2550
 Wire Wire Line
@@ -223,7 +223,7 @@ AR Path="/61797676" Ref="D?"  Part="1"
 AR Path="/6175812E/61797676" Ref="D181"  Part="1" 
 F 0 "D181" V 3789 4832 50  0000 R CNN
 F 1 "550-2207-004F" V 3698 4832 50  0000 R CNN
-F 2 "Footprints_MC-FO:550-2207-004F" H 3750 5150 50  0001 C CNN
+F 2 "Footprints_MC-FO:5502207004F" H 3750 5150 50  0001 C CNN
 F 3 "" H 3750 5150 50  0001 C CNN
 	1    3750 5050
 	0    -1   -1   0   
