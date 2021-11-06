@@ -215,19 +215,6 @@ Wire Wire Line
 	3800 3550 3800 3400
 Wire Wire Line
 	3800 3550 4050 3550
-$Comp
-L Existing_IC_Models:550-2207-004F D?
-U 1 1 61797676
-P 3750 5050
-AR Path="/61797676" Ref="D?"  Part="1" 
-AR Path="/6175812E/61797676" Ref="D181"  Part="1" 
-F 0 "D181" V 3789 4832 50  0000 R CNN
-F 1 "550-2207-004F" V 3698 4832 50  0000 R CNN
-F 2 "Footprints_MC-FO:5502207004F" H 3750 5150 50  0001 C CNN
-F 3 "" H 3750 5150 50  0001 C CNN
-	1    3750 5050
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4750 2550 4650 2550
 Connection ~ 4750 2550
@@ -366,4 +353,15 @@ Wire Wire Line
 	3650 4100 5450 4100
 Text Notes 6150 5200 0    50   ~ 0
 out of stock -- had to improvise\n
+$Comp
+L Existing_IC_Models:WP1503CB_GD D181
+U 1 1 6185A99A
+P 3750 5050
+F 0 "D181" V 3789 4832 50  0000 R CNN
+F 1 "WP1503CB_GD" V 3698 4832 50  0000 R CNN
+F 2 "Footprints_MC-FO:WP1503CBGD" H 3750 5150 50  0001 C CNN
+F 3 "" H 3750 5150 50  0001 C CNN
+	1    3750 5050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

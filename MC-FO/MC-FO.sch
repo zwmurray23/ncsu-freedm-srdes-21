@@ -86,8 +86,7 @@ F1 "Detector_Circuits.sch" 50
 F2 "DPWM" O L 4850 4500 50 
 F3 "5V" I L 4850 4350 50 
 F4 "GND" I L 4850 4650 50 
-F5 "RESET_FO" I L 4850 4200 50 
-F6 "3V3" I R 5800 4350 50 
+F5 "3V3" I R 5800 4350 50 
 $EndSheet
 Wire Wire Line
 	4850 4500 4350 4500
@@ -164,7 +163,7 @@ Text GLabel 2950 6450 2    50   Input ~ 0
 RESET2
 Text GLabel 4250 4500 0    50   Output ~ 0
 STATUS1
-Text GLabel 7800 5950 2    50   Output ~ 0
+Text GLabel 7050 5950 2    50   Output ~ 0
 STATUS2
 Wire Wire Line
 	7150 850  5100 850 
@@ -308,8 +307,6 @@ Wire Wire Line
 	3650 5200 3650 6200
 Wire Wire Line
 	2050 6200 3650 6200
-Wire Wire Line
-	4850 4200 3650 4200
 Wire Wire Line
 	2400 6600 2400 6950
 Wire Wire Line
@@ -556,10 +553,6 @@ Wire Wire Line
 	5450 5350 5800 5350
 Wire Wire Line
 	5800 5350 5800 5950
-Wire Wire Line
-	6500 5850 6500 5200
-Wire Wire Line
-	3650 5200 6500 5200
 Connection ~ 4700 6700
 Wire Wire Line
 	4700 6700 4700 6950
@@ -635,59 +628,19 @@ Wire Wire Line
 	5800 4350 6200 4350
 Connection ~ 6200 4350
 Wire Wire Line
-	4700 6950 6650 6950
-Wire Wire Line
 	4950 5350 3400 5350
 Connection ~ 4950 5350
 $Comp
 L Device:R_Small_US R18
 U 1 1 6193B542
-P 7550 6100
-F 0 "R18" H 7618 6146 50  0000 L CNN
-F 1 "10K" H 7618 6055 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7550 6100 50  0001 C CNN
-F 3 "~" H 7550 6100 50  0001 C CNN
-	1    7550 6100
+P 6700 6200
+F 0 "R18" H 6768 6246 50  0000 L CNN
+F 1 "10K" H 6768 6155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 6200 50  0001 C CNN
+F 3 "~" H 6700 6200 50  0001 C CNN
+	1    6700 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Existing_IC_Models:74LVC1G0832DBVT U164
-U 1 1 6181E6F6
-P 7000 5950
-F 0 "U164" H 7300 6250 50  0000 C CNN
-F 1 "74LVC1G0832DBVT" H 7550 6150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7000 5950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7000 5950 50  0001 C CNN
-	1    7000 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 5850 6650 5850
-Wire Wire Line
-	6500 5950 6650 5950
-Wire Wire Line
-	7150 5600 7150 5850
-Connection ~ 6650 6250
-Wire Wire Line
-	6650 6250 6650 6950
-Wire Wire Line
-	6650 6050 6650 6250
-Wire Wire Line
-	6650 6250 7150 6250
-Wire Wire Line
-	7400 5950 7550 5950
-Wire Wire Line
-	7550 6000 7550 5950
-Connection ~ 7550 5950
-Wire Wire Line
-	7550 5950 7800 5950
-Wire Wire Line
-	7550 6200 7550 6250
-Wire Wire Line
-	7150 6050 7150 6250
-Connection ~ 7150 6250
-Wire Wire Line
-	7150 6250 7550 6250
 Connection ~ 2400 2900
 Wire Wire Line
 	2400 2900 2400 3700
@@ -736,28 +689,17 @@ OR gate only
 Wire Notes Line
 	6800 7100 6800 6400
 Wire Notes Line
-	8250 6400 8250 5100
-Wire Notes Line
-	8250 5100 4850 5100
+	7600 6400 7600 5100
 Wire Notes Line
 	4850 5100 4850 7100
-Wire Notes Line
-	6800 6400 8250 6400
 Wire Notes Line
 	4850 7100 6800 7100
 Wire Wire Line
 	6200 4350 6300 4350
 Wire Wire Line
-	6300 4350 6300 5600
-Wire Wire Line
-	6300 5600 7150 5600
-Wire Wire Line
 	6200 5850 6200 6550
 Wire Wire Line
-	6300 5600 6300 5850
-Wire Wire Line
 	6300 5850 6200 5850
-Connection ~ 6300 5600
 Wire Wire Line
 	9350 3550 9150 3550
 Wire Wire Line
@@ -782,4 +724,26 @@ Wire Notes Line
 	8500 2900 8500 5850
 Wire Notes Line
 	8500 5850 10800 5850
+Wire Wire Line
+	6300 4350 6300 5850
+Wire Notes Line
+	7600 5100 4850 5100
+Wire Notes Line
+	7600 6400 6800 6400
+Wire Wire Line
+	6500 5950 6700 5950
+Wire Wire Line
+	6700 6300 6700 6950
+Wire Wire Line
+	4700 6950 6200 6950
+Wire Wire Line
+	6700 6100 6700 5950
+Connection ~ 6700 5950
+Wire Wire Line
+	6700 5950 7050 5950
+Wire Wire Line
+	6200 6750 6200 6950
+Connection ~ 6200 6950
+Wire Wire Line
+	6200 6950 6700 6950
 $EndSCHEMATC

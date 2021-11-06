@@ -165,7 +165,7 @@ F 3 "" H 3700 4750 50  0001 C CNN
 	1    3700 3950
 	1    0    0    -1  
 $EndComp
-Text HLabel 10200 3700 2    50   Output ~ 0
+Text HLabel 8900 3700 2    50   Output ~ 0
 DPWM
 Text HLabel 6000 2000 0    50   Input ~ 0
 5V
@@ -223,8 +223,6 @@ Text Notes 8400 700  0    50   ~ 0
 move the or gate to after the comparator
 Text Notes 3100 4550 0    50   ~ 0
 on one detector do or gate and the other using the comparator
-Text HLabel 8800 2000 2    50   Input ~ 0
-RESET_FO
 $Comp
 L Existing_IC_Models:74LVC1G32SE-7 U143
 U 1 1 617F3635
@@ -254,8 +252,6 @@ Wire Wire Line
 Wire Wire Line
 	8100 5350 5750 5350
 Connection ~ 5750 5350
-Wire Wire Line
-	8400 3600 8400 3300
 Text HLabel 8100 2000 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -270,41 +266,7 @@ Wire Wire Line
 Text Notes 8900 2650 0    50   ~ 0
 added a 5V tolerant(at logic input) OR gate to output\nof the comparator that will output 3.3V signal to DSP\n\n
 Wire Wire Line
-	8800 2000 8700 2000
-Wire Wire Line
-	8700 2000 8700 3600
-Wire Wire Line
-	8700 3600 8900 3600
-Wire Wire Line
 	8900 3700 8650 3700
-Connection ~ 8400 3300
 Wire Wire Line
-	8400 3300 8400 2000
-Wire Wire Line
-	9650 3700 10200 3700
-$Comp
-L Existing_IC_Models:74LVC1G0832DBVT U144
-U 1 1 618B7235
-P 9250 3700
-F 0 "U144" H 9550 4000 50  0000 C CNN
-F 1 "74LVC1G0832DBVT" H 9800 3900 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 9250 3700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 9250 3700 50  0001 C CNN
-	1    9250 3700
-	1    0    0    -1  
-$EndComp
-Connection ~ 8400 4050
-Wire Wire Line
-	9400 3300 9400 3600
-Wire Wire Line
-	8400 3300 9400 3300
-Wire Wire Line
-	8900 4050 8900 3800
-Wire Wire Line
-	8400 4050 8900 4050
-Wire Wire Line
-	8900 4050 9400 4050
-Wire Wire Line
-	9400 4050 9400 3800
-Connection ~ 8900 4050
+	8400 2000 8400 3600
 $EndSCHEMATC
