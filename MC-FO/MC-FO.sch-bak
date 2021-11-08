@@ -578,13 +578,13 @@ F 3 "" H 9400 5200 50  0001 C CNN
 $EndComp
 Text GLabel 10100 5075 2    50   Input ~ 0
 STATUS2
-Text GLabel 10100 4875 2    50   Input ~ 0
+Text GLabel 10100 4275 2    50   Input ~ 0
 STATUS1
-Text GLabel 10100 4675 2    50   Output ~ 0
+Text GLabel 10100 4875 2    50   Output ~ 0
 RESET2
-Text GLabel 10100 4475 2    50   Output ~ 0
+Text GLabel 10100 4675 2    50   Output ~ 0
 EPWM2B
-Text GLabel 10100 4275 2    50   Output ~ 0
+Text GLabel 10100 4475 2    50   Output ~ 0
 EPWM2A
 Text GLabel 10100 4075 2    50   Output ~ 0
 RESET1
