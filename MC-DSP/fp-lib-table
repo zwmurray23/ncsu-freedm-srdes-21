@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TI_DSP)(type KiCad)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/DSP_parts/TI_DSP/TI_DSP.pretty")(options "")(descr ""))
+  (lib (name custom_footprints)(type KiCad)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/DSP_parts/custom_footprints.pretty")(options "")(descr ""))
+)

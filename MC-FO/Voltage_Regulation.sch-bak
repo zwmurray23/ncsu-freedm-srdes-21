@@ -27,41 +27,18 @@ Text HLabel 3700 5100 0    50   Input ~ 0
 GND
 Text HLabel 3700 2900 0    50   Input ~ 0
 GND
-$Comp
-L Device:L_Small L3
-U 1 1 61767909
-P 4450 4600
-F 0 "L3" V 4650 4600 50  0000 L CNN
-F 1 "12 uH" V 4550 4500 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 4450 4600 50  0001 C CNN
-F 3 "~" H 4450 4600 50  0001 C CNN
-	1    4450 4600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4550 4600 4800 4600
-Wire Wire Line
-	4800 4600 4800 4650
-Wire Wire Line
-	4800 4600 5650 4600
-Connection ~ 4800 4600
-Wire Wire Line
-	4800 4900 4800 4850
-Wire Wire Line
-	4800 4900 5500 4900
 Wire Wire Line
 	5500 4900 5500 4700
 Wire Wire Line
 	5500 4700 5650 4700
-Connection ~ 4800 4900
 $Comp
 L Device:L_Small L2
 U 1 1 61773AE9
 P 4400 2350
 F 0 "L2" V 4600 2350 50  0000 L CNN
-F 1 "12 uH" V 4500 2250 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 4400 2350 50  0001 C CNN
-F 3 "~" H 4400 2350 50  0001 C CNN
+F 1 "3.9uH" V 4500 2250 50  0000 L CNN
+F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4400 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-126/9920565" H 4400 2350 50  0001 C CNN
 	1    4400 2350
 	0    -1   -1   0   
 $EndComp
@@ -70,26 +47,12 @@ Wire Wire Line
 Wire Wire Line
 	3950 2350 3950 2400
 Wire Wire Line
-	4500 2350 4800 2350
-Wire Wire Line
-	4800 2350 4800 2400
-Wire Wire Line
 	3950 2650 3950 2600
-Wire Wire Line
-	3950 2650 4800 2650
-Wire Wire Line
-	4800 2650 4800 2600
 Connection ~ 3950 2650
-Wire Wire Line
-	4800 2350 5650 2350
-Connection ~ 4800 2350
-Wire Wire Line
-	4800 2650 5550 2650
 Wire Wire Line
 	5550 2650 5550 2450
 Wire Wire Line
 	5550 2450 5650 2450
-Connection ~ 4800 2650
 $Comp
 L Existing_IC_Models:R-78E5.0-0.5 U3
 U 1 1 617A1AF8
@@ -111,55 +74,18 @@ F 11 "https://www.arrow.com/en/products/r-78e5.0-0.5/recom-power" H 6500 3800 50
 $EndComp
 Connection ~ 3950 4900
 Wire Wire Line
-	3950 4900 4800 4900
-Wire Wire Line
 	3700 4900 3950 4900
-Wire Wire Line
-	3950 4900 3950 4850
-$Comp
-L Device:C_Small C3
-U 1 1 617DD2CC
-P 3950 4750
-F 0 "C3" H 4042 4796 50  0000 L CNN
-F 1 "10 uF" H 4042 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3950 4750 50  0001 C CNN
-F 3 "~" H 3950 4750 50  0001 C CNN
-	1    3950 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 4600 3950 4600
 Wire Wire Line
 	3950 4650 3950 4600
 Connection ~ 3950 4600
 $Comp
-L Device:C_Small C5
-U 1 1 617DF962
-P 4800 4750
-F 0 "C5" H 4892 4796 50  0000 L CNN
-F 1 "4.7 uF" H 4892 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4800 4750 50  0001 C CNN
-F 3 "~" H 4800 4750 50  0001 C CNN
-	1    4800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 617E1CA5
-P 4800 2500
-F 0 "C4" H 4892 2546 50  0000 L CNN
-F 1 "4.7 uF" H 4892 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 4800 2500 50  0001 C CNN
-F 3 "~" H 4800 2500 50  0001 C CNN
-	1    4800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 617E2200
 P 3950 2500
-F 0 "C2" H 4042 2546 50  0000 L CNN
-F 1 "10 uF" H 4042 2455 50  0000 L CNN
+F 0 "C4" H 4042 2546 50  0000 L CNN
+F 1 "4.7 uF" H 4042 2455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3950 2500 50  0001 C CNN
 F 3 "~" H 3950 2500 50  0001 C CNN
 	1    3950 2500
@@ -171,7 +97,7 @@ U 1 1 617C79EA
 P 5650 5250
 F 0 "C7" H 5742 5296 50  0000 L CNN
 F 1 "unpopulated" H 5742 5205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 5250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5650 5250 50  0001 C CNN
 F 3 "~" H 5650 5250 50  0001 C CNN
 	1    5650 5250
 	1    0    0    -1  
@@ -186,7 +112,7 @@ U 1 1 617C87F8
 P 5650 3350
 F 0 "C6" H 5742 3396 50  0000 L CNN
 F 1 "unpopulated" H 5742 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5650 3350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5650 3350 50  0001 C CNN
 F 3 "~" H 5650 3350 50  0001 C CNN
 	1    5650 3350
 	1    0    0    -1  
@@ -250,4 +176,36 @@ Wire Wire Line
 Connection ~ 5650 5050
 Wire Wire Line
 	5650 5050 5650 5150
+$Comp
+L Device:L_Small L3
+U 1 1 61A83391
+P 4450 4600
+F 0 "L3" V 4650 4600 50  0000 L CNN
+F 1 "3.9uH" V 4550 4500 50  0000 L CNN
+F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4450 4600 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-126/9920565" H 4450 4600 50  0001 C CNN
+	1    4450 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 4900 3950 4850
+$Comp
+L Device:C_Small C5
+U 1 1 617DF962
+P 3950 4750
+F 0 "C5" H 4042 4796 50  0000 L CNN
+F 1 "4.7 uF" H 4042 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3950 4750 50  0001 C CNN
+F 3 "~" H 3950 4750 50  0001 C CNN
+	1    3950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2350 5650 2350
+Wire Wire Line
+	3950 2650 5550 2650
+Wire Wire Line
+	4550 4600 5650 4600
+Wire Wire Line
+	3950 4900 5500 4900
 $EndSCHEMATC
