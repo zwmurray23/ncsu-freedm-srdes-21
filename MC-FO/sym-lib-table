@@ -3,4 +3,7 @@
   (lib (name IFE98)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/IFE98/KiCad/IFE98.lib")(options "")(descr "")(disabled))
   (lib (name 74ACT08SCX)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/74ACT08SCX/KiCad/74ACT08SCX.lib")(options "")(descr "")(disabled))
   (lib (name Existing_IC_Models)(type Legacy)(uri ${KIPRJMOD}/Existing_IC_Models.lib)(options "")(descr ""))
+  (lib (name TPS3305-33D)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/TPS3305-33D/TPS3305-33D.lib")(options "")(descr ""))
+  (lib (name BU4847F-TR)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/BU4847F-TR/BU4847F-TR.lib")(options "")(descr ""))
+  (lib (name BU4831F-TR)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/BU4831F-TR/BU4831F-TR.lib")(options "")(descr ""))
 )

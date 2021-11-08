@@ -595,61 +595,6 @@ EPWM1B
 Text GLabel 10100 3675 2    50   Output ~ 0
 EPWM1A
 Connection ~ 10000 4975
-Connection ~ 9400 4275
-Wire Wire Line
-	9400 4375 9400 4275
-Connection ~ 9400 4375
-Wire Wire Line
-	9400 4475 9400 4375
-Connection ~ 9400 4475
-Wire Wire Line
-	9400 4575 9400 4475
-Connection ~ 9400 4575
-Wire Wire Line
-	9400 4675 9400 4575
-Connection ~ 9400 4675
-Wire Wire Line
-	9400 4775 9400 4675
-Connection ~ 9400 4775
-Wire Wire Line
-	9400 4875 9400 4775
-Connection ~ 9400 4875
-Wire Wire Line
-	9400 4975 9400 4875
-Connection ~ 9400 4975
-Wire Wire Line
-	9400 3775 9400 3875
-Connection ~ 9400 3875
-Wire Wire Line
-	9400 3975 9400 3875
-Connection ~ 9400 3975
-Wire Wire Line
-	9400 4075 9400 3975
-Connection ~ 9400 4075
-Wire Wire Line
-	9400 4275 9400 4175
-Wire Wire Line
-	9400 4175 9400 4075
-Connection ~ 9400 4175
-Wire Wire Line
-	9400 5075 9400 5200
-Wire Wire Line
-	9400 4975 9400 5075
-Connection ~ 9400 5075
-$Comp
-L Existing_IC_Models:86094327313755E1LF H1
-U 1 1 61916120
-P 9600 4375
-F 0 "H1" H 9650 3200 50  0000 C CNN
-F 1 "86094327313755E1LF" H 9625 3300 50  0000 C CNN
-F 2 "Footprints_MC-FO:86094327313755E1LF" H 9600 4375 50  0001 C CNN
-F 3 "~" H 9600 4375 50  0001 C CNN
-	1    9600 4375
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	9400 3775 9400 3675
-Connection ~ 9400 3775
 Wire Wire Line
 	10000 3575 9900 3575
 Wire Wire Line
@@ -685,4 +630,59 @@ Wire Wire Line
 	4700 4650 4700 5600
 Wire Wire Line
 	4250 4500 4850 4500
+Connection ~ 9400 4275
+Wire Wire Line
+	9400 4375 9400 4275
+Connection ~ 9400 4375
+Wire Wire Line
+	9400 4475 9400 4375
+Connection ~ 9400 4475
+Wire Wire Line
+	9400 4575 9400 4475
+Connection ~ 9400 4575
+Wire Wire Line
+	9400 4675 9400 4575
+Connection ~ 9400 4675
+Wire Wire Line
+	9400 4775 9400 4675
+Connection ~ 9400 4775
+Wire Wire Line
+	9400 4875 9400 4775
+Connection ~ 9400 4875
+Wire Wire Line
+	9400 4975 9400 4875
+Connection ~ 9400 4975
+Wire Wire Line
+	9400 3775 9400 3875
+Connection ~ 9400 3875
+Wire Wire Line
+	9400 3975 9400 3875
+Connection ~ 9400 3975
+Wire Wire Line
+	9400 4075 9400 3975
+Connection ~ 9400 4075
+Wire Wire Line
+	9400 4175 9400 4075
+Wire Wire Line
+	9400 4275 9400 4175
+Connection ~ 9400 4175
+Wire Wire Line
+	9400 4975 9400 5075
+Connection ~ 9400 5075
+Wire Wire Line
+	9400 5075 9400 5200
+$Comp
+L Existing_IC_Models:86094327313755E1LF H1
+U 1 1 61916120
+P 9600 4375
+F 0 "H1" H 9650 3200 50  0000 C CNN
+F 1 "86094327313755E1LF" H 9625 3300 50  0000 C CNN
+F 2 "Footprints_MC-FO:86094327313755E1LF" H 9600 4375 50  0001 C CNN
+F 3 "~" H 9600 4375 50  0001 C CNN
+	1    9600 4375
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9400 3675 9400 3575
+Connection ~ 9400 3575
 $EndSCHEMATC

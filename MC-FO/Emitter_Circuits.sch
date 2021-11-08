@@ -230,7 +230,7 @@ AR Path="/617509F7/61778B54" Ref="U42"  Part="1"
 F 0 "U28" H 8000 4215 50  0000 C CNN
 F 1 "IFE98" H 8000 4124 50  0000 C CNN
 F 2 "Footprints_MC-FO:IFE98" H 8000 4100 50  0001 C CNN
-F 3 "" H 8000 4100 50  0001 C CNN
+F 3 "https://i-fiberoptics.com/pdf/ife98-2-20.pdf" H 8000 4100 50  0001 C CNN
 	1    8000 4100
 	1    0    0    -1  
 $EndComp
