@@ -685,4 +685,6 @@ $EndComp
 Wire Wire Line
 	9400 3675 9400 3575
 Connection ~ 9400 3575
+Text Notes 350  -300 0    118  ~ 0
+Test:\nCrosstalk between "agressor" and "victim"\nSquare wave, find delay and %accuracy \n\nTodo:\nFlip the detector footprint\nreplace AND on detector output with NAND\nwe got shipped the wrong voltage regulators? make sure part # is right?\nreplace Detector1 with simplified detector circuit\nU142 has incorrect footprint, but it is being removed anyway\n
 $EndSCHEMATC

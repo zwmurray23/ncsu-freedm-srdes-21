@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -335,7 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 4225 6600 4225
 Connection ~ 6300 4225
-Text Notes 6850 3525 0    50   ~ 0
+Text Notes 2300 4000 0    50   ~ 0
 Toss this if dac buffs dont need it\n
 Text Notes 7175 5250 0    50   ~ 0
 cross check with DSP current draw and ADC spec

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L DSP_symbols:AMC3306M05 U2
-U 1 1 617A5ECB
-P 16700 2100
-F 0 "U2" H 16700 3715 50  0000 C CNN
-F 1 "AMC3306M05" H 16700 3624 50  0000 C CNN
-F 2 "" H 16700 2100 50  0001 C CNN
-F 3 "" H 16700 2100 50  0001 C CNN
-	1    16700 2100
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 6050 1425 875  1975
 U 617C0851
@@ -112,97 +101,97 @@ $EndSheet
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 1 1 61FD23EB
-P -5250 -1825
-F 0 "U1" H -5250 -69 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -5250 -160 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -5575 -1925 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -5250 -1825 50  0001 L BNN
-F 4 "Texas Instruments" H -5250 -251 50  0000 C CNN "MANUFACTURER"
-	1    -5250 -1825
+P -3050 1350
+F 0 "U1" H -3050 3106 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H -3050 3015 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H -3375 1250 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -3050 1350 50  0001 L BNN
+F 4 "Texas Instruments" H -3050 2924 50  0000 C CNN "MANUFACTURER"
+	1    -3050 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 2 1 61FDE12A
-P -5300 1325
-F 0 "U1" H -5300 2881 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -5300 2790 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -5625 1225 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -5300 1325 50  0001 L BNN
-F 4 "Texas Instruments" H -5300 2699 50  0000 C CNN "MANUFACTURER"
-	2    -5300 1325
+P 15250 825
+F 0 "U1" H 15250 2381 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H 15250 2290 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H 14925 725 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H 15250 825 50  0001 L BNN
+F 4 "Texas Instruments" H 15250 2199 50  0000 C CNN "MANUFACTURER"
+	2    15250 825 
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 3 1 61FE4212
-P -5375 4250
-F 0 "U1" H -5375 5806 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -5375 5715 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -5700 4150 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -5375 4250 50  0001 L BNN
-F 4 "Texas Instruments" H -5375 5624 50  0000 C CNN "MANUFACTURER"
-	3    -5375 4250
+P 15250 3750
+F 0 "U1" H 15250 5306 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H 15250 5215 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H 14925 3650 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H 15250 3750 50  0001 L BNN
+F 4 "Texas Instruments" H 15250 5124 50  0000 C CNN "MANUFACTURER"
+	3    15250 3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 4 1 61FF4772
-P -5400 7350
-F 0 "U1" H -5400 9006 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -5400 8915 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -5725 7250 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -5400 7350 50  0001 L BNN
-F 4 "Texas Instruments" H -5400 8824 50  0000 C CNN "MANUFACTURER"
-	4    -5400 7350
+P 15250 6800
+F 0 "U1" H 15250 8456 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H 15250 8365 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H 14925 6700 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H 15250 6800 50  0001 L BNN
+F 4 "Texas Instruments" H 15250 8274 50  0000 C CNN "MANUFACTURER"
+	4    15250 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 5 1 61FFFF1E
-P -5600 9625
-F 0 "U1" H -5600 10381 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -5600 10290 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -5925 9525 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -5600 9625 50  0001 L BNN
-F 4 "Texas Instruments" H -5600 10199 50  0000 C CNN "MANUFACTURER"
-	5    -5600 9625
+P 15250 8850
+F 0 "U1" H 15250 9606 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H 15250 9515 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H 14925 8750 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H 15250 8850 50  0001 L BNN
+F 4 "Texas Instruments" H 15250 9424 50  0000 C CNN "MANUFACTURER"
+	5    15250 8850
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 6 1 6200754E
-P -5550 11375
-F 0 "U1" H -5550 12232 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -5550 12141 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -5875 11275 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -5550 11375 50  0001 L BNN
-F 4 "Texas Instruments" H -5550 12050 50  0000 C CNN "MANUFACTURER"
-	6    -5550 11375
+P -3050 -1350
+F 0 "U1" H -3050 -493 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H -3050 -584 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H -3375 -1450 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -3050 -1350 50  0001 L BNN
+F 4 "Texas Instruments" H -3050 -675 50  0000 C CNN "MANUFACTURER"
+	6    -3050 -1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 7 1 6200C784
-P -3075 11775
-F 0 "U1" H -3075 13531 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -3075 13440 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -3400 11675 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -3075 11775 50  0001 L BNN
-F 4 "Texas Instruments" H -3075 13349 50  0000 C CNN "MANUFACTURER"
-	7    -3075 11775
+P -3050 4700
+F 0 "U1" H -3050 6456 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H -3050 6365 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H -3375 4600 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -3050 4700 50  0001 L BNN
+F 4 "Texas Instruments" H -3050 6274 50  0000 C CNN "MANUFACTURER"
+	7    -3050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L TI_DSP:TMS320F28388DZWT U1
 U 8 1 62011C7C
-P -275 12150
-F 0 "U1" H -275 14406 50  0000 C CNN
-F 1 "TMS320F28388DZWT" H -275 14315 50  0000 C CNN
-F 2 "BGA337C80P19X19_1600X1600X140N" H -600 12050 50  0001 L BNN
-F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -275 12150 50  0001 L BNN
-F 4 "Texas Instruments" H -275 14224 50  0000 C CNN "MANUFACTURER"
-	8    -275 12150
+P -3050 8550
+F 0 "U1" H -3050 10806 50  0000 C CNN
+F 1 "TMS320F28388DZWT" H -3050 10715 50  0000 C CNN
+F 2 "BGA337C80P19X19_1600X1600X140N" H -3375 8450 50  0001 L BNN
+F 3 "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf" H -3050 8550 50  0001 L BNN
+F 4 "Texas Instruments" H -3050 10624 50  0000 C CNN "MANUFACTURER"
+	8    -3050 8550
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -221,4 +210,1097 @@ F3 "Y1" I R 10600 4700 50
 F4 "Y2" I R 10600 4850 50 
 F5 "Y3" I R 10600 5000 50 
 $EndSheet
+$Sheet
+S 7650 8950 1100 775 
+U 61978594
+F0 "Status LEDs" 50
+F1 "MC-DSP-StatusLEDs.sch" 50
+F2 "GlobalReset" I L 7650 9100 50 
+F3 "GPIOLED1" I L 7650 9300 50 
+F4 "GPIOLED2" I L 7650 9500 50 
+$EndSheet
+$Sheet
+S 5850 8950 1150 750 
+U 61B359B1
+F0 "Votage Monitors" 50
+F1 "MC-DSP-VoltageMonitors.sch" 50
+F2 "GlobalReset" I L 5850 9350 50 
+$EndSheet
+$Sheet
+S 9400 8950 950  800 
+U 61B9C0F2
+F0 "DAC to BNC" 50
+F1 "MC-DSP-DACtoBNC.sch" 50
+$EndSheet
+$Comp
+L power:GND #PWR?
+U 1 1 61CC4346
+P -3850 10600
+F 0 "#PWR?" H -3850 10350 50  0001 C CNN
+F 1 "GND" H -3845 10427 50  0000 C CNN
+F 2 "" H -3850 10600 50  0001 C CNN
+F 3 "" H -3850 10600 50  0001 C CNN
+	1    -3850 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CC6558
+P -2250 10600
+F 0 "#PWR?" H -2250 10350 50  0001 C CNN
+F 1 "GND" H -2245 10427 50  0000 C CNN
+F 2 "" H -2250 10600 50  0001 C CNN
+F 3 "" H -2250 10600 50  0001 C CNN
+	1    -2250 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3850 10600 -3850 10450
+Connection ~ -3850 6750
+Wire Wire Line
+	-3850 6750 -3850 6650
+Connection ~ -3850 6850
+Wire Wire Line
+	-3850 6850 -3850 6750
+Connection ~ -3850 6950
+Wire Wire Line
+	-3850 6950 -3850 6850
+Connection ~ -3850 7050
+Wire Wire Line
+	-3850 7050 -3850 6950
+Connection ~ -3850 7150
+Wire Wire Line
+	-3850 7150 -3850 7050
+Connection ~ -3850 7250
+Wire Wire Line
+	-3850 7250 -3850 7150
+Connection ~ -3850 7350
+Wire Wire Line
+	-3850 7350 -3850 7250
+Connection ~ -3850 7450
+Wire Wire Line
+	-3850 7450 -3850 7350
+Connection ~ -3850 7550
+Wire Wire Line
+	-3850 7550 -3850 7450
+Connection ~ -3850 7650
+Wire Wire Line
+	-3850 7650 -3850 7550
+Connection ~ -3850 7750
+Wire Wire Line
+	-3850 7750 -3850 7650
+Connection ~ -3850 7850
+Wire Wire Line
+	-3850 7850 -3850 7750
+Connection ~ -3850 7950
+Wire Wire Line
+	-3850 7950 -3850 7850
+Connection ~ -3850 8050
+Wire Wire Line
+	-3850 8050 -3850 7950
+Connection ~ -3850 8150
+Wire Wire Line
+	-3850 8150 -3850 8050
+Connection ~ -3850 8250
+Wire Wire Line
+	-3850 8250 -3850 8150
+Connection ~ -3850 8350
+Wire Wire Line
+	-3850 8350 -3850 8250
+Connection ~ -3850 8450
+Wire Wire Line
+	-3850 8450 -3850 8350
+Connection ~ -3850 8550
+Wire Wire Line
+	-3850 8550 -3850 8450
+Connection ~ -3850 8650
+Wire Wire Line
+	-3850 8650 -3850 8550
+Connection ~ -3850 8750
+Wire Wire Line
+	-3850 8750 -3850 8650
+Connection ~ -3850 8850
+Wire Wire Line
+	-3850 8850 -3850 8750
+Connection ~ -3850 8950
+Wire Wire Line
+	-3850 8950 -3850 8850
+Connection ~ -3850 9050
+Wire Wire Line
+	-3850 9050 -3850 8950
+Connection ~ -3850 9150
+Wire Wire Line
+	-3850 9150 -3850 9050
+Connection ~ -3850 9250
+Wire Wire Line
+	-3850 9250 -3850 9150
+Connection ~ -3850 9350
+Wire Wire Line
+	-3850 9350 -3850 9250
+Connection ~ -3850 9450
+Wire Wire Line
+	-3850 9450 -3850 9350
+Connection ~ -3850 9550
+Wire Wire Line
+	-3850 9550 -3850 9450
+Connection ~ -3850 9650
+Wire Wire Line
+	-3850 9650 -3850 9550
+Connection ~ -3850 9750
+Wire Wire Line
+	-3850 9750 -3850 9650
+Connection ~ -3850 9850
+Wire Wire Line
+	-3850 9850 -3850 9750
+Connection ~ -3850 9950
+Wire Wire Line
+	-3850 9950 -3850 9850
+Connection ~ -3850 10050
+Wire Wire Line
+	-3850 10050 -3850 9950
+Connection ~ -3850 10150
+Wire Wire Line
+	-3850 10150 -3850 10050
+Connection ~ -3850 10250
+Wire Wire Line
+	-3850 10250 -3850 10150
+Connection ~ -3850 10350
+Wire Wire Line
+	-3850 10350 -3850 10250
+Connection ~ -3850 10450
+Wire Wire Line
+	-3850 10450 -3850 10350
+Wire Wire Line
+	-2250 10600 -2250 10450
+Connection ~ -2250 7750
+Wire Wire Line
+	-2250 7750 -2250 7650
+Connection ~ -2250 7850
+Wire Wire Line
+	-2250 7850 -2250 7750
+Connection ~ -2250 7950
+Wire Wire Line
+	-2250 7950 -2250 7850
+Connection ~ -2250 8050
+Wire Wire Line
+	-2250 8050 -2250 7950
+Connection ~ -2250 8150
+Wire Wire Line
+	-2250 8150 -2250 8050
+Connection ~ -2250 8250
+Wire Wire Line
+	-2250 8250 -2250 8150
+Connection ~ -2250 8350
+Wire Wire Line
+	-2250 8350 -2250 8250
+Connection ~ -2250 8450
+Wire Wire Line
+	-2250 8450 -2250 8350
+Connection ~ -2250 8550
+Wire Wire Line
+	-2250 8550 -2250 8450
+Connection ~ -2250 8650
+Wire Wire Line
+	-2250 8650 -2250 8550
+Connection ~ -2250 8750
+Wire Wire Line
+	-2250 8750 -2250 8650
+Connection ~ -2250 8850
+Wire Wire Line
+	-2250 8850 -2250 8750
+Connection ~ -2250 8950
+Wire Wire Line
+	-2250 8950 -2250 8850
+Connection ~ -2250 9050
+Wire Wire Line
+	-2250 9050 -2250 8950
+Connection ~ -2250 9150
+Wire Wire Line
+	-2250 9150 -2250 9050
+Connection ~ -2250 9250
+Wire Wire Line
+	-2250 9250 -2250 9150
+Connection ~ -2250 9350
+Wire Wire Line
+	-2250 9350 -2250 9250
+Connection ~ -2250 9450
+Wire Wire Line
+	-2250 9450 -2250 9350
+Connection ~ -2250 9550
+Wire Wire Line
+	-2250 9550 -2250 9450
+Connection ~ -2250 9650
+Wire Wire Line
+	-2250 9650 -2250 9550
+Connection ~ -2250 9750
+Wire Wire Line
+	-2250 9750 -2250 9650
+Connection ~ -2250 9850
+Wire Wire Line
+	-2250 9850 -2250 9750
+Connection ~ -2250 9950
+Wire Wire Line
+	-2250 9950 -2250 9850
+Connection ~ -2250 10050
+Wire Wire Line
+	-2250 10050 -2250 9950
+Connection ~ -2250 10150
+Wire Wire Line
+	-2250 10150 -2250 10050
+Connection ~ -2250 10250
+Wire Wire Line
+	-2250 10250 -2250 10150
+Connection ~ -2250 10350
+Wire Wire Line
+	-2250 10350 -2250 10250
+Connection ~ -2250 10450
+Wire Wire Line
+	-2250 10450 -2250 10350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61CCB576
+P -2150 3300
+F 0 "#PWR?" H -2150 3150 50  0001 C CNN
+F 1 "+3V3" H -2135 3473 50  0000 C CNN
+F 2 "" H -2150 3300 50  0001 C CNN
+F 3 "" H -2150 3300 50  0001 C CNN
+	1    -2150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 61CCE41D
+P 1250 900
+F 0 "#PWR?" H 1250 750 50  0001 C CNN
+F 1 "+1V2" H 1265 1073 50  0000 C CNN
+F 2 "" H 1250 900 50  0001 C CNN
+F 3 "" H 1250 900 50  0001 C CNN
+	1    1250 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2150 3300 -2150 3400
+Connection ~ -2150 3400
+Wire Wire Line
+	-2150 3400 -2150 3500
+Connection ~ -2150 3500
+Wire Wire Line
+	-2150 3500 -2150 3600
+Connection ~ -2150 3600
+Wire Wire Line
+	-2150 3600 -2150 3700
+Connection ~ -2150 3700
+Wire Wire Line
+	-2150 3700 -2150 3800
+Connection ~ -2150 3800
+Wire Wire Line
+	-2150 3800 -2150 3900
+Connection ~ -2150 3900
+Wire Wire Line
+	-2150 3900 -2150 4000
+Connection ~ -2150 4000
+Wire Wire Line
+	-2150 4000 -2150 4100
+Connection ~ -2150 4100
+Wire Wire Line
+	-2150 4100 -2150 4200
+Connection ~ -2150 4200
+Wire Wire Line
+	-2150 4200 -2150 4300
+Connection ~ -2150 4300
+Wire Wire Line
+	-2150 4300 -2150 4400
+Connection ~ -2150 4400
+Wire Wire Line
+	-2150 4400 -2150 4500
+Connection ~ -2150 4500
+Wire Wire Line
+	-2150 4500 -2150 4600
+Connection ~ -2150 4600
+Wire Wire Line
+	-2150 4600 -2150 4700
+Connection ~ -2150 4700
+Wire Wire Line
+	-2150 4700 -2150 4800
+Connection ~ -2150 4800
+Wire Wire Line
+	-2150 4800 -2150 4900
+Connection ~ -2150 4900
+Wire Wire Line
+	-2150 4900 -2150 5000
+Connection ~ -2150 5000
+Wire Wire Line
+	-2150 5000 -2150 5100
+Connection ~ -2150 5100
+Wire Wire Line
+	-2150 5100 -2150 5200
+Connection ~ -2150 5200
+Wire Wire Line
+	-2150 5200 -2150 5300
+Connection ~ -2150 5300
+Wire Wire Line
+	-2150 5300 -2150 5400
+Connection ~ -2150 5400
+Wire Wire Line
+	-2150 5400 -2150 5500
+Connection ~ -2150 5500
+Wire Wire Line
+	-2150 5500 -2150 5600
+Connection ~ -2150 5600
+Wire Wire Line
+	-2150 5600 -2150 5700
+Connection ~ -2150 5700
+Wire Wire Line
+	-2150 5700 -2150 5800
+Connection ~ -2150 5800
+Wire Wire Line
+	-2150 5800 -2150 5900
+Connection ~ -2150 5900
+Wire Wire Line
+	-2150 5900 -2150 6000
+Connection ~ -2150 6000
+Wire Wire Line
+	-2150 6000 -2150 6100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61CE02BE
+P -3950 3300
+F 0 "#PWR?" H -3950 3150 50  0001 C CNN
+F 1 "+3V3" H -3935 3473 50  0000 C CNN
+F 2 "" H -3950 3300 50  0001 C CNN
+F 3 "" H -3950 3300 50  0001 C CNN
+	1    -3950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3950 3300 -3950 3400
+Connection ~ -3950 4000
+Wire Wire Line
+	-3950 4000 -3950 4100
+Wire Wire Line
+	-3950 5600 -3950 5500
+Connection ~ -3950 4400
+Wire Wire Line
+	-3950 4400 -3950 4300
+Connection ~ -3950 4500
+Wire Wire Line
+	-3950 4500 -3950 4400
+Connection ~ -3950 4600
+Wire Wire Line
+	-3950 4600 -3950 4500
+Connection ~ -3950 4700
+Wire Wire Line
+	-3950 4700 -3950 4600
+Connection ~ -3950 4800
+Wire Wire Line
+	-3950 4800 -3950 4700
+Connection ~ -3950 4900
+Wire Wire Line
+	-3950 4900 -3950 4800
+Connection ~ -3950 5000
+Wire Wire Line
+	-3950 5000 -3950 4900
+Connection ~ -3950 5100
+Wire Wire Line
+	-3950 5100 -3950 5000
+Connection ~ -3950 5200
+Wire Wire Line
+	-3950 5200 -3950 5100
+Connection ~ -3950 5300
+Wire Wire Line
+	-3950 5300 -3950 5200
+Connection ~ -3950 5400
+Wire Wire Line
+	-3950 5400 -3950 5300
+Connection ~ -3950 5500
+Wire Wire Line
+	-3950 5500 -3950 5400
+$Comp
+L power:+1V2 #PWR?
+U 1 1 61CEB5A1
+P -4150 4300
+F 0 "#PWR?" H -4150 4150 50  0001 C CNN
+F 1 "+1V2" H -4135 4473 50  0000 C CNN
+F 2 "" H -4150 4300 50  0001 C CNN
+F 3 "" H -4150 4300 50  0001 C CNN
+	1    -4150 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4150 4300 -3950 4300
+Connection ~ -3950 4300
+Connection ~ -3950 3400
+Wire Wire Line
+	-3950 3400 -3950 3500
+Connection ~ -3950 3500
+Wire Wire Line
+	-3950 3500 -3950 4000
+$Comp
+L power:GND #PWR?
+U 1 1 61CFC833
+P -2050 2850
+F 0 "#PWR?" H -2050 2600 50  0001 C CNN
+F 1 "GND" H -2045 2677 50  0000 C CNN
+F 2 "" H -2050 2850 50  0001 C CNN
+F 3 "" H -2050 2850 50  0001 C CNN
+	1    -2050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 2850 -2050 2750
+Connection ~ -2050 2450
+Wire Wire Line
+	-2050 2450 -2050 2350
+Connection ~ -2050 2550
+Wire Wire Line
+	-2050 2550 -2050 2450
+Connection ~ -2050 2650
+Wire Wire Line
+	-2050 2650 -2050 2550
+Connection ~ -2050 2750
+Wire Wire Line
+	-2050 2750 -2050 2650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61D06B25
+P -2050 1600
+F 0 "#PWR?" H -2050 1450 50  0001 C CNN
+F 1 "+3V3" H -2035 1773 50  0000 C CNN
+F 2 "" H -2050 1600 50  0001 C CNN
+F 3 "" H -2050 1600 50  0001 C CNN
+	1    -2050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 1600 -2050 1700
+Connection ~ -2050 1700
+Wire Wire Line
+	-2050 1700 -2050 1800
+$Comp
+L Device:C C?
+U 1 1 61D3D678
+P 1150 1250
+F 0 "C?" V 1050 1150 50  0000 C CNN
+F 1 "0.1uF" V 1050 1400 50  0000 C CNN
+F 2 "" H 1188 1100 50  0001 C CNN
+F 3 "~" H 1150 1250 50  0001 C CNN
+	1    1150 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D4E27A
+P 1350 1250
+F 0 "C?" V 1250 1150 50  0000 C CNN
+F 1 "0.1uF" V 1250 1400 50  0000 C CNN
+F 2 "" H 1388 1100 50  0001 C CNN
+F 3 "~" H 1350 1250 50  0001 C CNN
+	1    1350 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D4E7DF
+P 1550 1250
+F 0 "C?" V 1450 1150 50  0000 C CNN
+F 1 "0.1uF" V 1450 1400 50  0000 C CNN
+F 2 "" H 1588 1100 50  0001 C CNN
+F 3 "~" H 1550 1250 50  0001 C CNN
+	1    1550 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D4EBAD
+P 1750 1250
+F 0 "C?" V 1650 1150 50  0000 C CNN
+F 1 "0.1uF" V 1650 1400 50  0000 C CNN
+F 2 "" H 1788 1100 50  0001 C CNN
+F 3 "~" H 1750 1250 50  0001 C CNN
+	1    1750 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D4F0D5
+P 1950 1250
+F 0 "C?" V 1850 1150 50  0000 C CNN
+F 1 "0.1uF" V 1850 1400 50  0000 C CNN
+F 2 "" H 1988 1100 50  0001 C CNN
+F 3 "~" H 1950 1250 50  0001 C CNN
+	1    1950 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D4F543
+P 2150 1250
+F 0 "C?" V 2050 1150 50  0000 C CNN
+F 1 "0.1uF" V 2050 1400 50  0000 C CNN
+F 2 "" H 2188 1100 50  0001 C CNN
+F 3 "~" H 2150 1250 50  0001 C CNN
+	1    2150 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D4F974
+P 2350 1250
+F 0 "C?" V 2250 1150 50  0000 C CNN
+F 1 "0.1uF" V 2250 1400 50  0000 C CNN
+F 2 "" H 2388 1100 50  0001 C CNN
+F 3 "~" H 2350 1250 50  0001 C CNN
+	1    2350 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61D58754
+P 2250 1600
+F 0 "#PWR?" H 2250 1350 50  0001 C CNN
+F 1 "GND" H 2255 1427 50  0000 C CNN
+F 2 "" H 2250 1600 50  0001 C CNN
+F 3 "" H 2250 1600 50  0001 C CNN
+	1    2250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 900  2350 1100
+Wire Wire Line
+	2350 1400 2350 1600
+Wire Wire Line
+	2350 1600 2250 1600
+Wire Wire Line
+	1150 1400 1150 1600
+Wire Wire Line
+	1150 1600 1350 1600
+Wire Wire Line
+	1350 1400 1350 1600
+Connection ~ 1350 1600
+Wire Wire Line
+	1550 1400 1550 1600
+Connection ~ 1550 1600
+Wire Wire Line
+	1550 1600 1350 1600
+Wire Wire Line
+	1750 1400 1750 1600
+Connection ~ 1750 1600
+Wire Wire Line
+	1750 1600 1550 1600
+Wire Wire Line
+	1950 1400 1950 1600
+Connection ~ 1950 1600
+Wire Wire Line
+	1950 1600 1750 1600
+Wire Wire Line
+	2150 1400 2150 1600
+Connection ~ 2150 1600
+Wire Wire Line
+	2150 1600 1950 1600
+Wire Wire Line
+	2150 1100 2150 900 
+Connection ~ 2150 900 
+Wire Wire Line
+	2150 900  2350 900 
+Wire Wire Line
+	1950 1100 1950 900 
+Connection ~ 1950 900 
+Wire Wire Line
+	1950 900  2150 900 
+Wire Wire Line
+	1750 1100 1750 900 
+Connection ~ 1750 900 
+Wire Wire Line
+	1750 900  1950 900 
+Wire Wire Line
+	1550 1100 1550 900 
+Wire Wire Line
+	1250 900  1150 900 
+Connection ~ 1550 900 
+Wire Wire Line
+	1550 900  1750 900 
+Wire Wire Line
+	1350 1100 1350 900 
+Connection ~ 1350 900 
+Wire Wire Line
+	1350 900  1550 900 
+Wire Wire Line
+	1150 1100 1150 900 
+Connection ~ 1250 900 
+Wire Wire Line
+	1250 900  1350 900 
+Connection ~ 2250 1600
+Wire Wire Line
+	2250 1600 2150 1600
+$Comp
+L Device:C C?
+U 1 1 61DFE56F
+P 2950 1250
+F 0 "C?" V 2850 1150 50  0000 C CNN
+F 1 "0.1uF" V 2850 1400 50  0000 C CNN
+F 2 "" H 2988 1100 50  0001 C CNN
+F 3 "~" H 2950 1250 50  0001 C CNN
+	1    2950 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61DFE575
+P 3150 1250
+F 0 "C?" V 3050 1150 50  0000 C CNN
+F 1 "0.1uF" V 3050 1400 50  0000 C CNN
+F 2 "" H 3188 1100 50  0001 C CNN
+F 3 "~" H 3150 1250 50  0001 C CNN
+	1    3150 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61DFE599
+P 3050 1600
+F 0 "#PWR?" H 3050 1350 50  0001 C CNN
+F 1 "GND" H 3055 1427 50  0000 C CNN
+F 2 "" H 3050 1600 50  0001 C CNN
+F 3 "" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1400 2950 1600
+Wire Wire Line
+	2950 1600 3050 1600
+Wire Wire Line
+	3150 1400 3150 1600
+Wire Wire Line
+	3150 1100 3150 900 
+Wire Wire Line
+	2950 1100 2950 900 
+Wire Wire Line
+	2950 900  3050 900 
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61E09827
+P 3050 900
+F 0 "#PWR?" H 3050 750 50  0001 C CNN
+F 1 "+3V3" H 3065 1073 50  0000 C CNN
+F 2 "" H 3050 900 50  0001 C CNN
+F 3 "" H 3050 900 50  0001 C CNN
+	1    3050 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 900 
+Wire Wire Line
+	3050 900  3150 900 
+Wire Wire Line
+	3050 1600 3150 1600
+Connection ~ 3050 1600
+$Comp
+L Device:C C?
+U 1 1 61E2DDDC
+P 1050 2500
+F 0 "C?" V 950 2400 50  0000 C CNN
+F 1 "0.1uF" V 950 2650 50  0000 C CNN
+F 2 "" H 1088 2350 50  0001 C CNN
+F 3 "~" H 1050 2500 50  0001 C CNN
+	1    1050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E2DDE2
+P 1250 2500
+F 0 "C?" V 1150 2400 50  0000 C CNN
+F 1 "0.1uF" V 1150 2650 50  0000 C CNN
+F 2 "" H 1288 2350 50  0001 C CNN
+F 3 "~" H 1250 2500 50  0001 C CNN
+	1    1250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E2DDE8
+P 1450 2500
+F 0 "C?" V 1350 2400 50  0000 C CNN
+F 1 "0.1uF" V 1350 2650 50  0000 C CNN
+F 2 "" H 1488 2350 50  0001 C CNN
+F 3 "~" H 1450 2500 50  0001 C CNN
+	1    1450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E2DDEE
+P 1650 2500
+F 0 "C?" V 1550 2400 50  0000 C CNN
+F 1 "0.1uF" V 1550 2650 50  0000 C CNN
+F 2 "" H 1688 2350 50  0001 C CNN
+F 3 "~" H 1650 2500 50  0001 C CNN
+	1    1650 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E2DDF4
+P 1850 2500
+F 0 "C?" V 1750 2400 50  0000 C CNN
+F 1 "0.1uF" V 1750 2650 50  0000 C CNN
+F 2 "" H 1888 2350 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E2DDFA
+P 2050 2500
+F 0 "C?" V 1950 2400 50  0000 C CNN
+F 1 "0.1uF" V 1950 2650 50  0000 C CNN
+F 2 "" H 2088 2350 50  0001 C CNN
+F 3 "~" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E2DE00
+P 2250 2500
+F 0 "C?" V 2150 2400 50  0000 C CNN
+F 1 "0.1uF" V 2150 2650 50  0000 C CNN
+F 2 "" H 2288 2350 50  0001 C CNN
+F 3 "~" H 2250 2500 50  0001 C CNN
+	1    2250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61E2DE06
+P 3950 2850
+F 0 "#PWR?" H 3950 2600 50  0001 C CNN
+F 1 "GND" H 3955 2677 50  0000 C CNN
+F 2 "" H 3950 2850 50  0001 C CNN
+F 3 "" H 3950 2850 50  0001 C CNN
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2150 2250 2350
+Wire Wire Line
+	2250 2650 2250 2850
+Wire Wire Line
+	1050 2650 1050 2850
+Wire Wire Line
+	1050 2850 1250 2850
+Wire Wire Line
+	1250 2650 1250 2850
+Connection ~ 1250 2850
+Wire Wire Line
+	1450 2650 1450 2850
+Connection ~ 1450 2850
+Wire Wire Line
+	1450 2850 1250 2850
+Wire Wire Line
+	1650 2650 1650 2850
+Connection ~ 1650 2850
+Wire Wire Line
+	1650 2850 1450 2850
+Wire Wire Line
+	1850 2650 1850 2850
+Connection ~ 1850 2850
+Wire Wire Line
+	1850 2850 1650 2850
+Wire Wire Line
+	2050 2650 2050 2850
+Connection ~ 2050 2850
+Wire Wire Line
+	2050 2850 1850 2850
+Wire Wire Line
+	2050 2350 2050 2150
+Connection ~ 2050 2150
+Wire Wire Line
+	2050 2150 2250 2150
+Wire Wire Line
+	1850 2350 1850 2150
+Connection ~ 1850 2150
+Wire Wire Line
+	1850 2150 2050 2150
+Wire Wire Line
+	1650 2350 1650 2150
+Connection ~ 1650 2150
+Wire Wire Line
+	1650 2150 1850 2150
+Wire Wire Line
+	1450 2350 1450 2150
+Connection ~ 1450 2150
+Wire Wire Line
+	1450 2150 1650 2150
+Wire Wire Line
+	1250 2350 1250 2150
+Connection ~ 1250 2150
+Wire Wire Line
+	1250 2150 1450 2150
+Wire Wire Line
+	1050 2350 1050 2150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61E39C9E
+P 1150 2150
+F 0 "#PWR?" H 1150 2000 50  0001 C CNN
+F 1 "+3V3" H 1165 2323 50  0000 C CNN
+F 2 "" H 1150 2150 50  0001 C CNN
+F 3 "" H 1150 2150 50  0001 C CNN
+	1    1150 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 2150 1150 2150
+Wire Wire Line
+	2050 2850 2250 2850
+Connection ~ 1150 2150
+Wire Wire Line
+	1150 2150 1250 2150
+$Comp
+L Device:C C?
+U 1 1 61E41A0E
+P 2450 2500
+F 0 "C?" V 2350 2400 50  0000 C CNN
+F 1 "0.1uF" V 2350 2650 50  0000 C CNN
+F 2 "" H 2488 2350 50  0001 C CNN
+F 3 "~" H 2450 2500 50  0001 C CNN
+	1    2450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E41A14
+P 2650 2500
+F 0 "C?" V 2550 2400 50  0000 C CNN
+F 1 "0.1uF" V 2550 2650 50  0000 C CNN
+F 2 "" H 2688 2350 50  0001 C CNN
+F 3 "~" H 2650 2500 50  0001 C CNN
+	1    2650 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E41A1A
+P 2850 2500
+F 0 "C?" V 2750 2400 50  0000 C CNN
+F 1 "0.1uF" V 2750 2650 50  0000 C CNN
+F 2 "" H 2888 2350 50  0001 C CNN
+F 3 "~" H 2850 2500 50  0001 C CNN
+	1    2850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E41A20
+P 3050 2500
+F 0 "C?" V 2950 2400 50  0000 C CNN
+F 1 "0.1uF" V 2950 2650 50  0000 C CNN
+F 2 "" H 3088 2350 50  0001 C CNN
+F 3 "~" H 3050 2500 50  0001 C CNN
+	1    3050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E41A26
+P 3250 2500
+F 0 "C?" V 3150 2400 50  0000 C CNN
+F 1 "0.1uF" V 3150 2650 50  0000 C CNN
+F 2 "" H 3288 2350 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 2150 3250 2350
+Wire Wire Line
+	3250 2650 3250 2850
+Wire Wire Line
+	2450 2650 2450 2850
+Connection ~ 2450 2850
+Wire Wire Line
+	2450 2850 2250 2850
+Wire Wire Line
+	2650 2650 2650 2850
+Connection ~ 2650 2850
+Wire Wire Line
+	2650 2850 2450 2850
+Wire Wire Line
+	2850 2650 2850 2850
+Connection ~ 2850 2850
+Wire Wire Line
+	2850 2850 2650 2850
+Wire Wire Line
+	3050 2650 3050 2850
+Connection ~ 3050 2850
+Wire Wire Line
+	3050 2850 2850 2850
+Wire Wire Line
+	3050 2350 3050 2150
+Connection ~ 3050 2150
+Wire Wire Line
+	3050 2150 3250 2150
+Wire Wire Line
+	2850 2350 2850 2150
+Connection ~ 2850 2150
+Wire Wire Line
+	2850 2150 3050 2150
+Wire Wire Line
+	2650 2350 2650 2150
+Connection ~ 2650 2150
+Wire Wire Line
+	2650 2150 2850 2150
+Wire Wire Line
+	2450 2350 2450 2150
+Connection ~ 2450 2150
+Wire Wire Line
+	2450 2150 2650 2150
+Wire Wire Line
+	2250 2150 2450 2150
+Wire Wire Line
+	3050 2850 3250 2850
+$Comp
+L Device:C C?
+U 1 1 61E5551F
+P 3450 2500
+F 0 "C?" V 3350 2400 50  0000 C CNN
+F 1 "0.1uF" V 3350 2650 50  0000 C CNN
+F 2 "" H 3488 2350 50  0001 C CNN
+F 3 "~" H 3450 2500 50  0001 C CNN
+	1    3450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E55525
+P 3650 2500
+F 0 "C?" V 3550 2400 50  0000 C CNN
+F 1 "0.1uF" V 3550 2650 50  0000 C CNN
+F 2 "" H 3688 2350 50  0001 C CNN
+F 3 "~" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E5552B
+P 3850 2500
+F 0 "C?" V 3750 2400 50  0000 C CNN
+F 1 "0.1uF" V 3750 2650 50  0000 C CNN
+F 2 "" H 3888 2350 50  0001 C CNN
+F 3 "~" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61E55531
+P 4050 2500
+F 0 "C?" V 3950 2400 50  0000 C CNN
+F 1 "0.1uF" V 3950 2650 50  0000 C CNN
+F 2 "" H 4088 2350 50  0001 C CNN
+F 3 "~" H 4050 2500 50  0001 C CNN
+	1    4050 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 2150 4050 2350
+Wire Wire Line
+	4050 2650 4050 2850
+Wire Wire Line
+	3450 2650 3450 2850
+Connection ~ 3450 2850
+Wire Wire Line
+	3450 2850 3250 2850
+Wire Wire Line
+	3650 2650 3650 2850
+Connection ~ 3650 2850
+Wire Wire Line
+	3650 2850 3450 2850
+Wire Wire Line
+	3850 2650 3850 2850
+Connection ~ 3850 2850
+Wire Wire Line
+	3850 2850 3650 2850
+Wire Wire Line
+	3850 2350 3850 2150
+Connection ~ 3850 2150
+Wire Wire Line
+	3850 2150 4050 2150
+Wire Wire Line
+	3650 2350 3650 2150
+Connection ~ 3650 2150
+Wire Wire Line
+	3650 2150 3850 2150
+Wire Wire Line
+	3450 2350 3450 2150
+Connection ~ 3450 2150
+Wire Wire Line
+	3450 2150 3650 2150
+Wire Wire Line
+	3250 2150 3450 2150
+Wire Wire Line
+	3850 2850 3950 2850
+Connection ~ 3950 2850
+Wire Wire Line
+	3950 2850 4050 2850
+$Comp
+L power:GND #PWR?
+U 1 1 61E83E73
+P 3900 1600
+F 0 "#PWR?" H 3900 1350 50  0001 C CNN
+F 1 "GND" H 3905 1427 50  0000 C CNN
+F 2 "" H 3900 1600 50  0001 C CNN
+F 3 "" H 3900 1600 50  0001 C CNN
+	1    3900 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1400 3900 1600
+Wire Wire Line
+	3900 1100 3900 900 
+$Comp
+L Device:R R?
+U 1 1 61F05F2D
+P 3900 1250
+F 0 "R?" H 3970 1296 50  0000 L CNN
+F 1 "56R" H 3970 1205 50  0000 L CNN
+F 2 "" V 3830 1250 50  0001 C CNN
+F 3 "~" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+Text Notes 2400 3150 0    50   ~ 0
+Place near U1
+Text Notes 7900 5900 0    50   ~ 0
+Add isolated regulator\nto FTDI isolated section?
+Text Notes 1650 3600 0    50   ~ 0
+Seperate 5V,3V3,1V8,1V2,VDD_3V3,VDDA_3V3,VDD_1V2
+Text Notes 2150 3750 0    50   ~ 0
+How to Buffer DAC outputs?\n
+Text Notes 1050 4950 0    50   ~ 0
+TODO:\nADC vrefs\nADC ESD protection\nedge connecter\nFO_Enable switch\nDSP GPIO Routing
+$Comp
+L power:+1V2 #PWR?
+U 1 1 61F82961
+P 3900 900
+F 0 "#PWR?" H 3900 750 50  0001 C CNN
+F 1 "+1V2" H 3915 1073 50  0000 C CNN
+F 2 "" H 3900 900 50  0001 C CNN
+F 3 "" H 3900 900 50  0001 C CNN
+	1    3900 900 
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 1200 0    50   ~ 0
+add pads for these for all v levels?
+Text Notes 4200 1300 0    50   ~ 0
+look at min loads
+Text Notes 2150 3900 0    50   ~ 0
+Add Vreg to FTDI circuit
+Text Notes 1025 5250 0    50   ~ 0
+ADD JTAG connector between DSP and FTDI chip\nDSP pg 110\n
+Text Notes 1050 5500 0    50   ~ 0
+Move all power flags to be isolated
 $EndSCHEMATC

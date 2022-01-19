@@ -24,12 +24,13 @@
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
+    (38 B.Mask user)
     (39 F.Mask user)
     (41 Cmts.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
-    (47 F.CrtYd user hide)
+    (47 F.CrtYd user)
     (49 F.Fab user)
   )
 
@@ -65,7 +66,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x010b8_ffffffff)
+      (layerselection 0x00040_7ffffff8)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -213,10 +214,10 @@
   (module BU4847F-TR:SOT130P210X105-4N (layer F.Cu) (tedit 6189A481) (tstamp 618B7D60)
     (at 168.275 66.802 180)
     (path /6175812E/61A5F13F)
-    (fp_text reference U182 (at 0.635 -1.778) (layer F.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.2)))
+    (fp_text reference U182 (at 0.167055 -1.907023) (layer F.SilkS)
+      (effects (font (size 0.640209 0.640209) (thickness 0.15)))
     )
-    (fp_text value BU4847F-TR (at 5.008681 1.881434) (layer F.Fab) hide
+    (fp_text value BU4847F-TR (at 5.008681 1.881434) (layer F.Fab)
       (effects (font (size 0.640624 0.640624) (thickness 0.15)))
     )
     (fp_line (start -0.73 -1.1) (end -0.73 1.1) (layer F.Fab) (width 0.127))
@@ -252,9 +253,9 @@
     (at 168.021 72.898 180)
     (path /6175812E/61A601DB)
     (fp_text reference U181 (at 0.167055 -1.907023) (layer F.SilkS)
-      (effects (font (size 0.8 0.8) (thickness 0.2)))
+      (effects (font (size 0.640209 0.640209) (thickness 0.15)))
     )
-    (fp_text value BU4831F-TR (at 5.008681 1.881434) (layer F.Fab) hide
+    (fp_text value BU4831F-TR (at 5.008681 1.881434) (layer F.Fab)
       (effects (font (size 0.640624 0.640624) (thickness 0.15)))
     )
     (fp_line (start -0.73 -1.1) (end -0.73 1.1) (layer F.Fab) (width 0.127))
@@ -546,6 +547,16 @@
       (net 17 "Net-(D181-Pad2)"))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.445 1.445) (drill 0.889) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model "C:/Program Files/KiCad/share/kicad/modules/LED_THT.pretty/LED_D2.0mm_W4.8mm_H2.5mm_FlatTop.kicad_mod"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm.wrl
+      (offset (xyz 0 2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Capacitor_SMD:C_1210_3225Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6183E139)
@@ -1844,7 +1855,7 @@
     )
     (pad "" np_thru_hole circle (at -24.13 2.54 90) (size 2.85 2.85) (drill 2.85) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 24.13 2.54 90) (size 2.85 2.85) (drill 2.85) (layers *.Cu *.Mask))
-    (pad 1 thru_hole roundrect (at -19.05 5.08 90) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1612896774193548)
+    (pad 1 thru_hole roundrect (at -19.05 5.08 90) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.1612890322580645)
       (net 1 GND))
     (pad 2 thru_hole circle (at -16.51 5.08 90) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
@@ -1908,10 +1919,10 @@
       (net 18 EPWM1A))
     (pad 32 thru_hole circle (at 19.05 10.16 90) (size 1.55 1.55) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_DIN.3dshapes/DIN41612_C2_2x16_Male_Horizontal_THT.wrl
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Connector_Dsub.3dshapes/DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.step
+      (offset (xyz -16.5 -10 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -3118,6 +3129,11 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_SO:SOIC-14_3.9x8.7mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 6183E70B)
@@ -3235,6 +3251,11 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_SO:SOIC-14_3.9x8.7mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 6183E751)
@@ -3352,6 +3373,11 @@
       (net 37 "Net-(U62-PadMH1)"))
     (pad MH2 np_thru_hole circle (at -0.635 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
     (pad MH3 np_thru_hole circle (at 4.445 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_SO:SOIC-14_3.9x8.7mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 6183E797)
@@ -3469,6 +3495,11 @@
       (net 39 "Net-(U82-PadMH1)"))
     (pad MH2 np_thru_hole circle (at -0.635 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
     (pad MH3 np_thru_hole circle (at 4.445 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_SO:SOIC-14_3.9x8.7mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 6183E7DD)
@@ -3586,6 +3617,11 @@
       (net 41 "Net-(U102-PadMH1)"))
     (pad MH2 np_thru_hole circle (at -0.635 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
     (pad MH3 np_thru_hole circle (at 4.445 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_SO:SOIC-14_3.9x8.7mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 6183E823)
@@ -3703,6 +3739,11 @@
       (net 43 "Net-(U122-PadMH1)"))
     (pad MH2 np_thru_hole circle (at -0.635 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
     (pad MH3 np_thru_hole circle (at 4.445 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Footprints_MC-FO:IFE98 locked (layer F.Cu) (tedit 0) (tstamp 618461F1)
@@ -3757,6 +3798,11 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 90) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask)
       (net 4 /Detector1/5V))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 5D9F72B1) (tstamp 6183E889)
@@ -3903,6 +3949,11 @@
       (net 46 "Net-(U161-PadMH1)"))
     (pad MH2 np_thru_hole circle (at -0.635 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
     (pad MH3 np_thru_hole circle (at 4.445 2.54 90) (size 1.775 0) (drill 1.775) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/Footprints_MC-FO/FOport-IFE98-IFD97.STEP
+      (offset (xyz 1.9 -16.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Package_TO_SOT_SMD:SOT-353_SC-70-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 6183E8EF)
@@ -4913,7 +4964,7 @@
   (segment (start 144.145 70.739) (end 145.161 69.723) (width 1.016) (layer F.Cu) (net 51))
   (segment (start 144.145 73.34) (end 144.145 70.739) (width 1.016) (layer F.Cu) (net 51))
 
-  (zone (net 1) (net_name GND) (layer GND1.Cu) (tstamp 618A9D12) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer GND1.Cu) (tstamp 618AD5AA) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.381))
@@ -6266,7 +6317,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer GND2.Cu) (tstamp 618A9D0F) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer GND2.Cu) (tstamp 618AD5A7) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.381))
@@ -7619,7 +7670,7 @@
       )
     )
   )
-  (zone (net 4) (net_name /Detector1/5V) (layer B.Cu) (tstamp 618A9D0C) (hatch edge 0.508)
+  (zone (net 4) (net_name /Detector1/5V) (layer B.Cu) (tstamp 618AD5A4) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.254) (thermal_bridge_width 0.381))

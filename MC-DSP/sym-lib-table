@@ -9,4 +9,7 @@
   (lib (name eec)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/CDCLVC1104PW/eec.lib")(options "")(descr ""))
   (lib (name TPS3703A5500DSER)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/TPS3703A5500DSER/KiCad/TPS3703A5500DSER.lib")(options "")(descr ""))
   (lib (name 74ACT08SCX)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/74ACT08SCX/KiCad/74ACT08SCX.lib")(options "")(descr ""))
+  (lib (name Existing_IC_Models)(type Legacy)(uri C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/MC-FO/Existing_IC_Models.lib)(options "")(descr ""))
+  (lib (name BU4847F-TR)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/BU4847F-TR/BU4847F-TR.lib")(options "")(descr ""))
+  (lib (name BU4831F-TR)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/BU4831F-TR/BU4831F-TR.lib")(options "")(descr ""))
 )

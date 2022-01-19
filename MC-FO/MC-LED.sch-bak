@@ -290,4 +290,6 @@ Wire Wire Line
 	4100 3375 4475 3375
 Wire Wire Line
 	4475 3175 4475 3075
+Text Notes 3200 1400 0    50   ~ 0
+3.3V Threshold = 3.11 V\n5V Threshold = 4.78 V
 $EndSCHEMATC
