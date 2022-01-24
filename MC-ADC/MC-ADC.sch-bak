@@ -1,0 +1,102 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small_US R11
+U 1 1 61EF18DB
+P 6250 3200
+F 0 "R11" V 6045 3200 50  0000 C CNN
+F 1 "50R" V 6136 3200 50  0000 C CNN
+F 2 "" H 6250 3200 50  0001 C CNN
+F 3 "~" H 6250 3200 50  0001 C CNN
+	1    6250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 61EF471A
+P 6550 3650
+F 0 "R10" V 6345 3650 50  0000 C CNN
+F 1 "1MOhm" V 6436 3650 50  0000 C CNN
+F 2 "" H 6550 3650 50  0001 C CNN
+F 3 "~" H 6550 3650 50  0001 C CNN
+	1    6550 3650
+	0    1    1    0   
+$EndComp
+Text HLabel 7300 2900 2    50   Input ~ 0
+RAW_INPUT
+$Comp
+L Device:Jumper JP10
+U 1 1 61EF93AE
+P 6550 2900
+F 0 "JP10" H 6550 3164 50  0000 C CNN
+F 1 "Jumper" H 6550 3073 50  0000 C CNN
+F 2 "" H 6550 2900 50  0001 C CNN
+F 3 "~" H 6550 2900 50  0001 C CNN
+	1    6550 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP11
+U 1 1 61EFA3D6
+P 6850 3200
+F 0 "JP11" V 6800 3500 50  0000 R CNN
+F 1 "Jumper" V 6900 3600 50  0000 R CNN
+F 2 "" H 6850 3200 50  0001 C CNN
+F 3 "~" H 6850 3200 50  0001 C CNN
+	1    6850 3200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6850 2900 7300 2900
+Connection ~ 6850 2900
+Wire Wire Line
+	6250 2900 6250 3100
+Wire Wire Line
+	6250 3300 6250 3650
+Wire Wire Line
+	6850 3500 6850 3650
+Wire Wire Line
+	6850 3650 6650 3650
+Wire Wire Line
+	6250 3650 6450 3650
+Wire Wire Line
+	6250 3650 6250 3700
+Connection ~ 6250 3650
+$Comp
+L power:GND #PWR?
+U 1 1 61F04885
+P 6250 3700
+F 0 "#PWR?" H 6250 3450 50  0001 C CNN
+F 1 "GND" H 6255 3527 50  0000 C CNN
+F 2 "" H 6250 3700 50  0001 C CNN
+F 3 "" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 61F07758
+P 10400 2250
+F 0 "J?" H 10500 2225 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10500 2134 50  0000 L CNN
+F 2 "" H 10400 2250 50  0001 C CNN
+F 3 " ~" H 10400 2250 50  0001 C CNN
+	1    10400 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 9850 2050 0    50   ~ 0
+all ADC card inputs go to BNC?\n
+$EndSCHEMATC
