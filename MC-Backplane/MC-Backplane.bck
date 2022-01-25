@@ -1,3 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 64600001223
+D Fuse Block cart 250V 6.3A PCB
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP 86094328314755V1LF
+D 48 Position Din Connector Receptacle, Female Sockets Gold Through Hole
+$ENDCMP
+#
 #End Doc Library
