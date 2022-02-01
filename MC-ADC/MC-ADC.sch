@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Connector:Conn_Coaxial J1
 U 1 1 61F07758
-P 950 950
-F 0 "J1" H 1100 950 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 1100 50  0000 L CNN
-F 2 "" H 950 950 50  0001 C CNN
-F 3 " ~" H 950 950 50  0001 C CNN
-	1    950  950 
+P 950 3150
+F 0 "J1" H 1100 3150 50  0000 L CNN
+F 1 "Conn_Coaxial" H 700 3300 50  0000 L CNN
+F 2 "" H 950 3150 50  0001 C CNN
+F 3 " ~" H 950 3150 50  0001 C CNN
+	1    950  3150
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -93,111 +93,45 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 61F0F6A2
-P 950 1400
-F 0 "J2" H 1100 1400 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 1550 50  0000 L CNN
-F 2 "" H 950 1400 50  0001 C CNN
-F 3 " ~" H 950 1400 50  0001 C CNN
-	1    950  1400
+P 950 3700
+F 0 "J2" H 1100 3700 50  0000 L CNN
+F 1 "Conn_Coaxial" H 700 3850 50  0000 L CNN
+F 2 "" H 950 3700 50  0001 C CNN
+F 3 " ~" H 950 3700 50  0001 C CNN
+	1    950  3700
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 61F100B8
-P 950 1850
-F 0 "J3" H 1100 1850 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 2000 50  0000 L CNN
-F 2 "" H 950 1850 50  0001 C CNN
-F 3 " ~" H 950 1850 50  0001 C CNN
-	1    950  1850
+P 950 4250
+F 0 "J3" H 1100 4250 50  0000 L CNN
+F 1 "Conn_Coaxial" H 700 4400 50  0000 L CNN
+F 2 "" H 950 4250 50  0001 C CNN
+F 3 " ~" H 950 4250 50  0001 C CNN
+	1    950  4250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J4
 U 1 1 61F10889
-P 950 2300
-F 0 "J4" H 1100 2300 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 2450 50  0000 L CNN
-F 2 "" H 950 2300 50  0001 C CNN
-F 3 " ~" H 950 2300 50  0001 C CNN
-	1    950  2300
+P 950 4750
+F 0 "J4" H 1100 4750 50  0000 L CNN
+F 1 "Conn_Coaxial" H 700 4900 50  0000 L CNN
+F 2 "" H 950 4750 50  0001 C CNN
+F 3 " ~" H 950 4750 50  0001 C CNN
+	1    950  4750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 61F1BB8F
-P 950 2750
-F 0 "J5" H 1100 2750 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 2900 50  0000 L CNN
-F 2 "" H 950 2750 50  0001 C CNN
-F 3 " ~" H 950 2750 50  0001 C CNN
-	1    950  2750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J6
-U 1 1 61F1BB95
-P 950 3200
-F 0 "J6" H 1100 3200 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 3350 50  0000 L CNN
-F 2 "" H 950 3200 50  0001 C CNN
-F 3 " ~" H 950 3200 50  0001 C CNN
-	1    950  3200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J7
-U 1 1 61F1BB9B
-P 950 3650
-F 0 "J7" H 1100 3650 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 3800 50  0000 L CNN
-F 2 "" H 950 3650 50  0001 C CNN
-F 3 " ~" H 950 3650 50  0001 C CNN
-	1    950  3650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J8
-U 1 1 61F1BBA1
-P 950 4100
-F 0 "J8" H 1100 4100 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 4250 50  0000 L CNN
-F 2 "" H 950 4100 50  0001 C CNN
-F 3 " ~" H 950 4100 50  0001 C CNN
-	1    950  4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J9
-U 1 1 61F20279
-P 950 4550
-F 0 "J9" H 1100 4550 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 4700 50  0000 L CNN
-F 2 "" H 950 4550 50  0001 C CNN
-F 3 " ~" H 950 4550 50  0001 C CNN
-	1    950  4550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J10
-U 1 1 61F2027F
-P 950 5000
-F 0 "J10" H 1100 5000 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 5150 50  0000 L CNN
-F 2 "" H 950 5000 50  0001 C CNN
-F 3 " ~" H 950 5000 50  0001 C CNN
-	1    950  5000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J11
-U 1 1 61F20285
-P 950 5450
-F 0 "J11" H 1100 5450 50  0000 L CNN
-F 1 "Conn_Coaxial" H 700 5600 50  0000 L CNN
-F 2 "" H 950 5450 50  0001 C CNN
-F 3 " ~" H 950 5450 50  0001 C CNN
-	1    950  5450
+P 950 5300
+F 0 "J5" H 1100 5300 50  0000 L CNN
+F 1 "Conn_Coaxial" H 700 5450 50  0000 L CNN
+F 2 "" H 950 5300 50  0001 C CNN
+F 3 " ~" H 950 5300 50  0001 C CNN
+	1    950  5300
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -231,16 +165,11 @@ Wire Wire Line
 Wire Wire Line
 	1450 5900 1450 6400
 Wire Wire Line
-	950  1150 6000 1150
-Wire Wire Line
 	6000 1150 6000 6400
-Wire Wire Line
-	1150 950  6100 950 
 Wire Wire Line
 	6100 950  6100 6400
 Wire Wire Line
 	6100 950  6600 950 
-Connection ~ 6100 950 
 Wire Wire Line
 	6600 950  6600 2100
 Wire Wire Line

@@ -303,4 +303,15 @@ GND
 Wire Wire Line
 	2600 6600 2850 6600
 Connection ~ 2850 6600
+$Comp
+L Jumper:Jumper_3_Bridged12 JP?
+U 1 1 61F9884A
+P 1750 2500
+F 0 "JP?" H 1750 2704 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 1750 2613 50  0000 C CNN
+F 2 "" H 1750 2500 50  0001 C CNN
+F 3 "~" H 1750 2500 50  0001 C CNN
+	1    1750 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
