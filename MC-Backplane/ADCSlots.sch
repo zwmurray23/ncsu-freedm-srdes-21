@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -57,4 +57,12 @@ F 3 "" H 9350 5750 50  0001 C CNN
 	1    9350 5750
 	1    0    0    -1  
 $EndComp
+Text Notes 2000 1150 0    50   ~ 0
+BNC Part 1\n3 Differential Pairs
+Text Notes 6400 1250 0    50   ~ 0
+BNC Part 2\n3 Differential Pairs
+Text Notes 4200 3850 0    50   ~ 0
+\n3 Pin Ratiometric Current
+Text Notes 9150 3800 0    50   ~ 0
+9 Pin DSUB
 $EndSCHEMATC
