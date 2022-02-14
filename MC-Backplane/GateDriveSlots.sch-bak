@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -77,22 +77,8 @@ Wire Wire Line
 Wire Wire Line
 	1550 3250 1250 3250
 Wire Wire Line
-	1250 3250 1250 3350
-Wire Wire Line
-	1550 3350 1250 3350
-Connection ~ 1250 3350
-Wire Wire Line
-	1250 3350 1250 3450
-Wire Wire Line
 	1550 3450 1250 3450
 Connection ~ 1250 3450
-Wire Wire Line
-	1250 3450 1250 3550
-Wire Wire Line
-	1550 3550 1250 3550
-Connection ~ 1250 3550
-Wire Wire Line
-	1250 3550 1250 3650
 Wire Wire Line
 	1550 3650 1250 3650
 Connection ~ 1250 3650
@@ -154,7 +140,7 @@ GND
 Text HLabel 2200 4900 0    50   Input ~ 0
 GND
 Text HLabel 2500 3150 2    50   Input ~ 0
-EPWM1_1A
+GD_EPWM1_1A
 Wire Wire Line
 	2050 4550 2500 4550
 Wire Wire Line
@@ -170,19 +156,19 @@ Wire Wire Line
 Wire Wire Line
 	2050 4350 2500 4350
 Text HLabel 2500 3350 2    50   Input ~ 0
-EPWM1_1B
+GD_EPWM1_1B
 Text HLabel 2500 3550 2    50   Input ~ 0
-RESET1_1
+GD_RESET1_1
 Text HLabel 2500 3750 2    50   Output ~ 0
-STATUS1_1
+GD_DPWM_STATUS1_1
 Text HLabel 2500 3950 2    50   Input ~ 0
-EPWM1_2A
+GD_EPWM1_2A
 Text HLabel 2500 4150 2    50   Input ~ 0
-EPWM1_2B
+GD_EPWM1_2B
 Text HLabel 2500 4350 2    50   Input ~ 0
-RESET1_2
+GD_RESET1_2
 Text HLabel 2500 4550 2    50   Output ~ 0
-STATUS1_2
+GD_DPWM_STATUS1_2
 Text HLabel 1100 3050 0    50   Input ~ 0
 24V
 $Comp
@@ -249,22 +235,8 @@ Wire Wire Line
 Wire Wire Line
 	4850 3000 4550 3000
 Wire Wire Line
-	4550 3000 4550 3100
-Wire Wire Line
-	4850 3100 4550 3100
-Connection ~ 4550 3100
-Wire Wire Line
-	4550 3100 4550 3200
-Wire Wire Line
 	4850 3200 4550 3200
 Connection ~ 4550 3200
-Wire Wire Line
-	4550 3200 4550 3300
-Wire Wire Line
-	4850 3300 4550 3300
-Connection ~ 4550 3300
-Wire Wire Line
-	4550 3300 4550 3400
 Wire Wire Line
 	4850 3400 4550 3400
 Connection ~ 4550 3400
@@ -320,7 +292,7 @@ GND
 Text HLabel 5500 4650 0    50   Input ~ 0
 GND
 Text HLabel 5800 2900 2    50   Input ~ 0
-EPWM2_1A
+GD_EPWM2_1A
 Wire Wire Line
 	5350 4300 5800 4300
 Wire Wire Line
@@ -336,19 +308,19 @@ Wire Wire Line
 Wire Wire Line
 	5350 4100 5800 4100
 Text HLabel 5800 3100 2    50   Input ~ 0
-EPWM2_1B
+GD_EPWM2_1B
 Text HLabel 5800 3300 2    50   Input ~ 0
-RESET2_1
+GD_RESET2_1
 Text HLabel 5800 3500 2    50   Output ~ 0
-STATUS2_1
+GD_DPWM_STATUS2_1
 Text HLabel 5800 3700 2    50   Input ~ 0
-EPWM2_2A
+GD_EPWM2_2A
 Text HLabel 5800 3900 2    50   Input ~ 0
-EPWM2_2B
+GD_EPWM2_2B
 Text HLabel 5800 4100 2    50   Input ~ 0
-RESET2_2
+GD_RESET2_2
 Text HLabel 5800 4300 2    50   Output ~ 0
-STATUS2_2
+GD_DPWM_STATUS2_2
 Text HLabel 4400 2800 0    50   Input ~ 0
 24V
 $Comp
@@ -415,22 +387,8 @@ Wire Wire Line
 Wire Wire Line
 	8600 2950 8300 2950
 Wire Wire Line
-	8300 2950 8300 3050
-Wire Wire Line
-	8600 3050 8300 3050
-Connection ~ 8300 3050
-Wire Wire Line
-	8300 3050 8300 3150
-Wire Wire Line
 	8600 3150 8300 3150
 Connection ~ 8300 3150
-Wire Wire Line
-	8300 3150 8300 3250
-Wire Wire Line
-	8600 3250 8300 3250
-Connection ~ 8300 3250
-Wire Wire Line
-	8300 3250 8300 3350
 Wire Wire Line
 	8600 3350 8300 3350
 Connection ~ 8300 3350
@@ -486,7 +444,7 @@ GND
 Text HLabel 9250 4600 0    50   Input ~ 0
 GND
 Text HLabel 9550 2850 2    50   Input ~ 0
-EPWM3_1A
+GD_EPWM3_1A
 Wire Wire Line
 	9100 4250 9550 4250
 Wire Wire Line
@@ -502,19 +460,55 @@ Wire Wire Line
 Wire Wire Line
 	9100 4050 9550 4050
 Text HLabel 9550 3050 2    50   Input ~ 0
-EPWM3_1B
+GD_EPWM3_1B
 Text HLabel 9550 3250 2    50   Input ~ 0
-RESET1_1
+GD_RESET1_1
 Text HLabel 9550 3450 2    50   Output ~ 0
-STATUS3_1
+GD_DPWM_STATUS3_1
 Text HLabel 9550 3650 2    50   Input ~ 0
-EPWM3_2A
+GD_EPWM3_2A
 Text HLabel 9550 3850 2    50   Input ~ 0
-EPWM3_2B
+GD_EPWM3_2B
 Text HLabel 9550 4050 2    50   Input ~ 0
-RESET3_2
+GD_RESET3_2
 Text HLabel 9550 4250 2    50   Output ~ 0
-STATUS3_2
+GD_DPWM_STATUS3_2
 Text HLabel 8150 2750 0    50   Input ~ 0
 24V
+Wire Wire Line
+	1250 3250 1250 3450
+Wire Wire Line
+	1250 3450 1250 3650
+Text HLabel 1100 3350 0    50   Input ~ 0
+EMITTER_ENABLE
+Text HLabel 1100 3550 0    50   BiDi ~ 0
+SAFE_STATE_FLAG
+Wire Wire Line
+	1550 3550 1100 3550
+Wire Wire Line
+	1100 3350 1550 3350
+Wire Wire Line
+	4550 3200 4550 3400
+Wire Wire Line
+	4550 3000 4550 3200
+Text HLabel 4400 3300 0    50   BiDi ~ 0
+SAFE_STATE_FLAG
+Text HLabel 4400 3100 0    50   Input ~ 0
+EMITTER_ENABLE
+Text HLabel 8150 3250 0    50   BiDi ~ 0
+SAFE_STATE_FLAG
+Text HLabel 8150 3050 0    50   Input ~ 0
+EMITTER_ENABLE
+Wire Wire Line
+	4850 3100 4400 3100
+Wire Wire Line
+	4400 3300 4850 3300
+Wire Wire Line
+	8300 2950 8300 3150
+Wire Wire Line
+	8300 3150 8300 3350
+Wire Wire Line
+	8150 3050 8600 3050
+Wire Wire Line
+	8600 3250 8150 3250
 $EndSCHEMATC

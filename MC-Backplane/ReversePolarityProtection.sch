@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -52,19 +52,6 @@ Wire Wire Line
 	6950 3250 6950 3200
 Wire Wire Line
 	6950 3200 6300 3200
-$Comp
-L power:GND #PWR?
-U 1 1 61FBD2CF
-P 6100 4050
-AR Path="/61FBD2CF" Ref="#PWR?"  Part="1" 
-AR Path="/61FBA43E/61FBD2CF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6100 3800 50  0001 C CNN
-F 1 "GND" H 6105 3877 50  0000 C CNN
-F 2 "" H 6100 4050 50  0001 C CNN
-F 3 "" H 6100 4050 50  0001 C CNN
-	1    6100 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 3950 6100 4050
 Text Notes 5500 2800 0    50   ~ 0
@@ -127,4 +114,6 @@ Text HLabel 4500 3200 0    50   Input ~ 0
 24V_unprotected
 Text Notes 1550 2000 0    50   ~ 0
 RDS of PMOS needs to be really small like miliohms.\n\nDrain current needs to be larger than what the load requires.\nVDS needs to be larger than the source voltage by a significant amount. 24V so around  45V-60V.\n\nThe Zener diode needs a voltage rating of just under VDS of the mosfet. \n\nnot sure about the resistors.
+Text HLabel 6100 4050 0    50   Output ~ 0
+GND
 $EndSCHEMATC
