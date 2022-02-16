@@ -1,0 +1,359 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 61F07758
+P 1050 3900
+AR Path="/620D84A4/61F07758" Ref="J?"  Part="1" 
+AR Path="/620D8862/61F07758" Ref="J?"  Part="1" 
+AR Path="/620D8F0D/61F07758" Ref="J?"  Part="1" 
+F 0 "J?" H 1200 3900 50  0000 L CNN
+F 1 "Conn_Coaxial" H 800 4050 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_031-6575_Horizontal" H 1050 3900 50  0001 C CNN
+F 3 " ~" H 1050 3900 50  0001 C CNN
+	1    1050 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61FE002F
+P 2600 4650
+AR Path="/61F0AAD9/61FE002F" Ref="R?"  Part="1" 
+AR Path="/61F25080/61FE002F" Ref="R?"  Part="1" 
+AR Path="/61FE002F" Ref="R?"  Part="1" 
+AR Path="/620D84A4/61FE002F" Ref="R?"  Part="1" 
+AR Path="/620D8862/61FE002F" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/61FE002F" Ref="R?"  Part="1" 
+F 0 "R?" H 2450 4600 50  0000 C CNN
+F 1 "50R" H 2450 4700 50  0000 C CNN
+F 2 "" H 2600 4650 50  0001 C CNN
+F 3 "~" H 2600 4650 50  0001 C CNN
+	1    2600 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-2450 3500 -2450 3600
+$Comp
+L Device:R_Small_US R?
+U 1 1 622AFC2D
+P -2800 3150
+AR Path="/61F0AAD9/622AFC2D" Ref="R?"  Part="1" 
+AR Path="/61F25080/622AFC2D" Ref="R?"  Part="1" 
+AR Path="/622AFC2D" Ref="DNP"  Part="1" 
+AR Path="/620D84A4/622AFC2D" Ref="R?"  Part="1" 
+AR Path="/620D8862/622AFC2D" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/622AFC2D" Ref="R?"  Part="1" 
+F 0 "R?" H -2950 3100 50  0000 C CNN
+F 1 "R" H -2950 3200 50  0000 C CNN
+F 2 "" H -2800 3150 50  0001 C CNN
+F 3 "~" H -2800 3150 50  0001 C CNN
+	1    -2800 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 622B04A5
+P -2450 3150
+AR Path="/61F0AAD9/622B04A5" Ref="R?"  Part="1" 
+AR Path="/61F25080/622B04A5" Ref="R?"  Part="1" 
+AR Path="/622B04A5" Ref="DNP"  Part="1" 
+AR Path="/620D84A4/622B04A5" Ref="R?"  Part="1" 
+AR Path="/620D8862/622B04A5" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/622B04A5" Ref="R?"  Part="1" 
+F 0 "R?" H -2600 3100 50  0000 C CNN
+F 1 "R" H -2600 3200 50  0000 C CNN
+F 2 "" H -2450 3150 50  0001 C CNN
+F 3 "~" H -2450 3150 50  0001 C CNN
+	1    -2450 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 622B088D
+P 1050 3050
+AR Path="/61F0AAD9/622B088D" Ref="R?"  Part="1" 
+AR Path="/61F25080/622B088D" Ref="R?"  Part="1" 
+AR Path="/622B088D" Ref="DNP"  Part="1" 
+AR Path="/620D84A4/622B088D" Ref="R?"  Part="1" 
+AR Path="/620D8862/622B088D" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/622B088D" Ref="R?"  Part="1" 
+F 0 "R?" H 900 3000 50  0000 C CNN
+F 1 "R" H 900 3100 50  0000 C CNN
+F 2 "" H 1050 3050 50  0001 C CNN
+F 3 "~" H 1050 3050 50  0001 C CNN
+	1    1050 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-2450 3500 -2800 3500
+Wire Wire Line
+	-2800 3500 -2800 3250
+Wire Wire Line
+	-2450 3500 -2100 3500
+Wire Wire Line
+	-2100 3500 -2100 3250
+Connection ~ -2450 3500
+Wire Wire Line
+	-2450 3500 -2450 3250
+Wire Wire Line
+	1250 3900 1450 3900
+Wire Wire Line
+	1450 2700 1450 3900
+Wire Wire Line
+	1450 2700 1050 2700
+Wire Wire Line
+	1050 2700 1050 2950
+$Comp
+L Device:R_Small_US R?
+U 1 1 62117504
+P 5750 6950
+AR Path="/620D84A4/62117504" Ref="R?"  Part="1" 
+AR Path="/620D8862/62117504" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/62117504" Ref="R?"  Part="1" 
+F 0 "R?" V 5545 6950 50  0000 C CNN
+F 1 "R_Small_US" V 5636 6950 50  0000 C CNN
+F 2 "" H 5750 6950 50  0001 C CNN
+F 3 "~" H 5750 6950 50  0001 C CNN
+	1    5750 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6211750A
+P 5950 7200
+AR Path="/620D84A4/6211750A" Ref="C?"  Part="1" 
+AR Path="/620D8862/6211750A" Ref="C?"  Part="1" 
+AR Path="/620D8F0D/6211750A" Ref="C?"  Part="1" 
+F 0 "C?" H 6042 7246 50  0000 L CNN
+F 1 "C_Small" H 6042 7155 50  0000 L CNN
+F 2 "" H 5950 7200 50  0001 C CNN
+F 3 "~" H 5950 7200 50  0001 C CNN
+	1    5950 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6950 5650 6950
+Wire Wire Line
+	5850 6950 5950 6950
+Wire Wire Line
+	5950 6950 5950 7100
+Wire Wire Line
+	5950 7500 5950 7300
+Wire Notes Line
+	5300 6600 5300 7600
+Wire Notes Line
+	5300 7600 6600 7600
+Wire Notes Line
+	6600 7600 6600 6600
+Wire Notes Line
+	6600 6600 5300 6600
+Text Notes 5550 6550 0    50   ~ 0
+Filter -> SAR ADC
+Wire Wire Line
+	5400 6650 5400 6950
+Wire Wire Line
+	3650 6650 5400 6650
+$Comp
+L power:GND2 #PWR?
+U 1 1 621EE407
+P -2450 3600
+AR Path="/620D84A4/621EE407" Ref="#PWR?"  Part="1" 
+AR Path="/620D8862/621EE407" Ref="#PWR?"  Part="1" 
+AR Path="/620D8F0D/621EE407" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2450 3350 50  0001 C CNN
+F 1 "GND2" H -2445 3427 50  0000 C CNN
+F 2 "" H -2450 3600 50  0001 C CNN
+F 3 "" H -2450 3600 50  0001 C CNN
+	1    -2450 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 10700 3800 2    50   Input ~ 0
+ADCIN
+Text HLabel 950  5050 0    50   Input ~ 0
+GND
+Text HLabel 950  3350 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1450 2700 1450 1950
+Connection ~ 1450 2700
+Text HLabel 950  1950 0    50   Input ~ 0
+ESD
+$Comp
+L Jumper:Jumper_3_Bridged12 JP?
+U 1 1 61FD1B76
+P 2850 4050
+AR Path="/61F25080/61FD1B76" Ref="JP?"  Part="1" 
+AR Path="/61FD1B76" Ref="JP?"  Part="1" 
+AR Path="/620D84A4/61FD1B76" Ref="JP?"  Part="1" 
+AR Path="/620D8862/61FD1B76" Ref="JP?"  Part="1" 
+AR Path="/620D8F0D/61FD1B76" Ref="JP?"  Part="1" 
+F 0 "JP?" H 2850 4254 50  0000 C CNN
+F 1 "Jumper" H 2850 4163 50  0000 C CNN
+F 2 "" H 2850 4050 50  0001 C CNN
+F 3 "~" H 2850 4050 50  0001 C CNN
+	1    2850 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 620E7FD5
+P 3100 4650
+AR Path="/61F0AAD9/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/61F25080/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/620D84A4/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/620D8862/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/620E7FD5" Ref="R?"  Part="1" 
+F 0 "R?" H 2950 4600 50  0000 C CNN
+F 1 "1MOhm" H 2850 4700 50  0000 C CNN
+F 2 "" H 3100 4650 50  0001 C CNN
+F 3 "~" H 3100 4650 50  0001 C CNN
+	1    3100 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4550 3100 4050
+Wire Wire Line
+	2600 4050 2600 4550
+Wire Wire Line
+	2600 4750 2600 5050
+Wire Wire Line
+	3100 4750 3100 5050
+Wire Wire Line
+	3100 5050 2600 5050
+Connection ~ 2600 5050
+Wire Wire Line
+	950  5050 1050 5050
+Wire Wire Line
+	1050 4100 1050 5050
+Connection ~ 1050 5050
+Wire Wire Line
+	1050 5050 2600 5050
+Wire Wire Line
+	1450 1950 950  1950
+Wire Wire Line
+	1050 3350 950  3350
+Wire Wire Line
+	1050 3150 1050 3350
+Text Notes 3000 3050 0    50   ~ 0
+schotkey diodes to Vdd and -Vdd \n(Forward Voltage ~ 0.7?)\n
+Text Notes 5000 2900 0    50   ~ 0
+buffer
+Text Notes 6100 2100 0    50   ~ 0
+resistor divider 
+Text Notes 7200 2050 0    50   ~ 0
+amplifier with 1.5V offset
+Wire Notes Line
+	6400 2000 6400 1100
+Text Notes 5450 950  0    50   ~ 0
+Interchangable based on input voltage?? maybe with jumper\nDetermine if different divider  is necessary based on input
+Text Notes 8650 2100 0    50   ~ 0
+Filter -> SAR ADC
+$Comp
+L Device:D_Schottky D?
+U 1 1 62102CB7
+P 3550 3650
+AR Path="/620D84A4/62102CB7" Ref="D?"  Part="1" 
+AR Path="/620D8862/62102CB7" Ref="D?"  Part="1" 
+AR Path="/620D8F0D/62102CB7" Ref="D?"  Part="1" 
+F 0 "D?" V 3504 3730 50  0000 L CNN
+F 1 "D_Schottky" V 3595 3730 50  0000 L CNN
+F 2 "" H 3550 3650 50  0001 C CNN
+F 3 "~" H 3550 3650 50  0001 C CNN
+	1    3550 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 3900 3550 3900
+Wire Wire Line
+	3550 3800 3550 3900
+Connection ~ 3550 3900
+Wire Wire Line
+	3550 4000 3550 3900
+Wire Wire Line
+	3550 4300 3550 4450
+Wire Wire Line
+	3550 4450 3650 4450
+Wire Wire Line
+	3550 3350 3550 3500
+Wire Wire Line
+	3550 3350 3650 3350
+Text HLabel 3650 3350 2    50   Input ~ 0
++12V
+Text HLabel 3650 4450 2    50   Input ~ 0
+-12V
+$Comp
+L Device:D_Schottky D?
+U 1 1 6210F5CE
+P 3550 4150
+AR Path="/620D84A4/6210F5CE" Ref="D?"  Part="1" 
+AR Path="/620D8862/6210F5CE" Ref="D?"  Part="1" 
+AR Path="/620D8F0D/6210F5CE" Ref="D?"  Part="1" 
+F 0 "D?" V 3504 4230 50  0000 L CNN
+F 1 "D_Schottky" V 3595 4230 50  0000 L CNN
+F 2 "" H 3550 4150 50  0001 C CNN
+F 3 "~" H 3550 4150 50  0001 C CNN
+	1    3550 4150
+	0    1    1    0   
+$EndComp
+Text Notes 1950 3350 0    50   ~ 0
+current limiting R
+Connection ~ 2850 3900
+Wire Wire Line
+	2350 3900 2850 3900
+Connection ~ 1450 3900
+Wire Wire Line
+	1450 3900 2150 3900
+$Comp
+L Device:R_Small_US R?
+U 1 1 61FB1ED6
+P 2250 3900
+AR Path="/61F0AAD9/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/61F25080/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/620D84A4/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/620D8862/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/61FB1ED6" Ref="R?"  Part="1" 
+F 0 "R?" H 2100 3850 50  0000 C CNN
+F 1 "10kOhm" H 2000 3950 50  0000 C CNN
+F 2 "" H 2250 3900 50  0001 C CNN
+F 3 "~" H 2250 3900 50  0001 C CNN
+	1    2250 3900
+	0    -1   1    0   
+$EndComp
+Text Notes 4200 3400 0    50   ~ 0
+Approx 9.9V into amp
+Wire Notes Line
+	4300 4050 4950 4050
+Wire Notes Line
+	4950 3450 4300 3450
+Wire Wire Line
+	3550 3900 4550 3900
+Wire Wire Line
+	4550 3900 4550 3850
+Wire Wire Line
+	4700 3850 4700 3900
+Wire Wire Line
+	4700 3900 5150 3900
+Text HLabel 4550 3850 1    50   Input ~ 0
+BUFIN
+Text HLabel 4700 3850 1    50   Input ~ 0
+BUFOUT
+Wire Notes Line
+	4950 3450 4950 4050
+Wire Notes Line
+	4300 3450 4300 4050
+$EndSCHEMATC
