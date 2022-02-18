@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -24,42 +24,10 @@ F 3 "" H 7600 4800 50  0001 C CNN
 	1    7600 4800
 	1    0    0    -1  
 $EndComp
-Text HLabel 2500 3700 0    50   Input ~ 0
-DS_Epwm_A1
 Text Notes 3100 2650 0    118  ~ 24
 A
 Text Notes 7500 2700 0    118  ~ 24
 B
-Text HLabel 2500 3900 0    50   Input ~ 0
-DS_Epwm_A2
-Text HLabel 2500 4100 0    50   Input ~ 0
-DS_Epwm_A3
-Text HLabel 2500 4300 0    50   Input ~ 0
-DS_Epwm_A4
-Text HLabel 6950 3800 0    50   Input ~ 0
-DS_Epwm_B1
-Text HLabel 6950 4000 0    50   Input ~ 0
-DS_Epwm_B2
-Text HLabel 6950 4200 0    50   Input ~ 0
-DS_Epwm_B3
-Text HLabel 6950 4400 0    50   Input ~ 0
-DS_Epwm_B4
-Text HLabel 3750 3700 2    50   Output ~ 0
-DS_GPIO_D_A1
-Text HLabel 3750 3900 2    50   Output ~ 0
-DS_GPIO_D_A2
-Text HLabel 3750 4100 2    50   Output ~ 0
-DS_GPIO_D_A3
-Text HLabel 3750 4300 2    50   Output ~ 0
-DS_GPIO_D_A4
-Text HLabel 8200 3800 2    50   Output ~ 0
-DS_GPIO_D_B1
-Text HLabel 8200 4000 2    50   Output ~ 0
-DS_GPIO_D_B2
-Text HLabel 8200 4200 2    50   Output ~ 0
-DS_GPIO_D_B3
-Text HLabel 8200 4400 2    50   Output ~ 0
-DS_GPIO_D_B4
 Text HLabel 3750 3100 2    50   Input ~ 0
 CLOCK
 Text HLabel 8200 3200 2    50   Input ~ 0
@@ -82,12 +50,6 @@ Text HLabel 3750 3500 2    50   Output ~ 0
 EMITTER_ENABLE
 Text HLabel 8200 3400 2    50   Output ~ 0
 EMITTER_ENABLE
-Text HLabel 2500 3500 0    50   Input ~ 0
-DS_Clk_A
-Text HLabel 6950 3400 0    50   Input ~ 0
-DS_SD_B
-Text HLabel 6950 3600 0    50   Input ~ 0
-DS_Clk_B
 Wire Wire Line
 	2900 3100 2400 3100
 Wire Wire Line
@@ -335,30 +297,50 @@ Wire Wire Line
 	7950 4300 7950 4500
 Wire Wire Line
 	7850 3300 7950 3300
-Text Notes 950  950  0    50   ~ 0
-change the naming scheme of these
 Text Notes 3000 2150 0    50   ~ 0
 slot 7
 Text Notes 7500 2150 0    50   ~ 0
 slot 8
-Text HLabel 2500 3300 0    50   Input ~ 0
-DS_SD_A
-Text HLabel 1200 3050 0    50   Input ~ 0
+Text HLabel 4250 4100 2    50   Input ~ 0
 SD1_D3
-Text HLabel 1200 3200 0    50   Input ~ 0
+Text HLabel 4250 4300 2    50   Input ~ 0
 SD1_C3
-Text HLabel 1200 3350 0    50   Input ~ 0
+Text HLabel 4250 3700 2    50   Input ~ 0
 SD1_D4
-Text HLabel 1200 3500 0    50   Input ~ 0
+Text HLabel 4250 3900 2    50   Input ~ 0
 SD1_C4
-Text HLabel 1200 3750 0    50   Input ~ 0
-SD2_D1
-Text HLabel 1200 3900 0    50   Input ~ 0
-SD2_C1
-Text HLabel 1200 4050 0    50   Input ~ 0
-SD2_D2
-Text HLabel 1200 4200 0    50   Input ~ 0
+Text HLabel 8450 4000 2    50   Input ~ 0
 SD2_C2
-Text Notes 1150 2800 0    50   ~ 0
+Text Notes 1050 1500 0    50   ~ 0
 all inputs, 4 clk and 4 data
+Text HLabel 8450 3800 2    50   Input ~ 0
+SD2_D2
+Text HLabel 6600 4400 0    50   Output ~ 0
+SD2_C1
+Text HLabel 6600 4200 0    50   Output ~ 0
+SD2_D1
+Text HLabel 2300 3700 0    50   Output ~ 0
+SD1_D1
+Text HLabel 2300 3900 0    50   Output ~ 0
+SD1_C1
+Text HLabel 2300 4100 0    50   Output ~ 0
+SD1_D2
+Text HLabel 2300 4300 0    50   Output ~ 0
+SD1_C2
+Text HLabel 8450 4400 2    50   Input ~ 0
+SD2_C3
+Text HLabel 8450 4200 2    50   Input ~ 0
+SD2_D3
+Text HLabel 6600 3800 0    50   Output ~ 0
+SD2_D4
+Text HLabel 6600 4000 0    50   Output ~ 0
+SD2_C4
+Text HLabel 6700 3400 0    50   Input ~ 0
+SD1_EPWM14A_CLK_OUT
+Text HLabel 6700 3600 0    50   Input ~ 0
+SD1_EPWM14B_CLK_OUT
+Text HLabel 2400 3300 0    50   Input ~ 0
+SD2_EPWM13A_CLK_OUT
+Text HLabel 2400 3500 0    50   Input ~ 0
+SD2_EPWM13B_CLK_OUT
 $EndSCHEMATC

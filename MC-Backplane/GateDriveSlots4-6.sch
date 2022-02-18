@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -138,7 +138,7 @@ GND
 Text HLabel 2400 4750 0    50   Input ~ 0
 GND
 Text HLabel 2700 3000 2    50   Input ~ 0
-GD_EPWM4_1A
+GD4_EPWM_1A
 Wire Wire Line
 	2250 4400 2700 4400
 Wire Wire Line
@@ -154,37 +154,37 @@ Wire Wire Line
 Wire Wire Line
 	2250 4200 2700 4200
 Text HLabel 2700 3200 2    50   Input ~ 0
-GD_EPWM4_1B
+GD4_EPWM_1B
 Text HLabel 2700 3400 2    50   Input ~ 0
-GD_RESET4_1
+GD4_GPIO_RESET_1
 Text HLabel 2700 3600 2    50   Output ~ 0
-GD_DPWM_STATUS4_1
+GD4_GPIO_STATUS_1
 Text HLabel 2700 3800 2    50   Input ~ 0
-GD_EPWM4_2A
+GD4_EPWM_2A
 Text HLabel 2700 4000 2    50   Input ~ 0
-GD_EPWM4_2B
+GD4_EPWM_2B
 Text HLabel 2700 4200 2    50   Input ~ 0
-GD_RESET4_2
+GD4_GPIO_RESET_2
 Text HLabel 2700 4400 2    50   Output ~ 0
-GD_DPWM_STATUS4_2
+GD4_GPIO_STATUS_2
 Text HLabel 1300 2900 0    50   Input ~ 0
 24V
 Text HLabel 8650 3050 0    50   Input ~ 0
 24V
 Text HLabel 10050 4550 2    50   Output ~ 0
-GD_DPWM_STATUS6_2
+GD6_GPIO_STATUS_2
 Text HLabel 10050 4350 2    50   Input ~ 0
-GD_RESET6_2
+GD6_GPIO_RESET_2
 Text HLabel 10050 4150 2    50   Input ~ 0
-GD_EPWM6_2B
+GD6_EPWM_2B
 Text HLabel 10050 3950 2    50   Input ~ 0
-GD_EPWM6_2A
+GD6_EPWM_2A
 Text HLabel 10050 3750 2    50   Output ~ 0
-GD_DPWM_STATUS6_1
+GD6_GPIO_STATUS_1
 Text HLabel 10050 3550 2    50   Input ~ 0
-GD_RESET6_1
+GD6_GPIO_RESET_1
 Text HLabel 10050 3350 2    50   Input ~ 0
-GD_EPWM6_1B
+GD6_EPWM_1B
 Wire Wire Line
 	9600 4350 10050 4350
 Wire Wire Line
@@ -200,7 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 4550 10050 4550
 Text HLabel 10050 3150 2    50   Input ~ 0
-GD_EPWM6_1A
+GD6_EPWM_1A
 Text HLabel 9750 4900 0    50   Input ~ 0
 GND
 Text HLabel 8800 4900 0    50   Input ~ 0
@@ -326,19 +326,19 @@ $EndComp
 Text HLabel 5050 3000 0    50   Input ~ 0
 24V
 Text HLabel 6450 4500 2    50   Output ~ 0
-GD_DPWM_STATUS5_2
+GD5_GPIO_STATUS_2
 Text HLabel 6450 4300 2    50   Input ~ 0
-GD_RESET5_2
+GD5_GPIO_RESET_2
 Text HLabel 6450 4100 2    50   Input ~ 0
-GD_EPWM5_2B
+GD5_EPWM_2B
 Text HLabel 6450 3900 2    50   Input ~ 0
-GD_EPWM5_2A
+GD5_EPWM_2A
 Text HLabel 6450 3700 2    50   Output ~ 0
-GD_DPWM_STATUS5_1
+GD5_GPIO_STATUS_1
 Text HLabel 6450 3500 2    50   Input ~ 0
-GD_RESET5_1
+GD5_GPIO_RESET_1
 Text HLabel 6450 3300 2    50   Input ~ 0
-GD_EPWM5_1B
+GD5_EPWM_1B
 Wire Wire Line
 	6000 4300 6450 4300
 Wire Wire Line
@@ -354,7 +354,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 4500 6450 4500
 Text HLabel 6450 3100 2    50   Input ~ 0
-GD_EPWM5_1A
+GD5_EPWM_1A
 Text HLabel 6150 4850 0    50   Input ~ 0
 GND
 Text HLabel 5200 4850 0    50   Input ~ 0
