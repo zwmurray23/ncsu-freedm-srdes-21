@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -502,13 +502,13 @@ ADC_D2
 Text HLabel 6450 5450 2    50   Input ~ 0
 ADC_D3
 Text HLabel 6450 4850 2    50   Input ~ 0
-ADC__14
+ADC_14
 Text HLabel 6450 5050 2    50   Input ~ 0
-ADC__15
+ADC_15
 Text HLabel 9700 2700 2    50   Input ~ 0
-ADC__D0
+ADC_D0
 Text HLabel 9700 2900 2    50   Input ~ 0
-ADC__D1
+ADC_D1
 Wire Wire Line
 	6050 5750 6050 5950
 Wire Wire Line
