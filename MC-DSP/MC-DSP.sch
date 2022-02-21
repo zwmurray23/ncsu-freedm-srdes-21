@@ -117,14 +117,14 @@ F0 "Voltage Regulators" 50
 F1 "MC-DSP-Vregs.sch" 50
 $EndSheet
 $Sheet
-S 9500 1850 1000 1075
+S 9350 1850 1000 1075
 U 61A512C8
 F0 "25MHz Clock" 50
 F1 "MC-DSP-CLK.sch" 50
-F2 "Y0" I R 10500 2050 50 
-F3 "Y1" I R 10500 2200 50 
-F4 "Y2" I R 10500 2350 50 
-F5 "Y3" I R 10500 2500 50 
+F2 "Y0" I R 10350 2050 50 
+F3 "Y1" I R 10350 2200 50 
+F4 "Y2" I R 10350 2350 50 
+F5 "Y3" I R 10350 2500 50 
 $EndSheet
 $Sheet
 S 5450 4600 1100 775 
@@ -2602,9 +2602,9 @@ F 3 "" H -5100 -900 50  0001 C CNN
 $EndComp
 NoConn ~ -2150 -1050
 Text GLabel -1900 -1150 2    50   Input ~ 0
-CLK_DSP
-Text GLabel 10500 2500 2    50   Input ~ 0
-CLK_DSP
+CLK_25M_DSP
+Text GLabel 10350 2500 2    50   Input ~ 0
+CLK_25M_DSP
 NoConn ~ -3950 -1100
 NoConn ~ -3950 -700
 NoConn ~ -2150 -1500
@@ -8147,13 +8147,13 @@ Text Label 16300 8650 0    50   ~ 0
 EPWM12A
 Text Label 16300 8550 0    50   ~ 0
 EPWM12B
-Text Label 14200 7700 2    50   ~ 0
+Text Label 16600 -300 2    50   ~ 0
 SD1_D1
-Text Label 14200 7800 2    50   ~ 0
+Text Label 16600 -400 2    50   ~ 0
 SD1_C1
-Text Label 14200 7900 2    50   ~ 0
+Text Label 14200 2550 2    50   ~ 0
 SD1_D2
-Text Label 16300 7900 0    50   ~ 0
+Text Label 14200 2650 2    50   ~ 0
 SD1_C2
 Text Label 16300 7800 0    50   ~ 0
 SD1_D3
@@ -8175,9 +8175,9 @@ Text Label 16300 7000 0    50   ~ 0
 SD2_D3
 Text Label 16300 6900 0    50   ~ 0
 SD2_C3
-Text Label 16300 6800 0    50   ~ 0
+Text Label 16300 4750 0    50   ~ 0
 SD2_D4
-Text Label 16300 6700 0    50   ~ 0
+Text Label 16300 4650 0    50   ~ 0
 SD2_C4
 Text Label -1500 200  0    50   ~ 0
 ADC_A2
@@ -8271,10 +8271,8 @@ Wire Wire Line
 	-2000 2400 -1150 2400
 Wire Wire Line
 	-2000 2300 -1150 2300
-Text GLabel 10500 2350 2    50   Input ~ 0
-CLK_Backplane
-Text GLabel 10500 2200 2    50   Input ~ 0
-CLK_Ethernet
+Text GLabel 10350 2350 2    50   Input ~ 0
+CLK_25M_Ethernet
 Wire Wire Line
 	-2000 0    -750 0   
 Wire Wire Line
@@ -8312,11 +8310,11 @@ Wire Wire Line
 Wire Wire Line
 	14250 8450 13850 8450
 Wire Wire Line
-	14250 7900 13850 7900
+	13850 2550 14250 2550
 Wire Wire Line
-	14250 7800 13850 7800
+	16650 -400 16250 -400
 Wire Wire Line
-	14250 7700 13850 7700
+	16650 -300 16250 -300
 Wire Wire Line
 	16650 9350 16250 9350
 Wire Wire Line
@@ -8336,7 +8334,7 @@ Wire Wire Line
 Wire Wire Line
 	16650 8550 16250 8550
 Wire Wire Line
-	16650 7900 16250 7900
+	13850 2650 14250 2650
 Wire Wire Line
 	16650 7800 16250 7800
 Wire Wire Line
@@ -8358,11 +8356,9 @@ Wire Wire Line
 Wire Wire Line
 	16650 6900 16250 6900
 Wire Wire Line
-	16650 6800 16250 6800
+	16650 4750 16250 4750
 Wire Wire Line
-	16650 6700 16250 6700
-Wire Wire Line
-	16650 6600 16250 6600
+	16650 4650 16250 4650
 Wire Wire Line
 	16650 5900 16250 5900
 Wire Wire Line
@@ -8424,8 +8420,6 @@ Entry Wire Line
 Entry Wire Line
 	16650 6700 16750 6800
 Entry Wire Line
-	16650 6800 16750 6900
-Entry Wire Line
 	16650 6900 16750 7000
 Entry Wire Line
 	16650 7000 16750 7100
@@ -8445,8 +8439,6 @@ Entry Wire Line
 	16650 7700 16750 7800
 Entry Wire Line
 	16650 7800 16750 7900
-Entry Wire Line
-	16650 7900 16750 8000
 Entry Wire Line
 	16650 8550 16750 8650
 Entry Wire Line
@@ -8487,24 +8479,48 @@ Entry Wire Line
 	13750 8650 13850 8550
 Entry Wire Line
 	13750 8550 13850 8450
-Entry Wire Line
-	13750 8000 13850 7900
-Entry Wire Line
-	13750 7900 13850 7800
-Entry Wire Line
-	13750 7800 13850 7700
 Wire Bus Line
 	-1050 9900 13750 9900
 Connection ~ 13750 9900
 Wire Bus Line
 	13750 9900 16750 9900
+Connection ~ 16750 9900
+Text Label 16950 9900 0    50   ~ 0
+ToBackplane
 Wire Bus Line
-	13750 7800 13750 9900
+	16750 9900 17500 9900
+Text Label 16300 6700 0    50   ~ 0
+EPWM13A
+Text Label 16300 6600 0    50   ~ 0
+EPWM13B
+Text Label 16300 6500 0    50   ~ 0
+EPWM14A
+Text Label 16300 6400 0    50   ~ 0
+EPWM14B
+Entry Wire Line
+	16650 6400 16750 6500
+Entry Wire Line
+	16650 6500 16750 6600
+Wire Wire Line
+	16250 6400 16650 6400
+Wire Wire Line
+	16650 6500 16250 6500
+Wire Wire Line
+	16250 6600 16650 6600
+Wire Wire Line
+	16650 6700 16250 6700
+Entry Wire Line
+	16650 4650 16750 4750
+Entry Wire Line
+	16650 4750 16750 4850
+Entry Wire Line
+	13850 2550 13750 2650
+Entry Wire Line
+	13850 2650 13750 2750
+Wire Bus Line
+	13750 2650 13750 9900
 Wire Bus Line
 	-1050 300  -1050 9900
 Wire Bus Line
-	16750 5600 16750 9900
-Connection ~ 16750 9900
-Wire Bus Line
-	16750 9900 17100 9900
+	16750 4750 16750 9900
 $EndSCHEMATC

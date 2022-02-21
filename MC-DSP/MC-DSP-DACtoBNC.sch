@@ -218,6 +218,4 @@ F 3 "~" H 5900 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 3450 6350 3450
-Text Notes 5600 2450 0    50   ~ 0
-check datasheet to pick between VDDA (3.3V) or VDAC (3V)
 $EndSCHEMATC
