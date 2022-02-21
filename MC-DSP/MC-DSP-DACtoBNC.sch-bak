@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -13,34 +13,211 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Conn_Coaxial J?
-U 1 1 61B9DADA
-P 7400 2700
-F 0 "J?" H 7500 2675 50  0000 L CNN
-F 1 "Conn_Coaxial" H 7500 2584 50  0000 L CNN
-F 2 "" H 7400 2700 50  0001 C CNN
-F 3 " ~" H 7400 2700 50  0001 C CNN
-	1    7400 2700
-	1    0    0    -1  
-$EndComp
-Text HLabel 4450 2650 0    50   Input ~ 0
-DACfromDSP
+Text HLabel 4600 2850 0    50   Input ~ 0
+DAC_A
 $Comp
 L power:GND #PWR?
 U 1 1 61B9E54E
-P 7400 3150
-F 0 "#PWR?" H 7400 2900 50  0001 C CNN
-F 1 "GND" H 7405 2977 50  0000 C CNN
-F 2 "" H 7400 3150 50  0001 C CNN
-F 3 "" H 7400 3150 50  0001 C CNN
-	1    7400 3150
+P 7350 3300
+F 0 "#PWR?" H 7350 3050 50  0001 C CNN
+F 1 "GND" H 7355 3127 50  0000 C CNN
+F 2 "" H 7350 3300 50  0001 C CNN
+F 3 "" H 7350 3300 50  0001 C CNN
+	1    7350 3300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 3150 7400 2900
-Text Notes 4950 2400 0    50   ~ 0
-Look for line driver amplifiers (look at appnotes)
-Text Notes 7450 2450 0    50   ~ 0
-switch to mmcx
+	7350 3300 7350 3050
+Wire Wire Line
+	6250 2950 6350 2950
+Wire Wire Line
+	5650 2850 5300 2850
+$Comp
+L CONMMCX001:CONMMCX001 J?
+U 1 1 61F03ABB
+P 7450 3050
+F 0 "J?" H 7296 3136 50  0000 R CNN
+F 1 "CONMMCX001" H 7296 3045 50  0000 R CNN
+F 2 "LINX_CONMMCX001" H 7450 3050 50  0001 L BNN
+F 3 "" H 7450 3050 50  0001 L BNN
+F 4 "B" H 7450 3050 50  0001 L BNN "PARTREV"
+F 5 "Manufacturer Recommendations" H 7450 3050 50  0001 L BNN "STANDARD"
+F 6 "Linx Technologies" H 7450 3050 50  0001 L BNN "MANUFACTURER"
+	1    7450 3050
+	-1   0    0    -1  
+$EndComp
+Text HLabel 4450 3900 0    50   Input ~ 0
+DAC_B
+Text HLabel 4450 4750 0    50   Input ~ 0
+DAC_C
+Text Notes 6500 1100 0    50   ~ 0
+verify input range\n
+Text Notes 6400 1200 0    50   ~ 0
+note offset error of 1-15 mV\n
+Text Notes 7550 1050 0    50   ~ 0
+read Output Capacitive Loading and Stability\n, add pads for an input resistor
+$Comp
+L Amplifier_Operational:OPA365xxD U?
+U 1 1 622D9ECC
+P 5950 2950
+F 0 "U?" H 5950 3200 50  0000 L CNN
+F 1 "OPA365xxD" H 5950 3100 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5850 2750 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 6100 3100 50  0001 C CNN
+	1    5950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62433A6D
+P 3950 2050
+AR Path="/62086B6E/62433A6D" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/62433A6D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 1800 50  0001 C CNN
+F 1 "GND" H 3955 1877 50  0000 C CNN
+F 2 "" H 3950 2050 50  0001 C CNN
+F 3 "" H 3950 2050 50  0001 C CNN
+	1    3950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62433A73
+P 3800 1900
+F 0 "C?" H 3750 1800 50  0000 R CNN
+F 1 "0.1uF" H 3750 2000 50  0000 R CNN
+F 2 "" H 3838 1750 50  0001 C CNN
+F 3 "~" H 3800 1900 50  0001 C CNN
+	1    3800 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 62433A79
+P 3950 1750
+AR Path="/62086B6E/62433A79" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/62433A79" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 1600 50  0001 C CNN
+F 1 "VDDA" H 3965 1923 50  0000 C CNN
+F 2 "" H 3950 1750 50  0001 C CNN
+F 3 "" H 3950 1750 50  0001 C CNN
+	1    3950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62433A7F
+P 4100 1900
+F 0 "C?" H 4050 1800 50  0000 R CNN
+F 1 "0.1uF" H 4050 2000 50  0000 R CNN
+F 2 "" H 4138 1750 50  0001 C CNN
+F 3 "~" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62433A85
+P 4400 1900
+F 0 "C?" H 4350 1800 50  0000 R CNN
+F 1 "0.1uF" H 4350 2000 50  0000 R CNN
+F 2 "" H 4438 1750 50  0001 C CNN
+F 3 "~" H 4400 1900 50  0001 C CNN
+	1    4400 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 1750 3800 1750
+Connection ~ 4100 1750
+Wire Wire Line
+	4100 1750 4400 1750
+Wire Wire Line
+	3800 2050 3950 2050
+Connection ~ 4100 2050
+Wire Wire Line
+	4100 2050 4400 2050
+Connection ~ 3950 1750
+Wire Wire Line
+	3950 1750 4100 1750
+Connection ~ 3950 2050
+Wire Wire Line
+	3950 2050 4100 2050
+$Comp
+L power:VDDA #PWR?
+U 1 1 624345BF
+P 5850 2650
+AR Path="/62086B6E/624345BF" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/624345BF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5850 2500 50  0001 C CNN
+F 1 "VDDA" H 6000 2700 50  0000 C CNN
+F 2 "" H 5850 2650 50  0001 C CNN
+F 3 "" H 5850 2650 50  0001 C CNN
+	1    5850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6243580E
+P 5850 3250
+AR Path="/62086B6E/6243580E" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/6243580E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5850 3000 50  0001 C CNN
+F 1 "GND" H 6000 3200 50  0000 C CNN
+F 2 "" H 5850 3250 50  0001 C CNN
+F 3 "" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3050 5550 3050
+Wire Wire Line
+	5550 3050 5550 3450
+Wire Wire Line
+	5550 3450 5750 3450
+Wire Wire Line
+	6350 3450 6350 2950
+Connection ~ 6350 2950
+Wire Wire Line
+	6350 2950 6700 2950
+$Comp
+L Device:R R?
+U 1 1 62439A67
+P 6850 2950
+F 0 "R?" V 6850 2950 50  0000 C CNN
+F 1 "?R" V 6734 2950 50  0000 C CNN
+F 2 "" V 6780 2950 50  0001 C CNN
+F 3 "~" H 6850 2950 50  0001 C CNN
+	1    6850 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2950 7350 2950
+$Comp
+L Device:R R?
+U 1 1 6243BA69
+P 5150 2850
+F 0 "R?" V 5150 2850 50  0000 C CNN
+F 1 "0R" V 5034 2850 50  0000 C CNN
+F 2 "" V 5080 2850 50  0001 C CNN
+F 3 "~" H 5150 2850 50  0001 C CNN
+	1    5150 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2850 4600 2850
+$Comp
+L Device:R R?
+U 1 1 6243CB15
+P 5900 3450
+F 0 "R?" V 5900 3450 50  0000 C CNN
+F 1 "?R" V 6000 3450 50  0000 C CNN
+F 2 "" V 5830 3450 50  0001 C CNN
+F 3 "~" H 5900 3450 50  0001 C CNN
+	1    5900 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 3450 6350 3450
+Text Notes 5600 2450 0    50   ~ 0
+check datasheet to pick between VDDA (3.3V) or VDAC (3V)
 $EndSCHEMATC

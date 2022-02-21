@@ -1,0 +1,784 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 62093344
+P 4700 1300
+F 0 "R?" V 4493 1300 50  0000 C CNN
+F 1 "0R" V 4584 1300 50  0000 C CNN
+F 2 "" V 4630 1300 50  0001 C CNN
+F 3 "~" H 4700 1300 50  0001 C CNN
+	1    4700 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62094718
+P 3800 5650
+F 0 "R?" H 3750 5600 50  0000 R CNN
+F 1 "0.1R" H 3750 5700 50  0000 R CNN
+F 2 "" V 3730 5650 50  0001 C CNN
+F 3 "~" H 3800 5650 50  0001 C CNN
+	1    3800 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62094EFE
+P 3800 6050
+F 0 "C?" H 3750 5950 50  0000 R CNN
+F 1 "22uF" H 3750 6150 50  0000 R CNN
+F 2 "" H 3838 5900 50  0001 C CNN
+F 3 "~" H 3800 6050 50  0001 C CNN
+	1    3800 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A0035
+P 2750 6200
+F 0 "#PWR?" H 2750 5950 50  0001 C CNN
+F 1 "GND" H 2755 6027 50  0000 C CNN
+F 2 "" H 2750 6200 50  0001 C CNN
+F 3 "" H 2750 6200 50  0001 C CNN
+	1    2750 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 620A34EC
+P 3500 5650
+F 0 "R?" H 3450 5600 50  0000 R CNN
+F 1 "0.1R" H 3450 5700 50  0000 R CNN
+F 2 "" V 3430 5650 50  0001 C CNN
+F 3 "~" H 3500 5650 50  0001 C CNN
+	1    3500 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 620A34F2
+P 3500 6050
+F 0 "C?" H 3450 5950 50  0000 R CNN
+F 1 "22uF" H 3450 6150 50  0000 R CNN
+F 2 "" H 3538 5900 50  0001 C CNN
+F 3 "~" H 3500 6050 50  0001 C CNN
+	1    3500 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 620A40A1
+P 3200 5650
+F 0 "R?" H 3150 5600 50  0000 R CNN
+F 1 "0.1R" H 3150 5700 50  0000 R CNN
+F 2 "" V 3130 5650 50  0001 C CNN
+F 3 "~" H 3200 5650 50  0001 C CNN
+	1    3200 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 620A40A7
+P 3200 6050
+F 0 "C?" H 3150 5950 50  0000 R CNN
+F 1 "22uF" H 3150 6150 50  0000 R CNN
+F 2 "" H 3238 5900 50  0001 C CNN
+F 3 "~" H 3200 6050 50  0001 C CNN
+	1    3200 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 620A4FC4
+P 2900 5650
+F 0 "R?" H 2850 5600 50  0000 R CNN
+F 1 "0.1R" H 2850 5700 50  0000 R CNN
+F 2 "" V 2830 5650 50  0001 C CNN
+F 3 "~" H 2900 5650 50  0001 C CNN
+	1    2900 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 620A4FCA
+P 2900 6050
+F 0 "C?" H 2850 5950 50  0000 R CNN
+F 1 "22uF" H 2850 6150 50  0000 R CNN
+F 2 "" H 2938 5900 50  0001 C CNN
+F 3 "~" H 2900 6050 50  0001 C CNN
+	1    2900 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 6200 2900 6200
+Connection ~ 2900 6200
+Wire Wire Line
+	2900 6200 3200 6200
+Connection ~ 3200 6200
+Wire Wire Line
+	3200 6200 3500 6200
+Connection ~ 3500 6200
+Wire Wire Line
+	3500 6200 3800 6200
+Wire Wire Line
+	3800 5900 3800 5800
+Wire Wire Line
+	3500 5800 3500 5900
+Wire Wire Line
+	3200 5900 3200 5800
+Wire Wire Line
+	2900 5900 2900 5800
+$Comp
+L power:GND #PWR?
+U 1 1 620B3DF3
+P 8050 2100
+F 0 "#PWR?" H 8050 1850 50  0001 C CNN
+F 1 "GND" H 8055 1927 50  0000 C CNN
+F 2 "" H 8050 2100 50  0001 C CNN
+F 3 "" H 8050 2100 50  0001 C CNN
+	1    8050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 1300 4550 1300
+$Comp
+L Device:C C?
+U 1 1 621C06D8
+P 7900 1950
+F 0 "C?" H 7850 1850 50  0000 R CNN
+F 1 "0.1uF" H 7850 2050 50  0000 R CNN
+F 2 "" H 7938 1800 50  0001 C CNN
+F 3 "~" H 7900 1950 50  0001 C CNN
+	1    7900 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Reference_Voltage:REF5030IDGK U?
+U 1 1 621E205A
+P 8550 4800
+F 0 "U?" H 8550 5281 50  0000 C CNN
+F 1 "REF5030IDGK" H 8550 5190 50  0000 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8600 4550 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/ref5030.pdf" H 8550 4800 50  0001 C CIN
+	1    8550 4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 621E7DC6
+P 8050 1800
+F 0 "#PWR?" H 8050 1650 50  0001 C CNN
+F 1 "VDDA" H 8065 1973 50  0000 C CNN
+F 2 "" H 8050 1800 50  0001 C CNN
+F 3 "" H 8050 1800 50  0001 C CNN
+	1    8050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621F2BD5
+P 9750 5200
+F 0 "#PWR?" H 9750 4950 50  0001 C CNN
+F 1 "GND" H 9755 5027 50  0000 C CNN
+F 2 "" H 9750 5200 50  0001 C CNN
+F 3 "" H 9750 5200 50  0001 C CNN
+	1    9750 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621F7326
+P 9300 4800
+F 0 "C?" H 9250 4700 50  0000 R CNN
+F 1 "2.2uF" H 9250 4900 50  0000 R CNN
+F 2 "" H 9338 4650 50  0001 C CNN
+F 3 "~" H 9300 4800 50  0001 C CNN
+	1    9300 4800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621F8070
+P 9650 4800
+F 0 "C?" H 9600 4700 50  0000 R CNN
+F 1 "0.1uF" H 9600 4900 50  0000 R CNN
+F 2 "" H 9688 4650 50  0001 C CNN
+F 3 "~" H 9650 4800 50  0001 C CNN
+	1    9650 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9650 4500 9650 4650
+Wire Wire Line
+	9300 4650 9300 4500
+Connection ~ 9300 4500
+Wire Wire Line
+	9300 4500 9650 4500
+$Comp
+L Device:R R?
+U 1 1 621FF704
+P 7300 4700
+F 0 "R?" H 7250 4650 50  0000 R CNN
+F 1 "0R" H 7250 4750 50  0000 R CNN
+F 2 "" V 7230 4700 50  0001 C CNN
+F 3 "~" H 7300 4700 50  0001 C CNN
+	1    7300 4700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6220074C
+P 8050 5050
+F 0 "C?" H 8000 4950 50  0000 R CNN
+F 1 "0.1uF" H 8000 5150 50  0000 R CNN
+F 2 "" H 8088 4900 50  0001 C CNN
+F 3 "~" H 8050 5050 50  0001 C CNN
+	1    8050 5050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8150 4900 8050 4900
+Wire Wire Line
+	9750 5200 9650 5200
+Wire Wire Line
+	9650 4950 9650 5200
+Connection ~ 9650 5200
+Wire Wire Line
+	9650 5200 9300 5200
+Wire Wire Line
+	9300 4950 9300 5200
+Connection ~ 9300 5200
+Wire Wire Line
+	9300 5200 8650 5200
+Wire Wire Line
+	8650 5100 8650 5200
+Connection ~ 8650 5200
+Wire Wire Line
+	8650 5200 8050 5200
+Wire Wire Line
+	7450 4700 8150 4700
+$Comp
+L Device:R R?
+U 1 1 62213864
+P 6800 4700
+F 0 "R?" H 6750 4650 50  0000 R CNN
+F 1 "1K" H 6750 4750 50  0000 R CNN
+F 2 "" V 6730 4700 50  0001 C CNN
+F 3 "~" H 6800 4700 50  0001 C CNN
+	1    6800 4700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7150 4700 7050 4700
+$Comp
+L Device:C C?
+U 1 1 62216556
+P 7050 4950
+F 0 "C?" H 7000 4850 50  0000 R CNN
+F 1 "0.1uF" H 7000 5050 50  0000 R CNN
+F 2 "" H 7088 4800 50  0001 C CNN
+F 3 "~" H 7050 4950 50  0001 C CNN
+	1    7050 4950
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62216FB2
+P 6500 4950
+F 0 "C?" H 6450 4850 50  0000 R CNN
+F 1 "0.1uF" H 6450 5050 50  0000 R CNN
+F 2 "" H 6538 4800 50  0001 C CNN
+F 3 "~" H 6500 4950 50  0001 C CNN
+	1    6500 4950
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5900 4700 6500 4700
+Wire Wire Line
+	6500 4800 6500 4700
+Connection ~ 6500 4700
+Wire Wire Line
+	6500 4700 6650 4700
+Wire Wire Line
+	7050 4800 7050 4700
+Connection ~ 7050 4700
+Wire Wire Line
+	7050 4700 6950 4700
+Wire Wire Line
+	8050 5200 7050 5200
+Wire Wire Line
+	6500 5200 6500 5100
+Connection ~ 8050 5200
+Wire Wire Line
+	7050 5100 7050 5200
+Connection ~ 7050 5200
+Wire Wire Line
+	7050 5200 6500 5200
+$Comp
+L Amplifier_Operational:OPA365xxD U?
+U 1 1 623261FB
+P 5350 1300
+AR Path="/61B9C0F2/623261FB" Ref="U?"  Part="1" 
+AR Path="/62086B6E/623261FB" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 1050 50  0000 C CNN
+F 1 "OPA365xxD" H 5550 1150 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 1100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 1450 50  0001 C CNN
+	1    5350 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62331851
+P 5450 1600
+F 0 "#PWR?" H 5450 1350 50  0001 C CNN
+F 1 "GND" H 5300 1550 50  0000 C CNN
+F 2 "" H 5450 1600 50  0001 C CNN
+F 3 "" H 5450 1600 50  0001 C CNN
+	1    5450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 623334D4
+P 5450 1000
+F 0 "#PWR?" H 5450 850 50  0001 C CNN
+F 1 "VDDA" H 5300 1050 50  0000 C CNN
+F 2 "" H 5450 1000 50  0001 C CNN
+F 3 "" H 5450 1000 50  0001 C CNN
+	1    5450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6233EFBA
+P 8200 1950
+F 0 "C?" H 8150 1850 50  0000 R CNN
+F 1 "0.1uF" H 8150 2050 50  0000 R CNN
+F 2 "" H 8238 1800 50  0001 C CNN
+F 3 "~" H 8200 1950 50  0001 C CNN
+	1    8200 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6233F427
+P 8500 1950
+F 0 "C?" H 8450 1850 50  0000 R CNN
+F 1 "0.1uF" H 8450 2050 50  0000 R CNN
+F 2 "" H 8538 1800 50  0001 C CNN
+F 3 "~" H 8500 1950 50  0001 C CNN
+	1    8500 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6233F933
+P 8800 1950
+F 0 "C?" H 8750 1850 50  0000 R CNN
+F 1 "0.1uF" H 8750 2050 50  0000 R CNN
+F 2 "" H 8838 1800 50  0001 C CNN
+F 3 "~" H 8800 1950 50  0001 C CNN
+	1    8800 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6233FE22
+P 9100 1950
+F 0 "C?" H 9050 1850 50  0000 R CNN
+F 1 "0.1uF" H 9050 2050 50  0000 R CNN
+F 2 "" H 9138 1800 50  0001 C CNN
+F 3 "~" H 9100 1950 50  0001 C CNN
+	1    9100 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8050 1800 7900 1800
+Connection ~ 8200 1800
+Wire Wire Line
+	8200 1800 8500 1800
+Connection ~ 8500 1800
+Wire Wire Line
+	8500 1800 8800 1800
+Connection ~ 8800 1800
+Wire Wire Line
+	8800 1800 9100 1800
+Wire Wire Line
+	7900 2100 8050 2100
+Connection ~ 8200 2100
+Wire Wire Line
+	8200 2100 8500 2100
+Connection ~ 8500 2100
+Wire Wire Line
+	8500 2100 8800 2100
+Connection ~ 8800 2100
+Wire Wire Line
+	8800 2100 9100 2100
+Connection ~ 8050 1800
+Wire Wire Line
+	8050 1800 8200 1800
+Connection ~ 8050 2100
+Wire Wire Line
+	8050 2100 8200 2100
+$Comp
+L Device:R R?
+U 1 1 6235C151
+P 4700 2200
+F 0 "R?" V 4493 2200 50  0000 C CNN
+F 1 "0R" V 4584 2200 50  0000 C CNN
+F 2 "" V 4630 2200 50  0001 C CNN
+F 3 "~" H 4700 2200 50  0001 C CNN
+	1    4700 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 2200 4550 2200
+$Comp
+L power:GND #PWR?
+U 1 1 6235C174
+P 5450 2500
+F 0 "#PWR?" H 5450 2250 50  0001 C CNN
+F 1 "GND" H 5300 2450 50  0000 C CNN
+F 2 "" H 5450 2500 50  0001 C CNN
+F 3 "" H 5450 2500 50  0001 C CNN
+	1    5450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 6235C17A
+P 5450 1900
+F 0 "#PWR?" H 5450 1750 50  0001 C CNN
+F 1 "VDDA" H 5300 1950 50  0000 C CNN
+F 2 "" H 5450 1900 50  0001 C CNN
+F 3 "" H 5450 1900 50  0001 C CNN
+	1    5450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62361D98
+P 4700 3100
+F 0 "R?" V 4493 3100 50  0000 C CNN
+F 1 "0R" V 4584 3100 50  0000 C CNN
+F 2 "" V 4630 3100 50  0001 C CNN
+F 3 "~" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 3100 4950 3100
+Wire Wire Line
+	5650 3000 5750 3000
+Wire Wire Line
+	5750 3000 5750 2650
+Wire Wire Line
+	5750 2650 4950 2650
+Wire Wire Line
+	4950 2650 4950 3100
+Connection ~ 4950 3100
+Wire Wire Line
+	4950 3100 5050 3100
+Wire Wire Line
+	5650 3200 5900 3200
+Wire Wire Line
+	4450 3100 4550 3100
+$Comp
+L Amplifier_Operational:OPA365xxD U?
+U 1 1 62361DB5
+P 5350 3100
+AR Path="/61B9C0F2/62361DB5" Ref="U?"  Part="1" 
+AR Path="/62086B6E/62361DB5" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 2850 50  0000 C CNN
+F 1 "OPA365xxD" H 5550 2950 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 2900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 3250 50  0001 C CNN
+	1    5350 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62361DBB
+P 5450 3400
+F 0 "#PWR?" H 5450 3150 50  0001 C CNN
+F 1 "GND" H 5300 3350 50  0000 C CNN
+F 2 "" H 5450 3400 50  0001 C CNN
+F 3 "" H 5450 3400 50  0001 C CNN
+	1    5450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 62361DC1
+P 5450 2800
+F 0 "#PWR?" H 5450 2650 50  0001 C CNN
+F 1 "VDDA" H 5300 2850 50  0000 C CNN
+F 2 "" H 5450 2800 50  0001 C CNN
+F 3 "" H 5450 2800 50  0001 C CNN
+	1    5450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 623678B7
+P 4700 4000
+F 0 "R?" V 4493 4000 50  0000 C CNN
+F 1 "0R" V 4584 4000 50  0000 C CNN
+F 2 "" V 4630 4000 50  0001 C CNN
+F 3 "~" H 4700 4000 50  0001 C CNN
+	1    4700 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4000 4950 4000
+Wire Wire Line
+	5650 3900 5750 3900
+Wire Wire Line
+	5750 3900 5750 3550
+Wire Wire Line
+	5750 3550 4950 3550
+Wire Wire Line
+	4950 3550 4950 4000
+Connection ~ 4950 4000
+Wire Wire Line
+	4950 4000 5050 4000
+Wire Wire Line
+	5650 4100 5900 4100
+Wire Wire Line
+	4450 4000 4550 4000
+$Comp
+L Amplifier_Operational:OPA365xxD U?
+U 1 1 623678D4
+P 5350 4000
+AR Path="/61B9C0F2/623678D4" Ref="U?"  Part="1" 
+AR Path="/62086B6E/623678D4" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 3750 50  0000 C CNN
+F 1 "OPA365xxD" H 5550 3850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 3800 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 4150 50  0001 C CNN
+	1    5350 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623678DA
+P 5450 4300
+F 0 "#PWR?" H 5450 4050 50  0001 C CNN
+F 1 "GND" H 5300 4250 50  0000 C CNN
+F 2 "" H 5450 4300 50  0001 C CNN
+F 3 "" H 5450 4300 50  0001 C CNN
+	1    5450 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 623678E0
+P 5450 3700
+F 0 "#PWR?" H 5450 3550 50  0001 C CNN
+F 1 "VDDA" H 5300 3750 50  0000 C CNN
+F 2 "" H 5450 3700 50  0001 C CNN
+F 3 "" H 5450 3700 50  0001 C CNN
+	1    5450 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 3200
+Wire Wire Line
+	5900 3200 5900 4100
+Connection ~ 5900 4100
+$Comp
+L Device:R R?
+U 1 1 62383A84
+P 4700 4900
+F 0 "R?" V 4493 4900 50  0000 C CNN
+F 1 "0R" V 4584 4900 50  0000 C CNN
+F 2 "" V 4630 4900 50  0001 C CNN
+F 3 "~" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 4800 5750 4800
+Wire Wire Line
+	5750 4800 5750 4450
+Wire Wire Line
+	5650 5000 5900 5000
+Wire Wire Line
+	4450 4900 4550 4900
+$Comp
+L Amplifier_Operational:OPA365xxD U?
+U 1 1 62383AA1
+P 5350 4900
+AR Path="/61B9C0F2/62383AA1" Ref="U?"  Part="1" 
+AR Path="/62086B6E/62383AA1" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 4650 50  0000 C CNN
+F 1 "OPA365xxD" H 5550 4750 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 4700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 5050 50  0001 C CNN
+	1    5350 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62383AA7
+P 5450 5200
+F 0 "#PWR?" H 5450 4950 50  0001 C CNN
+F 1 "GND" H 5300 5150 50  0000 C CNN
+F 2 "" H 5450 5200 50  0001 C CNN
+F 3 "" H 5450 5200 50  0001 C CNN
+	1    5450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR?
+U 1 1 62383AAD
+P 5450 4600
+F 0 "#PWR?" H 5450 4450 50  0001 C CNN
+F 1 "VDDA" H 5300 4650 50  0000 C CNN
+F 2 "" H 5450 4600 50  0001 C CNN
+F 3 "" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4100 5900 4700
+Connection ~ 5900 4700
+Wire Wire Line
+	5900 4700 5900 5000
+$Comp
+L Device:R R?
+U 1 1 623B32D5
+P 2600 5650
+AR Path="/62086B6E/623B32D5" Ref="R?"  Part="1" 
+AR Path="/623B32D5" Ref="R?"  Part="1" 
+F 0 "R?" H 2550 5600 50  0000 R CNN
+F 1 "0.1R" H 2550 5700 50  0000 R CNN
+F 2 "" V 2530 5650 50  0001 C CNN
+F 3 "~" H 2600 5650 50  0001 C CNN
+	1    2600 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623B32DB
+P 2600 6050
+AR Path="/62086B6E/623B32DB" Ref="C?"  Part="1" 
+AR Path="/623B32DB" Ref="C?"  Part="1" 
+F 0 "C?" H 2550 5950 50  0000 R CNN
+F 1 "22uF" H 2550 6150 50  0000 R CNN
+F 2 "" H 2638 5900 50  0001 C CNN
+F 3 "~" H 2600 6050 50  0001 C CNN
+	1    2600 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 5800 2600 5900
+Wire Wire Line
+	2750 6200 2600 6200
+Connection ~ 2750 6200
+Wire Wire Line
+	3800 5500 3800 5050
+Connection ~ 2600 1450
+Wire Wire Line
+	2600 1450 4200 1450
+Connection ~ 2900 2350
+Wire Wire Line
+	2900 2350 4200 2350
+Connection ~ 3200 3250
+Wire Wire Line
+	3200 3250 4200 3250
+Connection ~ 3500 4150
+Wire Wire Line
+	3500 4150 4200 4150
+Connection ~ 3800 5050
+Wire Wire Line
+	3800 5050 4200 5050
+Wire Wire Line
+	2000 1450 2600 1450
+Text HLabel 2000 5050 0    50   Input ~ 0
+VDAC
+Text HLabel 2000 4150 0    50   Input ~ 0
+HID
+Text HLabel 2000 3250 0    50   Input ~ 0
+HIC
+Text HLabel 2000 2350 0    50   Input ~ 0
+HIB
+Text HLabel 2000 1450 0    50   Input ~ 0
+HIA
+Wire Wire Line
+	2000 5050 3800 5050
+Wire Wire Line
+	3500 4150 3500 5500
+Wire Wire Line
+	2000 4150 3500 4150
+Wire Wire Line
+	3200 3250 3200 5500
+Wire Wire Line
+	2000 3250 3200 3250
+Wire Wire Line
+	2900 2350 2900 5500
+Wire Wire Line
+	2000 2350 2900 2350
+Wire Wire Line
+	2600 1450 2600 5500
+Wire Wire Line
+	9050 4500 9300 4500
+Wire Wire Line
+	8650 4500 9050 4500
+Connection ~ 9050 4500
+$Comp
+L power:VDDA #PWR?
+U 1 1 621E8B2D
+P 9050 4500
+F 0 "#PWR?" H 9050 4350 50  0001 C CNN
+F 1 "VDDA" H 9065 4673 50  0000 C CNN
+F 2 "" H 9050 4500 50  0001 C CNN
+F 3 "" H 9050 4500 50  0001 C CNN
+	1    9050 4500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1300 5050 1300
+$Comp
+L Amplifier_Operational:OPA365xxD U?
+U 1 1 6235C16E
+P 5350 2200
+AR Path="/61B9C0F2/6235C16E" Ref="U?"  Part="1" 
+AR Path="/62086B6E/6235C16E" Ref="U?"  Part="1" 
+F 0 "U?" H 5700 1950 50  0000 C CNN
+F 1 "OPA365xxD" H 5550 2050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 2000 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 2350 50  0001 C CNN
+	1    5350 2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2200 5050 2200
+Wire Wire Line
+	5650 2100 5900 2100
+Connection ~ 5900 2100
+Wire Wire Line
+	5900 2100 5900 3200
+Wire Wire Line
+	5650 1200 5900 1200
+Wire Wire Line
+	5900 1200 5900 2100
+Wire Wire Line
+	4850 4900 5050 4900
+Text Notes 6350 3350 0    50   ~ 0
+FEEDBACK TO MINUS!\n
+$EndSCHEMATC

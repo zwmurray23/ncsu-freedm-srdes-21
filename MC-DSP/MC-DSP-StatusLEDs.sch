@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -59,7 +59,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 4500 6800 4500
 Text HLabel 5500 3500 0    50   Input ~ 0
-GlobalResetIndicator
+SafeStateIndicator
 Text HLabel 5500 4000 0    50   Input ~ 0
 GPIOLED1
 Text HLabel 5500 4500 0    50   Input ~ 0

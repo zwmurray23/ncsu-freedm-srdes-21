@@ -12,4 +12,5 @@
   (lib (name Existing_IC_Models)(type Legacy)(uri C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/MC-FO/Existing_IC_Models.lib)(options "")(descr ""))
   (lib (name BU4847F-TR)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/BU4847F-TR/BU4847F-TR.lib")(options "")(descr ""))
   (lib (name BU4831F-TR)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/BU4831F-TR/BU4831F-TR.lib")(options "")(descr ""))
+  (lib (name CONMMCX001)(type Legacy)(uri "C:/Users/Jacob/Documents/KiCAD/ncsu-freedm-srdes-21/Existing IC Models/CONMMCX001/CONMMCX001.lib")(options "")(descr ""))
 )

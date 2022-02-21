@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -217,7 +217,7 @@ F 3 "~" H 5900 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 8250 3250 2    50   Input ~ 0
-GlobalReset
+SafeState
 Text Notes 4750 1550 0    50   ~ 0
 check if we really need 5V
 Text Notes 6600 1450 0    50   ~ 0
@@ -338,11 +338,6 @@ Wire Wire Line
 	7500 3250 7750 3250
 Text Notes 6450 2350 0    50   ~ 0
 check RD to see if needs to go anywhere else
-Text HLabel 3000 3250 0    50   Input ~ 0
-DSP_XRSn
-Wire Wire Line
-	3000 3250 3600 3250
-Connection ~ 3600 3250
 Wire Wire Line
 	5900 3250 6950 3250
 $Comp
@@ -358,4 +353,6 @@ F 3 "" H 7250 3650 50  0001 C CNN
 $EndComp
 Text Notes 5150 4350 0    50   ~ 0
 XRS Vmonitors need to control GR\nGR needs to be able to pulll down XRS\nSLED contolled by XRS and Vmonitors
+Wire Wire Line
+	7250 3350 7250 3650
 $EndSCHEMATC
