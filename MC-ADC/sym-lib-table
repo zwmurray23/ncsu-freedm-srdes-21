@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name bark)(type Legacy)(uri "C:/Users/zacha/Desktop/NCSU/ECE 484 _ 485/485/KiCAD/Current/MC-ADC/Existing_IC_Models.lib")(options "")(descr ""))
+  (lib (name MC-ADC-rescue)(type Legacy)(uri ${KIPRJMOD}/MC-ADC-rescue.lib)(options "")(descr ""))
 )

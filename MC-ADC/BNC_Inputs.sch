@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -17,6 +17,8 @@ $Comp
 L Connector:Conn_Coaxial J1
 U 1 1 61F07758
 P 1600 4000
+AR Path="/620D84A4/61F07758" Ref="J1"  Part="1" 
+AR Path="/620D8862/61F07758" Ref="J1"  Part="1" 
 F 0 "J1" H 1750 4000 50  0000 L CNN
 F 1 "Conn_Coaxial" H 1350 4150 50  0000 L CNN
 F 2 "Connector_Coaxial:BNC_Amphenol_031-6575_Horizontal" H 1600 4000 50  0001 C CNN
@@ -31,6 +33,8 @@ P 3150 4750
 AR Path="/61F0AAD9/61FE002F" Ref="R?"  Part="1" 
 AR Path="/61F25080/61FE002F" Ref="R?"  Part="1" 
 AR Path="/61FE002F" Ref="R?"  Part="1" 
+AR Path="/620D84A4/61FE002F" Ref="R?"  Part="1" 
+AR Path="/620D8862/61FE002F" Ref="R?"  Part="1" 
 F 0 "R?" H 3000 4700 50  0000 C CNN
 F 1 "50R" H 3000 4800 50  0000 C CNN
 F 2 "" H 3150 4750 50  0001 C CNN
@@ -45,6 +49,8 @@ P 1600 3150
 AR Path="/61F0AAD9/622B088D" Ref="R?"  Part="1" 
 AR Path="/61F25080/622B088D" Ref="R?"  Part="1" 
 AR Path="/622B088D" Ref="DNP"  Part="1" 
+AR Path="/620D84A4/622B088D" Ref="DNP"  Part="1" 
+AR Path="/620D8862/622B088D" Ref="DNP"  Part="1" 
 F 0 "DNP" H 1450 3100 50  0000 C CNN
 F 1 "R" H 1450 3200 50  0000 C CNN
 F 2 "" H 1600 3150 50  0001 C CNN
@@ -64,8 +70,11 @@ $Comp
 L Device:R_Small_US R?
 U 1 1 62117504
 P 8700 4000
+AR Path="/620D84A4/62117504" Ref="R?"  Part="1" 
+AR Path="/620D8862/62117504" Ref="R?"  Part="1" 
+AR Path="/62117504" Ref="R?"  Part="1" 
 F 0 "R?" V 8495 4000 50  0000 C CNN
-F 1 "R_Small_US" V 8586 4000 50  0000 C CNN
+F 1 "1kOhm" V 8586 4000 50  0000 C CNN
 F 2 "" H 8700 4000 50  0001 C CNN
 F 3 "~" H 8700 4000 50  0001 C CNN
 	1    8700 4000
@@ -75,8 +84,11 @@ $Comp
 L Device:C_Small C?
 U 1 1 6211750A
 P 8900 4250
+AR Path="/620D84A4/6211750A" Ref="C?"  Part="1" 
+AR Path="/620D8862/6211750A" Ref="C?"  Part="1" 
+AR Path="/6211750A" Ref="C?"  Part="1" 
 F 0 "C?" H 8992 4296 50  0000 L CNN
-F 1 "C_Small" H 8992 4205 50  0000 L CNN
+F 1 "10pF" H 8992 4205 50  0000 L CNN
 F 2 "" H 8900 4250 50  0001 C CNN
 F 3 "~" H 8900 4250 50  0001 C CNN
 	1    8900 4250
@@ -111,6 +123,8 @@ U 1 1 61FD1B76
 P 3400 4150
 AR Path="/61F25080/61FD1B76" Ref="JP?"  Part="1" 
 AR Path="/61FD1B76" Ref="JP?"  Part="1" 
+AR Path="/620D84A4/61FD1B76" Ref="JP?"  Part="1" 
+AR Path="/620D8862/61FD1B76" Ref="JP?"  Part="1" 
 F 0 "JP?" H 3400 4354 50  0000 C CNN
 F 1 "Jumper" H 3400 4263 50  0000 C CNN
 F 2 "" H 3400 4150 50  0001 C CNN
@@ -125,6 +139,8 @@ P 3650 4750
 AR Path="/61F0AAD9/620E7FD5" Ref="R?"  Part="1" 
 AR Path="/61F25080/620E7FD5" Ref="R?"  Part="1" 
 AR Path="/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/620D84A4/620E7FD5" Ref="R?"  Part="1" 
+AR Path="/620D8862/620E7FD5" Ref="R?"  Part="1" 
 F 0 "R?" H 3500 4700 50  0000 C CNN
 F 1 "1MOhm" H 3400 4800 50  0000 C CNN
 F 2 "" H 3650 4750 50  0001 C CNN
@@ -156,22 +172,16 @@ Wire Wire Line
 	1600 3450 1500 3450
 Wire Wire Line
 	1600 3250 1600 3450
-Text Notes 3550 3150 0    50   ~ 0
-schotkey diodes to Vdd and -Vdd \n(Forward Voltage ~ 0.7?)\n
 Text Notes 5050 3250 0    50   ~ 0
 buffer
-Text Notes 5850 3900 0    50   ~ 0
-resistor divider 
-Text Notes 6450 3400 0    50   ~ 0
-amplifier with 1.5V offset\n\n+1.5VIN connected to non-inv input, actual 1.5V connected to inv+output
-Wire Notes Line
-	6150 3800 6150 2900
-Text Notes 4800 2800 0    50   ~ 0
-If division is sufficient for 10V, then will be more than enough for 3.3\n
+Text Notes 6850 3450 0    50   ~ 0
+amplifier with 1.5V offset\n\n(offset V connects to inv input)
 $Comp
 L Device:D_Schottky D?
 U 1 1 62102CB7
 P 4100 3750
+AR Path="/620D84A4/62102CB7" Ref="D?"  Part="1" 
+AR Path="/620D8862/62102CB7" Ref="D?"  Part="1" 
 F 0 "D?" V 4054 3830 50  0000 L CNN
 F 1 "D_Schottky" V 4145 3830 50  0000 L CNN
 F 2 "" H 4100 3750 50  0001 C CNN
@@ -202,6 +212,8 @@ $Comp
 L Device:D_Schottky D?
 U 1 1 6210F5CE
 P 4100 4250
+AR Path="/620D84A4/6210F5CE" Ref="D?"  Part="1" 
+AR Path="/620D8862/6210F5CE" Ref="D?"  Part="1" 
 F 0 "D?" V 4054 4330 50  0000 L CNN
 F 1 "D_Schottky" V 4145 4330 50  0000 L CNN
 F 2 "" H 4100 4250 50  0001 C CNN
@@ -224,6 +236,8 @@ P 2800 4000
 AR Path="/61F0AAD9/61FB1ED6" Ref="R?"  Part="1" 
 AR Path="/61F25080/61FB1ED6" Ref="R?"  Part="1" 
 AR Path="/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/620D84A4/61FB1ED6" Ref="R?"  Part="1" 
+AR Path="/620D8862/61FB1ED6" Ref="R?"  Part="1" 
 F 0 "R?" H 2650 3950 50  0000 C CNN
 F 1 "10kOhm" H 2550 4050 50  0000 C CNN
 F 2 "" H 2800 4000 50  0001 C CNN
@@ -258,6 +272,8 @@ P 6000 4300
 AR Path="/61F0AAD9/620D7C54" Ref="R?"  Part="1" 
 AR Path="/61F25080/620D7C54" Ref="R?"  Part="1" 
 AR Path="/620D7C54" Ref="R?"  Part="1" 
+AR Path="/620D84A4/620D7C54" Ref="R?"  Part="1" 
+AR Path="/620D8862/620D7C54" Ref="R?"  Part="1" 
 F 0 "R?" H 5850 4250 50  0000 C CNN
 F 1 "1kOhm" H 5750 4350 50  0000 C CNN
 F 2 "" H 6000 4300 50  0001 C CNN
@@ -272,6 +288,8 @@ P 6000 4850
 AR Path="/61F0AAD9/620D86C7" Ref="R?"  Part="1" 
 AR Path="/61F25080/620D86C7" Ref="R?"  Part="1" 
 AR Path="/620D86C7" Ref="R?"  Part="1" 
+AR Path="/620D84A4/620D86C7" Ref="R?"  Part="1" 
+AR Path="/620D8862/620D86C7" Ref="R?"  Part="1" 
 F 0 "R?" H 5850 4800 50  0000 C CNN
 F 1 "100R" H 5750 4900 50  0000 C CNN
 F 2 "" H 6000 4850 50  0001 C CNN
@@ -286,7 +304,7 @@ Wire Wire Line
 Connection ~ 3650 5150
 Wire Wire Line
 	6000 4600 6700 4600
-Text Notes 6400 4750 0    50   ~ 0
+Text Notes 6500 4800 0    50   ~ 0
 approx \n0.9V for +/-10V
 Wire Wire Line
 	6000 5150 6000 4950
