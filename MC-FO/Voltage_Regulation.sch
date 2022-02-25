@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -152,7 +152,7 @@ Wire Wire Line
 	1900 4600 3950 4600
 Connection ~ 3950 2350
 Wire Wire Line
-	1450 3450 1900 3450
+	1450 3450 1600 3450
 Connection ~ 1900 3450
 Wire Wire Line
 	1900 3450 1900 4600
@@ -208,4 +208,18 @@ Wire Wire Line
 	4550 4600 5650 4600
 Wire Wire Line
 	3950 4900 5500 4900
+$Comp
+L Connector:TestPoint TP21
+U 1 1 623D8FE0
+P 1600 3450
+F 0 "TP21" H 1658 3568 50  0000 L CNN
+F 1 "TestPoint" H 1658 3477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1800 3450 50  0001 C CNN
+F 3 "~" H 1800 3450 50  0001 C CNN
+	1    1600 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 3450
+Wire Wire Line
+	1600 3450 1900 3450
 $EndSCHEMATC

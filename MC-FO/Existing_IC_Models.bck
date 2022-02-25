@@ -102,6 +102,12 @@ K Single Gate OR LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
+$CMP 86094327313755E1LF
+D Generic connector, double row, 02x16, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP APT2012SGC
 D LED
 $ENDCMP

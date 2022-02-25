@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -171,7 +171,7 @@ F 3 "~" H 5750 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 5250 8550 5250
+	5900 5250 7475 5250
 Text HLabel 8550 5250 2    50   Input ~ 0
 EPWM
 Text HLabel 4300 3000 0    50   Input ~ 0
@@ -325,4 +325,18 @@ Wire Wire Line
 	5900 5550 5900 5650
 Text HLabel 4250 4550 0    50   Input ~ 0
 5V
+$Comp
+L Connector:TestPoint TP?
+U 1 1 623D825D
+P 7475 5250
+F 0 "TP?" H 7417 5276 50  0000 R CNN
+F 1 "TestPoint" H 7417 5367 50  0000 R CNN
+F 2 "" H 7675 5250 50  0001 C CNN
+F 3 "~" H 7675 5250 50  0001 C CNN
+	1    7475 5250
+	-1   0    0    1   
+$EndComp
+Connection ~ 7475 5250
+Wire Wire Line
+	7475 5250 8550 5250
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -76,32 +76,16 @@ Wire Wire Line
 Connection ~ 3400 4350
 Wire Wire Line
 	3400 5350 3400 6300
-Wire Wire Line
-	4850 4350 3400 4350
 $Sheet
-S 4850 4100 950  650 
-U 6171C819
-F0 "Detector1" 50
-F1 "Detector_Circuits.sch" 50
-F2 "DPWM" O L 4850 4500 50 
-F3 "5V" I L 4850 4350 50 
-F4 "GND" I L 4850 4650 50 
-F5 "3V3" I R 5800 4350 50 
-$EndSheet
-$Sheet
-S 7150 1700 1000 500 
+S 7150 1700 1025 700 
 U 6175812E
 F0 "Status LED" 50
 F1 "MC-LED.sch" 50
 F2 "3V3" I L 7150 1900 50 
 F3 "GND" I L 7150 2100 50 
 F4 "5V" I L 7150 2000 50 
-F5 "RESET_FO" O L 7150 1800 50 
+F5 "SAFE_STATE_FLAG" B L 7150 2350 50 
 $EndSheet
-Wire Wire Line
-	7150 1150 6200 1150
-Wire Wire Line
-	6200 1150 6200 1900
 Wire Wire Line
 	2050 1650 2400 1650
 Wire Wire Line
@@ -131,33 +115,29 @@ Text GLabel 8650 900  2    50   Input ~ 0
 24V
 Wire Wire Line
 	8650 900  8150 900 
-Text GLabel 2950 3550 2    50   Input ~ 0
-RESET1
+Text GLabel 2825 3550 2    50   Input ~ 0
+RESET_GPIO
 Text GLabel 2950 5500 2    50   Input ~ 0
 EPWM2B
-Text GLabel 2950 6450 2    50   Input ~ 0
-RESET2
-Text GLabel 4250 4500 0    50   Output ~ 0
+Text GLabel 6875 3850 2    50   Output ~ 0
 STATUS1
-Text GLabel 7050 5950 2    50   Output ~ 0
+Text GLabel 6850 4850 2    50   Output ~ 0
 STATUS2
 Wire Wire Line
-	7150 850  5100 850 
+	7150 850  6200 850 
 Wire Wire Line
 	2050 1350 3400 1350
 Wire Wire Line
-	5100 850  5100 2000
+	6200 850  6200 2000
 Wire Wire Line
-	5100 2000 7150 2000
-Connection ~ 5100 850 
+	6200 2000 7150 2000
+Connection ~ 6200 850 
 Wire Wire Line
-	5100 850  3400 850 
+	6200 850  4525 850 
 Text Notes 8750 2800 0    50   ~ 0
 amphenol 8609 series - 86094327313755E1LF
 Wire Notes Line
-	8500 2900 10800 2900
-Wire Notes Line
-	10800 2900 10800 5850
+	10805 2880 10805 5830
 Text Notes 650  1400 0    50   ~ 0
 20+
 Text Notes 700  2300 0    50   ~ 0
@@ -170,14 +150,10 @@ Text Notes 650  5350 0    50   ~ 0
 100+
 Text Notes 700  6400 0    50   ~ 0
 120+
-Text Notes 5200 3950 0    50   ~ 0
-140+
-Text Notes 8500 2000 0    50   ~ 0
+Text Notes 7950 1675 0    50   ~ 0
 180+
 Text Notes 9100 950  0    50   ~ 0
 1+
-Text Notes 4850 3850 0    50   ~ 0
-Comparator+ OR gate
 Wire Wire Line
 	2050 4350 3400 4350
 $Sheet
@@ -199,12 +175,12 @@ Connection ~ 2400 4650
 $Comp
 L power:GND #PWR011
 U 1 1 6187A787
-P 4700 7450
-F 0 "#PWR011" H 4700 7200 50  0001 C CNN
-F 1 "GND" H 4705 7277 50  0000 C CNN
-F 2 "" H 4700 7450 50  0001 C CNN
-F 3 "" H 4700 7450 50  0001 C CNN
-	1    4700 7450
+P 2400 7100
+F 0 "#PWR011" H 2400 6850 50  0001 C CNN
+F 1 "GND" H 2405 6927 50  0000 C CNN
+F 2 "" H 2400 7100 50  0001 C CNN
+F 3 "" H 2400 7100 50  0001 C CNN
+	1    2400 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -218,14 +194,6 @@ F 3 "" H 6750 2550 50  0001 C CNN
 	1    6750 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 1800 3650 1800
-Wire Wire Line
-	3650 1800 3650 2200
-Wire Wire Line
-	4700 6950 4700 7450
-Wire Wire Line
-	4850 4650 4700 4650
 Connection ~ 3400 1350
 Wire Wire Line
 	3400 1350 3400 2300
@@ -233,21 +201,16 @@ Wire Wire Line
 	3400 850  3400 1350
 Connection ~ 3400 2300
 Wire Wire Line
-	3400 2300 3400 3400
+	3400 4350 3400 4950
 Wire Wire Line
-	3400 4350 3400 5350
-Wire Wire Line
-	3400 3400 3400 4350
+	3400 3400 3400 3950
 Wire Wire Line
 	2050 1200 3650 1200
-Wire Wire Line
-	3650 1200 3650 1800
-Connection ~ 3650 1800
 Wire Wire Line
 	2050 2200 3650 2200
 Connection ~ 3650 2200
 Wire Wire Line
-	3650 2200 3650 3200
+	3650 2200 3650 2625
 Wire Wire Line
 	2050 3200 3650 3200
 Connection ~ 3650 3200
@@ -265,10 +228,7 @@ Wire Wire Line
 	3650 5200 3650 6200
 Wire Wire Line
 	2050 6200 3650 6200
-Wire Wire Line
-	2400 6600 2400 6950
 Connection ~ 2400 6600
-Connection ~ 4700 6950
 $Sheet
 S 7150 750  1000 500 
 U 6175C442
@@ -279,412 +239,481 @@ F3 "3V3" O L 7150 1150 50
 F4 "5V" O L 7150 850 50 
 F5 "GND" I L 7150 1000 50 
 $EndSheet
-$Comp
-L Existing_IC_Models:IFD97 U161
-U 1 1 617D121C
-P 5200 6550
-F 0 "U161" H 5200 7365 50  0000 C CNN
-F 1 "IFD97" H 5200 7274 50  0000 C CNN
-F 2 "Footprints_MC-FO:IFE98" H 5200 7350 50  0001 C CNN
-F 3 "" H 5200 7350 50  0001 C CNN
-	1    5200 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Existing_IC_Models:74LVC1G32SE-7 U163
-U 1 1 617D71DD
-P 6200 6650
-F 0 "U163" H 6050 6500 50  0000 C CNN
-F 1 "74LVC1G32SE-7" H 5850 6400 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6200 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6200 6650 50  0001 C CNN
-	1    6200 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 617E0C1A
-P 4950 5450
-AR Path="/6171C819/617E0C1A" Ref="C?"  Part="1" 
-AR Path="/61724A08/617E0C1A" Ref="C?"  Part="1" 
-AR Path="/617E0C1A" Ref="C161"  Part="1" 
-F 0 "C161" H 5050 5500 50  0000 L CNN
-F 1 "0.1 uF" H 5050 5400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4950 5450 50  0001 C CNN
-F 3 "~" H 4950 5450 50  0001 C CNN
-	1    4950 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C?
-U 1 1 617E0C20
-P 5450 5450
-AR Path="/6171C819/617E0C20" Ref="C?"  Part="1" 
-AR Path="/61724A08/617E0C20" Ref="C?"  Part="1" 
-AR Path="/617E0C20" Ref="C162"  Part="1" 
-F 0 "C162" H 5541 5496 50  0000 L CNN
-F 1 "10 uF" H 5541 5405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5450 5450 50  0001 C CNN
-F 3 "~" H 5450 5450 50  0001 C CNN
-	1    5450 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4950 5600 4950 5550
-Wire Wire Line
-	5450 5600 5450 5550
-$Comp
-L Device:R_Small_US R161
-U 1 1 618E6038
-P 5700 6300
-F 0 "R161" H 5768 6346 50  0000 L CNN
-F 1 "2.4K" H 5768 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5700 6300 50  0001 C CNN
-F 3 "~" H 5700 6300 50  0001 C CNN
-	1    5700 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 5950 5800 5950
-Wire Wire Line
-	5700 6600 5900 6600
-Connection ~ 5450 5350
-Wire Wire Line
-	4950 5350 5450 5350
-Wire Wire Line
-	5450 5350 5800 5350
-Wire Wire Line
-	5800 5350 5800 5950
-Connection ~ 4700 6700
-Wire Wire Line
-	4700 6700 4700 6950
-Wire Wire Line
-	6500 6650 6450 6650
-$Comp
-L Device:R_Small_US R162
-U 1 1 61A2E208
-P 6350 6450
-F 0 "R162" V 6150 6350 50  0000 L CNN
-F 1 "47K" V 6250 6350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 6450 50  0001 C CNN
-F 3 "~" H 6350 6450 50  0001 C CNN
-	1    6350 6450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6250 6450 5700 6450
-Wire Wire Line
-	4950 5600 4700 5600
-Connection ~ 4950 5600
-Connection ~ 4700 5600
-Wire Wire Line
-	4700 5600 4700 6700
-Wire Wire Line
-	4950 5600 5450 5600
-Wire Wire Line
-	4700 6700 5550 6700
-Wire Wire Line
-	5500 6050 5550 6050
-Wire Wire Line
-	5550 6050 5550 6250
-Wire Wire Line
-	5550 6250 5500 6250
-Wire Wire Line
-	5550 6250 5550 6700
-Connection ~ 5550 6250
-Connection ~ 5550 6700
-Wire Wire Line
-	5550 6700 5900 6700
-Wire Wire Line
-	5700 6200 5700 6150
-Wire Wire Line
-	5700 6150 5500 6150
-Wire Wire Line
-	5700 6400 5700 6450
-Connection ~ 5700 6450
-Wire Wire Line
-	5700 6450 5700 6600
-Wire Wire Line
-	6500 5950 6500 6450
-Wire Wire Line
-	6450 6450 6500 6450
-Connection ~ 6500 6450
-Wire Wire Line
-	6500 6450 6500 6650
-Connection ~ 6200 1900
-Wire Wire Line
-	6200 1900 7150 1900
-Wire Wire Line
-	6200 1900 6200 4350
-Wire Wire Line
-	5800 4350 6200 4350
-Connection ~ 6200 4350
-Wire Wire Line
-	4950 5350 3400 5350
-Connection ~ 4950 5350
-$Comp
-L Device:R_Small_US R163
-U 1 1 6193B542
-P 6700 6200
-F 0 "R163" H 6768 6246 50  0000 L CNN
-F 1 "10K" H 6768 6155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 6200 50  0001 C CNN
-F 3 "~" H 6700 6200 50  0001 C CNN
-	1    6700 6200
-	1    0    0    -1  
-$EndComp
-Text Notes 5700 5200 0    50   ~ 0
-160+
-Text Notes 5600 5100 0    50   ~ 0
-OR gate only
-Wire Notes Line
-	6800 7100 6800 6400
-Wire Notes Line
-	7600 6400 7600 5100
-Wire Notes Line
-	4850 5100 4850 7100
-Wire Notes Line
-	4850 7100 6800 7100
-Wire Wire Line
-	6200 4350 6300 4350
-Wire Wire Line
-	6200 5850 6200 6550
-Wire Wire Line
-	6300 5850 6200 5850
+	6550 1900 7150 1900
 Wire Notes Line
 	8500 2900 8500 5850
 Wire Notes Line
-	8500 5850 10800 5850
-Wire Wire Line
-	6300 4350 6300 5275
-Wire Notes Line
-	7600 5100 4850 5100
-Wire Notes Line
-	7600 6400 6800 6400
-Wire Wire Line
-	6500 5950 6700 5950
-Wire Wire Line
-	6700 6300 6700 6950
-Wire Wire Line
-	4700 6950 6200 6950
-Wire Wire Line
-	6700 6100 6700 5950
-Connection ~ 6700 5950
-Wire Wire Line
-	6700 5950 7050 5950
-Wire Wire Line
-	6200 6750 6200 6950
-Connection ~ 6200 6950
-Wire Wire Line
-	6200 6950 6700 6950
-$Comp
-L power:GND #PWR0101
-U 1 1 61878124
-P 10000 5200
-F 0 "#PWR0101" H 10000 4950 50  0001 C CNN
-F 1 "GND" H 10005 5027 50  0000 C CNN
-F 2 "" H 10000 5200 50  0001 C CNN
-F 3 "" H 10000 5200 50  0001 C CNN
-	1    10000 5200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 617E5658
-P 6200 5450
-AR Path="/6171C819/617E5658" Ref="C?"  Part="1" 
-AR Path="/61724A08/617E5658" Ref="C?"  Part="1" 
-AR Path="/617E5658" Ref="C163"  Part="1" 
-F 0 "C163" H 6300 5500 50  0000 L CNN
-F 1 "0.1 uF" H 6300 5400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6200 5450 50  0001 C CNN
-F 3 "~" H 6200 5450 50  0001 C CNN
-	1    6200 5450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 5600 6200 5600
-Wire Wire Line
-	6200 5600 6200 5550
-Connection ~ 5450 5600
-Wire Wire Line
-	6200 5350 6200 5275
-Wire Wire Line
-	6200 5275 6300 5275
-Connection ~ 6300 5275
-Wire Wire Line
-	6300 5275 6300 5850
+	8500 5825 10800 5825
 Text Label 6975 1900 0    50   ~ 0
 3V3
 Wire Wire Line
-	10000 5200 10000 4975
-Wire Wire Line
-	10000 3975 10000 4175
-Connection ~ 10000 3975
-Wire Wire Line
-	9900 3975 10000 3975
-Wire Wire Line
-	10000 4175 10000 4375
-Connection ~ 10000 4175
-Wire Wire Line
-	9900 4175 10000 4175
-Wire Wire Line
-	10000 4375 10000 4575
-Connection ~ 10000 4375
-Wire Wire Line
-	9900 4375 10000 4375
-Wire Wire Line
-	10000 4575 10000 4775
-Connection ~ 10000 4575
-Wire Wire Line
-	9900 4575 10000 4575
-Wire Wire Line
-	10000 4775 10000 4975
-Connection ~ 10000 4775
-Wire Wire Line
-	9900 4775 10000 4775
-Wire Wire Line
-	9900 4975 10000 4975
-Wire Wire Line
-	9900 3775 10000 3775
-Wire Wire Line
-	9000 3575 9400 3575
-Wire Wire Line
-	9900 5075 10100 5075
-Wire Wire Line
-	10100 4875 9900 4875
-Wire Wire Line
-	9900 4675 10100 4675
-Wire Wire Line
-	10100 4475 9900 4475
-Wire Wire Line
-	10100 4275 9900 4275
-Wire Wire Line
-	10100 4075 9900 4075
-Wire Wire Line
-	10100 3875 9900 3875
-Wire Wire Line
-	9900 3675 10100 3675
-$Comp
-L power:GND #PWR013
-U 1 1 618DD9E5
-P 9400 5200
-F 0 "#PWR013" H 9400 4950 50  0001 C CNN
-F 1 "GND" H 9405 5027 50  0000 C CNN
-F 2 "" H 9400 5200 50  0001 C CNN
-F 3 "" H 9400 5200 50  0001 C CNN
-	1    9400 5200
-	1    0    0    -1  
-$EndComp
-Text GLabel 10100 5075 2    50   Input ~ 0
-STATUS2
-Text GLabel 10100 4275 2    50   Input ~ 0
-STATUS1
-Text GLabel 10100 4875 2    50   Output ~ 0
-RESET2
-Text GLabel 10100 4675 2    50   Output ~ 0
-EPWM2B
-Text GLabel 10100 4475 2    50   Output ~ 0
-EPWM2A
-Text GLabel 10100 4075 2    50   Output ~ 0
-RESET1
-Text GLabel 9000 3575 0    50   Output ~ 0
-24V
-Text GLabel 10100 3875 2    50   Output ~ 0
-EPWM1B
-Text GLabel 10100 3675 2    50   Output ~ 0
-EPWM1A
-Connection ~ 10000 4975
-Wire Wire Line
-	10000 3575 9900 3575
-Wire Wire Line
-	10000 3575 10000 3775
-Connection ~ 10000 3775
-Wire Wire Line
-	10000 3775 10000 3975
-Wire Wire Line
 	2400 1650 2400 2600
 Wire Wire Line
-	2050 1500 2950 1500
+	2050 1500 2650 1500
 Wire Wire Line
-	2050 2450 2900 2450
+	2050 2450 2625 2450
 Wire Wire Line
 	2400 2600 2400 3700
 Wire Wire Line
-	2050 3550 2950 3550
+	2050 3550 2600 3550
 Wire Wire Line
 	2400 3700 2400 4650
 Wire Wire Line
-	2050 4500 2950 4500
+	2050 4500 2625 4500
 Wire Wire Line
 	2400 4650 2400 5650
 Wire Wire Line
-	2050 5500 2950 5500
+	2050 5500 2700 5500
 Wire Wire Line
 	2400 5650 2400 6600
 Wire Wire Line
-	2050 6450 2950 6450
+	2050 6450 2725 6450
+Text Notes 500  -75  0    118  ~ 0
+Test:\nCrosstalk between "agressor" and "victim"\nSquare wave, find delay and %accuracy \n\nTodo:\nFlip the detector footprint ---                                 DONE( the pins were labelled incorrectly in the schematic)\nreplace AND on detector output with NAND------ DONE (decided to use NOR instead\nwe got shipped the wrong voltage regulators? make sure part # is right? ---  corrrect schematic (mouser error)\nreplace Detector1 with simplified detector circuit---- DONE \nU142 has incorrect footprint, but it is being removed anyway --- DONE\n\nGlobal reset-Reset is only ½ way function of intention\nPin on conn for global reset and use that to gate all of the transmitters   --- Safe_state flag AND w/ Reset_FO(voltage monitors) and output of that should go to emitters and back out to backplane \n\n\n\ncombined the RESET1 and RESET2  signals to one RESET_GPIO   ---DONE\n\n\n***Add probe points on pretty much all signals (pwms, output enable fo, power rails, cont...)\n\n\n\n\n\n
 Wire Wire Line
-	2400 6950 4700 6950
+	7150 1150 6550 1150
 Wire Wire Line
-	4700 4650 4700 5600
+	3400 2300 3400 3400
 Wire Wire Line
-	4250 4500 4850 4500
-Connection ~ 9400 4275
+	2400 6600 2400 7100
+$Sheet
+S 5350 4750 900  450 
+U 622415A4
+F0 "Detector2" 50
+F1 "Detector_circuit.sch" 50
+F2 "3V3" I L 5350 4850 50 
+F3 "5V" I L 5350 4950 50 
+F4 "GND" I L 5350 5050 50 
+F5 "STATUS" O R 6250 4850 50 
+$EndSheet
+$Sheet
+S 5350 3750 900  450 
+U 621F57A1
+F0 "Detector1" 50
+F1 "Detector_circuit.sch" 50
+F2 "3V3" I L 5350 3850 50 
+F3 "5V" I L 5350 3950 50 
+F4 "GND" I L 5350 4050 50 
+F5 "STATUS" O R 6250 3850 50 
+$EndSheet
 Wire Wire Line
-	9400 4375 9400 4275
-Connection ~ 9400 4375
+	6550 1150 6550 1900
 Wire Wire Line
-	9400 4475 9400 4375
-Connection ~ 9400 4475
+	6550 1150 5100 1150
 Wire Wire Line
-	9400 4575 9400 4475
-Connection ~ 9400 4575
+	4800 1150 4800 3850
 Wire Wire Line
-	9400 4675 9400 4575
-Connection ~ 9400 4675
+	4800 3850 5350 3850
+Connection ~ 6550 1150
 Wire Wire Line
-	9400 4775 9400 4675
-Connection ~ 9400 4775
+	4800 3850 4800 4850
 Wire Wire Line
-	9400 4875 9400 4775
-Connection ~ 9400 4875
+	4800 4850 5350 4850
+Connection ~ 4800 3850
 Wire Wire Line
-	9400 4975 9400 4875
-Connection ~ 9400 4975
+	5350 3950 3400 3950
+Connection ~ 3400 3950
 Wire Wire Line
-	9400 3775 9400 3875
-Connection ~ 9400 3875
+	3400 3950 3400 4350
 Wire Wire Line
-	9400 3975 9400 3875
-Connection ~ 9400 3975
+	5350 4950 3400 4950
+Connection ~ 3400 4950
 Wire Wire Line
-	9400 4075 9400 3975
-Connection ~ 9400 4075
+	3400 4950 3400 5350
 Wire Wire Line
-	9400 4175 9400 4075
+	5350 4050 5200 4050
 Wire Wire Line
-	9400 4275 9400 4175
-Connection ~ 9400 4175
+	5200 4050 5200 4200
 Wire Wire Line
-	9400 4975 9400 5075
-Connection ~ 9400 5075
+	5350 5050 5200 5050
 Wire Wire Line
-	9400 5075 9400 5200
+	5200 5050 5200 5200
+$Comp
+L power:GND #PWR02
+U 1 1 6227B654
+P 5200 5200
+F 0 "#PWR02" H 5200 4950 50  0001 C CNN
+F 1 "GND" H 5205 5027 50  0000 C CNN
+F 2 "" H 5200 5200 50  0001 C CNN
+F 3 "" H 5200 5200 50  0001 C CNN
+	1    5200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 6227BAAE
+P 5200 4200
+F 0 "#PWR01" H 5200 3950 50  0001 C CNN
+F 1 "GND" H 5205 4027 50  0000 C CNN
+F 2 "" H 5200 4200 50  0001 C CNN
+F 3 "" H 5200 4200 50  0001 C CNN
+	1    5200 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3850 6400 3850
+Wire Wire Line
+	6850 4850 6375 4850
+Text GLabel 9250 4025 0    50   BiDi ~ 0
+SAFE_STATE_FLAG
+Wire Wire Line
+	9950 4825 10155 4825
+Wire Wire Line
+	9950 4625 10155 4625
+Wire Wire Line
+	9950 4425 10155 4425
+Wire Wire Line
+	9950 4225 10155 4225
+Wire Wire Line
+	9950 4025 10155 4025
+Wire Wire Line
+	9950 3825 10155 3825
+Wire Wire Line
+	9950 3625 10155 3625
+Wire Wire Line
+	9450 3525 9325 3525
+Text GLabel 10155 3625 2    50   Output ~ 0
+EPWM1A
+Text GLabel 10155 3825 2    50   Output ~ 0
+EPWM1B
+Text GLabel 9200 3525 0    50   Output ~ 0
+24V
+Text GLabel 10155 4025 2    50   Output ~ 0
+RESET_GPIO
+Text GLabel 10155 4425 2    50   Output ~ 0
+EPWM2A
+Text GLabel 10155 4625 2    50   Output ~ 0
+EPWM2B
+Text GLabel 10155 4225 2    50   Input ~ 0
+STATUS1
+Text GLabel 10155 4825 2    50   Input ~ 0
+STATUS2
+$Comp
+L power:GND #PWR013
+U 1 1 618DD9E5
+P 9325 5125
+F 0 "#PWR013" H 9325 4875 50  0001 C CNN
+F 1 "GND" H 9330 4952 50  0000 C CNN
+F 2 "" H 9325 5125 50  0001 C CNN
+F 3 "" H 9325 5125 50  0001 C CNN
+	1    9325 5125
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8500 2900 10800 2900
+Text GLabel 9225 4225 0    50   Output ~ 0
+EMITTER_ENABLE
+Wire Wire Line
+	9450 4025 9250 4025
+Wire Wire Line
+	9450 4225 9225 4225
+Text GLabel 6175 2350 0    50   BiDi ~ 0
+SAFE_STATE_FLAG
+Wire Wire Line
+	6175 2350 6325 2350
+Wire Wire Line
+	6325 2350 6325 2625
+Wire Wire Line
+	6325 2625 4050 2625
+Connection ~ 6325 2350
+Wire Wire Line
+	6325 2350 7150 2350
+Connection ~ 3650 2625
+Wire Wire Line
+	3650 2625 3650 3200
+Wire Wire Line
+	3650 1200 3650 2200
+Text GLabel 2950 6450 2    50   Input ~ 0
+RESET_GPIO
+Wire Wire Line
+	9950 3525 10050 3525
+Wire Wire Line
+	10050 3525 10050 3725
+Wire Wire Line
+	10050 5025 9950 5025
+Wire Wire Line
+	10050 5025 10050 5175
+Connection ~ 10050 5025
+Wire Wire Line
+	9950 4925 10050 4925
+Connection ~ 10050 4925
+Wire Wire Line
+	10050 4925 10050 5025
+Wire Wire Line
+	9950 4725 10050 4725
+Connection ~ 10050 4725
+Wire Wire Line
+	10050 4725 10050 4925
+Wire Wire Line
+	9950 4525 10050 4525
+Connection ~ 10050 4525
+Wire Wire Line
+	10050 4525 10050 4725
+Wire Wire Line
+	9950 4325 10050 4325
+Connection ~ 10050 4325
+Wire Wire Line
+	10050 4325 10050 4525
+Wire Wire Line
+	9950 4125 10050 4125
+Connection ~ 10050 4125
+Wire Wire Line
+	10050 4125 10050 4325
+Wire Wire Line
+	9950 3925 10050 3925
+Connection ~ 10050 3925
+Wire Wire Line
+	10050 3925 10050 4125
+Wire Wire Line
+	9950 3725 10050 3725
+Connection ~ 10050 3725
+Wire Wire Line
+	10050 3725 10050 3925
+$Comp
+L power:GND #PWR03
+U 1 1 62387165
+P 10050 5175
+F 0 "#PWR03" H 10050 4925 50  0001 C CNN
+F 1 "GND" H 10055 5002 50  0000 C CNN
+F 2 "" H 10050 5175 50  0001 C CNN
+F 3 "" H 10050 5175 50  0001 C CNN
+	1    10050 5175
+	1    0    0    -1  
+$EndComp
+Text Notes 6375 4100 0    50   ~ 0
+140+
+Text Notes 6350 5100 0    50   ~ 0
+160+
+Wire Wire Line
+	9450 3625 9325 3625
+Wire Wire Line
+	9325 3725 9325 3825
+Connection ~ 9325 3825
+Wire Wire Line
+	9325 3825 9325 3925
+Wire Wire Line
+	9450 3825 9325 3825
+Wire Wire Line
+	9325 3925 9450 3925
+Connection ~ 9325 3925
+Wire Wire Line
+	9450 3725 9325 3725
 $Comp
 L Existing_IC_Models:86094327313755E1LF H1
 U 1 1 61916120
-P 9600 4375
-F 0 "H1" H 9650 3200 50  0000 C CNN
-F 1 "86094327313755E1LF" H 9625 3300 50  0000 C CNN
-F 2 "Footprints_MC-FO:86094327313755E1LF" H 9600 4375 50  0001 C CNN
-F 3 "~" H 9600 4375 50  0001 C CNN
-	1    9600 4375
+P 9650 4325
+F 0 "H1" H 9700 3150 50  0000 C CNN
+F 1 "86094327313755E1LF" H 9675 3250 50  0000 C CNN
+F 2 "Footprints_MC-FO:86094327313755E1LF" H 9650 4325 50  0001 C CNN
+F 3 "~" H 9650 4325 50  0001 C CNN
+	1    9650 4325
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9400 3675 9400 3575
-Connection ~ 9400 3575
-Text Notes 350  -300 0    118  ~ 0
-Test:\nCrosstalk between "agressor" and "victim"\nSquare wave, find delay and %accuracy \n\nTodo:\nFlip the detector footprint\nreplace AND on detector output with NAND\nwe got shipped the wrong voltage regulators? make sure part # is right?\nreplace Detector1 with simplified detector circuit\nU142 has incorrect footprint, but it is being removed anyway\nmake safe mode and FO enable control emitters
+	9450 4125 9325 4125
+Wire Wire Line
+	9325 3925 9325 4125
+Connection ~ 9325 4125
+Wire Wire Line
+	9325 4125 9325 4325
+Connection ~ 9325 4325
+Wire Wire Line
+	9325 4325 9325 4425
+Wire Wire Line
+	9450 4325 9325 4325
+Wire Wire Line
+	9450 4425 9325 4425
+Connection ~ 9325 4425
+Wire Wire Line
+	9325 4425 9325 4525
+Wire Wire Line
+	9450 4525 9325 4525
+Connection ~ 9325 4525
+Wire Wire Line
+	9450 4625 9325 4625
+Wire Wire Line
+	9325 4525 9325 4625
+Connection ~ 9325 4625
+Wire Wire Line
+	9325 4625 9325 4725
+Wire Wire Line
+	9450 4725 9325 4725
+Connection ~ 9325 4725
+Wire Wire Line
+	9325 4725 9325 4825
+Wire Wire Line
+	9450 4825 9325 4825
+Connection ~ 9325 4825
+Wire Wire Line
+	9325 4825 9325 4925
+Wire Wire Line
+	9450 4925 9325 4925
+Connection ~ 9325 4925
+Wire Wire Line
+	9325 4925 9325 5025
+Wire Wire Line
+	9450 5025 9325 5025
+Connection ~ 9325 5025
+Wire Wire Line
+	9325 5025 9325 5125
+Wire Wire Line
+	9325 3525 9325 3625
+Connection ~ 9325 3525
+Wire Wire Line
+	9325 3525 9200 3525
+$Comp
+L Connector:TestPoint TP7
+U 1 1 623D1891
+P 4050 2625
+F 0 "TP7" H 4108 2743 50  0000 L CNN
+F 1 "TestPoint" H 4108 2652 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4250 2625 50  0001 C CNN
+F 3 "~" H 4250 2625 50  0001 C CNN
+	1    4050 2625
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 2625
+Wire Wire Line
+	4050 2625 3650 2625
+$Comp
+L Connector:TestPoint TP8
+U 1 1 623D235E
+P 4525 850
+F 0 "TP8" H 4583 968 50  0000 L CNN
+F 1 "TestPoint" H 4583 877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4725 850 50  0001 C CNN
+F 3 "~" H 4725 850 50  0001 C CNN
+	1    4525 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4525 850 
+Wire Wire Line
+	4525 850  3400 850 
+$Comp
+L Connector:TestPoint TP9
+U 1 1 623D2B58
+P 5100 1150
+F 0 "TP9" H 5158 1268 50  0000 L CNN
+F 1 "TestPoint" H 5158 1177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5300 1150 50  0001 C CNN
+F 3 "~" H 5300 1150 50  0001 C CNN
+	1    5100 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 1150
+Wire Wire Line
+	5100 1150 4800 1150
+$Comp
+L Connector:TestPoint TP10
+U 1 1 623DABA0
+P 6375 4850
+F 0 "TP10" H 6433 4968 50  0000 L CNN
+F 1 "TestPoint" H 6433 4877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6575 4850 50  0001 C CNN
+F 3 "~" H 6575 4850 50  0001 C CNN
+	1    6375 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6375 4850
+Wire Wire Line
+	6375 4850 6250 4850
+$Comp
+L Connector:TestPoint TP11
+U 1 1 623DB396
+P 6400 3850
+F 0 "TP11" H 6458 3968 50  0000 L CNN
+F 1 "TestPoint" H 6458 3877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6600 3850 50  0001 C CNN
+F 3 "~" H 6600 3850 50  0001 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 3850
+Wire Wire Line
+	6400 3850 6875 3850
+$Comp
+L Connector:TestPoint TP5
+U 1 1 623DB5CB
+P 2700 5500
+F 0 "TP5" H 2642 5526 50  0000 R CNN
+F 1 "TestPoint" H 2642 5617 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2900 5500 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2700 5500
+	-1   0    0    1   
+$EndComp
+Connection ~ 2700 5500
+Wire Wire Line
+	2700 5500 2950 5500
+$Comp
+L Connector:TestPoint TP3
+U 1 1 623DBEA8
+P 2625 4500
+F 0 "TP3" H 2567 4526 50  0000 R CNN
+F 1 "TestPoint" H 2567 4617 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2825 4500 50  0001 C CNN
+F 3 "~" H 2825 4500 50  0001 C CNN
+	1    2625 4500
+	-1   0    0    1   
+$EndComp
+Connection ~ 2625 4500
+Wire Wire Line
+	2625 4500 2950 4500
+$Comp
+L Connector:TestPoint TP1
+U 1 1 623DC2BD
+P 2600 3550
+F 0 "TP1" H 2542 3576 50  0000 R CNN
+F 1 "TestPoint" H 2542 3667 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2800 3550 50  0001 C CNN
+F 3 "~" H 2800 3550 50  0001 C CNN
+	1    2600 3550
+	-1   0    0    1   
+$EndComp
+Connection ~ 2600 3550
+Wire Wire Line
+	2600 3550 2825 3550
+$Comp
+L Connector:TestPoint TP2
+U 1 1 623DC8E4
+P 2625 2450
+F 0 "TP2" H 2567 2476 50  0000 R CNN
+F 1 "TestPoint" H 2567 2567 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2825 2450 50  0001 C CNN
+F 3 "~" H 2825 2450 50  0001 C CNN
+	1    2625 2450
+	-1   0    0    1   
+$EndComp
+Connection ~ 2625 2450
+Wire Wire Line
+	2625 2450 2900 2450
+$Comp
+L Connector:TestPoint TP6
+U 1 1 623DCF27
+P 2725 6450
+F 0 "TP6" H 2667 6476 50  0000 R CNN
+F 1 "TestPoint" H 2667 6567 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2925 6450 50  0001 C CNN
+F 3 "~" H 2925 6450 50  0001 C CNN
+	1    2725 6450
+	-1   0    0    1   
+$EndComp
+Connection ~ 2725 6450
+Wire Wire Line
+	2725 6450 2950 6450
+$Comp
+L Connector:TestPoint TP4
+U 1 1 623DD373
+P 2650 1500
+F 0 "TP4" H 2592 1526 50  0000 R CNN
+F 1 "TestPoint" H 2592 1617 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2850 1500 50  0001 C CNN
+F 3 "~" H 2850 1500 50  0001 C CNN
+	1    2650 1500
+	-1   0    0    1   
+$EndComp
+Connection ~ 2650 1500
+Wire Wire Line
+	2650 1500 2950 1500
 $EndSCHEMATC
