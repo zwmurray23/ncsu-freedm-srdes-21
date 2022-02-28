@@ -51,7 +51,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 2450 50 
 F3 "5V" I R 2050 2300 50 
 F4 "GND" I R 2050 2600 50 
-F5 "RESET_FO" I R 2050 2200 50 
+F5 "~RESET_FO~" I R 2050 2200 50 
 $EndSheet
 $Sheet
 S 1050 3100 1000 650 
@@ -84,7 +84,7 @@ F1 "MC-LED.sch" 50
 F2 "3V3" I L 7150 1900 50 
 F3 "GND" I L 7150 2100 50 
 F4 "5V" I L 7150 2000 50 
-F5 "SAFE_STATE_FLAG" B L 7150 2350 50 
+F5 "~SAFE_STATE_FLAG~" B L 7150 2350 50 
 $EndSheet
 Wire Wire Line
 	2050 1650 2400 1650
@@ -196,7 +196,7 @@ F 3 "" H 6750 2550 50  0001 C CNN
 $EndComp
 Connection ~ 3400 1350
 Wire Wire Line
-	3400 1350 3400 2300
+	3400 1350 3400 1900
 Wire Wire Line
 	3400 850  3400 1350
 Connection ~ 3400 2300
@@ -242,9 +242,9 @@ $EndSheet
 Wire Wire Line
 	6550 1900 7150 1900
 Wire Notes Line
-	8500 2900 8500 5850
+	7975 2875 7975 5825
 Wire Notes Line
-	8500 5825 10800 5825
+	7975 5825 10800 5825
 Text Label 6975 1900 0    50   ~ 0
 3V3
 Wire Wire Line
@@ -355,8 +355,8 @@ Wire Wire Line
 	6250 3850 6400 3850
 Wire Wire Line
 	6850 4850 6375 4850
-Text GLabel 9250 4025 0    50   BiDi ~ 0
-SAFE_STATE_FLAG
+Text GLabel 8725 4925 0    50   BiDi ~ 0
+~SAFE_STATE_FLAG~
 Wire Wire Line
 	9950 4825 10155 4825
 Wire Wire Line
@@ -392,33 +392,31 @@ STATUS2
 $Comp
 L power:GND #PWR013
 U 1 1 618DD9E5
-P 9325 5125
-F 0 "#PWR013" H 9325 4875 50  0001 C CNN
-F 1 "GND" H 9330 4952 50  0000 C CNN
-F 2 "" H 9325 5125 50  0001 C CNN
-F 3 "" H 9325 5125 50  0001 C CNN
-	1    9325 5125
+P 9325 5550
+F 0 "#PWR013" H 9325 5300 50  0001 C CNN
+F 1 "GND" H 9330 5377 50  0000 C CNN
+F 2 "" H 9325 5550 50  0001 C CNN
+F 3 "" H 9325 5550 50  0001 C CNN
+	1    9325 5550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	8500 2900 10800 2900
-Text GLabel 9225 4225 0    50   Output ~ 0
+	7975 2875 10800 2900
+Text GLabel 8925 4725 0    50   Output ~ 0
 EMITTER_ENABLE
 Wire Wire Line
-	9450 4025 9250 4025
+	9450 4025 9325 4025
 Wire Wire Line
-	9450 4225 9225 4225
-Text GLabel 6175 2350 0    50   BiDi ~ 0
-SAFE_STATE_FLAG
+	9450 4225 9325 4225
+Text GLabel 6475 2350 0    50   BiDi ~ 0
+~SAFE_STATE_FLAG~
 Wire Wire Line
-	6175 2350 6325 2350
+	6475 2350 6600 2350
 Wire Wire Line
-	6325 2350 6325 2625
+	6600 2350 6600 2575
+Connection ~ 6600 2350
 Wire Wire Line
-	6325 2625 4050 2625
-Connection ~ 6325 2350
-Wire Wire Line
-	6325 2350 7150 2350
+	6600 2350 7150 2350
 Connection ~ 3650 2625
 Wire Wire Line
 	3650 2625 3650 3200
@@ -513,10 +511,10 @@ $EndComp
 Wire Wire Line
 	9450 4125 9325 4125
 Wire Wire Line
-	9325 3925 9325 4125
+	9325 3925 9325 4025
 Connection ~ 9325 4125
 Wire Wire Line
-	9325 4125 9325 4325
+	9325 4125 9325 4225
 Connection ~ 9325 4325
 Wire Wire Line
 	9325 4325 9325 4425
@@ -536,27 +534,11 @@ Wire Wire Line
 	9325 4525 9325 4625
 Connection ~ 9325 4625
 Wire Wire Line
-	9325 4625 9325 4725
-Wire Wire Line
-	9450 4725 9325 4725
-Connection ~ 9325 4725
-Wire Wire Line
-	9325 4725 9325 4825
-Wire Wire Line
 	9450 4825 9325 4825
-Connection ~ 9325 4825
-Wire Wire Line
-	9325 4825 9325 4925
-Wire Wire Line
-	9450 4925 9325 4925
-Connection ~ 9325 4925
-Wire Wire Line
-	9325 4925 9325 5025
 Wire Wire Line
 	9450 5025 9325 5025
-Connection ~ 9325 5025
 Wire Wire Line
-	9325 5025 9325 5125
+	9325 5025 9325 5450
 Wire Wire Line
 	9325 3525 9325 3625
 Connection ~ 9325 3525
@@ -573,7 +555,6 @@ F 3 "~" H 4250 2625 50  0001 C CNN
 	1    4050 2625
 	1    0    0    -1  
 $EndComp
-Connection ~ 4050 2625
 Wire Wire Line
 	4050 2625 3650 2625
 $Comp
@@ -716,4 +697,99 @@ $EndComp
 Connection ~ 2650 1500
 Wire Wire Line
 	2650 1500 2950 1500
+$Comp
+L MC-FO:74LVCE1G08W5-7 U?
+U 1 1 62292B2D
+P 5250 2625
+F 0 "U?" H 5225 2892 50  0000 C CNN
+F 1 "74LVCE1G08W5-7" H 5225 2801 50  0000 C CNN
+F 2 "" H 5250 2625 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/74LVCE1G08.pdf" H 5250 2625 50  0001 C CNN
+	1    5250 2625
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2575 6600 2575
+Wire Wire Line
+	5550 2675 5650 2675
+Wire Wire Line
+	4050 2625 5000 2625
+Connection ~ 4050 2625
+Text GLabel 5850 2675 2    50   Input ~ 0
+EMITTER_ENABLE
+$Comp
+L power:GND #PWR?
+U 1 1 622BADE1
+P 5250 2825
+F 0 "#PWR?" H 5250 2575 50  0001 C CNN
+F 1 "GND" H 5255 2652 50  0000 C CNN
+F 2 "" H 5250 2825 50  0001 C CNN
+F 3 "" H 5250 2825 50  0001 C CNN
+	1    5250 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2725 5250 2825
+Wire Wire Line
+	5250 2525 5250 1900
+Wire Wire Line
+	5250 1900 3400 1900
+Connection ~ 3400 1900
+Wire Wire Line
+	3400 1900 3400 2300
+Wire Wire Line
+	9450 4925 8725 4925
+Wire Wire Line
+	9325 4625 9325 4825
+Wire Wire Line
+	8925 4725 9050 4725
+Wire Wire Line
+	9325 4825 9325 5025
+Connection ~ 9325 4825
+Connection ~ 9325 5025
+Connection ~ 9325 4025
+Wire Wire Line
+	9325 4025 9325 4125
+Connection ~ 9325 4225
+Wire Wire Line
+	9325 4225 9325 4325
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6230AE4A
+P 5650 2675
+F 0 "TP?" H 5592 2701 50  0000 R CNN
+F 1 "TestPoint" H 5592 2792 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5850 2675 50  0001 C CNN
+F 3 "~" H 5850 2675 50  0001 C CNN
+	1    5650 2675
+	-1   0    0    1   
+$EndComp
+Connection ~ 5650 2675
+Wire Wire Line
+	5650 2675 5850 2675
+Wire Wire Line
+	9050 4725 9050 5050
+Connection ~ 9050 4725
+Wire Wire Line
+	9050 4725 9450 4725
+$Comp
+L Device:R_US R?
+U 1 1 62336059
+P 9050 5200
+AR Path="/6175812E/62336059" Ref="R?"  Part="1" 
+AR Path="/62336059" Ref="R?"  Part="1" 
+F 0 "R?" H 8900 5100 50  0000 C CNN
+F 1 "10K" H 8925 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9090 5190 50  0001 C CNN
+F 3 "~" H 9050 5200 50  0001 C CNN
+	1    9050 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 5350 9050 5450
+Wire Wire Line
+	9050 5450 9325 5450
+Connection ~ 9325 5450
+Wire Wire Line
+	9325 5450 9325 5550
 $EndSCHEMATC

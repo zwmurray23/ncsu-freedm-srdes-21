@@ -13,334 +13,387 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 2750 6350 0    50   ~ 10
+Text Notes 4650 4925 0    50   ~ 10
 Power Indicator LED CKT
-$Comp
-L Device:R_US R183
-U 1 1 61706570
-P 3850 4500
-F 0 "R183" H 3700 4400 50  0000 C CNN
-F 1 "500R" H 3600 4500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3890 4490 50  0001 C CNN
-F 3 "~" H 3850 4500 50  0001 C CNN
-	1    3850 4500
-	-1   0    0    1   
-$EndComp
-Text HLabel 4900 5250 3    50   Input ~ 0
+Text HLabel 3125 4125 0    50   Input ~ 0
 GND
 Wire Wire Line
-	3850 4300 3850 4350
+	4975 10150 4725 10150
 Wire Wire Line
-	2600 3900 2350 3900
+	4725 10800 5875 10800
 Wire Wire Line
-	2350 4550 3500 4550
+	5875 10800 5875 10550
 Wire Wire Line
-	3500 4550 3500 4300
+	5875 10550 5775 10550
 Wire Wire Line
-	3500 4300 3400 4300
+	5875 10550 6225 10550
+Connection ~ 5875 10550
 Wire Wire Line
-	3500 4300 3850 4300
-Connection ~ 3500 4300
+	6025 10250 6025 10350
 Wire Wire Line
-	3650 4000 3650 4100
+	5775 10250 6025 10250
 Wire Wire Line
-	3400 4000 3650 4000
+	5775 10350 6025 10350
 Wire Wire Line
-	3400 4100 3650 4100
+	6025 10350 6025 10950
 Wire Wire Line
-	3650 4100 3650 4700
-Wire Wire Line
-	3650 4700 2250 4700
-Connection ~ 3650 4100
+	6025 10950 4625 10950
+Connection ~ 6025 10350
 Text Notes 4050 7350 2    50   ~ 0
 add comparatorson both and logically AND together for LED on power status\n\n\n (windowed comparators or voltage supervisors)
-Text Notes 5800 2700 0    50   ~ 0
+Text Notes 8300 3100 0    50   ~ 0
 if one or the other is not working pull the global reset down 
-Text Notes 6650 4475 0    50   ~ 0
+Text Notes 1500 5525 0    50   ~ 0
 74LVC1G07: should be an open drain buffer\n
-Wire Wire Line
-	6125 4100 6350 4100
-Text Notes 7600 3800 0    50   ~ 0
-reset to connector and to all transcievers
-Connection ~ 6350 4100
-Wire Wire Line
-	6350 4100 6475 4100
-Text HLabel 6450 3100 2    50   Input ~ 0
+Text Notes 8375 875  0    50   ~ 0
+Safe_state_flag is like a global reset to connector and to\n all transcievers. pulled low if any voltage issues on this \ncard or any other card. can also be pulled low by dsp
+Text HLabel 2550 2925 0    50   Input ~ 0
 3V3
 Wire Wire Line
-	6450 3100 6350 3100
+	2550 2925 2825 2925
 Wire Wire Line
-	6350 3100 6350 3400
-Wire Wire Line
-	6350 3600 6350 4100
+	2825 2925 2825 3225
 $Comp
 L Existing_IC_Models:74LVC1G07QDCKTQ1 U184
 U 1 1 617E8424
-P 5875 4100
-F 0 "U184" H 5725 4350 50  0000 C CNN
-F 1 "74LVC1G07QDCKTQ1" H 5475 4250 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5875 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5875 4100 50  0001 C CNN
-	1    5875 4100
-	1    0    0    -1  
+P 3125 3925
+F 0 "U184" H 2975 4175 50  0000 C CNN
+F 1 "74LVC1G07QDCKTQ1" H 2725 4075 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 3125 3925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3125 3925 50  0001 C CNN
+	1    3125 3925
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5875 4000 5875 3100
+	3125 3825 3125 2925
 Wire Wire Line
-	5875 3100 6350 3100
-Connection ~ 6350 3100
+	3125 2925 2825 2925
+Connection ~ 2825 2925
 Wire Wire Line
-	5875 5150 4900 5150
+	3125 4025 3125 4125
 Wire Wire Line
-	4900 5150 4900 5250
-Wire Wire Line
-	5875 4200 5875 5150
-Wire Wire Line
-	3850 4650 3850 4750
-Wire Wire Line
-	3850 5050 3850 5150
-Wire Wire Line
-	3850 5150 4900 5150
-Connection ~ 4900 5150
-Wire Wire Line
-	3650 4100 5575 4100
-Text Notes 6900 4725 0    50   ~ 0
-out of stock -- had to improvise\n
-$Comp
-L Existing_IC_Models:WP1503CB_GD D181
-U 1 1 6185A99A
-P 3750 4900
-F 0 "D181" V 3789 4682 50  0000 R CNN
-F 1 "WP1503CB_GD" V 3698 4682 50  0000 R CNN
-F 2 "Footprints_MC-FO:WP1503CBGD" H 3750 5000 50  0001 C CNN
-F 3 "" H 3750 5000 50  0001 C CNN
-	1    3750 4900
-	0    -1   -1   0   
-$EndComp
+	6025 10350 7950 10350
 $Comp
 L Device:R_Small_US R184
 U 1 1 6182FD38
-P 6350 3500
-F 0 "R184" H 6418 3546 50  0000 L CNN
-F 1 "10K" H 6418 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 3500 50  0001 C CNN
-F 3 "~" H 6350 3500 50  0001 C CNN
-	1    6350 3500
-	1    0    0    -1  
+P 2825 3325
+F 0 "R184" H 2893 3371 50  0000 L CNN
+F 1 "10K" H 2893 3280 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2825 3325 50  0001 C CNN
+F 3 "~" H 2825 3325 50  0001 C CNN
+	1    2825 3325
+	-1   0    0    -1  
 $EndComp
-Text HLabel 2600 4300 0    50   Input ~ 0
+Text HLabel 4975 10550 0    50   Input ~ 0
 GND
 Wire Wire Line
-	2250 3800 2600 3800
-Text HLabel 3725 2075 2    50   Input ~ 0
-3V3
-Text HLabel 3325 2675 2    50   Input ~ 0
+	4625 10050 4975 10050
+Text HLabel 5825 3075 2    50   Input ~ 0
 GND
 $Comp
 L Device:R_Small_US R182
 U 1 1 617C3F20
-P 5375 2175
-F 0 "R182" H 5443 2221 50  0000 L CNN
-F 1 "10K" H 5443 2130 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5375 2175 50  0001 C CNN
-F 3 "~" H 5375 2175 50  0001 C CNN
-	1    5375 2175
+P 7875 2575
+F 0 "R182" H 7943 2621 50  0000 L CNN
+F 1 "10K" H 7943 2530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7875 2575 50  0001 C CNN
+F 3 "~" H 7875 2575 50  0001 C CNN
+	1    7875 2575
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R181
 U 1 1 617C2D42
-P 3400 2175
-F 0 "R181" H 3468 2221 50  0000 L CNN
-F 1 "10K" H 3468 2130 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3400 2175 50  0001 C CNN
-F 3 "~" H 3400 2175 50  0001 C CNN
-	1    3400 2175
+P 6100 2575
+F 0 "R181" H 6168 2621 50  0000 L CNN
+F 1 "10K" H 6168 2530 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6100 2575 50  0001 C CNN
+F 3 "~" H 6100 2575 50  0001 C CNN
+	1    6100 2575
 	1    0    0    -1  
 $EndComp
-Text HLabel 5675 2075 2    50   Input ~ 0
+Text HLabel 8175 2475 2    50   Input ~ 0
 5V
 $Comp
 L Device:C_Small C181
 U 1 1 617CFF8B
-P 4475 3275
-F 0 "C181" H 4567 3321 50  0000 L CNN
-F 1 "1 uF or unpop" H 4567 3230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4475 3275 50  0001 C CNN
-F 3 "~" H 4475 3275 50  0001 C CNN
-	1    4475 3275
+P 2600 2125
+F 0 "C181" H 2692 2171 50  0000 L CNN
+F 1 "1 uF or unpop" H 2692 2080 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2600 2125 50  0001 C CNN
+F 3 "~" H 2600 2125 50  0001 C CNN
+	1    2600 2125
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C182
 U 1 1 617D05D8
-P 4100 3275
-F 0 "C182" H 4192 3321 50  0000 L CNN
-F 1 "1 uF" H 4192 3230 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 3275 50  0001 C CNN
-F 3 "~" H 4100 3275 50  0001 C CNN
-	1    4100 3275
+P 2225 2125
+F 0 "C182" H 2317 2171 50  0000 L CNN
+F 1 "1 uF" H 2317 2080 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2225 2125 50  0001 C CNN
+F 3 "~" H 2225 2125 50  0001 C CNN
+	1    2225 2125
 	1    0    0    -1  
 $EndComp
 $Comp
 L Existing_IC_Models:74ACT08SCX U183
 U 1 1 6176E3CF
-P 3000 3550
-F 0 "U183" H 3000 3665 50  0000 C CNN
-F 1 "74ACT08SCX" H 3000 3574 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 3550 50  0001 C CNN
-F 3 "" H 3000 3550 50  0001 C CNN
-	1    3000 3550
+P 5375 9800
+F 0 "U183" H 5375 9915 50  0000 C CNN
+F 1 "74ACT08SCX" H 5375 9824 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5375 9800 50  0001 C CNN
+F 3 "" H 5375 9800 50  0001 C CNN
+	1    5375 9800
 	1    0    0    -1  
 $EndComp
-Text HLabel 2600 3700 0    50   Input ~ 0
-5V
-Text HLabel 3400 4200 2    50   Input ~ 0
+Text HLabel 4975 9950 0    50   Input ~ 0
 5V
 $Comp
-L BU4847F-TR:BU4847F-TR U182
+L MC-FO:BU4847F-TR U182
 U 1 1 61A5F13F
-P 4575 2375
-F 0 "U182" H 4575 2945 50  0000 C CNN
-F 1 "BU4847F-TR" H 4575 2854 50  0000 C CNN
-F 2 "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" H 4575 2375 50  0001 L BNN
-F 3 "" H 4575 2375 50  0001 L BNN
-F 4 "Rohm" H 4575 2375 50  0001 L BNN "Manufacturer"
-F 5 "SOT130P210X105-4N" H 4575 2375 50  0001 L BNN "Package"
-	1    4575 2375
+P 7075 2775
+F 0 "U182" H 7075 3345 50  0000 C CNN
+F 1 "BU4847F-TR" H 7075 3254 50  0000 C CNN
+F 2 "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" H 7075 2775 50  0001 L BNN
+F 3 "" H 7075 2775 50  0001 L BNN
+F 4 "Rohm" H 7075 2775 50  0001 L BNN "Manufacturer"
+F 5 "SOT130P210X105-4N" H 7075 2775 50  0001 L BNN "Package"
+	1    7075 2775
 	1    0    0    -1  
 $EndComp
 $Comp
-L BU4831F-TR:BU4831F-TR U181
+L MC-FO:BU4831F-TR U181
 U 1 1 61A601DB
-P 2625 2375
-F 0 "U181" H 2625 2945 50  0000 C CNN
-F 1 "BU4831F-TR" H 2625 2854 50  0000 C CNN
-F 2 "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" H 2625 2375 50  0001 L BNN
-F 3 "" H 2625 2375 50  0001 L BNN
-F 4 "Rohm" H 2625 2375 50  0001 L BNN "Manufacturer"
-F 5 "SOT130P210X105-4N" H 2625 2375 50  0001 L BNN "Package"
-	1    2625 2375
+P 5125 2775
+F 0 "U181" H 5125 3345 50  0000 C CNN
+F 1 "BU4831F-TR" H 5125 3254 50  0000 C CNN
+F 2 "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" H 5125 2775 50  0001 L BNN
+F 3 "" H 5125 2775 50  0001 L BNN
+F 4 "Rohm" H 5125 2775 50  0001 L BNN "Manufacturer"
+F 5 "SOT130P210X105-4N" H 5125 2775 50  0001 L BNN "Package"
+	1    5125 2775
 	1    0    0    -1  
 $EndComp
-Text HLabel 3400 3700 2    50   Input ~ 0
+Text HLabel 5775 9950 2    50   Input ~ 0
 5V
 Wire Wire Line
-	3400 3800 3600 3800
+	5775 10050 5975 10050
 Wire Wire Line
-	3600 2275 3400 2275
+	8025 2675 7875 2675
 Wire Wire Line
-	5525 3900 5525 2900
-Wire Wire Line
-	5525 2275 5375 2275
-Wire Wire Line
-	3400 3900 5525 3900
-Text HLabel 5275 2675 2    50   Input ~ 0
+	5775 10150 7900 10150
+Text HLabel 7775 3075 2    50   Input ~ 0
 GND
-Connection ~ 5375 2275
+Connection ~ 7875 2675
 Wire Wire Line
-	5375 2275 5275 2275
+	7875 2675 7775 2675
 Wire Wire Line
-	5675 2075 5375 2075
-Connection ~ 5375 2075
+	8175 2475 7875 2475
+Connection ~ 7875 2475
 Wire Wire Line
-	5375 2075 5275 2075
-Connection ~ 3400 2075
+	7875 2475 7775 2475
+Connection ~ 6100 2675
 Wire Wire Line
-	3400 2075 3325 2075
-Connection ~ 3400 2275
+	6100 2675 5825 2675
 Wire Wire Line
-	3400 2275 3325 2275
+	6100 2475 6100 2375
 Wire Wire Line
-	3400 2075 3725 2075
-Wire Wire Line
-	3600 3800 3600 2925
-Text HLabel 4025 3375 0    50   Input ~ 0
+	5975 10050 5975 9175
+Text HLabel 2150 2225 0    50   Input ~ 0
 GND
-Text HLabel 4475 3075 2    50   Input ~ 0
+Text HLabel 2600 1925 2    50   Input ~ 0
 3V3
-Text HLabel 4100 3075 2    50   Input ~ 0
+Text HLabel 2225 1925 2    50   Input ~ 0
 5V
 Wire Wire Line
-	4100 3075 4100 3175
+	2225 1925 2225 2025
 Wire Wire Line
-	4025 3375 4100 3375
-Connection ~ 4100 3375
+	2150 2225 2225 2225
+Connection ~ 2225 2225
 Wire Wire Line
-	4100 3375 4475 3375
+	2225 2225 2600 2225
 Wire Wire Line
-	4475 3175 4475 3075
-Text Notes 3200 1400 0    50   ~ 0
+	2600 2025 2600 1925
+Text Notes 5800 2000 0    50   ~ 0
 3.3V Threshold = 3.11 V\n5V Threshold = 4.78 V
 Wire Wire Line
-	2350 3900 2350 4550
+	4725 10150 4725 10800
 Wire Wire Line
-	2250 3800 2250 4700
+	4625 10050 4625 10950
 Wire Wire Line
-	6475 4100 6475 5275
+	8850 11800 4150 11800
 Wire Wire Line
-	6475 5550 1775 5550
+	4150 11800 4150 10250
 Wire Wire Line
-	1775 5550 1775 4000
-Wire Wire Line
-	1775 4000 2600 4000
-Text Label 1775 4000 0    50   ~ 0
-RESET_FO
-Text HLabel 1475 4200 0    50   BiDi ~ 0
-SAFE_STATE_FLAG
-Wire Wire Line
-	1475 4200 1975 4200
-Wire Wire Line
-	2600 4100 1975 4100
-Wire Wire Line
-	1975 4100 1975 4200
-Connection ~ 1975 4200
-Wire Wire Line
-	1975 4200 2600 4200
-Text Notes 7100 900  0    50   ~ 0
-a high RESET_FO shows there are no voltage issues with FO on FO GD card. \na low RESET_FO or low Safe_state = turn off 
-Text Label 6450 4100 0    50   ~ 0
-RESET_FO
+	4150 10250 4975 10250
+Text Label 4150 10250 0    50   ~ 0
+~RESET_FO~
+Text HLabel 2250 10350 0    50   BiDi ~ 0
+~SAFE_STATE_FLAG~
+Text Notes 950  750  0    50   ~ 0
+a high ~RESET_FO~ shows there are no voltage issues with FO on FO GD card. \na low RESET_FO or low Safe_state = turn off 
 $Comp
-L Connector:TestPoint TP?
-U 1 1 623DE1C7
-P 6475 5275
-F 0 "TP?" V 6429 5463 50  0000 L CNN
-F 1 "TestPoint" V 6520 5463 50  0000 L CNN
-F 2 "" H 6675 5275 50  0001 C CNN
-F 3 "~" H 6675 5275 50  0001 C CNN
-	1    6475 5275
-	0    1    1    0   
-$EndComp
-Connection ~ 6475 5275
-Wire Wire Line
-	6475 5275 6475 5550
-$Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP17
 U 1 1 623DFD90
-P 3600 2925
-F 0 "TP?" V 3554 3113 50  0000 L CNN
-F 1 "TestPoint" V 3645 3113 50  0000 L CNN
-F 2 "" H 3800 2925 50  0001 C CNN
-F 3 "~" H 3800 2925 50  0001 C CNN
-	1    3600 2925
+P 6100 3325
+F 0 "TP17" V 6054 3513 50  0000 L CNN
+F 1 "TestPoint" V 6145 3513 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6300 3325 50  0001 C CNN
+F 3 "~" H 6300 3325 50  0001 C CNN
+	1    6100 3325
 	0    1    1    0   
 $EndComp
-Connection ~ 3600 2925
 Wire Wire Line
-	3600 2925 3600 2275
+	6100 3325 6100 2675
+$Comp
+L Connector:TestPoint TP18
+U 1 1 623E05CE
+P 8025 3300
+F 0 "TP18" V 7979 3488 50  0000 L CNN
+F 1 "TestPoint" V 8070 3488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8225 3300 50  0001 C CNN
+F 3 "~" H 8225 3300 50  0001 C CNN
+	1    8025 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8025 3300 8025 2675
+Text HLabel 6275 2375 2    50   Input ~ 0
+5V
+Wire Wire Line
+	3850 10450 4975 10450
+Wire Wire Line
+	3850 10450 3850 10725
+Wire Wire Line
+	3850 10725 3200 10725
+$Comp
+L Existing_IC_Models:74LVC1G07QDCKTQ1 U?
+U 1 1 621B8DE3
+P 2900 10725
+F 0 "U?" H 2750 10975 50  0000 C CNN
+F 1 "74LVC1G07QDCKTQ1" H 2500 10875 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2900 10725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2900 10725 50  0001 C CNN
+	1    2900 10725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 10350 2475 10350
+Wire Wire Line
+	2650 10725 2475 10725
+Wire Wire Line
+	2475 10725 2475 10350
+Connection ~ 2475 10350
+Wire Wire Line
+	2475 10350 4975 10350
+Wire Wire Line
+	2900 10625 2900 9925
+Wire Wire Line
+	2900 9925 3200 9925
+Text HLabel 3200 9925 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	2900 10825 2900 11125
+Wire Wire Line
+	2900 11125 2825 11125
+Text HLabel 2825 11125 0    50   Input ~ 0
+GND
+Wire Wire Line
+	6275 2375 6100 2375
+Wire Wire Line
+	5825 2475 5950 2475
+Wire Wire Line
+	5950 2475 5950 2275
+Wire Wire Line
+	5950 2275 6025 2275
+Text HLabel 6025 2275 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	6100 3325 6100 3875
+Wire Wire Line
+	6100 3875 4925 3875
+Connection ~ 6100 3325
+$Comp
+L MC-FO:74LVCE1G08W5-7 U?
+U 1 1 6222C302
+P 4625 3925
+F 0 "U?" H 4600 4192 50  0000 C CNN
+F 1 "74LVCE1G08W5-7" H 4600 4101 50  0000 C CNN
+F 2 "" H 4625 3925 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/74LVCE1G08.pdf" H 4625 3925 50  0001 C CNN
+	1    4625 3925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 3300 8025 3975
+Wire Wire Line
+	8025 3975 4925 3975
+Connection ~ 8025 3300
+Wire Wire Line
+	4625 4025 4625 4225
+Wire Wire Line
+	4375 3925 3950 3925
+Text HLabel 4625 4225 0    50   Input ~ 0
+GND
+$Comp
+L Device:R_US R?
+U 1 1 62237A0E
+P 3950 4675
+F 0 "R?" H 3800 4575 50  0000 C CNN
+F 1 "500R" H 3700 4675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3990 4665 50  0001 C CNN
+F 3 "~" H 3950 4675 50  0001 C CNN
+	1    3950 4675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 3925 3950 4525
+Wire Wire Line
+	3950 4825 3950 4925
+$Comp
+L Existing_IC_Models:WP1503CB_GD D?
+U 1 1 62237A18
+P 3850 5075
+F 0 "D?" V 3889 4857 50  0000 R CNN
+F 1 "WP1503CB_GD" V 3798 4857 50  0000 R CNN
+F 2 "Footprints_MC-FO:WP1503CBGD" H 3850 5175 50  0001 C CNN
+F 3 "" H 3850 5175 50  0001 C CNN
+	1    3850 5075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 5225 3950 5600
+Text HLabel 3950 5600 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3950 3925 3425 3925
+Connection ~ 3950 3925
+Wire Wire Line
+	2875 3925 2825 3925
+Wire Wire Line
+	2825 3425 2825 3925
+Text HLabel 4625 3350 0    50   Input ~ 0
+5V
+Wire Wire Line
+	4625 3825 4625 3350
+Wire Wire Line
+	2825 3925 2175 3925
+Connection ~ 2825 3925
+Text HLabel 1750 3925 0    50   BiDi ~ 0
+~SAFE_STATE_FLAG~
 $Comp
 L Connector:TestPoint TP?
-U 1 1 623E05CE
-P 5525 2900
-F 0 "TP?" V 5479 3088 50  0000 L CNN
-F 1 "TestPoint" V 5570 3088 50  0000 L CNN
-F 2 "" H 5725 2900 50  0001 C CNN
-F 3 "~" H 5725 2900 50  0001 C CNN
-	1    5525 2900
-	0    1    1    0   
+U 1 1 622717CC
+P 2175 3925
+F 0 "TP?" V 2129 4113 50  0000 L CNN
+F 1 "TestPoint" V 2220 4113 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2375 3925 50  0001 C CNN
+F 3 "~" H 2375 3925 50  0001 C CNN
+	1    2175 3925
+	-1   0    0    1   
 $EndComp
-Connection ~ 5525 2900
+Connection ~ 2175 3925
 Wire Wire Line
-	5525 2900 5525 2275
+	2175 3925 1750 3925
 $EndSCHEMATC
