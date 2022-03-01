@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 74AHC1G08
-D Single AND Gate, Low-Voltage CMOS
-K Single Gate AND LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
 $CMP 74AHC1G08_copy
 D Single AND Gate, Low-Voltage CMOS
 K Single Gate AND LVC CMOS
@@ -15,12 +9,6 @@ $ENDCMP
 $CMP 74AHC1G32
 D Single OR Gate, Low-Voltage CMOS
 K Single Gate OR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74AHCT1G08
-D Single AND Gate, Low-Voltage CMOS
-K Single Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -48,12 +36,6 @@ K Single Gate Buff LVC CMOS Open Drain
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
-$CMP 74AUC1G08
-D Single AND Gate, Low-Voltage CMOS
-K Single Gate AND LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
 $CMP 74AUC1G08_copy
 D Single AND Gate, Low-Voltage CMOS
 K Single Gate AND LVC CMOS
@@ -75,12 +57,6 @@ $ENDCMP
 $CMP 74AUP1G07_copy
 D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
 K Single Gate Buff LVC CMOS Open Drain
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74AUP1G08
-D Single AND Gate, Low-Voltage CMOS
-K Single Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #
@@ -111,12 +87,6 @@ $ENDCMP
 $CMP 74LVC1G0832DBVT
 D Single AND-OR Gate, Low-Voltage CMOS
 K Single Gate AND-OR LVC CMOS
-F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
-$ENDCMP
-#
-$CMP 74LVC1G08QSE-7
-D Single AND Gate, Low-Voltage CMOS
-K Single Gate AND LVC CMOS
 F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
 $ENDCMP
 #

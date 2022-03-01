@@ -209,10 +209,10 @@ Wire Wire Line
 Wire Wire Line
 	3950 4900 5500 4900
 $Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint TP1
 U 1 1 623D8FE0
 P 1600 3450
-F 0 "TP21" H 1658 3568 50  0000 L CNN
+F 0 "TP1" H 1658 3568 50  0000 L CNN
 F 1 "TestPoint" H 1658 3477 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1800 3450 50  0001 C CNN
 F 3 "~" H 1800 3450 50  0001 C CNN

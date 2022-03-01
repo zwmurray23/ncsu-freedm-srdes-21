@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -16,16 +16,16 @@ $EndDescr
 Text Notes 5450 6200 0    50   ~ 10
 Emitter CKT
 $Comp
-L Device:R_Small_US R27
+L Device:R_Small_US R22
 U 1 1 617428A7
 P 6700 4400
-AR Path="/61717EAF/617428A7" Ref="R27"  Part="1" 
+AR Path="/61717EAF/617428A7" Ref="R22"  Part="1" 
 AR Path="/617509F7/617428A7" Ref="R41"  Part="1" 
 AR Path="/61750A2A/617428A7" Ref="R61"  Part="1" 
 AR Path="/6176CA10/617428A7" Ref="R81"  Part="1" 
 AR Path="/6176CA81/617428A7" Ref="R101"  Part="1" 
 AR Path="/6176CAE4/617428A7" Ref="R121"  Part="1" 
-F 0 "R61" V 6900 4400 50  0000 L CNN
+F 0 "R22" V 6900 4400 50  0000 L CNN
 F 1 "150R" V 6800 4150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6700 4400 50  0001 C CNN
 F 3 "~" H 6700 4400 50  0001 C CNN
@@ -33,16 +33,16 @@ F 3 "~" H 6700 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C36
+L Device:C_Small C24
 U 1 1 61748E58
 P 6700 4750
-AR Path="/61717EAF/61748E58" Ref="C36"  Part="1" 
+AR Path="/61717EAF/61748E58" Ref="C24"  Part="1" 
 AR Path="/617509F7/61748E58" Ref="C44"  Part="1" 
 AR Path="/61750A2A/61748E58" Ref="C64"  Part="1" 
 AR Path="/6176CA10/61748E58" Ref="C84"  Part="1" 
 AR Path="/6176CA81/61748E58" Ref="C104"  Part="1" 
 AR Path="/6176CAE4/61748E58" Ref="C124"  Part="1" 
-F 0 "C64" V 6900 4750 50  0000 L CNN
+F 0 "C24" V 6900 4750 50  0000 L CNN
 F 1 "100 pF" V 6800 4600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6700 4750 50  0001 C CNN
 F 3 "~" H 6700 4750 50  0001 C CNN
@@ -62,16 +62,16 @@ Wire Wire Line
 Wire Wire Line
 	6950 4400 6800 4400
 $Comp
-L Device:R_Small_US R28
+L Device:R_Small_US R23
 U 1 1 6178E7F7
 P 7300 3300
-AR Path="/61717EAF/6178E7F7" Ref="R28"  Part="1" 
+AR Path="/61717EAF/6178E7F7" Ref="R23"  Part="1" 
 AR Path="/617509F7/6178E7F7" Ref="R42"  Part="1" 
 AR Path="/61750A2A/6178E7F7" Ref="R62"  Part="1" 
 AR Path="/6176CA10/6178E7F7" Ref="R82"  Part="1" 
 AR Path="/6176CA81/6178E7F7" Ref="R102"  Part="1" 
 AR Path="/6176CAE4/6178E7F7" Ref="R122"  Part="1" 
-F 0 "R62" H 7400 3250 50  0000 L CNN
+F 0 "R23" H 7400 3250 50  0000 L CNN
 F 1 "365R" H 7400 3350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 7300 3300 50  0001 C CNN
 F 3 "~" H 7300 3300 50  0001 C CNN
@@ -104,16 +104,16 @@ Wire Wire Line
 Wire Wire Line
 	4900 3100 4900 3250
 $Comp
-L Device:C_Small C33
+L Device:C_Small C21
 U 1 1 6171F0C9
 P 4900 3350
-AR Path="/61717EAF/6171F0C9" Ref="C33"  Part="1" 
+AR Path="/61717EAF/6171F0C9" Ref="C21"  Part="1" 
 AR Path="/617509F7/6171F0C9" Ref="C41"  Part="1" 
 AR Path="/61750A2A/6171F0C9" Ref="C61"  Part="1" 
 AR Path="/6176CA10/6171F0C9" Ref="C81"  Part="1" 
 AR Path="/6176CA81/6171F0C9" Ref="C101"  Part="1" 
 AR Path="/6176CAE4/6171F0C9" Ref="C121"  Part="1" 
-F 0 "C61" H 4950 3250 50  0000 L CNN
+F 0 "C21" H 4950 3250 50  0000 L CNN
 F 1 "0.1 uF" H 4950 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 3350 50  0001 C CNN
 F 3 "~" H 4900 3350 50  0001 C CNN
@@ -135,16 +135,16 @@ Wire Wire Line
 Wire Wire Line
 	5750 3500 5750 3250
 $Comp
-L Device:C_Small C35
+L Device:C_Small C23
 U 1 1 61733718
 P 6150 3150
-AR Path="/61717EAF/61733718" Ref="C35"  Part="1" 
+AR Path="/61717EAF/61733718" Ref="C23"  Part="1" 
 AR Path="/617509F7/61733718" Ref="C43"  Part="1" 
 AR Path="/61750A2A/61733718" Ref="C63"  Part="1" 
 AR Path="/6176CA10/61733718" Ref="C83"  Part="1" 
 AR Path="/6176CA81/61733718" Ref="C103"  Part="1" 
 AR Path="/6176CAE4/61733718" Ref="C123"  Part="1" 
-F 0 "C63" H 6200 3050 50  0000 L CNN
+F 0 "C23" H 6200 3050 50  0000 L CNN
 F 1 "0.1 uF" H 6200 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6150 3150 50  0001 C CNN
 F 3 "~" H 6150 3150 50  0001 C CNN
@@ -154,16 +154,16 @@ $EndComp
 Wire Wire Line
 	5750 3000 5750 3050
 $Comp
-L Device:C_Small C34
+L Device:C_Small C22
 U 1 1 61730A88
 P 5750 3150
-AR Path="/61717EAF/61730A88" Ref="C34"  Part="1" 
+AR Path="/61717EAF/61730A88" Ref="C22"  Part="1" 
 AR Path="/617509F7/61730A88" Ref="C42"  Part="1" 
 AR Path="/61750A2A/61730A88" Ref="C62"  Part="1" 
 AR Path="/6176CA10/61730A88" Ref="C82"  Part="1" 
 AR Path="/6176CA81/61730A88" Ref="C102"  Part="1" 
 AR Path="/6176CAE4/61730A88" Ref="C122"  Part="1" 
-F 0 "C62" H 5800 3050 50  0000 L CNN
+F 0 "C22" H 5800 3050 50  0000 L CNN
 F 1 "10 uF" H 5800 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5750 3150 50  0001 C CNN
 F 3 "~" H 5750 3150 50  0001 C CNN
@@ -188,19 +188,17 @@ Wire Wire Line
 Wire Wire Line
 	4900 3100 5350 3100
 Connection ~ 5350 3100
-Wire Wire Line
-	4050 4750 4250 4750
 $Comp
-L Existing_IC_Models:74ACT08SCX U27
+L MC-FO:74ACT08SCX U21
 U 1 1 61804FDE
 P 4650 4000
-AR Path="/61717EAF/61804FDE" Ref="U27"  Part="1" 
+AR Path="/61717EAF/61804FDE" Ref="U21"  Part="1" 
 AR Path="/617509F7/61804FDE" Ref="U41"  Part="1" 
 AR Path="/61750A2A/61804FDE" Ref="U61"  Part="1" 
 AR Path="/6176CA10/61804FDE" Ref="U81"  Part="1" 
 AR Path="/6176CA81/61804FDE" Ref="U101"  Part="1" 
 AR Path="/6176CAE4/61804FDE" Ref="U121"  Part="1" 
-F 0 "U61" H 4650 4115 50  0000 C CNN
+F 0 "U21" H 4650 4115 50  0000 C CNN
 F 1 "74ACT08SCX" H 4650 4024 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4650 4000 50  0001 C CNN
 F 3 "" H 4650 4000 50  0001 C CNN
@@ -218,16 +216,16 @@ Wire Wire Line
 Wire Wire Line
 	5050 4350 5900 4350
 $Comp
-L Existing_IC_Models:IFE98 U28
+L Existing_IC_Models:IFE98 U22
 U 1 1 61778B54
 P 8000 4100
-AR Path="/61717EAF/61778B54" Ref="U28"  Part="1" 
+AR Path="/61717EAF/61778B54" Ref="U22"  Part="1" 
 AR Path="/61750A2A/61778B54" Ref="U62"  Part="1" 
 AR Path="/6176CA10/61778B54" Ref="U82"  Part="1" 
 AR Path="/6176CA81/61778B54" Ref="U102"  Part="1" 
 AR Path="/6176CAE4/61778B54" Ref="U122"  Part="1" 
 AR Path="/617509F7/61778B54" Ref="U42"  Part="1" 
-F 0 "U62" H 8000 4215 50  0000 C CNN
+F 0 "U22" H 8000 4215 50  0000 C CNN
 F 1 "IFE98" H 8000 4124 50  0000 C CNN
 F 2 "Footprints_MC-FO:IFE98" H 8000 4100 50  0001 C CNN
 F 3 "https://i-fiberoptics.com/pdf/ife98-2-20.pdf" H 8000 4100 50  0001 C CNN
@@ -246,10 +244,6 @@ Wire Wire Line
 	5150 4750 6500 4750
 Connection ~ 6500 4750
 Wire Wire Line
-	5050 4450 5300 4450
-Wire Wire Line
-	5300 4450 5300 4550
-Wire Wire Line
 	5300 5150 3300 5150
 Wire Wire Line
 	3300 5150 3300 4450
@@ -257,8 +251,6 @@ Wire Wire Line
 	3650 4650 4250 4650
 Wire Wire Line
 	3650 4650 3650 4950
-Wire Wire Line
-	3300 4250 4250 4250
 Text HLabel 4250 4150 0    50   Input ~ 0
 5V
 Text HLabel 5050 4650 2    50   Input ~ 0
@@ -268,11 +260,6 @@ Wire Wire Line
 Connection ~ 3300 4450
 Wire Wire Line
 	3300 4450 3300 4250
-Wire Wire Line
-	5050 4550 5300 4550
-Connection ~ 5300 4550
-Wire Wire Line
-	5300 4550 5300 5150
 Wire Wire Line
 	4250 4350 3650 4350
 Wire Wire Line
@@ -300,16 +287,16 @@ Wire Wire Line
 Wire Wire Line
 	6050 4250 5050 4250
 $Comp
-L Device:R_Small_US R29
+L Device:R_Small_US R21
 U 1 1 617DC24B
 P 5900 5450
-AR Path="/61717EAF/617DC24B" Ref="R29"  Part="1" 
+AR Path="/61717EAF/617DC24B" Ref="R21"  Part="1" 
 AR Path="/617509F7/617DC24B" Ref="R43"  Part="1" 
 AR Path="/61750A2A/617DC24B" Ref="R63"  Part="1" 
 AR Path="/6176CA10/617DC24B" Ref="R83"  Part="1" 
 AR Path="/6176CA81/617DC24B" Ref="R103"  Part="1" 
 AR Path="/6176CAE4/617DC24B" Ref="R123"  Part="1" 
-F 0 "R63" H 6000 5400 50  0000 L CNN
+F 0 "R21" H 6000 5400 50  0000 L CNN
 F 1 "10K" H 6000 5500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 5450 50  0001 C CNN
 F 3 "~" H 5900 5450 50  0001 C CNN
@@ -326,16 +313,16 @@ Wire Wire Line
 Text HLabel 4250 4550 0    50   Input ~ 0
 5V
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP21
 U 1 1 623D825D
 P 7475 5250
-AR Path="/61717EAF/623D825D" Ref="TP14"  Part="1" 
-AR Path="/6176CA81/623D825D" Ref="TP12"  Part="1" 
-AR Path="/6176CAE4/623D825D" Ref="TP13"  Part="1" 
-AR Path="/617509F7/623D825D" Ref="TP15"  Part="1" 
-AR Path="/61750A2A/623D825D" Ref="TP16"  Part="1" 
-AR Path="/6176CA10/623D825D" Ref="TP20"  Part="1" 
-F 0 "TP16" H 7417 5276 50  0000 R CNN
+AR Path="/61717EAF/623D825D" Ref="TP21"  Part="1" 
+AR Path="/6176CA81/623D825D" Ref="TP101"  Part="1" 
+AR Path="/6176CAE4/623D825D" Ref="TP121"  Part="1" 
+AR Path="/617509F7/623D825D" Ref="TP41"  Part="1" 
+AR Path="/61750A2A/623D825D" Ref="TP61"  Part="1" 
+AR Path="/6176CA10/623D825D" Ref="TP81"  Part="1" 
+F 0 "TP21" H 7275 5500 50  0000 R CNN
 F 1 "TestPoint" H 7417 5367 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7675 5250 50  0001 C CNN
 F 3 "~" H 7675 5250 50  0001 C CNN
@@ -345,4 +332,17 @@ $EndComp
 Connection ~ 7475 5250
 Wire Wire Line
 	7475 5250 8550 5250
+Wire Wire Line
+	4250 4750 4050 4750
+Wire Wire Line
+	3300 4250 4250 4250
+Wire Wire Line
+	5300 4450 5050 4450
+Wire Wire Line
+	5300 4450 5300 4550
+Wire Wire Line
+	5300 4550 5050 4550
+Connection ~ 5300 4550
+Wire Wire Line
+	5300 4550 5300 5150
 $EndSCHEMATC
