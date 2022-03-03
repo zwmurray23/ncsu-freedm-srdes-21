@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -45,27 +45,19 @@ $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 622B088D
-P 1600 3150
+P 2100 4750
 AR Path="/61F0AAD9/622B088D" Ref="R?"  Part="1" 
 AR Path="/61F25080/622B088D" Ref="R?"  Part="1" 
 AR Path="/622B088D" Ref="DNP"  Part="1" 
 AR Path="/620D84A4/622B088D" Ref="DNP"  Part="1" 
 AR Path="/620D8862/622B088D" Ref="DNP"  Part="1" 
-F 0 "DNP" H 1450 3100 50  0000 C CNN
-F 1 "R" H 1450 3200 50  0000 C CNN
-F 2 "" H 1600 3150 50  0001 C CNN
-F 3 "~" H 1600 3150 50  0001 C CNN
-	1    1600 3150
+F 0 "DNP" H 1950 4700 50  0000 C CNN
+F 1 "R" H 1950 4800 50  0000 C CNN
+F 2 "" H 2100 4750 50  0001 C CNN
+F 3 "~" H 2100 4750 50  0001 C CNN
+	1    2100 4750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 4000 2000 4000
-Wire Wire Line
-	2000 2800 2000 4000
-Wire Wire Line
-	2000 2800 1600 2800
-Wire Wire Line
-	1600 2800 1600 3050
 $Comp
 L Device:R_Small_US R?
 U 1 1 62117504
@@ -74,7 +66,7 @@ AR Path="/620D84A4/62117504" Ref="R?"  Part="1"
 AR Path="/620D8862/62117504" Ref="R?"  Part="1" 
 AR Path="/62117504" Ref="R?"  Part="1" 
 F 0 "R?" V 8495 4000 50  0000 C CNN
-F 1 "1kOhm" V 8586 4000 50  0000 C CNN
+F 1 "250R" V 8586 4000 50  0000 C CNN
 F 2 "" H 8700 4000 50  0001 C CNN
 F 3 "~" H 8700 4000 50  0001 C CNN
 	1    8700 4000
@@ -88,7 +80,7 @@ AR Path="/620D84A4/6211750A" Ref="C?"  Part="1"
 AR Path="/620D8862/6211750A" Ref="C?"  Part="1" 
 AR Path="/6211750A" Ref="C?"  Part="1" 
 F 0 "C?" H 8992 4296 50  0000 L CNN
-F 1 "10pF" H 8992 4205 50  0000 L CNN
+F 1 "1pF" H 8992 4205 50  0000 L CNN
 F 2 "" H 8900 4250 50  0001 C CNN
 F 3 "~" H 8900 4250 50  0001 C CNN
 	1    8900 4250
@@ -110,13 +102,6 @@ Text HLabel 10050 4000 2    50   Input ~ 0
 ADCIN
 Text HLabel 1500 5150 0    50   Input ~ 0
 GND
-Text HLabel 1500 3450 0    50   Input ~ 0
-GND
-Wire Wire Line
-	2000 2800 2000 2050
-Connection ~ 2000 2800
-Text HLabel 1500 2050 0    50   Input ~ 0
-ESD
 $Comp
 L Jumper:Jumper_3_Bridged12 JP?
 U 1 1 61FD1B76
@@ -165,17 +150,11 @@ Wire Wire Line
 	1600 4200 1600 5150
 Connection ~ 1600 5150
 Wire Wire Line
-	1600 5150 3150 5150
-Wire Wire Line
-	2000 2050 1500 2050
-Wire Wire Line
-	1600 3450 1500 3450
-Wire Wire Line
-	1600 3250 1600 3450
+	1600 5150 2100 5150
 Text Notes 5050 3250 0    50   ~ 0
 buffer
 Text Notes 6850 3450 0    50   ~ 0
-amplifier with 1.5V offset\n\n(offset V connects to inv input)
+amplifier to perform offset
 $Comp
 L Device:D_Schottky D?
 U 1 1 62102CB7
@@ -226,9 +205,6 @@ current limiting R
 Connection ~ 3400 4000
 Wire Wire Line
 	2900 4000 3400 4000
-Connection ~ 2000 4000
-Wire Wire Line
-	2000 4000 2700 4000
 $Comp
 L Device:R_Small_US R?
 U 1 1 61FB1ED6
@@ -305,7 +281,7 @@ Connection ~ 3650 5150
 Wire Wire Line
 	6000 4600 6700 4600
 Text Notes 6500 4800 0    50   ~ 0
-approx \n0.9V for +/-10V
+approx \n+/-0.9V for +/-10V
 Wire Wire Line
 	6000 5150 6000 4950
 Wire Wire Line
@@ -347,4 +323,16 @@ Connection ~ 6000 5150
 Wire Wire Line
 	8900 4000 10050 4000
 Connection ~ 8900 4000
+Wire Wire Line
+	1800 4000 2100 4000
+Wire Wire Line
+	2100 4850 2100 5150
+Connection ~ 2100 5150
+Wire Wire Line
+	2100 5150 3150 5150
+Wire Wire Line
+	2100 4650 2100 4000
+Connection ~ 2100 4000
+Wire Wire Line
+	2100 4000 2700 4000
 $EndSCHEMATC

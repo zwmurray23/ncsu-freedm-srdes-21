@@ -28,53 +28,10 @@ F 3 "~" H 3850 4650 50  0001 C CNN
 $EndComp
 Text HLabel 4900 5500 3    50   Input ~ 0
 GND
-Wire Wire Line
-	3850 4300 3850 4500
-Wire Wire Line
-	2600 3900 2350 3900
-Wire Wire Line
-	2350 3900 2350 4200
-Wire Wire Line
-	2350 4200 2600 4200
-Wire Wire Line
-	2350 4200 2350 4550
-Wire Wire Line
-	2350 4550 3500 4550
-Wire Wire Line
-	3500 4550 3500 4300
-Wire Wire Line
-	3500 4300 3400 4300
-Connection ~ 2350 4200
-Wire Wire Line
-	3500 4300 3850 4300
-Connection ~ 3500 4300
-Wire Wire Line
-	3650 4000 3650 4100
-Wire Wire Line
-	3400 4000 3650 4000
-Wire Wire Line
-	3400 4100 3650 4100
-Wire Wire Line
-	3650 4100 3650 4700
-Wire Wire Line
-	3650 4700 2250 4700
-Wire Wire Line
-	2250 4700 2250 4100
-Connection ~ 3650 4100
-Wire Wire Line
-	2250 4100 2600 4100
-Text Notes 4050 7350 2    50   ~ 0
-add comparatorson both and logically AND together for LED on power status\n\n\n (windowed comparators or voltage supervisors)
-Text Notes 7700 4700 0    50   ~ 0
-Delete status led /gpio signal
-Text Notes 5800 2700 0    50   ~ 0
-if one or the other is not working pull the global reset down 
 Text Notes 5200 5650 0    50   ~ 0
 74LVC1G07: should be an open drain buffer\n
 Wire Wire Line
 	6350 4100 7050 4100
-Text HLabel 6450 3100 2    50   Input ~ 0
-3V3
 Wire Wire Line
 	6450 3100 6350 3100
 Wire Wire Line
@@ -106,92 +63,40 @@ F 3 "~" H 6350 3500 50  0001 C CNN
 	1    6350 3500
 	1    0    0    -1  
 $EndComp
-Text HLabel 2600 4300 0    50   Input ~ 0
-GND
-Connection ~ 2250 4100
-Wire Wire Line
-	2250 4100 2250 3800
-Wire Wire Line
-	2250 3800 2600 3800
-Text HLabel 3550 1500 2    50   Input ~ 0
-3V3
-Text HLabel 3300 2650 2    50   Input ~ 0
-GND
 $Comp
 L Device:R_Small_US R?
 U 1 1 617C3F20
-P 5350 1700
-F 0 "R?" H 5418 1746 50  0000 L CNN
-F 1 "10K" H 5418 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5350 1700 50  0001 C CNN
-F 3 "~" H 5350 1700 50  0001 C CNN
-	1    5350 1700
+P 3650 2100
+F 0 "R?" H 3718 2146 50  0000 L CNN
+F 1 "10K" H 3718 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3650 2100 50  0001 C CNN
+F 3 "~" H 3650 2100 50  0001 C CNN
+	1    3650 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small_US R?
-U 1 1 617C2D42
-P 3450 1700
-F 0 "R?" H 3518 1746 50  0000 L CNN
-F 1 "10K" H 3518 1655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3450 1700 50  0001 C CNN
-F 3 "~" H 3450 1700 50  0001 C CNN
-	1    3450 1700
-	1    0    0    -1  
-$EndComp
-Text HLabel 5450 1500 2    50   Input ~ 0
+Text HLabel 3750 1900 2    50   Input ~ 0
 5V
-$Comp
-L Device:C_Small C?
-U 1 1 617CFF8B
-P 4575 3225
-F 0 "C?" H 4667 3271 50  0000 L CNN
-F 1 "1 uF or unpop" H 4667 3180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4575 3225 50  0001 C CNN
-F 3 "~" H 4575 3225 50  0001 C CNN
-	1    4575 3225
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 617D05D8
-P 4200 3225
-F 0 "C?" H 4292 3271 50  0000 L CNN
-F 1 "1 uF" H 4292 3180 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4200 3225 50  0001 C CNN
-F 3 "~" H 4200 3225 50  0001 C CNN
-	1    4200 3225
+P 6500 2175
+F 0 "C?" H 6592 2221 50  0000 L CNN
+F 1 "1 uF" H 6592 2130 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6500 2175 50  0001 C CNN
+F 3 "~" H 6500 2175 50  0001 C CNN
+	1    6500 2175
 	1    0    0    -1  
 $EndComp
-Text HLabel 2600 3700 0    50   Input ~ 0
-5V
-Text HLabel 2600 4000 0    50   Input ~ 0
-5V
-Text HLabel 3400 4200 2    50   Input ~ 0
-5V
-Text HLabel 3400 3700 2    50   Input ~ 0
-5V
-Wire Wire Line
-	3400 3800 3600 3800
-Text HLabel 5250 2650 2    50   Input ~ 0
+Text HLabel 3550 3050 2    50   Input ~ 0
 GND
-Text HLabel 4125 3325 0    50   Input ~ 0
+Text HLabel 6425 2275 0    50   Input ~ 0
 GND
-Text HLabel 4575 3025 2    50   Input ~ 0
-3V3
-Text HLabel 4200 3025 2    50   Input ~ 0
+Text HLabel 6500 1975 2    50   Input ~ 0
 5V
 Wire Wire Line
-	4200 3025 4200 3125
+	6500 1975 6500 2075
 Wire Wire Line
-	4125 3325 4200 3325
-Connection ~ 4200 3325
-Wire Wire Line
-	4200 3325 4575 3325
-Wire Wire Line
-	4575 3125 4575 3025
-Text Notes 3200 1400 0    50   ~ 0
-BU4813F-TR\n\n
+	6425 2275 6500 2275
 $Comp
 L 74xGxx:74LVC1G07 U?
 U 1 1 6217D544
@@ -208,62 +113,12 @@ Wire Wire Line
 Wire Wire Line
 	4900 5400 5950 5400
 Wire Wire Line
-	5650 4100 3650 4100
-Wire Wire Line
 	6200 4100 6350 4100
 Connection ~ 6350 4100
 Wire Wire Line
 	5950 4000 5950 3100
 Wire Wire Line
 	5950 3100 6350 3100
-$Comp
-L MC-ADC:BU4831F-TR U?
-U 1 1 621945D1
-P 2700 1650
-F 0 "U?" H 2733 1665 50  0000 C CNN
-F 1 "BU4831F-TR" H 2733 1574 50  0000 C CNN
-F 2 "" H 2700 1650 50  0001 C CNN
-F 3 "" H 2700 1650 50  0001 C CNN
-	1    2700 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 3800 3600 1950
-Wire Wire Line
-	3600 1950 3450 1950
-Wire Wire Line
-	3450 1800 3450 1950
-Connection ~ 3450 1950
-Wire Wire Line
-	3450 1950 3150 1950
-Wire Wire Line
-	3550 1500 3450 1500
-Wire Wire Line
-	3450 1500 3450 1600
-Wire Wire Line
-	3450 1500 3300 1500
-Wire Wire Line
-	3300 1500 3300 2150
-Wire Wire Line
-	3300 2150 3150 2150
-Connection ~ 3450 1500
-Wire Wire Line
-	3150 2350 3200 2350
-Wire Wire Line
-	3200 2350 3200 2650
-Wire Wire Line
-	3200 2650 3300 2650
-$Comp
-L MC-ADC:74ACT08SCX U?
-U 1 1 621AB5AB
-P 3000 3550
-F 0 "U?" H 3000 3665 50  0000 C CNN
-F 1 "74ACT08SCX" H 3000 3574 50  0000 C CNN
-F 2 "" H 3000 3550 50  0001 C CNN
-F 3 "" H 3000 3550 50  0001 C CNN
-	1    3000 3550
-	1    0    0    -1  
-$EndComp
 $Comp
 L MC-ADC:WP1503CB_GD D?
 U 1 1 621AD2C0
@@ -278,40 +133,45 @@ $EndComp
 $Comp
 L MC-ADC:BU4847F-TR U?
 U 1 1 621AF069
-P 4700 1650
-F 0 "U?" H 4675 1665 50  0000 C CNN
-F 1 "BU4847F-TR" H 4675 1574 50  0000 C CNN
-F 2 "" H 4700 1650 50  0001 C CNN
-F 3 "" H 4700 1650 50  0001 C CNN
-	1    4700 1650
+P 3000 2050
+F 0 "U?" H 2975 2065 50  0000 C CNN
+F 1 "BU4847F-TR" H 2975 1974 50  0000 C CNN
+F 2 "" H 3000 2050 50  0001 C CNN
+F 3 "" H 3000 2050 50  0001 C CNN
+	1    3000 2050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 2350 5200 2350
+	3450 2750 3500 2750
 Wire Wire Line
-	5200 2350 5200 2650
+	3500 2750 3500 3050
 Wire Wire Line
-	5250 2650 5200 2650
+	3550 3050 3500 3050
 Wire Wire Line
-	5450 1500 5350 1500
+	3750 1900 3650 1900
 Wire Wire Line
-	5350 1500 5350 1600
+	3650 1900 3650 2000
 Wire Wire Line
-	5350 1800 5350 1950
+	3650 2200 3650 2350
 Wire Wire Line
-	5150 1950 5350 1950
+	3450 2350 3650 2350
 Wire Wire Line
-	5350 1500 5200 1500
+	3650 1900 3500 1900
 Wire Wire Line
-	5200 1500 5200 2150
+	3500 1900 3500 2550
 Wire Wire Line
-	5200 2150 5150 2150
-Connection ~ 5350 1500
+	3500 2550 3450 2550
+Connection ~ 3650 1900
 Wire Wire Line
-	5350 1950 5550 1950
-Connection ~ 5350 1950
+	3650 2350 3850 2350
+Connection ~ 3650 2350
 Wire Wire Line
-	5550 3900 3400 3900
+	3850 2350 3850 4100
 Wire Wire Line
-	5550 1950 5550 3900
+	5650 4100 3850 4100
+Connection ~ 3850 4100
+Wire Wire Line
+	3850 4100 3850 4500
+Text HLabel 6450 3100 2    50   Input ~ 0
+5V
 $EndSCHEMATC
