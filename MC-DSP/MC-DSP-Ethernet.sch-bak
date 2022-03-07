@@ -54,54 +54,54 @@ F 3 "" H 1500 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C44
 U 1 1 617C5526
 P 1600 1850
-AR Path="/617C0851/617C5526" Ref="C?"  Part="1" 
+AR Path="/617C0851/617C5526" Ref="C44"  Part="1" 
 AR Path="/6190EB23/617C5526" Ref="C?"  Part="1" 
-F 0 "C?" H 1692 1896 50  0000 L CNN
+F 0 "C44" H 1692 1896 50  0000 L CNN
 F 1 "10uF" H 1650 1800 50  0000 L CNN
-F 2 "" H 1600 1850 50  0001 C CNN
-F 3 "~" H 1600 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1600 1850 50  0001 C CNN
+F 3 "?" H 1600 1850 50  0001 C CNN
 	1    1600 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C45
 U 1 1 617C668A
 P 1950 1850
-AR Path="/617C0851/617C668A" Ref="C?"  Part="1" 
+AR Path="/617C0851/617C668A" Ref="C45"  Part="1" 
 AR Path="/6190EB23/617C668A" Ref="C?"  Part="1" 
-F 0 "C?" H 2042 1896 50  0000 L CNN
+F 0 "C45" H 2042 1896 50  0000 L CNN
 F 1 "1uF" H 2000 1800 50  0000 L CNN
-F 2 "" H 1950 1850 50  0001 C CNN
-F 3 "~" H 1950 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1950 1850 50  0001 C CNN
+F 3 "?" H 1950 1850 50  0001 C CNN
 	1    1950 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C46
 U 1 1 617C6BD1
 P 2250 1850
-AR Path="/617C0851/617C6BD1" Ref="C?"  Part="1" 
+AR Path="/617C0851/617C6BD1" Ref="C46"  Part="1" 
 AR Path="/6190EB23/617C6BD1" Ref="C?"  Part="1" 
-F 0 "C?" H 2342 1896 50  0000 L CNN
+F 0 "C46" H 2342 1896 50  0000 L CNN
 F 1 "0.1uF" H 2300 1800 50  0000 L CNN
-F 2 "" H 2250 1850 50  0001 C CNN
-F 3 "~" H 2250 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2250 1850 50  0001 C CNN
+F 3 "?" H 2250 1850 50  0001 C CNN
 	1    2250 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C47
 U 1 1 617C71B1
 P 2600 1850
-AR Path="/617C0851/617C71B1" Ref="C?"  Part="1" 
+AR Path="/617C0851/617C71B1" Ref="C47"  Part="1" 
 AR Path="/6190EB23/617C71B1" Ref="C?"  Part="1" 
-F 0 "C?" H 2692 1896 50  0000 L CNN
+F 0 "C47" H 2692 1896 50  0000 L CNN
 F 1 "0.01uF" H 2650 1800 50  0000 L CNN
-F 2 "" H 2600 1850 50  0001 C CNN
-F 3 "~" H 2600 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2600 1850 50  0001 C CNN
+F 3 "?" H 2600 1850 50  0001 C CNN
 	1    2600 1850
 	1    0    0    -1  
 $EndComp
@@ -119,54 +119,54 @@ F 3 "" H 1500 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C40
 U 1 1 617D1B78
 P 1600 1150
-AR Path="/617C0851/617D1B78" Ref="C?"  Part="1" 
+AR Path="/617C0851/617D1B78" Ref="C40"  Part="1" 
 AR Path="/6190EB23/617D1B78" Ref="C?"  Part="1" 
-F 0 "C?" H 1692 1196 50  0000 L CNN
+F 0 "C40" H 1692 1196 50  0000 L CNN
 F 1 "10uF" H 1650 1100 50  0000 L CNN
-F 2 "" H 1600 1150 50  0001 C CNN
-F 3 "~" H 1600 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1600 1150 50  0001 C CNN
+F 3 "?" H 1600 1150 50  0001 C CNN
 	1    1600 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C41
 U 1 1 61880E42
 P 1950 1150
-AR Path="/617C0851/61880E42" Ref="C?"  Part="1" 
+AR Path="/617C0851/61880E42" Ref="C41"  Part="1" 
 AR Path="/6190EB23/61880E42" Ref="C?"  Part="1" 
-F 0 "C?" H 2042 1196 50  0000 L CNN
+F 0 "C41" H 2042 1196 50  0000 L CNN
 F 1 "1uF" H 2000 1100 50  0000 L CNN
-F 2 "" H 1950 1150 50  0001 C CNN
-F 3 "~" H 1950 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 1950 1150 50  0001 C CNN
+F 3 "?" H 1950 1150 50  0001 C CNN
 	1    1950 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C42
 U 1 1 61880E43
 P 2250 1150
-AR Path="/617C0851/61880E43" Ref="C?"  Part="1" 
+AR Path="/617C0851/61880E43" Ref="C42"  Part="1" 
 AR Path="/6190EB23/61880E43" Ref="C?"  Part="1" 
-F 0 "C?" H 2342 1196 50  0000 L CNN
+F 0 "C42" H 2342 1196 50  0000 L CNN
 F 1 "0.1uF" H 2300 1100 50  0000 L CNN
-F 2 "" H 2250 1150 50  0001 C CNN
-F 3 "~" H 2250 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2250 1150 50  0001 C CNN
+F 3 "?" H 2250 1150 50  0001 C CNN
 	1    2250 1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C43
 U 1 1 61880E44
 P 2600 1150
-AR Path="/617C0851/61880E44" Ref="C?"  Part="1" 
+AR Path="/617C0851/61880E44" Ref="C43"  Part="1" 
 AR Path="/6190EB23/61880E44" Ref="C?"  Part="1" 
-F 0 "C?" H 2692 1196 50  0000 L CNN
+F 0 "C43" H 2692 1196 50  0000 L CNN
 F 1 "0.01uF" H 2650 1100 50  0000 L CNN
-F 2 "" H 2600 1150 50  0001 C CNN
-F 3 "~" H 2600 1150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2600 1150 50  0001 C CNN
+F 3 "?" H 2600 1150 50  0001 C CNN
 	1    2600 1150
 	1    0    0    -1  
 $EndComp
@@ -246,15 +246,15 @@ Connection ~ 1600 1950
 Text HLabel 3050 2350 0    50   Input ~ 0
 Reset
 $Comp
-L Device:R_Small R?
+L Device:R_Small R40
 U 1 1 61880E47
 P 2650 2150
-AR Path="/617C0851/61880E47" Ref="R?"  Part="1" 
+AR Path="/617C0851/61880E47" Ref="R40"  Part="1" 
 AR Path="/6190EB23/61880E47" Ref="R?"  Part="1" 
-F 0 "R?" V 2650 2150 50  0000 C CNN
+F 0 "R40" V 2650 2150 50  0000 C CNN
 F 1 "4.87K" V 2545 2150 50  0000 C CNN
-F 2 "" H 2650 2150 50  0001 C CNN
-F 3 "~" H 2650 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2650 2150 50  0001 C CNN
+F 3 "?" H 2650 2150 50  0001 C CNN
 	1    2650 2150
 	0    -1   1    0   
 $EndComp
@@ -285,28 +285,28 @@ $EndComp
 Wire Wire Line
 	2200 2150 2550 2150
 $Comp
-L Device:R_Small R?
+L Device:R_Small R42
 U 1 1 61880E49
 P 2650 3350
-AR Path="/617C0851/61880E49" Ref="R?"  Part="1" 
+AR Path="/617C0851/61880E49" Ref="R42"  Part="1" 
 AR Path="/6190EB23/61880E49" Ref="R?"  Part="1" 
-F 0 "R?" V 2650 3350 50  0000 C CNN
+F 0 "R42" V 2650 3350 50  0000 C CNN
 F 1 "2.2K" V 2545 3350 50  0000 C CNN
-F 2 "" H 2650 3350 50  0001 C CNN
-F 3 "~" H 2650 3350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2650 3350 50  0001 C CNN
+F 3 "?" H 2650 3350 50  0001 C CNN
 	1    2650 3350
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R41
 U 1 1 617E8ED6
 P 2650 2450
-AR Path="/617C0851/617E8ED6" Ref="R?"  Part="1" 
+AR Path="/617C0851/617E8ED6" Ref="R41"  Part="1" 
 AR Path="/6190EB23/617E8ED6" Ref="R?"  Part="1" 
-F 0 "R?" V 2650 2450 50  0000 C CNN
+F 0 "R41" V 2650 2450 50  0000 C CNN
 F 1 "10K" V 2550 2450 50  0000 C CNN
-F 2 "" H 2650 2450 50  0001 C CNN
-F 3 "~" H 2650 2450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 2650 2450 50  0001 C CNN
+F 3 "?" H 2650 2450 50  0001 C CNN
 	1    2650 2450
 	0    -1   1    0   
 $EndComp
@@ -315,7 +315,7 @@ MDC
 Text HLabel 2950 3450 0    50   Input ~ 0
 MDIO
 Wire Wire Line
-	2750 2450 3050 2450
+	2750 2450 2900 2450
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61880E4B
@@ -356,15 +356,15 @@ $EndComp
 Wire Wire Line
 	2550 3350 1900 3350
 $Comp
-L DSP_symbols:RJ45_74980 U?
+L DSP_symbols:RJ45_74980 U41
 U 1 1 617F51E9
 P 8225 3950
-AR Path="/617C0851/617F51E9" Ref="U?"  Part="1" 
+AR Path="/617C0851/617F51E9" Ref="U41"  Part="1" 
 AR Path="/6190EB23/617F51E9" Ref="U?"  Part="1" 
-F 0 "U?" H 8553 3971 50  0000 L CNN
+F 0 "U41" H 8553 3971 50  0000 L CNN
 F 1 "RJ45_74980" H 8553 3880 50  0000 L CNN
 F 2 "Connector_RJ:RJ45_Wuerth_74980111211_Horizontal" H 8225 4250 50  0001 C CNN
-F 3 "" H 8225 4250 50  0001 C CNN
+F 3 "~" H 8225 4250 50  0001 C CNN
 	1    8225 3950
 	1    0    0    -1  
 $EndComp
@@ -386,15 +386,15 @@ Wire Wire Line
 Text HLabel 3050 4350 0    50   Input ~ 0
 COL
 $Comp
-L DP83822IRHBR:DP83822IRHBR U?
+L DP83822IRHBR:DP83822IRHBR U40
 U 1 1 617C19DB
 P 4150 3350
-AR Path="/617C0851/617C19DB" Ref="U?"  Part="1" 
+AR Path="/617C0851/617C19DB" Ref="U40"  Part="1" 
 AR Path="/6190EB23/617C19DB" Ref="U?"  Part="1" 
-F 0 "U?" H 4150 5117 50  0000 C CNN
+F 0 "U40" H 4150 5117 50  0000 C CNN
 F 1 "DP83822IRHBR" H 4150 5026 50  0000 C CNN
 F 2 "IC_DP83822IRHBR" H 4150 3350 50  0001 L BNN
-F 3 "" H 4150 3350 50  0001 L BNN
+F 3 "~" H 4150 3350 50  0001 L BNN
 F 4 "IPC-7351B" H 4150 3350 50  0001 L BNN "STANDARD"
 F 5 "1.00mm" H 4150 3350 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
 F 6 "Texas Instruments" H 4150 3350 50  0001 L BNN "MANUFACTURER"
@@ -415,41 +415,41 @@ Wire Wire Line
 Wire Wire Line
 	5550 4350 5550 4450
 $Comp
-L Device:R_Small R?
+L Device:R_Small R50
 U 1 1 61810CD4
 P 7450 4450
-AR Path="/617C0851/61810CD4" Ref="R?"  Part="1" 
+AR Path="/617C0851/61810CD4" Ref="R50"  Part="1" 
 AR Path="/6190EB23/61810CD4" Ref="R?"  Part="1" 
-F 0 "R?" V 7450 4450 50  0000 C CNN
+F 0 "R50" V 7450 4450 50  0000 C CNN
 F 1 "470R" V 7375 4450 50  0000 C CNN
-F 2 "" H 7450 4450 50  0001 C CNN
-F 3 "~" H 7450 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7450 4450 50  0001 C CNN
+F 3 "?" H 7450 4450 50  0001 C CNN
 	1    7450 4450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R48
 U 1 1 61811A2B
 P 7450 4200
-AR Path="/617C0851/61811A2B" Ref="R?"  Part="1" 
+AR Path="/617C0851/61811A2B" Ref="R48"  Part="1" 
 AR Path="/6190EB23/61811A2B" Ref="R?"  Part="1" 
-F 0 "R?" V 7450 4200 50  0000 C CNN
+F 0 "R48" V 7450 4200 50  0000 C CNN
 F 1 "470R" V 7375 4200 50  0000 C CNN
-F 2 "" H 7450 4200 50  0001 C CNN
-F 3 "~" H 7450 4200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7450 4200 50  0001 C CNN
+F 3 "?" H 7450 4200 50  0001 C CNN
 	1    7450 4200
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R49
 U 1 1 61813778
 P 7125 4450
-AR Path="/617C0851/61813778" Ref="R?"  Part="1" 
+AR Path="/617C0851/61813778" Ref="R49"  Part="1" 
 AR Path="/6190EB23/61813778" Ref="R?"  Part="1" 
-F 0 "R?" V 7125 4450 50  0000 C CNN
+F 0 "R49" V 7125 4450 50  0000 C CNN
 F 1 "2.2K" V 7050 4450 50  0000 C CNN
-F 2 "" H 7125 4450 50  0001 C CNN
-F 3 "~" H 7125 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7125 4450 50  0001 C CNN
+F 3 "?" H 7125 4450 50  0001 C CNN
 	1    7125 4450
 	0    -1   -1   0   
 $EndComp
@@ -508,28 +508,28 @@ Connection ~ 6975 4550
 Wire Wire Line
 	6975 4550 7825 4550
 $Comp
-L Device:C_Small C?
+L Device:C_Small C52
 U 1 1 6183143C
 P 6425 4125
-AR Path="/617C0851/6183143C" Ref="C?"  Part="1" 
+AR Path="/617C0851/6183143C" Ref="C52"  Part="1" 
 AR Path="/6190EB23/6183143C" Ref="C?"  Part="1" 
-F 0 "C?" H 6475 4175 50  0000 L CNN
+F 0 "C52" H 6475 4175 50  0000 L CNN
 F 1 "0.1uF" H 6450 4050 50  0000 L CNN
-F 2 "" H 6425 4125 50  0001 C CNN
-F 3 "~" H 6425 4125 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6425 4125 50  0001 C CNN
+F 3 "?" H 6425 4125 50  0001 C CNN
 	1    6425 4125
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C53
 U 1 1 6183191F
 P 6625 4125
-AR Path="/617C0851/6183191F" Ref="C?"  Part="1" 
+AR Path="/617C0851/6183191F" Ref="C53"  Part="1" 
 AR Path="/6190EB23/6183191F" Ref="C?"  Part="1" 
-F 0 "C?" H 6650 4200 50  0000 L CNN
+F 0 "C53" H 6650 4200 50  0000 L CNN
 F 1 "1uF" H 6650 4050 50  0000 L CNN
-F 2 "" H 6625 4125 50  0001 C CNN
-F 3 "~" H 6625 4125 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6625 4125 50  0001 C CNN
+F 3 "?" H 6625 4125 50  0001 C CNN
 	1    6625 4125
 	1    0    0    -1  
 $EndComp
@@ -572,28 +572,28 @@ Wire Wire Line
 Wire Wire Line
 	6900 3850 6900 3750
 $Comp
-L Device:C_Small C?
+L Device:C_Small C48
 U 1 1 61852BB6
 P 6400 3050
-AR Path="/617C0851/61852BB6" Ref="C?"  Part="1" 
+AR Path="/617C0851/61852BB6" Ref="C48"  Part="1" 
 AR Path="/6190EB23/61852BB6" Ref="C?"  Part="1" 
-F 0 "C?" H 6450 3100 50  0000 L CNN
+F 0 "C48" H 6450 3100 50  0000 L CNN
 F 1 "0.1uF" H 6425 2975 50  0000 L CNN
-F 2 "" H 6400 3050 50  0001 C CNN
-F 3 "~" H 6400 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6400 3050 50  0001 C CNN
+F 3 "?" H 6400 3050 50  0001 C CNN
 	1    6400 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C49
 U 1 1 61852BBC
 P 6600 3050
-AR Path="/617C0851/61852BBC" Ref="C?"  Part="1" 
+AR Path="/617C0851/61852BBC" Ref="C49"  Part="1" 
 AR Path="/6190EB23/61852BBC" Ref="C?"  Part="1" 
-F 0 "C?" H 6625 3125 50  0000 L CNN
+F 0 "C49" H 6625 3125 50  0000 L CNN
 F 1 "1uF" H 6625 2975 50  0000 L CNN
-F 2 "" H 6600 3050 50  0001 C CNN
-F 3 "~" H 6600 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6600 3050 50  0001 C CNN
+F 3 "?" H 6600 3050 50  0001 C CNN
 	1    6600 3050
 	1    0    0    -1  
 $EndComp
@@ -624,28 +624,28 @@ F 3 "" H 6550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C55
 U 1 1 618558D8
 P 7350 3750
-AR Path="/617C0851/618558D8" Ref="C?"  Part="1" 
+AR Path="/617C0851/618558D8" Ref="C55"  Part="1" 
 AR Path="/6190EB23/618558D8" Ref="C?"  Part="1" 
-F 0 "C?" V 7400 3800 50  0000 L CNN
+F 0 "C55" V 7400 3800 50  0000 L CNN
 F 1 "0.1uF" V 7400 3500 50  0000 L CNN
-F 2 "" H 7350 3750 50  0001 C CNN
-F 3 "~" H 7350 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7350 3750 50  0001 C CNN
+F 3 "?" H 7350 3750 50  0001 C CNN
 	1    7350 3750
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C54
 U 1 1 618558DE
 P 7350 3575
-AR Path="/617C0851/618558DE" Ref="C?"  Part="1" 
+AR Path="/617C0851/618558DE" Ref="C54"  Part="1" 
 AR Path="/6190EB23/618558DE" Ref="C?"  Part="1" 
-F 0 "C?" V 7400 3625 50  0000 L CNN
+F 0 "C54" V 7400 3625 50  0000 L CNN
 F 1 "1uF" V 7400 3400 50  0000 L CNN
-F 2 "" H 7350 3575 50  0001 C CNN
-F 3 "~" H 7350 3575 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7350 3575 50  0001 C CNN
+F 3 "?" H 7350 3575 50  0001 C CNN
 	1    7350 3575
 	0    -1   -1   0   
 $EndComp
@@ -699,28 +699,28 @@ Connection ~ 7250 3625
 Wire Wire Line
 	7250 3625 7250 3575
 $Comp
-L Device:C_Small C?
+L Device:C_Small C51
 U 1 1 6187FBF3
 P 7350 3050
-AR Path="/617C0851/6187FBF3" Ref="C?"  Part="1" 
+AR Path="/617C0851/6187FBF3" Ref="C51"  Part="1" 
 AR Path="/6190EB23/6187FBF3" Ref="C?"  Part="1" 
-F 0 "C?" V 7400 3100 50  0000 L CNN
+F 0 "C51" V 7400 3100 50  0000 L CNN
 F 1 "0.1uF" V 7400 2800 50  0000 L CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "~" H 7350 3050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7350 3050 50  0001 C CNN
+F 3 "?" H 7350 3050 50  0001 C CNN
 	1    7350 3050
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C50
 U 1 1 6187FBF9
 P 7350 2875
-AR Path="/617C0851/6187FBF9" Ref="C?"  Part="1" 
+AR Path="/617C0851/6187FBF9" Ref="C50"  Part="1" 
 AR Path="/6190EB23/6187FBF9" Ref="C?"  Part="1" 
-F 0 "C?" V 7400 2925 50  0000 L CNN
+F 0 "C50" V 7400 2925 50  0000 L CNN
 F 1 "1uF" V 7400 2700 50  0000 L CNN
-F 2 "" H 7350 2875 50  0001 C CNN
-F 3 "~" H 7350 2875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7350 2875 50  0001 C CNN
+F 3 "?" H 7350 2875 50  0001 C CNN
 	1    7350 2875
 	0    -1   -1   0   
 $EndComp
@@ -781,15 +781,15 @@ Wire Wire Line
 Wire Wire Line
 	7000 2750 7825 2750
 $Comp
-L Device:R_Small R?
+L Device:R_Small R46
 U 1 1 61893867
 P 5975 4025
-AR Path="/617C0851/61893867" Ref="R?"  Part="1" 
+AR Path="/617C0851/61893867" Ref="R46"  Part="1" 
 AR Path="/6190EB23/61893867" Ref="R?"  Part="1" 
-F 0 "R?" V 5975 4025 50  0000 C CNN
+F 0 "R46" V 5975 4025 50  0000 C CNN
 F 1 "49.9R" V 5900 4025 50  0000 C CNN
-F 2 "" H 5975 4025 50  0001 C CNN
-F 3 "~" H 5975 4025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5975 4025 50  0001 C CNN
+F 3 "?" H 5975 4025 50  0001 C CNN
 	1    5975 4025
 	0    -1   -1   0   
 $EndComp
@@ -806,41 +806,41 @@ Wire Wire Line
 Wire Wire Line
 	5250 2550 5750 2550
 $Comp
-L Device:R_Small R?
+L Device:R_Small R45
 U 1 1 618BA716
 P 5975 3900
-AR Path="/617C0851/618BA716" Ref="R?"  Part="1" 
+AR Path="/617C0851/618BA716" Ref="R45"  Part="1" 
 AR Path="/6190EB23/618BA716" Ref="R?"  Part="1" 
-F 0 "R?" V 5975 3900 50  0000 C CNN
+F 0 "R45" V 5975 3900 50  0000 C CNN
 F 1 "49.9R" V 5900 3900 50  0000 C CNN
-F 2 "" H 5975 3900 50  0001 C CNN
-F 3 "~" H 5975 3900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5975 3900 50  0001 C CNN
+F 3 "?" H 5975 3900 50  0001 C CNN
 	1    5975 3900
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R44
 U 1 1 618BE79C
 P 6000 2950
-AR Path="/617C0851/618BE79C" Ref="R?"  Part="1" 
+AR Path="/617C0851/618BE79C" Ref="R44"  Part="1" 
 AR Path="/6190EB23/618BE79C" Ref="R?"  Part="1" 
-F 0 "R?" V 6000 2950 50  0000 C CNN
+F 0 "R44" V 6000 2950 50  0000 C CNN
 F 1 "49.9R" V 5925 2950 50  0000 C CNN
-F 2 "" H 6000 2950 50  0001 C CNN
-F 3 "~" H 6000 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6000 2950 50  0001 C CNN
+F 3 "?" H 6000 2950 50  0001 C CNN
 	1    6000 2950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R43
 U 1 1 618BE7A2
 P 6000 2850
-AR Path="/617C0851/618BE7A2" Ref="R?"  Part="1" 
+AR Path="/617C0851/618BE7A2" Ref="R43"  Part="1" 
 AR Path="/6190EB23/618BE7A2" Ref="R?"  Part="1" 
-F 0 "R?" V 6000 2850 50  0000 C CNN
+F 0 "R43" V 6000 2850 50  0000 C CNN
 F 1 "49.9R" V 5925 2850 50  0000 C CNN
-F 2 "" H 6000 2850 50  0001 C CNN
-F 3 "~" H 6000 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 6000 2850 50  0001 C CNN
+F 3 "?" H 6000 2850 50  0001 C CNN
 	1    6000 2850
 	0    -1   1    0   
 $EndComp
@@ -905,15 +905,15 @@ Wire Wire Line
 Wire Wire Line
 	6875 4300 7825 4300
 $Comp
-L Device:R_Small R?
+L Device:R_Small R47
 U 1 1 61F5F9FA
 P 5750 4350
-AR Path="/617C0851/61F5F9FA" Ref="R?"  Part="1" 
+AR Path="/617C0851/61F5F9FA" Ref="R47"  Part="1" 
 AR Path="/6190EB23/61F5F9FA" Ref="R?"  Part="1" 
-F 0 "R?" V 5750 4350 50  0000 C CNN
+F 0 "R47" V 5750 4350 50  0000 C CNN
 F 1 "2.49K" V 5675 4350 50  0000 C CNN
-F 2 "" H 5750 4350 50  0001 C CNN
-F 3 "~" H 5750 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5750 4350 50  0001 C CNN
+F 3 "?" H 5750 4350 50  0001 C CNN
 	1    5750 4350
 	0    1    1    0   
 $EndComp
@@ -935,4 +935,13 @@ Wire Wire Line
 Wire Wire Line
 	5650 4350 5550 4350
 Connection ~ 5550 4350
+Text HLabel 2450 2550 0    50   Input ~ 0
+PWDN
+Wire Wire Line
+	2450 2550 2900 2550
+Wire Wire Line
+	2900 2550 2900 2450
+Connection ~ 2900 2450
+Wire Wire Line
+	2900 2450 3050 2450
 $EndSCHEMATC
