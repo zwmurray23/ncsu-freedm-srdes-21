@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1730010
+D PCB terminal block, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm?, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, product range: MKDSP 1,5, pitch: 5 mm, connection method: Screw connection with tension sleeve, mounting: Wave soldering, conductor/PCB connection direction: 0 ?, color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, type of packaging: packed in cardboard
+F http://www.phoenixcontact.com/de/produkte/1730010/pdf
+$ENDCMP
+#
 $CMP 374472
 D ERNI ERNIPRESS Series 160 Way 2.54mm Pitch, Type TE Class C2, 5 Row a/b/c/d/e, Straight DIN 41612 Connector, Plug
 F https://www.erni.com/fileadmin/import/products/assets/DC0002184.PDF
+$ENDCMP
+#
+$CMP 86094328314755V1LF
+D DIN Headers & Receptacles, Backplane Connector, Standard Receptacle, Vertical, Through Hole, Style C/2, 32 ways, Class II
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf
 $ENDCMP
 #
 #End Doc Library

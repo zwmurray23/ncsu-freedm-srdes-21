@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -134,12 +134,12 @@ GD6_EPWM_1A
 Text HLabel 2750 6200 0    50   Output ~ 0
 GD_GPIO14_RESET
 $Comp
-L Existing_IC_Models:374472 J?
+L Existing_IC_Models:374472 J40
 U 1 1 6274352A
 P 3375 1300
-F 0 "J?" H 3875 1565 50  0000 C CNN
+F 0 "J40" H 3875 1565 50  0000 C CNN
 F 1 "374472" H 3875 1474 50  0000 C CNN
-F 2 "374472" H 4225 1400 50  0001 L CNN
+F 2 "Footprints_MC-Backplane:374472" H 4225 1400 50  0001 L CNN
 F 3 "https://www.erni.com/fileadmin/import/products/assets/DC0002184.PDF" H 4225 1300 50  0001 L CNN
 F 4 "ERNI ERNIPRESS Series 160 Way 2.54mm Pitch, Type TE Class C2, 5 Row a/b/c/d/e, Straight DIN 41612 Connector, Plug" H 4225 1200 50  0001 L CNN "Description"
 F 5 "11.6" H 4225 1100 50  0001 L CNN "Height"
@@ -240,8 +240,6 @@ Wire Wire Line
 	2750 6800 3375 6800
 Wire Wire Line
 	2750 7000 3375 7000
-Wire Wire Line
-	2750 7200 3375 7200
 Wire Wire Line
 	2750 7400 3375 7400
 Wire Wire Line
@@ -788,4 +786,6 @@ Connection ~ 2950 7500
 Connection ~ 2950 7800
 Wire Wire Line
 	2950 7800 2950 8000
+Wire Wire Line
+	2750 7200 3375 7200
 $EndSCHEMATC

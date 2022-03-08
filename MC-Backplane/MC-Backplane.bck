@@ -9,4 +9,10 @@ $CMP 86094328314755V1LF
 D 48 Position Din Connector Receptacle, Female Sockets Gold Through Hole
 $ENDCMP
 #
+$CMP BZX84C9V1-7-F
+D Zener diode
+K diode
+F ~
+$ENDCMP
+#
 #End Doc Library

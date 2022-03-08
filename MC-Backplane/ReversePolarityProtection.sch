@@ -18,11 +18,11 @@ L Device:D_Zener D?
 U 1 1 61FBD2BC
 P 6950 3400
 AR Path="/61FBD2BC" Ref="D?"  Part="1" 
-AR Path="/61FBA43E/61FBD2BC" Ref="D?"  Part="1" 
-F 0 "D?" V 6904 3480 50  0000 L CNN
-F 1 "Zener BZX84C9V1-7-F" V 6995 3480 50  0000 L CNN
-F 2 "" H 6950 3400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/diodes-incorporated/BZX84C9V1-7-F/717755" H 6950 3400 50  0001 C CNN
+AR Path="/61FBA43E/61FBD2BC" Ref="D51"  Part="1" 
+F 0 "D51" V 6904 3480 50  0000 L CNN
+F 1 "BZX84C9V1-7-F" V 6995 3480 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6950 3400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/DIOD_S_A0007713711_1-2542835.pdf" H 6950 3400 50  0001 C CNN
 	1    6950 3400
 	0    1    1    0   
 $EndComp
@@ -31,8 +31,8 @@ L Device:R_Small_US R?
 U 1 1 61FBD2C2
 P 6100 3850
 AR Path="/61FBD2C2" Ref="R?"  Part="1" 
-AR Path="/61FBA43E/61FBD2C2" Ref="R?"  Part="1" 
-F 0 "R?" H 6168 3896 50  0000 L CNN
+AR Path="/61FBA43E/61FBD2C2" Ref="R51"  Part="1" 
+F 0 "R51" H 6168 3896 50  0000 L CNN
 F 1 "3k" H 6168 3805 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 6100 3850 50  0001 C CNN
 F 3 "~" H 6100 3850 50  0001 C CNN
@@ -61,10 +61,10 @@ L MC-Backplane:64600001223 U?
 U 1 1 61FBD2D7
 P 5200 3400
 AR Path="/61FBD2D7" Ref="U?"  Part="1" 
-AR Path="/61FBA43E/61FBD2D7" Ref="U?"  Part="1" 
-F 0 "U?" H 5200 3427 50  0000 C CNN
+AR Path="/61FBA43E/61FBD2D7" Ref="U51"  Part="1" 
+F 0 "U51" H 5200 3427 50  0000 C CNN
 F 1 "64600001223" H 5200 3336 50  0000 C CNN
-F 2 "" H 5200 3400 50  0001 C CNN
+F 2 "Footprints_MC-Backplane:64600001223" H 5200 3400 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf" H 5200 3400 50  0001 C CNN
 	1    5200 3400
 	1    0    0    -1  
@@ -74,34 +74,15 @@ Wire Wire Line
 Wire Wire Line
 	4500 3200 4800 3200
 $Comp
-L Device:Fuse F?
-U 1 1 61FBD2DF
-P 5200 2700
-AR Path="/61FBD2DF" Ref="F?"  Part="1" 
-AR Path="/61FBA43E/61FBD2DF" Ref="F?"  Part="1" 
-F 0 "F?" V 5003 2700 50  0000 C CNN
-F 1 "Fuse" V 5094 2700 50  0000 C CNN
-F 2 "" V 5130 2700 50  0001 C CNN
-F 3 "~" H 5200 2700 50  0001 C CNN
-	1    5200 2700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 2700 5050 2950
-Wire Wire Line
-	5350 2950 5350 2700
-Text Notes 3750 3750 0    50   ~ 0
-maybe:  5.5mm barrel jack? \nwith 2.1mm center pole
-$Comp
 L MC-Backplane:SISS05DN-T1-GE3 U?
 U 1 1 61FBD2E8
 P 6600 3200
 AR Path="/61FBD2E8" Ref="U?"  Part="1" 
-AR Path="/61FBA43E/61FBD2E8" Ref="U?"  Part="1" 
-F 0 "U?" V 6842 3700 50  0000 C CNN
+AR Path="/61FBA43E/61FBD2E8" Ref="U52"  Part="1" 
+F 0 "U52" V 6842 3700 50  0000 C CNN
 F 1 "SISS05DN-T1-GE3" V 6751 3700 50  0000 C CNN
-F 2 "" H 6600 3200 50  0001 C CNN
-F 3 "" H 6600 3200 50  0001 C CNN
+F 2 "Footprints_MC-Backplane:Vishay_PowerPAK_1212-8_Single" H 6600 3200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/427/VISH_S_A0010925016_1-2571497.pdf" H 6600 3200 50  0001 C CNN
 	1    6600 3200
 	0    -1   -1   0   
 $EndComp
@@ -112,8 +93,26 @@ Text HLabel 7600 3200 2    50   Output ~ 0
 24V
 Text HLabel 4500 3200 0    50   Input ~ 0
 24V_unprotected
-Text Notes 1550 2000 0    50   ~ 0
-RDS of PMOS needs to be really small like miliohms.\n\nDrain current needs to be larger than what the load requires.\nVDS needs to be larger than the source voltage by a significant amount. 24V so around  45V-60V.\n\nThe Zener diode needs a voltage rating of just under VDS of the mosfet. \n\nnot sure about the resistors.
+Text Notes 625  1225 0    50   ~ 0
+RDS of PMOS needs to be really small like miliohms.\n\nDrain current needs to be larger than what the load requires.\nVDS needs to be larger than the source voltage by a significant amount. 24V so around  45V-60V.\n\nThe Zener diode needs a voltage rating of just under VDS of the mosfet. \n\n
 Text HLabel 6100 4050 0    50   Output ~ 0
 GND
+Text Notes 7200 3575 0    50   ~ 0
+zener
+Wire Notes Line
+	5050 3000 5050 2775
+Wire Notes Line
+	5050 2775 5325 2775
+Wire Notes Line
+	5325 2775 5325 3000
+Wire Notes Line
+	5125 2700 5125 2800
+Wire Notes Line
+	5125 2800 5250 2800
+Wire Notes Line
+	5250 2800 5250 2700
+Wire Notes Line
+	5250 2700 5125 2700
+Text Notes 5100 2700 0    50   ~ 0
+fuse
 $EndSCHEMATC
