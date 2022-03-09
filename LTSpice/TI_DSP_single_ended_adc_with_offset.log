@@ -1,0 +1,141 @@
+Circuit: * C:\Users\zacha\Downloads\TI_DSP_single_ended_adc_with_offset.asc
+
+WARNING: Less than two connections to node 5V.  This node is used by V2.
+WARNING: Less than two connections to node -5V.  This node is used by V9.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 2.34385e-008
+vernier = 0.0208333
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 2.25427e-008
+vernier = 0.0185185
+Gmin = 2.16496e-008
+vernier = 0.0246913
+vernier = 0.0123457
+vernier = 0.0164609
+Gmin = 2.10468e-008
+vernier = 0.0219478
+vernier = 0.0109739
+Gmin = 2.04782e-008
+vernier = 0.0146319
+vernier = 0.0195092
+Gmin = 1.96901e-008
+vernier = 0.0260122
+vernier = 0.0130061
+Gmin = 1.90924e-008
+vernier = 0.0173415
+vernier = 0.023122
+vernier = 0.011561
+Gmin = 1.84961e-008
+vernier = 0.0154146
+vernier = 0.0205529
+Gmin = 1.78267e-008
+vernier = 0.0102764
+vernier = 0.0137019
+Gmin = 1.74496e-008
+vernier = 0.0182692
+vernier = 0.0091346
+vernier = 0.0121795
+Gmin = 1.70821e-008
+vernier = 0.0162393
+Gmin = 1.6487e-008
+vernier = 0.0216524
+vernier = 0.0108262
+vernier = 0.0144349
+Gmin = 1.60836e-008
+vernier = 0.0192465
+vernier = 0.00962327
+Gmin = 1.57019e-008
+vernier = 0.012831
+vernier = 0.017108
+vernier = 0.00855401
+Gmin = 1.53333e-008
+vernier = 0.0114053
+Gmin = 1.49453e-008
+vernier = 0.0152071
+vernier = 0.00760356
+vernier = 0.0101381
+Gmin = 1.46921e-008
+vernier = 0.0135174
+vernier = 0.0180232
+Gmin = 1.42247e-008
+vernier = 0.00901162
+vernier = 0.0120155
+Gmin = 1.39604e-008
+vernier = 0.0160207
+vernier = 0.00801033
+vernier = 0.0106804
+Gmin = 1.37022e-008
+vernier = 0.0142406
+vernier = 0.00712029
+Gmin = 1.34488e-008
+vernier = 0.00949371
+vernier = 0.0126583
+Gmin = 1.31285e-008
+vernier = 0.0168777
+Gmin = 1.26403e-008
+vernier = 0.0225036
+vernier = 0.0300048
+Gmin = 1.18619e-008
+vernier = 0.0400064
+vernier = 0.0533418
+Gmin = 1.07207e-008
+vernier = 0.0711224
+Gmin = 9.14717e-009
+vernier = 0.0948299
+vernier = 0.12644
+Gmin = 7.01729e-009
+vernier = 0.168586
+vernier = 0.224782
+Gmin = 4.61399e-009
+vernier = 0.299709
+Gmin = 2.4034e-009
+vernier = 0.399612
+vernier = 0.532816
+Gmin = 8.23127e-010
+vernier = 0.710421
+vernier = 0.947227
+Gmin = 1.57126e-010
+vernier = 1
+Gmin = 1.76028e-011
+Gmin = 1.89008e-012
+Gmin = 2.02946e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Wed Mar 09 14:52:26 2022
+Total elapsed time: 3.840 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 467276
+traniter = 463985
+tranpoints = 199666
+accept = 188349
+rejected = 11317
+matrix size = 30
+fillins = 21
+solver = Normal
+Thread vector: 2.3/1.8[2] 0.9/0.8[2] 0.3/0.5[1] 0.1/0.8[1]  2592/500
+Matrix Compiler1: 2.00 KB object code size  0.4/0.2/[0.1]
+Matrix Compiler2: 2.75 KB object code size  0.2/0.3/[0.1]
+
