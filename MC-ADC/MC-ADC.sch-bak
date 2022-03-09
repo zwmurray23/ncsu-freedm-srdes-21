@@ -721,10 +721,10 @@ Wire Wire Line
 Text GLabel 5850 5200 2    50   Input ~ 0
 OUT_B
 $Comp
-L Device:C_Small C85
+L Device:C_Small C93
 U 1 1 6288C771
 P 6050 6200
-F 0 "C85" H 6142 6246 50  0000 L CNN
+F 0 "C93" H 6142 6246 50  0000 L CNN
 F 1 "43 nF" H 6142 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6050 6200 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21B7U1H433JA01L/2546778?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANohwB0iAzAAQCtAYiALqkAOALlBABVAHYBLPgHlMAWULZ8AVwBOhEAF9SAWhioQGSH2WKS5KiACsIUik7r7QA" H 6050 6200 50  0001 C CNN
@@ -1108,8 +1108,8 @@ L Device:C_Small C?
 U 1 1 62501DF1
 P 9750 5250
 AR Path="/61F9F3BA/62501DF1" Ref="C?"  Part="1" 
-AR Path="/62501DF1" Ref="C93"  Part="1" 
-F 0 "C93" H 9842 5296 50  0000 L CNN
+AR Path="/62501DF1" Ref="C95"  Part="1" 
+F 0 "C95" H 9842 5296 50  0000 L CNN
 F 1 "10 uF" H 9842 5205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 9750 5250 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 9750 5250 50  0001 C CNN
