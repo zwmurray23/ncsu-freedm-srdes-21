@@ -16,21 +16,21 @@ $EndDescr
 $Comp
 L Connector:USB_B U202
 U 1 1 61F8F0B7
-P 1425 3900
-F 0 "U202" H 1625 4325 50  0000 R CNN
-F 1 "USB_B" H 1625 4250 50  0000 R CNN
-F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1575 3850 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/on-shore-technology-inc/USB-B1HSB6/2677744" H 1575 3850 50  0001 C CNN
-	1    1425 3900
+P 875 3900
+F 0 "U202" H 1075 4325 50  0000 R CNN
+F 1 "USB_B" H 1075 4250 50  0000 R CNN
+F 2 "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal" H 1025 3850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/on-shore-technology-inc/USB-B1HSB6/2677744" H 1025 3850 50  0001 C CNN
+	1    875  3900
 	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5700 925  5700 800 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0182
 U 1 1 6197FA90
 P 5550 1225
-F 0 "#PWR?" H 5550 975 50  0001 C CNN
+F 0 "#PWR0182" H 5550 975 50  0001 C CNN
 F 1 "GND" H 5555 1052 50  0000 C CNN
 F 2 "" H 5550 1225 50  0001 C CNN
 F 3 "" H 5550 1225 50  0001 C CNN
@@ -46,7 +46,7 @@ P 5450 1075
 F 0 "C202" H 5565 1121 50  0000 L CNN
 F 1 "0.1uF" H 5565 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5488 925 50  0001 C CNN
-F 3 "?" H 5450 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 5450 1075 50  0001 C CNN
 	1    5450 1075
 	-1   0    0    -1  
 $EndComp
@@ -62,7 +62,7 @@ P 5025 1075
 F 0 "C201" H 5140 1121 50  0000 L CNN
 F 1 "0.1uF" H 5140 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5063 925 50  0001 C CNN
-F 3 "?" H 5025 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 5025 1075 50  0001 C CNN
 	1    5025 1075
 	-1   0    0    -1  
 $EndComp
@@ -79,17 +79,17 @@ P 4600 1075
 F 0 "C200" H 4715 1121 50  0000 L CNN
 F 1 "0.1uF" H 4715 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4638 925 50  0001 C CNN
-F 3 "?" H 4600 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 4600 1075 50  0001 C CNN
 	1    4600 1075
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5900 800  5900 925 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0183
 U 1 1 61999F10
 P 6075 1225
-F 0 "#PWR?" H 6075 975 50  0001 C CNN
+F 0 "#PWR0183" H 6075 975 50  0001 C CNN
 F 1 "GND" H 6080 1052 50  0000 C CNN
 F 2 "" H 6075 1225 50  0001 C CNN
 F 3 "" H 6075 1225 50  0001 C CNN
@@ -105,7 +105,7 @@ P 6150 1075
 F 0 "C203" H 6265 1121 50  0000 L CNN
 F 1 "0.1uF" H 6265 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6188 925 50  0001 C CNN
-F 3 "?" H 6150 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6150 1075 50  0001 C CNN
 	1    6150 1075
 	1    0    0    -1  
 $EndComp
@@ -121,7 +121,7 @@ P 6575 1075
 F 0 "C204" H 6690 1121 50  0000 L CNN
 F 1 "0.1uF" H 6690 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6613 925 50  0001 C CNN
-F 3 "?" H 6575 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6575 1075 50  0001 C CNN
 	1    6575 1075
 	1    0    0    -1  
 $EndComp
@@ -138,7 +138,7 @@ P 7000 1075
 F 0 "C205" H 7115 1121 50  0000 L CNN
 F 1 "0.1uF" H 7115 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7038 925 50  0001 C CNN
-F 3 "?" H 7000 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7000 1075 50  0001 C CNN
 	1    7000 1075
 	1    0    0    -1  
 $EndComp
@@ -153,7 +153,7 @@ P 7425 1075
 F 0 "C206" H 7540 1121 50  0000 L CNN
 F 1 "0.1uF" H 7540 1030 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7463 925 50  0001 C CNN
-F 3 "?" H 7425 1075 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7425 1075 50  0001 C CNN
 	1    7425 1075
 	1    0    0    -1  
 $EndComp
@@ -165,8 +165,8 @@ U 1 1 619A7631
 P 2975 1350
 F 0 "L200" H 3075 1396 50  0000 L CNN
 F 1 "600 ohm" H 3075 1305 50  0000 L CNN
-F 2 "?" V 2905 1350 50  0001 C CNN
-F 3 "?" H 2975 1350 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" V 2905 1350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/pulse-electronics-network/PE-0805FB601ST/5050549?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOcgJkpAF0CAHAFyhAGVWAnASwB2AcxABfArHrQQySOmz4ipEABYADNWqMW7SF16CR48JRrkEM1JlwFikMmdgB2ciu0g2Hbv2FiCYUzdpWXkbJXtwAA4aFVj3Tz1vQz8QGhpItQsQ60U7Mlg1NQACAHkACwBbLCKAASKwQqKAWQAJAC943RAAYUIAV2YMHAATAFUBPlYSlCacNCw%2BnhwUgFoaLKhePtzlAFYQAnoGYxWpJE2ebdtlCGPRUSA" H 2975 1350 50  0001 C CNN
 	1    2975 1350
 	-1   0    0    -1  
 $EndComp
@@ -177,7 +177,7 @@ P 3175 1550
 F 0 "C211" H 3267 1596 50  0000 L CNN
 F 1 "4.7uF" H 3267 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3175 1550 50  0001 C CNN
-F 3 "?" H 3175 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 3175 1550 50  0001 C CNN
 	1    3175 1550
 	-1   0    0    -1  
 $EndComp
@@ -188,7 +188,7 @@ P 2800 1550
 F 0 "C210" H 2892 1596 50  0000 L CNN
 F 1 "0.1uF" H 2892 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2800 1550 50  0001 C CNN
-F 3 "?" H 2800 1550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2800 1550 50  0001 C CNN
 	1    2800 1550
 	-1   0    0    -1  
 $EndComp
@@ -206,7 +206,7 @@ P 3125 2250
 F 0 "C213" H 3217 2296 50  0000 L CNN
 F 1 "4.7uF" H 3217 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3125 2250 50  0001 C CNN
-F 3 "?" H 3125 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 3125 2250 50  0001 C CNN
 	1    3125 2250
 	-1   0    0    -1  
 $EndComp
@@ -217,7 +217,7 @@ P 2750 2250
 F 0 "C212" H 2842 2296 50  0000 L CNN
 F 1 "0.1uF" H 2842 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2750 2250 50  0001 C CNN
-F 3 "?" H 2750 2250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2750 2250 50  0001 C CNN
 	1    2750 2250
 	-1   0    0    -1  
 $EndComp
@@ -232,12 +232,7 @@ Connection ~ 3125 2150
 Wire Wire Line
 	2150 3750 2150 3800
 Wire Wire Line
-	1725 3900 2150 3900
-Wire Wire Line
 	2150 3900 2150 3950
-Wire Wire Line
-	2925 2150 2750 2150
-Connection ~ 2925 2150
 Connection ~ 6150 1225
 Wire Wire Line
 	6150 1225 6075 1225
@@ -251,7 +246,7 @@ P 4300 3200
 F 0 "R207" V 4300 3200 50  0000 C CNN
 F 1 "12K" V 4195 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4300 3200 50  0001 C CNN
-F 3 "?" H 4300 3200 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0712KL/726913" H 4300 3200 50  0001 C CNN
 	1    4300 3200
 	0    -1   1    0   
 $EndComp
@@ -262,7 +257,7 @@ P 4300 3400
 F 0 "R208" V 4300 3400 50  0000 C CNN
 F 1 "1K" V 4195 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4300 3400 50  0001 C CNN
-F 3 "?" H 4300 3400 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843" H 4300 3400 50  0001 C CNN
 	1    4300 3400
 	0    -1   1    0   
 $EndComp
@@ -276,8 +271,8 @@ U 1 1 6185DB4E
 P 3500 5000
 F 0 "U207" H 3650 4900 50  0000 L CNN
 F 1 "Crystal_GND24" H 3600 4800 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_FOX_FQ7050-4Pin_7.0x5.0mm" H 3500 5000 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/connor-winfield/CWX813-012-0M/695511" H 3500 5000 50  0001 C CNN
+F 2 "????????" H 3500 5000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/abracon-llc/ASFL1-12-000MHZ-L-T/2623936" H 3500 5000 50  0001 C CNN
 	1    3500 5000
 	1    0    0    1   
 $EndComp
@@ -304,7 +299,7 @@ P 7100 2600
 F 0 "R201" V 7100 2600 50  0000 C CNN
 F 1 "0R" V 6995 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7100 2600 50  0001 C CNN
-F 3 "?" H 7100 2600 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 7100 2600 50  0001 C CNN
 	1    7100 2600
 	0    -1   1    0   
 $EndComp
@@ -323,7 +318,7 @@ P 7100 3000
 F 0 "R202" V 7100 3000 50  0000 C CNN
 F 1 "10K" V 6995 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7100 3000 50  0001 C CNN
-F 3 "?" H 7100 3000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA" H 7100 3000 50  0001 C CNN
 	1    7100 3000
 	0    1    -1   0   
 $EndComp
@@ -334,7 +329,7 @@ P 7100 3300
 F 0 "R203" V 7100 3300 50  0000 C CNN
 F 1 "10K" V 6995 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7100 3300 50  0001 C CNN
-F 3 "?" H 7100 3300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA" H 7100 3300 50  0001 C CNN
 	1    7100 3300
 	0    1    -1   0   
 $EndComp
@@ -355,7 +350,7 @@ P 7100 5000
 F 0 "R205" V 7100 5000 50  0000 C CNN
 F 1 "10K" V 6995 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7100 5000 50  0001 C CNN
-F 3 "?" H 7100 5000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA" H 7100 5000 50  0001 C CNN
 	1    7100 5000
 	0    1    -1   0   
 $EndComp
@@ -366,7 +361,7 @@ P 7100 4900
 F 0 "R204" V 7100 4900 50  0000 C CNN
 F 1 "10K" V 6995 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7100 4900 50  0001 C CNN
-F 3 "?" H 7100 4900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA" H 7100 4900 50  0001 C CNN
 	1    7100 4900
 	0    -1   1    0   
 $EndComp
@@ -479,7 +474,7 @@ P 9550 3100
 F 0 "U205" H 9550 3675 50  0000 C CNN
 F 1 "ISO7730DW" H 9550 3584 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 9600 3400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/texas-instruments/ISO7730DW/6227060" H 9600 3400 50  0001 C CNN
+F 3 "?????????" H 9600 3400 50  0001 C CNN
 	1    9550 3100
 	1    0    0    -1  
 $EndComp
@@ -490,7 +485,7 @@ P 9550 4150
 F 0 "U206" H 9550 4725 50  0000 C CNN
 F 1 "ISO7730DW" H 9550 4634 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 9600 4450 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/texas-instruments/ISO7730DW/6227060" H 9600 4450 50  0001 C CNN
+F 3 "?????????" H 9600 4450 50  0001 C CNN
 	1    9550 4150
 	-1   0    0    -1  
 $EndComp
@@ -507,7 +502,7 @@ P 7050 1750
 F 0 "R200" V 7050 1750 50  0000 C CNN
 F 1 "10K" V 6945 1750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7050 1750 50  0001 C CNN
-F 3 "?" H 7050 1750 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA" H 7050 1750 50  0001 C CNN
 	1    7050 1750
 	1    0    0    1   
 $EndComp
@@ -544,7 +539,7 @@ P 5700 3800
 F 0 "U200" H 6700 5975 50  0000 C CNN
 F 1 "FT2232HL" H 6575 5900 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 5700 3800 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 5700 3800 50  0001 C CNN
+F 3 "~" H 5700 3800 50  0001 C CNN
 	1    5700 3800
 	1    0    0    -1  
 $EndComp
@@ -566,30 +561,13 @@ Connection ~ 2800 1650
 Wire Wire Line
 	2400 2350 2750 2350
 Connection ~ 2750 2350
-Wire Wire Line
-	3125 2150 2925 2150
-$Comp
-L Device:Ferrite_Bead_Small L201
-U 1 1 619C6520
-P 2925 2050
-F 0 "L201" H 3025 2096 50  0000 L CNN
-F 1 "600 ohm" H 3025 2005 50  0000 L CNN
-F 2 "?" V 2855 2050 50  0001 C CNN
-F 3 "?" H 2925 2050 50  0001 C CNN
-	1    2925 2050
-	-1   0    0    -1  
-$EndComp
 Text GLabel 2400 1950 0    50   Input ~ 0
 EMU_3V3
-Wire Wire Line
-	2400 1950 2925 1950
 Wire Wire Line
 	2400 1250 2975 1250
 Text GLabel 2475 4350 0    50   Input ~ 0
 EMU_GND
-Wire Wire Line
-	2150 3800 1725 3800
-Text GLabel 1725 4100 2    50   Input ~ 0
+Text GLabel 1175 4100 2    50   Input ~ 0
 EMU_USB_5V
 Text GLabel 7500 4300 2    50   Input ~ 0
 EMU_5V
@@ -629,7 +607,7 @@ P 3850 6900
 F 0 "C216" H 3965 6946 50  0000 L CNN
 F 1 "4.7uF" H 3965 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3888 6750 50  0001 C CNN
-F 3 "?" H 3850 6900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 3850 6900 50  0001 C CNN
 	1    3850 6900
 	1    0    0    -1  
 $EndComp
@@ -665,7 +643,7 @@ P 4350 7250
 F 0 "R206" V 4350 7250 50  0000 C CNN
 F 1 "1K" V 4245 7250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4350 7250 50  0001 C CNN
-F 3 "?" H 4350 7250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843" H 4350 7250 50  0001 C CNN
 	1    4350 7250
 	-1   0    0    1   
 $EndComp
@@ -695,7 +673,7 @@ P 3050 6900
 F 0 "C215" H 3165 6946 50  0000 L CNN
 F 1 "0.1uF" H 3165 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3088 6750 50  0001 C CNN
-F 3 "?" H 3050 6900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3050 6900 50  0001 C CNN
 	1    3050 6900
 	-1   0    0    -1  
 $EndComp
@@ -708,7 +686,7 @@ P 2600 6900
 F 0 "C214" H 2715 6946 50  0000 L CNN
 F 1 "4.7uF" H 2715 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2638 6750 50  0001 C CNN
-F 3 "?" H 2600 6900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 2600 6900 50  0001 C CNN
 	1    2600 6900
 	-1   0    0    -1  
 $EndComp
@@ -730,7 +708,7 @@ Wire Wire Line
 	3050 6750 3150 6750
 Text GLabel 2675 3250 2    50   Input ~ 0
 EMU_5V
-Text GLabel 1550 3500 2    50   Input ~ 0
+Text GLabel 1000 3500 2    50   Input ~ 0
 EMU_GND
 Wire Wire Line
 	2650 3350 2650 3250
@@ -803,12 +781,12 @@ P 2650 3850
 F 0 "U201" H 2850 4300 50  0000 C CNN
 F 1 "TPD2S017" H 2950 4200 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1900 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd2s017.pdf" H 2650 3850 50  0001 C CNN
+F 3 "????" H 2650 3850 50  0001 C CNN
 	1    2650 3850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 3750 3350 2900
+	3350 3750 3350 3100
 Wire Wire Line
 	3350 2900 4500 2900
 Wire Wire Line
@@ -816,10 +794,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 3950 3450 3950
 Wire Wire Line
-	1550 3500 1425 3500
-Connection ~ 1425 3500
+	1000 3500 875  3500
+Connection ~ 875  3500
 Wire Wire Line
-	1425 3500 1325 3500
+	875  3500 775  3500
 Text HLabel 10200 3050 2    50   Input ~ 0
 DSP_SCI-RX
 Text HLabel 10200 4100 2    50   Input ~ 0
@@ -876,10 +854,10 @@ DSP_3V3
 Wire Wire Line
 	8675 825  8675 950 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0184
 U 1 1 62507ACB
 P 8450 1250
-F 0 "#PWR?" H 8450 1000 50  0001 C CNN
+F 0 "#PWR0184" H 8450 1000 50  0001 C CNN
 F 1 "GND" H 8455 1077 50  0000 C CNN
 F 2 "" H 8450 1250 50  0001 C CNN
 F 3 "" H 8450 1250 50  0001 C CNN
@@ -893,7 +871,7 @@ P 7900 1100
 F 0 "C207" H 8015 1146 50  0000 L CNN
 F 1 "0.1uF" H 8015 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7938 950 50  0001 C CNN
-F 3 "?" H 7900 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7900 1100 50  0001 C CNN
 	1    7900 1100
 	1    0    0    -1  
 $EndComp
@@ -906,7 +884,7 @@ P 8325 1100
 F 0 "C208" H 8440 1146 50  0000 L CNN
 F 1 "0.1uF" H 8440 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8363 950 50  0001 C CNN
-F 3 "?" H 8325 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 8325 1100 50  0001 C CNN
 	1    8325 1100
 	1    0    0    -1  
 $EndComp
@@ -919,7 +897,7 @@ P 8750 1100
 F 0 "C209" H 8865 1146 50  0000 L CNN
 F 1 "0.1uF" H 8865 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8788 950 50  0001 C CNN
-F 3 "?" H 8750 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 8750 1100 50  0001 C CNN
 	1    8750 1100
 	1    0    0    -1  
 $EndComp
@@ -951,7 +929,7 @@ P 9550 2050
 F 0 "U204" H 9550 2625 50  0000 C CNN
 F 1 "ISO7730DW" H 9550 2534 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 9600 2350 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/texas-instruments/ISO7730DW/6227060" H 9600 2350 50  0001 C CNN
+F 3 "?????????" H 9600 2350 50  0001 C CNN
 	1    9550 2050
 	1    0    0    -1  
 $EndComp
@@ -964,7 +942,7 @@ P 9350 1100
 F 0 "C195" H 9465 1146 50  0000 L CNN
 F 1 "0.1uF" H 9465 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 9388 950 50  0001 C CNN
-F 3 "?" H 9350 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9350 1100 50  0001 C CNN
 	1    9350 1100
 	1    0    0    -1  
 $EndComp
@@ -977,7 +955,7 @@ P 9775 1100
 F 0 "C196" H 9890 1146 50  0000 L CNN
 F 1 "0.1uF" H 9890 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 9813 950 50  0001 C CNN
-F 3 "?" H 9775 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9775 1100 50  0001 C CNN
 	1    9775 1100
 	1    0    0    -1  
 $EndComp
@@ -990,7 +968,7 @@ P 10200 1100
 F 0 "C197" H 10315 1146 50  0000 L CNN
 F 1 "0.1uF" H 10315 1055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 10238 950 50  0001 C CNN
-F 3 "?" H 10200 1100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 10200 1100 50  0001 C CNN
 	1    10200 1100
 	1    0    0    -1  
 $EndComp
@@ -1004,10 +982,10 @@ Wire Wire Line
 Text HLabel 10125 825  0    50   Input ~ 0
 DSP_3V3
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0185
 U 1 1 6254842D
 P 9950 1250
-F 0 "#PWR?" H 9950 1000 50  0001 C CNN
+F 0 "#PWR0185" H 9950 1000 50  0001 C CNN
 F 1 "GND" H 9955 1077 50  0000 C CNN
 F 2 "" H 9950 1250 50  0001 C CNN
 F 3 "" H 9950 1250 50  0001 C CNN
@@ -1029,9 +1007,9 @@ L Device:C_Small C217
 U 1 1 6186EE29
 P 3150 4900
 F 0 "C217" H 3242 4946 50  0000 L CNN
-F 1 "0.01uF" H 3242 4855 50  0000 L CNN
+F 1 "10nF" H 3242 4855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3150 4900 50  0001 C CNN
-F 3 "?" H 3150 4900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C0603X103J4HAC7867/8334457" H 3150 4900 50  0001 C CNN
 	1    3150 4900
 	-1   0    0    -1  
 $EndComp
@@ -1057,4 +1035,76 @@ Wire Wire Line
 	3500 4650 3500 4800
 Wire Wire Line
 	3150 4800 3150 4650
+Wire Wire Line
+	2750 2150 2900 2150
+$Comp
+L Device:Ferrite_Bead_Small L201
+U 1 1 634D0419
+P 2900 2050
+F 0 "L201" H 3000 2096 50  0000 L CNN
+F 1 "600 ohm" H 3000 2005 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" V 2830 2050 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/pulse-electronics-network/PE-0805FB601ST/5050549?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOcgJkpAF0CAHAFyhAGVWAnASwB2AcxABfArHrQQySOmz4ipEABYADNWqMW7SF16CR48JRrkEM1JlwFikMmdgB2ciu0g2Hbv2FiCYUzdpWXkbJXtwAA4aFVj3Tz1vQz8QGhpItQsQ60U7Mlg1NQACAHkACwBbLCKAASKwQqKAWQAJAC943RAAYUIAV2YMHAATAFUBPlYSlCacNCw%2BnhwUgFoaLKhePtzlAFYQAnoGYxWpJE2ebdtlCGPRUSA" H 2900 2050 50  0001 C CNN
+	1    2900 2050
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2900 2150
+Wire Wire Line
+	2900 2150 3125 2150
+Wire Wire Line
+	2900 1950 2400 1950
+Wire Wire Line
+	1175 3800 1750 3800
+Wire Wire Line
+	1175 3900 1750 3900
+$Comp
+L Device:Jumper_NO_Small JP200
+U 1 1 6352BECB
+P 2150 3100
+F 0 "JP200" H 2150 3285 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2150 3194 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2150 3100 50  0001 C CNN
+F 3 "~" H 2150 3100 50  0001 C CNN
+	1    2150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP201
+U 1 1 6352CD34
+P 2150 4700
+F 0 "JP201" H 2150 4885 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 2150 4794 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2150 4700 50  0001 C CNN
+F 3 "~" H 2150 4700 50  0001 C CNN
+	1    2150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4700 1750 4700
+Wire Wire Line
+	1750 4700 1750 3900
+Connection ~ 1750 3900
+Wire Wire Line
+	1750 3900 2150 3900
+Wire Wire Line
+	1750 3800 1750 3100
+Wire Wire Line
+	1750 3100 2050 3100
+Connection ~ 1750 3800
+Wire Wire Line
+	1750 3800 2150 3800
+Wire Wire Line
+	2250 3100 3350 3100
+Connection ~ 3350 3100
+Wire Wire Line
+	3350 3100 3350 2900
+Wire Wire Line
+	2250 4700 2650 4700
+Wire Wire Line
+	2650 4700 2650 4450
+Wire Wire Line
+	2650 4450 3450 4450
+Wire Wire Line
+	3450 4450 3450 3950
+Connection ~ 3450 3950
 $EndSCHEMATC

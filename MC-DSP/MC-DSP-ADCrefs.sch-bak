@@ -20,7 +20,7 @@ P 4700 1300
 F 0 "R60" V 4493 1300 50  0000 C CNN
 F 1 "0R" V 4584 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 1300 50  0001 C CNN
-F 3 "?" H 4700 1300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 4700 1300 50  0001 C CNN
 	1    4700 1300
 	0    1    1    0   
 $EndComp
@@ -31,7 +31,7 @@ P 4050 5500
 F 0 "R69" H 4000 5450 50  0000 R CNN
 F 1 "0.1R" H 4000 5550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3980 5500 50  0001 C CNN
-F 3 "?" H 4050 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/UCR03EVPFLR100/4053587" H 4050 5500 50  0001 C CNN
 	1    4050 5500
 	-1   0    0    1   
 $EndComp
@@ -42,15 +42,15 @@ P 4050 5900
 F 0 "C69" H 4000 5800 50  0000 R CNN
 F 1 "22uF" H 4000 6000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4088 5750 50  0001 C CNN
-F 3 "?" H 4050 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B103K500CT/9354883" H 4050 5900 50  0001 C CNN
 	1    4050 5900
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0186
 U 1 1 620A0035
 P 3000 6050
-F 0 "#PWR?" H 3000 5800 50  0001 C CNN
+F 0 "#PWR0186" H 3000 5800 50  0001 C CNN
 F 1 "GND" H 3005 5877 50  0000 C CNN
 F 2 "" H 3000 6050 50  0001 C CNN
 F 3 "" H 3000 6050 50  0001 C CNN
@@ -64,7 +64,7 @@ P 3750 5500
 F 0 "R68" H 3700 5450 50  0000 R CNN
 F 1 "0.1R" H 3700 5550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3680 5500 50  0001 C CNN
-F 3 "?" H 3750 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/UCR03EVPFLR100/4053587" H 3750 5500 50  0001 C CNN
 	1    3750 5500
 	-1   0    0    1   
 $EndComp
@@ -75,7 +75,7 @@ P 3750 5900
 F 0 "C68" H 3700 5800 50  0000 R CNN
 F 1 "22uF" H 3700 6000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3788 5750 50  0001 C CNN
-F 3 "?" H 3750 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B103K500CT/9354883" H 3750 5900 50  0001 C CNN
 	1    3750 5900
 	-1   0    0    1   
 $EndComp
@@ -86,7 +86,7 @@ P 3450 5500
 F 0 "R67" H 3400 5450 50  0000 R CNN
 F 1 "0.1R" H 3400 5550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3380 5500 50  0001 C CNN
-F 3 "?" H 3450 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/UCR03EVPFLR100/4053587" H 3450 5500 50  0001 C CNN
 	1    3450 5500
 	-1   0    0    1   
 $EndComp
@@ -97,7 +97,7 @@ P 3450 5900
 F 0 "C67" H 3400 5800 50  0000 R CNN
 F 1 "22uF" H 3400 6000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3488 5750 50  0001 C CNN
-F 3 "?" H 3450 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B103K500CT/9354883" H 3450 5900 50  0001 C CNN
 	1    3450 5900
 	-1   0    0    1   
 $EndComp
@@ -108,7 +108,7 @@ P 3150 5500
 F 0 "R66" H 3100 5450 50  0000 R CNN
 F 1 "0.1R" H 3100 5550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3080 5500 50  0001 C CNN
-F 3 "?" H 3150 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/UCR03EVPFLR100/4053587" H 3150 5500 50  0001 C CNN
 	1    3150 5500
 	-1   0    0    1   
 $EndComp
@@ -119,7 +119,7 @@ P 3150 5900
 F 0 "C66" H 3100 5800 50  0000 R CNN
 F 1 "22uF" H 3100 6000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3188 5750 50  0001 C CNN
-F 3 "?" H 3150 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B103K500CT/9354883" H 3150 5900 50  0001 C CNN
 	1    3150 5900
 	-1   0    0    1   
 $EndComp
@@ -143,10 +143,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 5750 3150 5650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0187
 U 1 1 620B3DF3
 P 7050 1600
-F 0 "#PWR?" H 7050 1350 50  0001 C CNN
+F 0 "#PWR0187" H 7050 1350 50  0001 C CNN
 F 1 "GND" H 7055 1427 50  0000 C CNN
 F 2 "" H 7050 1600 50  0001 C CNN
 F 3 "" H 7050 1600 50  0001 C CNN
@@ -160,15 +160,15 @@ P 6900 1450
 F 0 "C60" H 6850 1350 50  0000 R CNN
 F 1 "0.1uF" H 6850 1550 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6938 1300 50  0001 C CNN
-F 3 "?" H 6900 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6900 1450 50  0001 C CNN
 	1    6900 1450
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0188
 U 1 1 621E7DC6
 P 7050 1300
-F 0 "#PWR?" H 7050 1150 50  0001 C CNN
+F 0 "#PWR0188" H 7050 1150 50  0001 C CNN
 F 1 "VDDA" H 7065 1473 50  0000 C CNN
 F 2 "" H 7050 1300 50  0001 C CNN
 F 3 "" H 7050 1300 50  0001 C CNN
@@ -176,10 +176,10 @@ F 3 "" H 7050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0189
 U 1 1 621F2BD5
 P 9850 5200
-F 0 "#PWR?" H 9850 4950 50  0001 C CNN
+F 0 "#PWR0189" H 9850 4950 50  0001 C CNN
 F 1 "GND" H 9855 5027 50  0000 C CNN
 F 2 "" H 9850 5200 50  0001 C CNN
 F 3 "" H 9850 5200 50  0001 C CNN
@@ -191,9 +191,9 @@ L Device:C C74
 U 1 1 621F7326
 P 10000 4850
 F 0 "C74" H 9950 4750 50  0000 R CNN
-F 1 "2.2uF" H 9950 4950 50  0000 R CNN
+F 1 "10uF" H 9950 4950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 10038 4700 50  0001 C CNN
-F 3 "?" H 10000 4850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 10000 4850 50  0001 C CNN
 	1    10000 4850
 	-1   0    0    1   
 $EndComp
@@ -204,7 +204,7 @@ P 9650 4850
 F 0 "C73" H 9600 4750 50  0000 R CNN
 F 1 "0.1uF" H 9600 4950 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 9688 4700 50  0001 C CNN
-F 3 "?" H 9650 4850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9650 4850 50  0001 C CNN
 	1    9650 4850
 	-1   0    0    1   
 $EndComp
@@ -217,7 +217,7 @@ P 7350 4700
 F 0 "R71" H 7300 4650 50  0000 R CNN
 F 1 "0R" H 7300 4750 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7280 4700 50  0001 C CNN
-F 3 "?" H 7350 4700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 7350 4700 50  0001 C CNN
 	1    7350 4700
 	0    1    -1   0   
 $EndComp
@@ -228,7 +228,7 @@ P 8350 4950
 F 0 "C72" H 8300 4850 50  0000 R CNN
 F 1 "10uF" H 8300 5050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8388 4800 50  0001 C CNN
-F 3 "?" H 8350 4950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 8350 4950 50  0001 C CNN
 	1    8350 4950
 	1    0    0    1   
 $EndComp
@@ -243,7 +243,7 @@ P 6800 4700
 F 0 "R70" H 6750 4650 50  0000 R CNN
 F 1 "1K" H 6750 4750 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6730 4700 50  0001 C CNN
-F 3 "?" H 6800 4700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843" H 6800 4700 50  0001 C CNN
 	1    6800 4700
 	0    1    -1   0   
 $EndComp
@@ -256,7 +256,7 @@ P 7100 4950
 F 0 "C71" H 7050 4850 50  0000 R CNN
 F 1 "0.1uF" H 7050 5050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7138 4800 50  0001 C CNN
-F 3 "?" H 7100 4950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7100 4950 50  0001 C CNN
 	1    7100 4950
 	1    0    0    1   
 $EndComp
@@ -267,7 +267,7 @@ P 6500 4950
 F 0 "C70" H 6450 4850 50  0000 R CNN
 F 1 "0.1uF" H 6450 5050 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6538 4800 50  0001 C CNN
-F 3 "?" H 6500 4950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6500 4950 50  0001 C CNN
 	1    6500 4950
 	1    0    0    1   
 $EndComp
@@ -299,15 +299,15 @@ AR Path="/62086B6E/623261FB" Ref="U60"  Part="1"
 F 0 "U60" H 5700 1050 50  0000 C CNN
 F 1 "OPA365xxD" H 5550 1150 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 1100 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219893" H 5500 1450 50  0001 C CNN
 	1    5350 1300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0190
 U 1 1 62331851
 P 5450 1600
-F 0 "#PWR?" H 5450 1350 50  0001 C CNN
+F 0 "#PWR0190" H 5450 1350 50  0001 C CNN
 F 1 "GND" H 5300 1550 50  0000 C CNN
 F 2 "" H 5450 1600 50  0001 C CNN
 F 3 "" H 5450 1600 50  0001 C CNN
@@ -315,10 +315,10 @@ F 3 "" H 5450 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0191
 U 1 1 623334D4
 P 5450 1000
-F 0 "#PWR?" H 5450 850 50  0001 C CNN
+F 0 "#PWR0191" H 5450 850 50  0001 C CNN
 F 1 "VDDA" H 5300 1050 50  0000 C CNN
 F 2 "" H 5450 1000 50  0001 C CNN
 F 3 "" H 5450 1000 50  0001 C CNN
@@ -332,7 +332,7 @@ P 7200 1450
 F 0 "C61" H 7150 1350 50  0000 R CNN
 F 1 "0.1uF" H 7150 1550 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7238 1300 50  0001 C CNN
-F 3 "?" H 7200 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7200 1450 50  0001 C CNN
 	1    7200 1450
 	-1   0    0    1   
 $EndComp
@@ -343,7 +343,7 @@ P 7500 1450
 F 0 "C62" H 7450 1350 50  0000 R CNN
 F 1 "0.1uF" H 7450 1550 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7538 1300 50  0001 C CNN
-F 3 "?" H 7500 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7500 1450 50  0001 C CNN
 	1    7500 1450
 	-1   0    0    1   
 $EndComp
@@ -354,7 +354,7 @@ P 7800 1450
 F 0 "C63" H 7750 1350 50  0000 R CNN
 F 1 "0.1uF" H 7750 1550 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7838 1300 50  0001 C CNN
-F 3 "?" H 7800 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7800 1450 50  0001 C CNN
 	1    7800 1450
 	-1   0    0    1   
 $EndComp
@@ -365,7 +365,7 @@ P 8100 1450
 F 0 "C64" H 8050 1350 50  0000 R CNN
 F 1 "0.1uF" H 8050 1550 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8138 1300 50  0001 C CNN
-F 3 "?" H 8100 1450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 8100 1450 50  0001 C CNN
 	1    8100 1450
 	-1   0    0    1   
 $EndComp
@@ -404,15 +404,15 @@ P 4700 2200
 F 0 "R61" V 4493 2200 50  0000 C CNN
 F 1 "0R" V 4584 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 2200 50  0001 C CNN
-F 3 "?" H 4700 2200 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 4700 2200 50  0001 C CNN
 	1    4700 2200
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0192
 U 1 1 6235C174
 P 5450 2500
-F 0 "#PWR?" H 5450 2250 50  0001 C CNN
+F 0 "#PWR0192" H 5450 2250 50  0001 C CNN
 F 1 "GND" H 5300 2450 50  0000 C CNN
 F 2 "" H 5450 2500 50  0001 C CNN
 F 3 "" H 5450 2500 50  0001 C CNN
@@ -420,10 +420,10 @@ F 3 "" H 5450 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0193
 U 1 1 6235C17A
 P 5450 1900
-F 0 "#PWR?" H 5450 1750 50  0001 C CNN
+F 0 "#PWR0193" H 5450 1750 50  0001 C CNN
 F 1 "VDDA" H 5300 1950 50  0000 C CNN
 F 2 "" H 5450 1900 50  0001 C CNN
 F 3 "" H 5450 1900 50  0001 C CNN
@@ -437,7 +437,7 @@ P 4700 3100
 F 0 "R62" V 4493 3100 50  0000 C CNN
 F 1 "0R" V 4584 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 3100 50  0001 C CNN
-F 3 "?" H 4700 3100 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 4700 3100 50  0001 C CNN
 	1    4700 3100
 	0    1    1    0   
 $EndComp
@@ -450,15 +450,15 @@ AR Path="/62086B6E/62361DB5" Ref="U62"  Part="1"
 F 0 "U62" H 5700 2850 50  0000 C CNN
 F 1 "OPA365xxD" H 5550 2950 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 2900 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 3250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219893" H 5500 3250 50  0001 C CNN
 	1    5350 3100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0194
 U 1 1 62361DBB
 P 5450 3400
-F 0 "#PWR?" H 5450 3150 50  0001 C CNN
+F 0 "#PWR0194" H 5450 3150 50  0001 C CNN
 F 1 "GND" H 5300 3350 50  0000 C CNN
 F 2 "" H 5450 3400 50  0001 C CNN
 F 3 "" H 5450 3400 50  0001 C CNN
@@ -466,10 +466,10 @@ F 3 "" H 5450 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0195
 U 1 1 62361DC1
 P 5450 2800
-F 0 "#PWR?" H 5450 2650 50  0001 C CNN
+F 0 "#PWR0195" H 5450 2650 50  0001 C CNN
 F 1 "VDDA" H 5300 2850 50  0000 C CNN
 F 2 "" H 5450 2800 50  0001 C CNN
 F 3 "" H 5450 2800 50  0001 C CNN
@@ -483,7 +483,7 @@ P 4700 4000
 F 0 "R63" V 4493 4000 50  0000 C CNN
 F 1 "0R" V 4584 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 4000 50  0001 C CNN
-F 3 "?" H 4700 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 4700 4000 50  0001 C CNN
 	1    4700 4000
 	0    1    1    0   
 $EndComp
@@ -496,15 +496,15 @@ AR Path="/62086B6E/623678D4" Ref="U63"  Part="1"
 F 0 "U63" H 5700 3750 50  0000 C CNN
 F 1 "OPA365xxD" H 5550 3850 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 3800 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 4150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219893" H 5500 4150 50  0001 C CNN
 	1    5350 4000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0196
 U 1 1 623678DA
 P 5450 4300
-F 0 "#PWR?" H 5450 4050 50  0001 C CNN
+F 0 "#PWR0196" H 5450 4050 50  0001 C CNN
 F 1 "GND" H 5300 4250 50  0000 C CNN
 F 2 "" H 5450 4300 50  0001 C CNN
 F 3 "" H 5450 4300 50  0001 C CNN
@@ -512,10 +512,10 @@ F 3 "" H 5450 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0197
 U 1 1 623678E0
 P 5450 3700
-F 0 "#PWR?" H 5450 3550 50  0001 C CNN
+F 0 "#PWR0197" H 5450 3550 50  0001 C CNN
 F 1 "VDDA" H 5300 3750 50  0000 C CNN
 F 2 "" H 5450 3700 50  0001 C CNN
 F 3 "" H 5450 3700 50  0001 C CNN
@@ -529,7 +529,7 @@ P 4700 4900
 F 0 "R64" V 4493 4900 50  0000 C CNN
 F 1 "0R" V 4584 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4630 4900 50  0001 C CNN
-F 3 "?" H 4700 4900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7EnADIgC6AvkA" H 4700 4900 50  0001 C CNN
 	1    4700 4900
 	0    1    1    0   
 $EndComp
@@ -544,15 +544,15 @@ AR Path="/62086B6E/62383AA1" Ref="U64"  Part="1"
 F 0 "U64" H 5700 4650 50  0000 C CNN
 F 1 "OPA365xxD" H 5550 4750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 4700 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 5050 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219893" H 5500 5050 50  0001 C CNN
 	1    5350 4900
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0198
 U 1 1 62383AA7
 P 5450 5200
-F 0 "#PWR?" H 5450 4950 50  0001 C CNN
+F 0 "#PWR0198" H 5450 4950 50  0001 C CNN
 F 1 "GND" H 5300 5150 50  0000 C CNN
 F 2 "" H 5450 5200 50  0001 C CNN
 F 3 "" H 5450 5200 50  0001 C CNN
@@ -560,10 +560,10 @@ F 3 "" H 5450 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0199
 U 1 1 62383AAD
 P 5450 4600
-F 0 "#PWR?" H 5450 4450 50  0001 C CNN
+F 0 "#PWR0199" H 5450 4450 50  0001 C CNN
 F 1 "VDDA" H 5300 4650 50  0000 C CNN
 F 2 "" H 5450 4600 50  0001 C CNN
 F 3 "" H 5450 4600 50  0001 C CNN
@@ -579,7 +579,7 @@ AR Path="/623B32D5" Ref="R?"  Part="1"
 F 0 "R65" H 2800 5450 50  0000 R CNN
 F 1 "0.1R" H 2800 5550 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2780 5500 50  0001 C CNN
-F 3 "?" H 2850 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/rohm-semiconductor/UCR03EVPFLR100/4053587" H 2850 5500 50  0001 C CNN
 	1    2850 5500
 	-1   0    0    1   
 $EndComp
@@ -592,7 +592,7 @@ AR Path="/623B32DB" Ref="C?"  Part="1"
 F 0 "C65" H 2800 5800 50  0000 R CNN
 F 1 "22uF" H 2800 6000 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2888 5750 50  0001 C CNN
-F 3 "?" H 2850 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/walsin-technology-corporation/0603B103K500CT/9354883" H 2850 5900 50  0001 C CNN
 	1    2850 5900
 	-1   0    0    1   
 $EndComp
@@ -637,10 +637,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 1300 2850 5350
 $Comp
-L power:VDDA #PWR?
+L power:VDDA #PWR0200
 U 1 1 621E8B2D
 P 9750 4400
-F 0 "#PWR?" H 9750 4250 50  0001 C CNN
+F 0 "#PWR0200" H 9750 4250 50  0001 C CNN
 F 1 "VDDA" H 9765 4573 50  0000 C CNN
 F 2 "" H 9750 4400 50  0001 C CNN
 F 3 "" H 9750 4400 50  0001 C CNN
@@ -658,7 +658,7 @@ AR Path="/62086B6E/6235C16E" Ref="U61"  Part="1"
 F 0 "U61" H 5700 1950 50  0000 C CNN
 F 1 "OPA365xxD" H 5550 2050 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 2000 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa365.pdf" H 5500 2350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219893" H 5500 2350 50  0001 C CNN
 	1    5350 2200
 	-1   0    0    -1  
 $EndComp
@@ -782,7 +782,7 @@ P 9000 4750
 F 0 "U65" H 9000 5165 50  0000 C CNN
 F 1 "MAX6126AASA" H 9000 5074 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9000 4750 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6126.pdf" H 9000 4750 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX6126AASA30/1867184?s=N4IgjCBcpg7LBOKoDGUBmBDANgZwKYA0IA9lANogBMADFQGxWwgC6xADgC5QgDKnAJwCWAOwDmIAL7EAtFWQg0kQQFcipCiACsIYkhbSQMpNEVRV6spEoQDh%2BdZABZAIIANemAYuXvF60kgA" H 9000 4750 50  0001 C CNN
 	1    9000 4750
 	-1   0    0    -1  
 $EndComp

@@ -1,4 +1,11 @@
-19089010307978998
+19098783397978517
+5-1634513-1
+516345131
+5-1634513-1
+Connector
+0
+5
+5
 BU4847F-TR
 SOT130P210X105-4N
 
@@ -83055,6 +83062,41 @@ SBH41-NBPB-D10-ST-BK
 20
 20
 custom_footprints
+TI_HSEC180
+Conn Card Edge SKT 120 POS 0.8mm Solder ST SMD Tray
+
+0
+182
+182
+mark_footprints
+3220-14-0100-00
+
+
+0
+14
+14
+mark_footprints
+GT12MABE
+
+
+0
+5
+3
+mark_footprints
+SBH41-NBPB-D10-ST-BK
+
+
+0
+20
+20
+mark_footprints
+SOP4
+
+
+0
+4
+4
+mark_footprints
 TI_HSEC180
 Conn Card Edge SKT 120 POS 0.8mm Solder ST SMD Tray
 
