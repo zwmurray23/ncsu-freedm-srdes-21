@@ -104,7 +104,7 @@ P 5950 4100
 F 0 "U?" H 5650 3900 50  0000 C CNN
 F 1 "74LVC1G07QDCKTQ1" H 5350 4000 50  0000 C CNN
 F 2 "" H 5950 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 5950 4100 50  0001 C CNN
+F 3 "" H 5950 4100 50  0001 C CNN
 	1    5950 4100
 	1    0    0    -1  
 $EndComp
