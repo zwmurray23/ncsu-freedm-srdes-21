@@ -16,24 +16,13 @@ $EndDescr
 Text HLabel 1250 3850 0    50   Input ~ 0
 Vdd
 $Comp
-L MC-ADC:NMK2412SC U12
-U 1 1 621121F5
-P 5850 5250
-F 0 "U12" H 6178 4746 50  0000 L CNN
-F 1 "NMK2412SC" H 6178 4655 50  0000 L CNN
-F 2 "" H 5850 5250 50  0001 C CNN
-F 3 "" H 5850 5250 50  0001 C CNN
-	1    5850 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:L_Small L11
 U 1 1 62119700
 P 4200 5500
 F 0 "L11" V 4400 5500 50  0000 L CNN
 F 1 "10uH" V 4300 5400 50  0000 L CNN
-F 2 "" H 4200 5500 50  0001 C CNN
-F 3 "" H 4200 5500 50  0001 C CNN
+F 2 "Footprints_MC-ADC:INDPM4040X190N" H 4200 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/vishay-dale/IFSC1515AHER100M01/2744232" H 4200 5500 50  0001 C CNN
 	1    4200 5500
 	0    -1   -1   0   
 $EndComp
@@ -44,7 +33,7 @@ P 3750 5650
 F 0 "C11" H 3842 5696 50  0000 L CNN
 F 1 "2.2 uF" H 3842 5605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3750 5650 50  0001 C CNN
-F 3 "~" H 3750 5650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/taiyo-yuden/GMK325BJ225KN-T/930725" H 3750 5650 50  0001 C CNN
 	1    3750 5650
 	1    0    0    -1  
 $EndComp
@@ -145,8 +134,8 @@ U 1 1 623440BE
 P 5850 3700
 F 0 "U11" H 6178 3446 50  0000 L CNN
 F 1 "R-78E3.3-0.5" H 6178 3355 50  0000 L CNN
-F 2 "" H 5850 3700 50  0001 C CNN
-F 3 "" H 5850 3700 50  0001 C CNN
+F 2 "Package_SIP:SIP3_11.6x8.5mm" H 5850 3700 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/RECOM-Power/R-78E33-05?qs=sGAEpiMZZMuyVE%2FzJ6Hm15MDYDf%252Bvm5TgPIMDw4suvM%3D" H 5850 3700 50  0001 C CNN
 	1    5850 3700
 	1    0    0    -1  
 $EndComp
@@ -159,7 +148,7 @@ P 4200 3850
 F 0 "L10" V 4400 3850 50  0000 L CNN
 F 1 "3.9 uH" V 4300 3750 50  0000 L CNN
 F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4200 3850 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-126/9920565" H 4200 3850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-397/9920568" H 4200 3850 50  0001 C CNN
 	1    4200 3850
 	0    -1   -1   0   
 $EndComp
@@ -170,7 +159,7 @@ P 3750 4000
 F 0 "C10" H 3842 4046 50  0000 L CNN
 F 1 "4.7 uF" H 3842 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3750 4000 50  0001 C CNN
-F 3 "~" H 3750 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C475K4Z2A/2512117" H 3750 4000 50  0001 C CNN
 	1    3750 4000
 	1    0    0    -1  
 $EndComp
@@ -224,10 +213,12 @@ $Comp
 L MC-ADC:MAX6216 U10
 U 1 1 6236B85D
 P 5800 1650
+AR Path="/6236B85D" Ref="U10"  Part="1" 
+AR Path="/61F9F3BA/6236B85D" Ref="U10"  Part="1" 
 F 0 "U10" H 5900 1665 50  0000 C CNN
-F 1 "MAX6216" H 5900 1574 50  0000 C CNN
-F 2 "" H 5800 1650 50  0001 C CNN
-F 3 "" H 5800 1650 50  0001 C CNN
+F 1 "MAX6126AASA30+" H 5900 1574 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX6126AASA30/1867184?s=N4IgjCBcpg7LBOKoDGUBmBDANgZwKYA0IA9lANogBMADFQGxWwgC6xADgC5QgDKnAJwCWAOwDmIAL7EAtFWQg0kQQFcipCiACsIYkhbSQMpNEVRV6spEoQDh%2BdZABZAIIANemAYuXvF60kgA" H 5800 1650 50  0001 C CNN
 	1    5800 1650
 	1    0    0    -1  
 $EndComp
@@ -254,7 +245,7 @@ P 4050 2450
 F 0 "C14" H 4142 2496 50  0000 L CNN
 F 1 "0.1 uF" H 4142 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4050 2450 50  0001 C CNN
-F 3 "~" H 4050 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 4050 2450 50  0001 C CNN
 	1    4050 2450
 	1    0    0    -1  
 $EndComp
@@ -276,7 +267,7 @@ P 4600 2450
 F 0 "C15" H 4692 2496 50  0000 L CNN
 F 1 "0.1 uF" H 4692 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4600 2450 50  0001 C CNN
-F 3 "~" H 4600 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 4600 2450 50  0001 C CNN
 	1    4600 2450
 	1    0    0    -1  
 $EndComp
@@ -308,7 +299,7 @@ P 6800 2300
 F 0 "C16" H 6892 2346 50  0000 L CNN
 F 1 "10 uF" H 6892 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 6800 2300 50  0001 C CNN
-F 3 "~" H 6800 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 6800 2300 50  0001 C CNN
 	1    6800 2300
 	1    0    0    -1  
 $EndComp
@@ -319,7 +310,7 @@ P 7300 2300
 F 0 "C17" H 7392 2346 50  0000 L CNN
 F 1 "0.1 uF" H 7392 2255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 7300 2300 50  0001 C CNN
-F 3 "~" H 7300 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 7300 2300 50  0001 C CNN
 	1    7300 2300
 	1    0    0    -1  
 $EndComp
@@ -441,4 +432,17 @@ Text Notes 5850 6350 0    50   ~ 0
 +/- 11.64 to 12.6V
 Text Notes 8650 5500 0    50   ~ 0
 -0.421V to -0.389V
+$Comp
+L MC-ADC:RD-2412D_P U12
+U 1 1 622B3159
+P 5850 5250
+F 0 "U12" H 6178 4746 50  0000 L CNN
+F 1 "RD-2412D_P" H 6178 4655 50  0000 L CNN
+F 2 "Footprints_MC-ADC:RD-2412D" H 5850 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/recom-power/RD-2412D-P/2303678?s=N4IgTCBcDaIEoBEC0YAsBGMCD0AFEAugL5A" H 5850 5250 50  0001 C CNN
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 4750 0    50   ~ 0
+3.99V to 3.201V
 $EndSCHEMATC

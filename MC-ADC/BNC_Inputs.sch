@@ -14,20 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_Coaxial J1
-U 1 1 61F07758
-P 1600 4000
-AR Path="/620D84A4/61F07758" Ref="J1"  Part="1" 
-AR Path="/620D8862/61F07758" Ref="J1"  Part="1" 
-AR Path="/620D8F0D/61F07758" Ref="J1"  Part="1" 
-F 0 "J1" H 1750 4000 50  0000 L CNN
-F 1 "Conn_Coaxial" H 1350 4150 50  0000 L CNN
-F 2 "Connector_Coaxial:BNC_Amphenol_031-6575_Horizontal" H 1600 4000 50  0001 C CNN
-F 3 " ~" H 1600 4000 50  0001 C CNN
-	1    1600 4000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small_US R?
 U 1 1 61FE002F
 P 3150 4750
@@ -55,7 +41,7 @@ AR Path="/620D8F0D/62117504" Ref="R40"  Part="1"
 F 0 "R20" V 8495 4000 50  0000 C CNN
 F 1 "250R" V 8586 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 4000 50  0001 C CNN
-F 3 "~" H 8700 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0603TKY250R/4928381" H 8700 4000 50  0001 C CNN
 	1    8700 4000
 	0    1    1    0   
 $EndComp
@@ -101,7 +87,7 @@ AR Path="/620D8862/61FD1B76" Ref="JP2"  Part="1"
 AR Path="/620D8F0D/61FD1B76" Ref="JP3"  Part="1" 
 F 0 "JP1" H 3400 4354 50  0000 C CNN
 F 1 "Jumper" H 3400 4263 50  0000 C CNN
-F 2 "" H 3400 4150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3400 4150 50  0001 C CNN
 F 3 "~" H 3400 4150 50  0001 C CNN
 	1    3400 4150
 	-1   0    0    1   
@@ -149,11 +135,11 @@ U 1 1 62102CB7
 P 4100 3750
 AR Path="/620D84A4/62102CB7" Ref="D20"  Part="1" 
 AR Path="/620D8862/62102CB7" Ref="D30"  Part="1" 
-AR Path="/620D8F0D/62102CB7" Ref="D?"  Part="1" 
+AR Path="/620D8F0D/62102CB7" Ref="D41"  Part="1" 
 F 0 "D20" V 4054 3830 50  0000 L CNN
 F 1 "D_Schottky" V 4145 3830 50  0000 L CNN
-F 2 "" H 4100 3750 50  0001 C CNN
-F 3 "~" H 4100 3750 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 3750 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/smc-diode-solutions/MMBD4150TR/9828977" H 4100 3750 50  0001 C CNN
 	1    4100 3750
 	0    1    1    0   
 $EndComp
@@ -182,11 +168,11 @@ U 1 1 6210F5CE
 P 4100 4250
 AR Path="/620D84A4/6210F5CE" Ref="D21"  Part="1" 
 AR Path="/620D8862/6210F5CE" Ref="D31"  Part="1" 
-AR Path="/620D8F0D/6210F5CE" Ref="D?"  Part="1" 
+AR Path="/620D8F0D/6210F5CE" Ref="D42"  Part="1" 
 F 0 "D21" V 4054 4330 50  0000 L CNN
 F 1 "D_Schottky" V 4145 4330 50  0000 L CNN
-F 2 "" H 4100 4250 50  0001 C CNN
-F 3 "~" H 4100 4250 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/smc-diode-solutions/MMBD4150TR/9828977" H 4100 4250 50  0001 C CNN
 	1    4100 4250
 	0    1    1    0   
 $EndComp
@@ -244,8 +230,8 @@ AR Path="/620D8862/620D7C54" Ref="R32"  Part="1"
 AR Path="/620D8F0D/620D7C54" Ref="R42"  Part="1" 
 F 0 "R21" H 5850 4250 50  0000 C CNN
 F 1 "1K" H 5750 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 4300 50  0001 C CNN
-F 3 "~" H 6000 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6000 4300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K00JNEAHP/2222384" H 6000 4300 50  0001 C CNN
 	1    6000 4300
 	-1   0    0    -1  
 $EndComp
@@ -262,7 +248,7 @@ AR Path="/620D8F0D/620D86C7" Ref="R41"  Part="1"
 F 0 "R22" H 5850 4800 50  0000 C CNN
 F 1 "100R" H 5750 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 4850 50  0001 C CNN
-F 3 "~" H 6000 4850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0603100RJNEAC/7928481" H 6000 4850 50  0001 C CNN
 	1    6000 4850
 	-1   0    0    -1  
 $EndComp
@@ -347,4 +333,18 @@ Wire Wire Line
 Connection ~ 2250 4000
 Wire Wire Line
 	2250 4000 2700 4000
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 622978C7
+P 1600 4000
+AR Path="/620D84A4/622978C7" Ref="J4"  Part="1" 
+AR Path="/620D8862/622978C7" Ref="J2"  Part="1" 
+AR Path="/620D8F0D/622978C7" Ref="J3"  Part="1" 
+F 0 "J4" H 1750 4000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1350 4150 50  0000 L CNN
+F 2 "Footprints_MC-ADC:516345131" H 1600 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5-1634513-1/1755956" H 1600 4000 50  0001 C CNN
+	1    1600 4000
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
