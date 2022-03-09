@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 19
 Title ""
 Date ""
 Rev ""
@@ -56,7 +56,7 @@ Text HLabel 1300 2900 0    50   Input ~ 0
 Text HLabel 1300 4100 0    50   Input ~ 0
 GPIO12_EMITTER_ENABLE
 Text HLabel 1300 4300 0    50   BiDi ~ 0
-GPIO13_SAFE_STATE_FLAG
+~SAFE_STATE_FLAG~
 Text HLabel 5000 3025 0    50   Input ~ 0
 GD_GPIO14_RESET
 Text HLabel 5000 2025 0    50   Input ~ 0
@@ -64,7 +64,7 @@ Text HLabel 5000 2025 0    50   Input ~ 0
 Text HLabel 5000 3225 0    50   Input ~ 0
 GPIO12_EMITTER_ENABLE
 Text HLabel 5000 3425 0    50   BiDi ~ 0
-GPIO13_SAFE_STATE_FLAG
+~SAFE_STATE_FLAG~
 Text HLabel 8650 4050 0    50   Input ~ 0
 GD_GPIO14_RESET
 Text HLabel 8650 3050 0    50   Input ~ 0
@@ -72,13 +72,13 @@ Text HLabel 8650 3050 0    50   Input ~ 0
 Text HLabel 8650 4250 0    50   Input ~ 0
 GPIO12_EMITTER_ENABLE
 Text HLabel 8650 4450 0    50   BiDi ~ 0
-GPIO13_SAFE_STATE_FLAG
+~SAFE_STATE_FLAG~
 Text HLabel 3200 5100 2    59   Input ~ 0
-CLOCK
+
 Text HLabel 6900 4225 2    59   Input ~ 0
-CLOCK
+
 Text HLabel 10550 5250 2    59   Input ~ 0
-CLOCK
+
 Text HLabel 3200 4300 2    50   Input ~ 0
 GD_EPWM_5A
 Text HLabel 3200 4700 2    50   Output ~ 0

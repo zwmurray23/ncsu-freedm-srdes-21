@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 19
 Title ""
 Date ""
 Rev ""
@@ -151,7 +151,7 @@ Wire Wire Line
 Text HLabel 775  4100 0    50   Input ~ 0
 GPIO12_EMITTER_ENABLE
 Text HLabel 775  4300 0    50   BiDi ~ 0
-GPIO13_SAFE_STATE_FLAG
+~SAFE_STATE_FLAG~
 Wire Wire Line
 	1225 4300 775  4300
 Wire Wire Line
@@ -231,7 +231,7 @@ Wire Wire Line
 Text HLabel 4800 4250 0    50   Input ~ 0
 GPIO12_EMITTER_ENABLE
 Text HLabel 4800 4450 0    50   BiDi ~ 0
-GPIO13_SAFE_STATE_FLAG
+~SAFE_STATE_FLAG~
 Wire Wire Line
 	9000 4400 8550 4400
 Wire Wire Line
@@ -279,17 +279,17 @@ Text HLabel 8550 3000 0    50   Input ~ 0
 Text HLabel 8550 4200 0    50   Input ~ 0
 GPIO12_EMITTER_ENABLE
 Text HLabel 8550 4400 0    50   BiDi ~ 0
-GPIO13_SAFE_STATE_FLAG
+~SAFE_STATE_FLAG~
 Text HLabel 6700 4250 2    50   Output ~ 0
 GD2_GPIO45_STATUS_1
 Wire Wire Line
 	2225 5100 2675 5100
 Text HLabel 2675 5100 2    59   Input ~ 0
-CLOCK
+
 Text HLabel 6700 5250 2    59   Input ~ 0
-CLOCK
+
 Text HLabel 10450 5200 2    59   Input ~ 0
-CLOCK
+
 Wire Wire Line
 	1225 4500 975  4500
 Connection ~ 975  4500

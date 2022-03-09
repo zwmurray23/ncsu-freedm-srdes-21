@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 19
 Title ""
 Date ""
 Rev ""
@@ -21,24 +21,24 @@ Text Notes 7200 875  0    50   ~ 0
 9 Pin DSUB
 Text HLabel 9875 5000 2    50   Output ~ 0
 GND
-Text HLabel 2175 4800 2    50   Output ~ 0
+Text HLabel 2725 4850 2    50   Output ~ 0
 GND
 Wire Wire Line
-	2025 4575 2175 4575
+	2575 4625 2725 4625
 Wire Wire Line
-	2175 3075 2025 3075
+	2725 3125 2575 3125
 Wire Wire Line
-	2175 3475 2025 3475
+	2725 3525 2575 3525
 Wire Wire Line
-	2025 3675 2175 3675
-Text HLabel 625  2375 0    50   Input ~ 0
+	2575 3725 2725 3725
+Text HLabel 1175 2425 0    50   Input ~ 0
 24V
 Wire Wire Line
 	8725 2550 8575 2550
 Wire Wire Line
-	1025 2375 875  2375
+	1575 2425 1425 2425
 Wire Wire Line
-	1025 3875 725  3875
+	1575 3925 1275 3925
 Wire Wire Line
 	8575 3950 8575 3850
 Connection ~ 8575 3950
@@ -81,65 +81,65 @@ Wire Wire Line
 Wire Wire Line
 	8575 2650 8725 2650
 Wire Wire Line
-	875  3775 875  3675
-Connection ~ 875  3775
+	1425 3825 1425 3725
+Connection ~ 1425 3825
 Wire Wire Line
-	1025 3775 875  3775
+	1575 3825 1425 3825
 Wire Wire Line
-	875  3675 875  3575
-Connection ~ 875  3675
+	1425 3725 1425 3625
+Connection ~ 1425 3725
 Wire Wire Line
-	1025 3675 875  3675
+	1575 3725 1425 3725
 Wire Wire Line
-	1025 3575 875  3575
+	1575 3625 1425 3625
 Wire Wire Line
-	1025 3375 875  3375
+	1575 3425 1425 3425
 Wire Wire Line
-	875  3175 1025 3175
+	1425 3225 1575 3225
 Wire Wire Line
-	875  2975 875  2875
+	1425 3025 1425 2925
 Wire Wire Line
-	1025 2975 875  2975
+	1575 3025 1425 3025
 Wire Wire Line
-	875  2875 875  2775
-Connection ~ 875  2875
+	1425 2925 1425 2825
+Connection ~ 1425 2925
 Wire Wire Line
-	1025 2875 875  2875
+	1575 2925 1425 2925
 Wire Wire Line
-	875  2775 875  2675
-Connection ~ 875  2775
+	1425 2825 1425 2725
+Connection ~ 1425 2825
 Wire Wire Line
-	1025 2775 875  2775
+	1575 2825 1425 2825
 Wire Wire Line
-	875  2675 875  2575
-Connection ~ 875  2675
+	1425 2725 1425 2625
+Connection ~ 1425 2725
 Wire Wire Line
-	1025 2675 875  2675
+	1575 2725 1425 2725
 Wire Wire Line
-	1025 2575 875  2575
+	1575 2625 1425 2625
 Wire Wire Line
-	875  2475 1025 2475
-Connection ~ 2175 4575
+	1425 2525 1575 2525
+Connection ~ 2725 4625
 Wire Wire Line
-	2175 4575 2175 4800
+	2725 4625 2725 4850
 Wire Wire Line
 	8725 4050 8275 4050
 Wire Wire Line
-	2175 3575 2025 3575
+	2725 3625 2575 3625
 Wire Wire Line
-	2175 3575 2175 3475
-Connection ~ 2175 3575
+	2725 3625 2725 3525
+Connection ~ 2725 3625
 Wire Wire Line
-	2175 3175 2025 3175
-Text HLabel 850  4950 0    50   Output ~ 0
+	2725 3225 2575 3225
+Text HLabel 1400 5000 0    50   Output ~ 0
 GND
 Text HLabel 8575 5275 0    50   Output ~ 0
 GND
 Text HLabel 8275 2550 0    50   Input ~ 0
 24V
-Text HLabel 2375 4275 2    50   Input ~ 0
+Text HLabel 2925 4325 2    50   Input ~ 0
 ADC_C2
-Text HLabel 2375 4475 2    50   Input ~ 0
+Text HLabel 2925 4525 2    50   Input ~ 0
 ADC_C3
 Text HLabel 8425 3650 0    50   Input ~ 0
 ADC_B4
@@ -153,34 +153,34 @@ Text HLabel 8425 3250 0    50   Input ~ 0
 ADC_14
 Text HLabel 8425 3450 0    50   Input ~ 0
 ADC_15
-Text HLabel 725  3875 0    50   BiDi ~ 0
-~GPIO13_SAFE_STATE_FLAG~
+Text HLabel 1275 3925 0    50   BiDi ~ 0
+~SAFE_STATE_FLAG~
 Text HLabel 8275 4050 0    50   BiDi ~ 0
-~GPIO13_SAFE_STATE_FLAG~
+~SAFE_STATE_FLAG~
 Text Notes 1875 1925 0    50   ~ 0
 SLOT 10
 Text Notes 8850 2200 0    50   ~ 0
 SLOT 12
 Wire Wire Line
-	2175 3575 2175 3675
+	2725 3625 2725 3725
 Wire Wire Line
-	2025 3775 2175 3775
-Connection ~ 2175 3775
+	2575 3825 2725 3825
+Connection ~ 2725 3825
 Wire Wire Line
-	2175 3775 2175 3875
+	2725 3825 2725 3925
 Wire Wire Line
-	2175 3875 2025 3875
+	2725 3925 2575 3925
 Wire Wire Line
-	2375 4075 2025 4075
+	2925 4125 2575 4125
 Wire Wire Line
-	2375 4275 2025 4275
-Text HLabel 2375 4075 2    50   Input ~ 0
+	2925 4325 2575 4325
+Text HLabel 2925 4125 2    50   Input ~ 0
 ADC_B3
 Wire Wire Line
-	2175 3075 2175 3175
-Connection ~ 2175 3175
+	2725 3125 2725 3225
+Connection ~ 2725 3225
 Wire Wire Line
-	2025 4475 2375 4475
+	2575 4525 2925 4525
 Wire Wire Line
 	9725 4750 9875 4750
 Wire Wire Line
@@ -223,20 +223,20 @@ Connection ~ 9875 3350
 Wire Wire Line
 	9725 4650 10075 4650
 Wire Wire Line
-	2025 3975 2175 3975
-Connection ~ 2175 3975
+	2575 4025 2725 4025
+Connection ~ 2725 4025
 Wire Wire Line
-	2175 3975 2175 4175
+	2725 4025 2725 4225
 Wire Wire Line
-	2025 4175 2175 4175
-Connection ~ 2175 4175
+	2575 4225 2725 4225
+Connection ~ 2725 4225
 Wire Wire Line
-	2175 4175 2175 4375
+	2725 4225 2725 4425
 Wire Wire Line
-	2025 4375 2175 4375
-Connection ~ 2175 4375
+	2575 4425 2725 4425
+Connection ~ 2725 4425
 Wire Wire Line
-	2175 4375 2175 4575
+	2725 4425 2725 4625
 Wire Wire Line
 	9725 4350 9875 4350
 Connection ~ 9875 4350
@@ -252,11 +252,11 @@ Wire Wire Line
 Connection ~ 9875 4550
 Wire Wire Line
 	9875 4550 9875 4750
-Text HLabel 725  3475 0    50   Input ~ 0
+Text HLabel 1275 3525 0    50   Input ~ 0
 ADC_B2
-Text HLabel 725  3275 0    50   Input ~ 0
+Text HLabel 1275 3325 0    50   Input ~ 0
 ADC_A3
-Text HLabel 725  3075 0    50   Input ~ 0
+Text HLabel 1275 3125 0    50   Input ~ 0
 ADC_A2
 Wire Wire Line
 	4975 3925 4475 3925
@@ -299,7 +299,7 @@ ADC_D0
 Text HLabel 6325 4525 2    50   Input ~ 0
 ADC_D1
 Text HLabel 4475 3925 0    50   BiDi ~ 0
-~GPIO13_SAFE_STATE_FLAG~
+~SAFE_STATE_FLAG~
 Wire Wire Line
 	5975 4625 6125 4625
 Wire Wire Line
@@ -365,29 +365,29 @@ Wire Wire Line
 	8575 3150 8575 3350
 Connection ~ 8575 3150
 Connection ~ 8575 3350
-Connection ~ 2175 3475
-Connection ~ 2175 3675
+Connection ~ 2725 3525
+Connection ~ 2725 3725
 Wire Wire Line
-	2175 3675 2175 3775
-Connection ~ 2175 3875
+	2725 3725 2725 3825
+Connection ~ 2725 3925
 Wire Wire Line
-	2175 3875 2175 3975
+	2725 3925 2725 4025
 Wire Wire Line
-	725  3075 1025 3075
+	1275 3125 1575 3125
 Wire Wire Line
-	725  3275 1025 3275
+	1275 3325 1575 3325
 Wire Wire Line
-	725  3475 1025 3475
+	1275 3525 1575 3525
 Wire Wire Line
-	875  3175 875  3375
-Connection ~ 875  3575
-Connection ~ 875  3375
+	1425 3225 1425 3425
+Connection ~ 1425 3625
+Connection ~ 1425 3425
 Wire Wire Line
-	875  3375 875  3575
+	1425 3425 1425 3625
 Wire Wire Line
-	875  2975 875  3175
-Connection ~ 875  2975
-Connection ~ 875  3175
+	1425 3025 1425 3225
+Connection ~ 1425 3025
+Connection ~ 1425 3225
 Wire Wire Line
 	4700 3525 4975 3525
 Wire Wire Line
@@ -404,20 +404,20 @@ Connection ~ 4825 3425
 Wire Wire Line
 	4825 3425 4825 3625
 Wire Wire Line
-	2175 3175 2175 3275
+	2725 3225 2725 3325
 Wire Wire Line
-	2025 3275 2175 3275
-Connection ~ 2175 3275
+	2575 3325 2725 3325
+Connection ~ 2725 3325
 Wire Wire Line
-	2175 3275 2175 3475
+	2725 3325 2725 3525
 Wire Wire Line
-	2325 3375 2025 3375
-Text HLabel 2325 3375 2    59   Input ~ 0
-CLOCK
+	2875 3425 2575 3425
+Text HLabel 2875 3425 2    59   Input ~ 0
+
 Text HLabel 6325 3425 2    59   Input ~ 0
-CLOCK
+
 Text HLabel 10025 3550 2    59   Input ~ 0
-CLOCK
+
 Wire Wire Line
 	9875 3450 9875 3650
 Wire Wire Line
@@ -426,10 +426,10 @@ Wire Wire Line
 	5975 3425 6325 3425
 Connection ~ 6125 3325
 Wire Wire Line
-	875  2475 875  2375
-Connection ~ 875  2375
+	1425 2525 1425 2425
+Connection ~ 1425 2425
 Wire Wire Line
-	875  2375 625  2375
+	1425 2425 1175 2425
 Wire Wire Line
 	8575 2650 8575 2550
 Connection ~ 8575 2550
@@ -438,20 +438,20 @@ Wire Wire Line
 $Comp
 L Existing_IC_Models:86094328314755V1LF J41
 U 1 1 634CD676
-P 1025 2375
-F 0 "J41" H 1525 2640 50  0000 C CNN
-F 1 "86094328314755V1LF" H 1525 2549 50  0000 C CNN
-F 2 "86094328314755V1LF" H 1875 2475 50  0001 L CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf" H 1875 2375 50  0001 L CNN
-F 4 "DIN Headers & Receptacles, Backplane Connector, Standard Receptacle, Vertical, Through Hole, Style C/2, 32 ways, Class II" H 1875 2275 50  0001 L CNN "Description"
-F 5 "11.6" H 1875 2175 50  0001 L CNN "Height"
-F 6 "Amphenol" H 1875 2075 50  0001 L CNN "Manufacturer_Name"
-F 7 "86094328314755V1LF" H 1875 1975 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "649-94328314755V1LF" H 1875 1875 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/86094328314755V1LF?qs=3WadRV20yGyYbqxzojGf6A%3D%3D" H 1875 1775 50  0001 L CNN "Mouser Price/Stock"
-F 10 "86094328314755V1LF" H 1875 1675 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/86094328314755v1lf/amphenol-fci" H 1875 1575 50  0001 L CNN "Arrow Price/Stock"
-	1    1025 2375
+P 1575 2425
+F 0 "J41" H 2075 2690 50  0000 C CNN
+F 1 "86094328314755V1LF" H 2075 2599 50  0000 C CNN
+F 2 "86094328314755V1LF" H 2425 2525 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf" H 2425 2425 50  0001 L CNN
+F 4 "DIN Headers & Receptacles, Backplane Connector, Standard Receptacle, Vertical, Through Hole, Style C/2, 32 ways, Class II" H 2425 2325 50  0001 L CNN "Description"
+F 5 "11.6" H 2425 2225 50  0001 L CNN "Height"
+F 6 "Amphenol" H 2425 2125 50  0001 L CNN "Manufacturer_Name"
+F 7 "86094328314755V1LF" H 2425 2025 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "649-94328314755V1LF" H 2425 1925 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/86094328314755V1LF?qs=3WadRV20yGyYbqxzojGf6A%3D%3D" H 2425 1825 50  0001 L CNN "Mouser Price/Stock"
+F 10 "86094328314755V1LF" H 2425 1725 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/86094328314755v1lf/amphenol-fci" H 2425 1625 50  0001 L CNN "Arrow Price/Stock"
+	1    1575 2425
 	1    0    0    -1  
 $EndComp
 Connection ~ 4825 3025
@@ -697,54 +697,54 @@ Connection ~ 6125 4025
 Wire Wire Line
 	6125 4025 6125 4225
 Wire Wire Line
-	1025 3975 875  3975
+	1575 4025 1425 4025
 Wire Wire Line
-	875  4175 1025 4175
+	1425 4225 1575 4225
 Wire Wire Line
-	1025 4075 875  4075
+	1575 4125 1425 4125
 Wire Wire Line
-	875  4275 1025 4275
+	1425 4325 1575 4325
 Wire Wire Line
-	1025 4375 875  4375
+	1575 4425 1425 4425
 Wire Wire Line
-	875  4475 1025 4475
+	1425 4525 1575 4525
 Wire Wire Line
-	1025 4775 875  4775
+	1575 4825 1425 4825
 Wire Wire Line
-	1025 4575 875  4575
+	1575 4625 1425 4625
 Wire Wire Line
-	875  4675 1025 4675
+	1425 4725 1575 4725
 Wire Wire Line
-	875  3775 875  3975
-Connection ~ 875  4075
-Connection ~ 875  3975
+	1425 3825 1425 4025
+Connection ~ 1425 4125
+Connection ~ 1425 4025
 Wire Wire Line
-	875  3975 875  4075
+	1425 4025 1425 4125
 Wire Wire Line
-	875  4075 875  4175
+	1425 4125 1425 4225
 Wire Wire Line
-	875  4175 875  4275
+	1425 4225 1425 4325
 Wire Wire Line
-	875  4950 850  4950
-Connection ~ 875  4175
-Connection ~ 875  4275
+	1425 5000 1400 5000
+Connection ~ 1425 4225
+Connection ~ 1425 4325
 Wire Wire Line
-	875  4275 875  4375
-Connection ~ 875  4375
+	1425 4325 1425 4425
+Connection ~ 1425 4425
 Wire Wire Line
-	875  4375 875  4475
-Connection ~ 875  4475
+	1425 4425 1425 4525
+Connection ~ 1425 4525
 Wire Wire Line
-	875  4475 875  4575
-Connection ~ 875  4575
+	1425 4525 1425 4625
+Connection ~ 1425 4625
 Wire Wire Line
-	875  4575 875  4675
-Connection ~ 875  4675
+	1425 4625 1425 4725
+Connection ~ 1425 4725
 Wire Wire Line
-	875  4675 875  4775
-Connection ~ 875  4775
+	1425 4725 1425 4825
+Connection ~ 1425 4825
 Wire Wire Line
-	875  4775 875  4950
+	1425 4825 1425 5000
 Wire Wire Line
 	4825 4525 4825 4625
 Connection ~ 4825 4625
@@ -754,37 +754,38 @@ Connection ~ 4825 4725
 Wire Wire Line
 	4825 4725 4825 4825
 Wire Wire Line
-	2025 2375 2175 2375
+	2575 2425 2725 2425
 Wire Wire Line
-	2175 2375 2175 2475
+	2725 2425 2725 2525
 Wire Wire Line
-	2025 2475 2175 2475
-Connection ~ 2175 2475
+	2575 2525 2725 2525
+Connection ~ 2725 2525
 Wire Wire Line
-	2175 2475 2175 2575
+	2725 2525 2725 2625
 Wire Wire Line
-	2175 2575 2025 2575
-Connection ~ 2175 2575
+	2725 2625 2575 2625
+Connection ~ 2725 2625
 Wire Wire Line
-	2175 2575 2175 2675
+	2725 2625 2725 2725
 Wire Wire Line
-	2025 2675 2175 2675
-Connection ~ 2175 2675
+	2575 2725 2725 2725
+Connection ~ 2725 2725
 Wire Wire Line
-	2175 2675 2175 2775
+	2725 2725 2725 2825
 Wire Wire Line
-	2175 2775 2025 2775
-Connection ~ 2175 2775
+	2725 2825 2575 2825
+Connection ~ 2725 2825
 Wire Wire Line
-	2175 2775 2175 2875
+	2725 2825 2725 2925
 Wire Wire Line
-	2175 2875 2025 2875
-Connection ~ 2175 2875
+	2725 2925 2575 2925
+Connection ~ 2725 2925
 Wire Wire Line
-	2175 2875 2175 2975
+	2725 2925 2725 3025
 Wire Wire Line
-	2025 2975 2175 2975
-Connection ~ 2175 2975
+	2575 3025 2725 3025
+Connection ~ 2725 3025
 Wire Wire Line
-	2175 2975 2175 3075
+	2725 3025 2725 3125
+Connection ~ 2725 3125
 $EndSCHEMATC

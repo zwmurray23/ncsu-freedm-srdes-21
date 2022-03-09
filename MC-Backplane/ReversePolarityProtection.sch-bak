@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -18,8 +18,8 @@ L Device:D_Zener D?
 U 1 1 61FBD2BC
 P 6950 3400
 AR Path="/61FBD2BC" Ref="D?"  Part="1" 
-AR Path="/61FBA43E/61FBD2BC" Ref="D51"  Part="1" 
-F 0 "D51" V 6904 3480 50  0000 L CNN
+AR Path="/61FBA43E/61FBD2BC" Ref="D1"  Part="1" 
+F 0 "D1" V 6904 3480 50  0000 L CNN
 F 1 "BZX84C9V1-7-F" V 6995 3480 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6950 3400 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/115/DIOD_S_A0007713711_1-2542835.pdf" H 6950 3400 50  0001 C CNN
@@ -31,8 +31,8 @@ L Device:R_Small_US R?
 U 1 1 61FBD2C2
 P 6100 3850
 AR Path="/61FBD2C2" Ref="R?"  Part="1" 
-AR Path="/61FBA43E/61FBD2C2" Ref="R51"  Part="1" 
-F 0 "R51" H 6168 3896 50  0000 L CNN
+AR Path="/61FBA43E/61FBD2C2" Ref="R1"  Part="1" 
+F 0 "R1" H 6168 3896 50  0000 L CNN
 F 1 "3k" H 6168 3805 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 6100 3850 50  0001 C CNN
 F 3 "~" H 6100 3850 50  0001 C CNN
@@ -61,8 +61,8 @@ L MC-Backplane:64600001223 U?
 U 1 1 61FBD2D7
 P 5200 3400
 AR Path="/61FBD2D7" Ref="U?"  Part="1" 
-AR Path="/61FBA43E/61FBD2D7" Ref="U51"  Part="1" 
-F 0 "U51" H 5200 3427 50  0000 C CNN
+AR Path="/61FBA43E/61FBD2D7" Ref="U1"  Part="1" 
+F 0 "U1" H 5200 3427 50  0000 C CNN
 F 1 "64600001223" H 5200 3336 50  0000 C CNN
 F 2 "Footprints_MC-Backplane:64600001223" H 5200 3400 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf" H 5200 3400 50  0001 C CNN
@@ -78,8 +78,8 @@ L MC-Backplane:SISS05DN-T1-GE3 U?
 U 1 1 61FBD2E8
 P 6600 3200
 AR Path="/61FBD2E8" Ref="U?"  Part="1" 
-AR Path="/61FBA43E/61FBD2E8" Ref="U52"  Part="1" 
-F 0 "U52" V 6842 3700 50  0000 C CNN
+AR Path="/61FBA43E/61FBD2E8" Ref="U2"  Part="1" 
+F 0 "U2" V 6842 3700 50  0000 C CNN
 F 1 "SISS05DN-T1-GE3" V 6751 3700 50  0000 C CNN
 F 2 "Footprints_MC-Backplane:Vishay_PowerPAK_1212-8_Single" H 6600 3200 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/427/VISH_S_A0010925016_1-2571497.pdf" H 6600 3200 50  0001 C CNN
