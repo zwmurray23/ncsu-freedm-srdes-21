@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -13,345 +13,151 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R_Small_US R1
-U 1 1 61F4E828
-P 20350 5050
-F 0 "R1" V 20145 5050 50  0000 C CNN
-F 1 "100R" V 20236 5050 50  0000 C CNN
-F 2 "" H 20350 5050 50  0001 C CNN
-F 3 "~" H 20350 5050 50  0001 C CNN
-	1    20350 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R2
-U 1 1 61F4F7F5
-P 20600 5350
-F 0 "R2" H 20532 5304 50  0000 R CNN
-F 1 "20R" H 20532 5395 50  0000 R CNN
-F 2 "" H 20600 5350 50  0001 C CNN
-F 3 "~" H 20600 5350 50  0001 C CNN
-	1    20600 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R3
-U 1 1 61F50226
-P 21000 5050
-F 0 "R3" V 20795 5050 50  0000 C CNN
-F 1 "0R" V 20886 5050 50  0000 C CNN
-F 2 "" H 21000 5050 50  0001 C CNN
-F 3 "~" H 21000 5050 50  0001 C CNN
-	1    21000 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small_US R4
-U 1 1 61F5092C
-P 21000 5700
-F 0 "R4" V 20795 5700 50  0000 C CNN
-F 1 "0R" V 20886 5700 50  0000 C CNN
-F 2 "" H 21000 5700 50  0001 C CNN
-F 3 "~" H 21000 5700 50  0001 C CNN
-	1    21000 5700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	20450 5050 20600 5050
-Wire Wire Line
-	20600 5050 20600 5250
-Connection ~ 20600 5050
-Wire Wire Line
-	20600 5050 20900 5050
-Wire Wire Line
-	20600 5450 20600 5700
-Wire Wire Line
-	20600 5700 20900 5700
-Wire Wire Line
-	20600 5700 20600 5850
-Connection ~ 20600 5700
-$Comp
-L power:GND #PWR0101
-U 1 1 61F5292C
-P 20600 5850
-F 0 "#PWR0101" H 20600 5600 50  0001 C CNN
-F 1 "GND" H 20605 5677 50  0000 C CNN
-F 2 "" H 20600 5850 50  0001 C CNN
-F 3 "" H 20600 5850 50  0001 C CNN
-	1    20600 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 61F53865
-P 21300 5350
-F 0 "C1" H 21392 5396 50  0000 L CNN
-F 1 "DNP" H 21392 5305 50  0000 L CNN
-F 2 "" H 21300 5350 50  0001 C CNN
-F 3 "~" H 21300 5350 50  0001 C CNN
-	1    21300 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21100 5050 21300 5050
-Wire Wire Line
-	21300 5050 21300 5250
-Wire Wire Line
-	21300 5450 21300 5700
-Wire Wire Line
-	21300 5700 21100 5700
-Wire Wire Line
-	21300 5050 21700 5050
-Connection ~ 21300 5050
-Text GLabel 21700 5050 2    50   Input ~ 0
-ADCINA0
-Text Notes 21750 5250 0    50   ~ 0
-to connector & then DSP\n
 $Sheet
 S 4100 1000 1000 800 
 U 61F9F3BA
 F0 "Voltage Regulation" 50
 F1 "Voltage_Regulation.sch" 50
-F2 "5V" O L 4100 1150 50 
-F3 "GND" I R 5100 1650 50 
-F4 "Vdd" I R 5100 1350 50 
-F5 "-12V" O L 4100 1300 50 
-F6 "0V" O R 5100 1500 50 
-F7 "+12V" O L 4100 1450 50 
-F8 "-5V" I R 5100 1100 50 
-F9 "3VREF" I R 5100 1200 50 
+F2 "GND" I R 5100 1650 50 
+F3 "Vdd" I L 4100 1150 50 
+F4 "-12V" O L 4100 1300 50 
+F5 "+12V" O L 4100 1450 50 
+F6 "VREF" I R 5100 1200 50 
+F7 "VSE-" I R 5100 1500 50 
+F8 "VSE+" I R 5100 1350 50 
 $EndSheet
 $Comp
 L MC-ADC:86094327313755E1LF J1
 U 1 1 61FF85F3
-P 10150 2000
-F 0 "J1" H 10200 2917 50  0000 C CNN
-F 1 "86094327313755E1LF" H 10200 2826 50  0000 C CNN
-F 2 "" H 10150 2000 50  0001 C CNN
-F 3 "" H 10150 2000 50  0001 C CNN
-	1    10150 2000
+P 10200 1750
+F 0 "J1" H 10250 2667 50  0000 C CNN
+F 1 "86094327313755E1LF" H 10250 2576 50  0000 C CNN
+F 2 "Footprints_MC-ADC:86094327313755E1LF" H 10200 1750 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/649-94327313755E1LF" H 10200 1750 50  0001 C CNN
+	1    10200 1750
 	1    0    0    -1  
 $EndComp
-Text GLabel 9750 1300 0    50   Input ~ 0
+Text GLabel 9800 1050 0    50   Input ~ 0
 24V
 Wire Wire Line
-	9850 1300 9850 1400
+	9900 1050 9900 1150
 Wire Wire Line
-	9850 2700 9950 2700
+	9900 2450 10000 2450
 Wire Wire Line
-	9850 2700 9850 2600
+	9900 2450 9900 2350
 Wire Wire Line
-	9850 2600 9950 2600
-Connection ~ 9850 2700
+	9900 2350 10000 2350
+Connection ~ 9900 2450
 Wire Wire Line
-	9850 2600 9850 2500
+	9900 2350 9900 2250
 Wire Wire Line
-	9850 2500 9950 2500
-Connection ~ 9850 2600
+	9900 2250 10000 2250
+Connection ~ 9900 2350
 Wire Wire Line
-	9850 2500 9850 2400
+	9900 2250 9900 2150
 Wire Wire Line
-	9850 2400 9950 2400
-Connection ~ 9850 2500
+	9900 2150 10000 2150
+Connection ~ 9900 2250
 Wire Wire Line
-	9850 2400 9850 2300
+	9900 2150 9900 2050
 Wire Wire Line
-	9850 2300 9950 2300
-Connection ~ 9850 2400
+	9900 2050 10000 2050
+Connection ~ 9900 2150
 Wire Wire Line
-	9850 2300 9850 2200
+	9900 2050 9900 1950
 Wire Wire Line
-	9850 2200 9950 2200
-Connection ~ 9850 2300
+	9900 1950 10000 1950
+Connection ~ 9900 2050
 Wire Wire Line
-	9850 2200 9850 2100
+	9900 1950 9900 1850
 Wire Wire Line
-	9850 2100 9950 2100
-Connection ~ 9850 2200
+	9900 1850 10000 1850
+Connection ~ 9900 1950
 Wire Wire Line
-	9850 2100 9850 2000
+	9900 1850 9900 1750
 Wire Wire Line
-	9850 2000 9950 2000
-Connection ~ 9850 2100
+	9900 1750 10000 1750
+Connection ~ 9900 1850
 Wire Wire Line
-	9850 2000 9850 1900
+	9900 1750 9900 1650
 Wire Wire Line
-	9850 1900 9950 1900
-Connection ~ 9850 2000
+	9900 1650 10000 1650
+Connection ~ 9900 1750
 Wire Wire Line
-	9850 1900 9850 1800
+	9900 1650 9900 1550
 Wire Wire Line
-	9850 1800 9950 1800
-Connection ~ 9850 1900
+	9900 1550 10000 1550
+Connection ~ 9900 1650
 Wire Wire Line
-	9850 1800 9850 1700
+	9900 1550 9900 1450
 Wire Wire Line
-	9850 1700 9950 1700
-Connection ~ 9850 1800
+	9900 1450 10000 1450
+Connection ~ 9900 1550
 Wire Wire Line
-	9850 1700 9850 1600
+	9900 1450 9900 1350
 Wire Wire Line
-	9850 1600 9950 1600
-Connection ~ 9850 1700
+	9900 1350 10000 1350
+Connection ~ 9900 1450
 Wire Wire Line
-	9850 1600 9850 1500
+	9900 1350 9900 1250
 Wire Wire Line
-	9850 1500 9950 1500
-Connection ~ 9850 1600
-Connection ~ 9850 1300
+	9900 1250 10000 1250
+Connection ~ 9900 1350
+Connection ~ 9900 1050
 Wire Wire Line
-	9850 1300 9750 1300
+	9900 1050 9800 1050
 Wire Wire Line
-	9850 1300 9950 1300
+	9900 1050 10000 1050
 Wire Wire Line
-	9850 1400 9950 1400
+	9900 1150 10000 1150
 Wire Notes Line
-	9000 900  9000 3350
+	9050 650  9050 3100
 Wire Notes Line
-	11050 3350 11050 900 
-Text Notes 9550 850  0    50   ~ 0
-Edge Connector - Amphenol\nNeed to update\n
-Text GLabel 5450 1350 2    50   Input ~ 0
+	11100 3100 11100 650 
+Text Notes 9600 600  0    50   ~ 0
+Edge Connector - Amphenol\n
+Text GLabel 3750 1150 0    50   Input ~ 0
 24V
 Wire Wire Line
-	5450 1350 5100 1350
-Text Notes 18700 5800 0    50   ~ 0
-Need to deal with driving SAR ADCs
-Text Notes 18700 6000 0    50   ~ 0
-post CDR\n
-Text Notes 18650 6250 0    50   ~ 0
-BW calcs to meet requirements
-Text GLabel 10650 1700 2    50   Input ~ 0
+	4100 1150 3750 1150
+Text GLabel 10700 2450 2    50   Input ~ 0
 ADCIN3
-Text GLabel 10650 1500 2    50   Input ~ 0
+Text GLabel 10700 2250 2    50   Input ~ 0
 ADCIN2
 Text GLabel 5350 3650 3    50   Input ~ 0
 ADCIN1
 Wire Wire Line
-	10450 1400 10550 1400
+	10500 1550 10600 1550
 Wire Wire Line
-	10450 1600 10550 1600
-Connection ~ 10550 1600
+	10600 1550 10600 1650
 Wire Wire Line
-	10450 1800 10550 1800
-Connection ~ 10550 1800
+	10500 1650 10600 1650
+Connection ~ 10600 1650
 Wire Wire Line
-	10550 1800 10550 1900
+	10600 1650 10600 1750
 Wire Wire Line
-	10450 1900 10550 1900
-Connection ~ 10550 1900
+	10500 1750 10600 1750
+Connection ~ 10600 1750
 Wire Wire Line
-	10550 1900 10550 2000
+	10600 1750 10600 1850
 Wire Wire Line
-	10450 2000 10550 2000
-Connection ~ 10550 2000
+	10500 1850 10600 1850
+Connection ~ 10600 1850
 Wire Wire Line
-	10550 2000 10550 2100
+	10600 1850 10600 1950
 Wire Wire Line
-	10450 2100 10550 2100
-Connection ~ 10550 2100
-Wire Wire Line
-	10550 2100 10550 2200
-Wire Wire Line
-	10450 2200 10550 2200
-Connection ~ 10550 2200
-Wire Wire Line
-	10550 2200 10550 2300
-Wire Wire Line
-	10450 2300 10550 2300
-Connection ~ 10550 2300
-Wire Wire Line
-	10550 2300 10550 2400
-Wire Wire Line
-	10450 2500 10550 2500
-Connection ~ 10550 2500
-Wire Wire Line
-	10550 2500 10550 2600
-Wire Wire Line
-	10450 2700 10550 2700
-Connection ~ 10550 2700
+	10500 1950 10600 1950
 $Comp
-L Device:R_Small_US R?
-U 1 1 6217C5E0
-P 20850 6750
-F 0 "R?" V 20645 6750 50  0000 C CNN
-F 1 "R_Small_US" V 20736 6750 50  0000 C CNN
-F 2 "" H 20850 6750 50  0001 C CNN
-F 3 "~" H 20850 6750 50  0001 C CNN
-	1    20850 6750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6217C5E1
-P 21050 7000
-F 0 "C?" H 21142 7046 50  0000 L CNN
-F 1 "C_Small" H 21142 6955 50  0000 L CNN
-F 2 "" H 21050 7000 50  0001 C CNN
-F 3 "~" H 21050 7000 50  0001 C CNN
-	1    21050 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20500 6750 20750 6750
-Wire Wire Line
-	20950 6750 21050 6750
-Wire Wire Line
-	21050 6750 21050 6900
-Wire Wire Line
-	21050 7300 21050 7100
-Wire Notes Line
-	20400 6400 20400 7400
-Wire Notes Line
-	20400 7400 21700 7400
-Wire Notes Line
-	21700 7400 21700 6400
-Wire Notes Line
-	21700 6400 20400 6400
-Text Notes 20650 6350 0    50   ~ 0
-Filter -> SAR ADC
-Wire Wire Line
-	20500 6450 20500 6750
-$Comp
-L power:GND1 #PWR?
+L power:GND1 #PWR0101
 U 1 1 620E7EB3
-P 10200 3050
-F 0 "#PWR?" H 10200 2800 50  0001 C CNN
-F 1 "GND1" H 10205 2877 50  0000 C CNN
-F 2 "" H 10200 3050 50  0001 C CNN
-F 3 "" H 10200 3050 50  0001 C CNN
-	1    10200 3050
+P 10250 2800
+F 0 "#PWR0101" H 10250 2550 50  0001 C CNN
+F 1 "GND1" H 10255 2627 50  0000 C CNN
+F 2 "" H 10250 2800 50  0001 C CNN
+F 3 "" H 10250 2800 50  0001 C CNN
+	1    10250 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND1 #PWR?
-U 1 1 620F7424
-P 5300 1950
-F 0 "#PWR?" H 5300 1700 50  0001 C CNN
-F 1 "GND1" H 5305 1777 50  0000 C CNN
-F 2 "" H 5300 1950 50  0001 C CNN
-F 3 "" H 5300 1950 50  0001 C CNN
-	1    5300 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 1650 5100 1650
-$Comp
-L power:GND2 #PWR?
-U 1 1 62183B5B
-P 5600 7350
-F 0 "#PWR?" H 5600 7100 50  0001 C CNN
-F 1 "GND2" H 5605 7177 50  0000 C CNN
-F 2 "" H 5600 7350 50  0001 C CNN
-F 3 "" H 5600 7350 50  0001 C CNN
-	1    5600 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 1500 5100 1500
-Wire Wire Line
-	5300 1650 5300 1950
 $Sheet
 S 3950 2550 1300 1000
 U 620D84A4
@@ -363,8 +169,8 @@ F4 "+12V" I L 3950 2800 50
 F5 "-12V" I L 3950 2950 50 
 F6 "BUFIN" O L 3950 3100 50 
 F7 "BUFOUT" I L 3950 3250 50 
-F8 "+1.5IN" O R 5250 3100 50 
-F9 "+1.5OUT" I R 5250 3250 50 
+F8 "+1.3IN" I R 5250 3100 50 
+F9 "+1.3OUT" I R 5250 3250 50 
 $EndSheet
 $Sheet
 S 3950 4000 1300 1000
@@ -377,8 +183,8 @@ F4 "+12V" I L 3950 4300 50
 F5 "-12V" I L 3950 4450 50 
 F6 "BUFIN" O L 3950 4600 50 
 F7 "BUFOUT" I L 3950 4750 50 
-F8 "+1.5IN" O R 5250 4600 50 
-F9 "+1.5OUT" I R 5250 4750 50 
+F8 "+1.3IN" I R 5250 4600 50 
+F9 "+1.3OUT" I R 5250 4750 50 
 $EndSheet
 $Sheet
 S 3950 5400 1300 1000
@@ -391,18 +197,15 @@ F4 "+12V" I L 3950 5700 50
 F5 "-12V" I L 3950 5850 50 
 F6 "BUFIN" O L 3950 6000 50 
 F7 "BUFOUT" I L 3950 6150 50 
-F8 "+1.5IN" O R 5250 6000 50 
-F9 "+1.5OUT" I R 5250 6150 50 
+F8 "+1.3IN" I R 5250 6000 50 
+F9 "+1.3OUT" I R 5250 6150 50 
 $EndSheet
 Wire Wire Line
 	4100 1450 3650 1450
 Wire Wire Line
-	5600 1500 5600 2950
-Wire Wire Line
 	5250 2950 5600 2950
-Connection ~ 5600 2950
 Wire Wire Line
-	5600 2950 5600 4450
+	5600 2950 5600 3800
 Wire Wire Line
 	3950 5700 3650 5700
 Wire Wire Line
@@ -427,16 +230,14 @@ Wire Wire Line
 Connection ~ 3650 4300
 Wire Wire Line
 	3650 4300 3650 5700
-Text Notes 18700 6400 0    50   ~ 0
-3 BNC connectors on 2 cards\n
 $Comp
-L MC-ADC-rescue:LM324DTBR2G-MC-ADC U?
+L MC-ADC-rescue:LM324DTBR2G-MC-ADC U81
 U 1 1 621DBA92
 P 2250 4600
-F 0 "U?" H 2300 3085 50  0000 C CNN
+F 0 "U81" H 2300 3085 50  0000 C CNN
 F 1 "LM324DTBR2G" H 2300 3176 50  0000 C CNN
-F 2 "" H 2250 4600 50  0001 C CNN
-F 3 "" H 2250 4600 50  0001 C CNN
+F 2 "Footprints_MC-ADC:LM324DTBR2G" H 2250 4600 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/onsemi/LM324DTBR2G/1476841?s=N4IgTCBcDaIDIFkDMYAsARAKgIQEpgHEQBdAXyA" H 2250 4600 50  0001 C CNN
 	1    2250 4600
 	-1   0    0    1   
 $EndComp
@@ -493,17 +294,6 @@ Wire Wire Line
 	1050 4600 1200 4600
 Wire Wire Line
 	1050 4600 1050 4750
-$Comp
-L power:GND2 #PWR?
-U 1 1 6227B038
-P 1050 4750
-F 0 "#PWR?" H 1050 4500 50  0001 C CNN
-F 1 "GND2" H 1055 4577 50  0000 C CNN
-F 2 "" H 1050 4750 50  0001 C CNN
-F 3 "" H 1050 4750 50  0001 C CNN
-	1    1050 4750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3950 4750 3300 4750
 Wire Wire Line
@@ -544,7 +334,7 @@ Wire Wire Line
 	5600 4450 5250 4450
 Connection ~ 5600 4450
 Wire Wire Line
-	5600 4450 5600 5850
+	5600 4450 5600 5000
 Wire Wire Line
 	5250 5850 5600 5850
 Connection ~ 5600 5850
@@ -562,443 +352,818 @@ Wire Wire Line
 	5350 6300 5350 6550
 Wire Wire Line
 	5350 4900 5350 5200
-Text GLabel 10650 1300 2    50   Input ~ 0
+Text GLabel 10700 2050 2    50   Input ~ 0
 ADCIN1
 Text GLabel 5350 5200 3    50   Input ~ 0
 ADCIN2
 Text GLabel 5350 6550 3    50   Input ~ 0
 ADCIN3
 Wire Wire Line
-	9850 3000 10200 3000
+	9900 2750 10250 2750
 Wire Wire Line
-	10200 3000 10200 3050
-Connection ~ 10200 3000
+	10250 2750 10250 2800
+Connection ~ 10250 2750
 Wire Wire Line
-	10200 3000 10550 3000
+	10250 2750 10600 2750
 Wire Wire Line
-	9850 2700 9850 3000
+	9900 2450 9900 2750
 Wire Wire Line
-	10450 1300 10650 1300
-Wire Wire Line
-	10550 1400 10550 1600
-Wire Wire Line
-	10550 1600 10550 1800
-Wire Wire Line
-	10650 1700 10450 1700
-Wire Wire Line
-	10650 1500 10450 1500
-Wire Wire Line
-	10550 2700 10550 2800
-Wire Wire Line
-	10450 2800 10550 2800
-Connection ~ 10550 2800
-Wire Wire Line
-	10550 2800 10550 3000
-Wire Wire Line
-	10450 2600 10550 2600
-Connection ~ 10550 2600
-Wire Wire Line
-	10550 2600 10550 2700
-Wire Wire Line
-	10450 2400 10550 2400
-Connection ~ 10550 2400
-Wire Wire Line
-	10550 2400 10550 2500
-Wire Wire Line
-	9950 2800 9750 2800
-Text GLabel 9750 2800 0    50   Input ~ 0
+	10000 2550 9800 2550
+Text GLabel 9800 2550 0    50   Input ~ 0
 SAFE_STATE_FLAG
 Wire Notes Line
-	9000 3350 11050 3350
+	9050 3100 11100 3100
 Wire Notes Line
-	9000 900  11050 900 
-Text GLabel 3300 1300 0    50   Input ~ 0
--12V
-Wire Wire Line
-	3300 1300 3400 1300
+	9050 650  11100 650 
 Text GLabel 900  3850 0    50   Input ~ 0
 -12V
-$Sheet
-S 900  1000 1200 850 
-U 6217C24B
-F0 "Voltage Monitoring" 50
-F1 "MC-LED.sch" 50
-F2 "GND" I R 2100 1750 50 
-F3 "SAFE_STATE_FLAG" O R 2100 1600 50 
-F4 "5V" I R 2100 1150 50 
-$EndSheet
 Wire Wire Line
 	3650 1450 3650 2800
-Connection ~ 3400 1300
 Wire Wire Line
 	3400 1300 3400 2950
-Wire Wire Line
-	2100 1600 2250 1600
-Text GLabel 2250 1600 2    50   Input ~ 0
+Text GLabel 1850 1550 2    50   Input ~ 0
 SAFE_STATE_FLAG
 Wire Wire Line
-	2100 1750 2400 1750
+	5100 1200 5900 1200
+Text GLabel 5900 1200 2    50   Input ~ 0
+1.3V
 Wire Wire Line
-	2400 1750 2400 1900
+	5250 3250 5700 3250
+Wire Wire Line
+	5250 4750 5850 4750
+Wire Wire Line
+	5250 4600 5750 4600
+Wire Wire Line
+	10500 1050 10600 1050
+Wire Wire Line
+	10600 1050 10600 1150
+Connection ~ 10600 1550
+Wire Wire Line
+	10500 1450 10600 1450
+Connection ~ 10600 1450
+Wire Wire Line
+	10600 1450 10600 1550
+Wire Wire Line
+	10500 1350 10600 1350
+Connection ~ 10600 1350
+Wire Wire Line
+	10600 1350 10600 1450
+Wire Wire Line
+	10500 1250 10600 1250
+Connection ~ 10600 1250
+Wire Wire Line
+	10600 1250 10600 1350
+Wire Wire Line
+	10500 1150 10600 1150
+Connection ~ 10600 1150
+Wire Wire Line
+	10600 1150 10600 1250
+Wire Wire Line
+	10500 2450 10700 2450
+Wire Wire Line
+	10500 2250 10700 2250
+Wire Wire Line
+	10500 2050 10700 2050
+Wire Wire Line
+	10600 1950 10600 2150
+Wire Wire Line
+	10600 2150 10500 2150
+Connection ~ 10600 1950
+Wire Wire Line
+	10600 2150 10600 2350
+Wire Wire Line
+	10600 2350 10500 2350
+Connection ~ 10600 2150
+Wire Wire Line
+	10600 2350 10600 2550
+Wire Wire Line
+	10600 2550 10500 2550
+Connection ~ 10600 2350
+Wire Wire Line
+	10600 2750 10600 2550
+Connection ~ 10600 2550
 $Comp
-L power:GND2 #PWR?
-U 1 1 62291FC2
-P 2400 1900
-F 0 "#PWR?" H 2400 1650 50  0001 C CNN
-F 1 "GND2" H 2405 1727 50  0000 C CNN
-F 2 "" H 2400 1900 50  0001 C CNN
-F 3 "" H 2400 1900 50  0001 C CNN
-	1    2400 1900
+L power:GND1 #PWR0102
+U 1 1 6230238F
+P 5600 7350
+F 0 "#PWR0102" H 5600 7100 50  0001 C CNN
+F 1 "GND1" H 5605 7177 50  0000 C CNN
+F 2 "" H 5600 7350 50  0001 C CNN
+F 3 "" H 5600 7350 50  0001 C CNN
+	1    5600 7350
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	17800 8350 23350 8350
-Wire Notes Line
-	23350 8350 23350 3900
-Wire Notes Line
-	23350 3900 17800 3900
-Wire Notes Line
-	17800 3900 17800 8350
-Text Notes 18050 3850 0    50   ~ 0
-notes\n
-Wire Wire Line
-	2100 1150 3900 1150
 $Comp
-L MC-ADC:LM358 U?
-U 1 1 622DE3DC
-P 7400 2500
-F 0 "U?" H 7425 2515 50  0000 C CNN
-F 1 "LM358" H 7425 2424 50  0000 C CNN
-F 2 "" H 7400 2500 50  0001 C CNN
-F 3 "" H 7400 2500 50  0001 C CNN
-	1    7400 2500
+L power:GND1 #PWR0103
+U 1 1 62303055
+P 1050 4750
+F 0 "#PWR0103" H 1050 4500 50  0001 C CNN
+F 1 "GND1" H 1055 4577 50  0000 C CNN
+F 2 "" H 1050 4750 50  0001 C CNN
+F 3 "" H 1050 4750 50  0001 C CNN
+	1    1050 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2950 5600 1650
+Connection ~ 5600 2950
+Wire Wire Line
+	5100 1650 5600 1650
+Wire Wire Line
+	5100 1350 5900 1350
+Wire Wire Line
+	5100 1500 5900 1500
+Text GLabel 5900 1350 2    50   Input ~ 0
+3V3
+Text GLabel 5900 1500 2    50   Input ~ 0
+-0V4
+$Comp
+L MC-ADC:LT6238CGN#PBF U82
+U 1 1 62585BB7
+P 7750 3450
+F 0 "U82" H 7750 3415 50  0000 C CNN
+F 1 "LT6238CGN#PBF" H 7750 3324 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 7750 3450 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Analog-Devices/LT6238CGNPBF?qs=hVkxg5c3xu%2F%2FmHiAJ8qs2Q%3D%3D" H 7750 3450 50  0001 C CNN
+	1    7750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R85
+U 1 1 62589952
+P 5850 6000
+F 0 "R85" V 6055 6000 50  0000 C CNN
+F 1 "2.2K" V 5964 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5850 6000 50  0001 C CNN
+F 3 "~" H 5850 6000 50  0001 C CNN
+	1    5850 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R80
+U 1 1 6258D7E0
+P 6100 3250
+F 0 "R80" H 6168 3296 50  0000 L CNN
+F 1 "2.2K" H 6168 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 6100 3250 50  0001 C CNN
+F 3 "~" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C80
+U 1 1 6258D7E6
+P 6350 3650
+F 0 "C80" H 6442 3696 50  0000 L CNN
+F 1 "43 nF" H 6442 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6350 3650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21B7U1H433JA01L/2546778?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANohwB0iAzAAQCtAYiALqkAOALlBABVAHYBLPgHlMAWULZ8AVwBOhEAF9SAWhioQGSH2WKS5KiACsIUik7r7QA" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C84
+U 1 1 625A5549
+P 6050 4800
+F 0 "C84" H 6142 4846 50  0000 L CNN
+F 1 "43 nF" H 6142 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6050 4800 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21B7U1H433JA01L/2546778?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANohwB0iAzAAQCtAYiALqkAOALlBABVAHYBLPgHlMAWULZ8AVwBOhEAF9SAWhioQGSH2WKS5KiACsIUik7r7QA" H 6050 4800 50  0001 C CNN
+	1    6050 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5250 3100 6100 3100
+Wire Wire Line
+	6100 3100 6100 3150
+Wire Wire Line
+	6100 3350 6100 3450
+Wire Wire Line
+	6100 3450 6350 3450
+Wire Wire Line
+	6350 3450 6350 3550
+Wire Wire Line
+	6350 3750 6350 3800
+Wire Wire Line
+	6350 3800 5600 3800
+Connection ~ 5600 3800
+Wire Wire Line
+	5600 3800 5600 4450
+Wire Wire Line
+	6750 3450 6750 3900
+Wire Wire Line
+	6750 3900 7200 3900
+Connection ~ 6350 3450
 $Comp
-L Device:R_Small_US R?
-U 1 1 6230EBEA
-P 6200 3100
-F 0 "R?" V 6405 3100 50  0000 C CNN
-F 1 "1.5K" V 6314 3100 50  0000 C CNN
-F 2 "" H 6200 3100 50  0001 C CNN
-F 3 "~" H 6200 3100 50  0001 C CNN
-	1    6200 3100
+L Device:R_Small_US R81
+U 1 1 625EE8FB
+P 6850 3100
+F 0 "R81" V 7055 3100 50  0000 C CNN
+F 1 "330R" V 6964 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6850 3100 50  0001 C CNN
+F 3 "~" H 6850 3100 50  0001 C CNN
+	1    6850 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C81
+U 1 1 625EF2A4
+P 6850 2700
+F 0 "C81" V 7079 2700 50  0000 C CNN
+F 1 "470 pF" V 6988 2700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6850 2700 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/1206AA471JAT1A/808080" H 6850 2700 50  0001 C CNN
+	1    6850 2700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6300 3100 6450 3100
+	7200 3750 7100 3750
 Wire Wire Line
-	3900 1150 3900 750 
+	7100 2700 6950 2700
 Wire Wire Line
-	8300 2800 8050 2800
-Connection ~ 3900 1150
+	6950 3100 7100 3100
+Connection ~ 7100 3100
 Wire Wire Line
-	3900 1150 4100 1150
+	7100 3100 7100 2700
 Wire Wire Line
-	5100 1100 5800 1100
+	6750 2700 6600 2700
 Wire Wire Line
-	5800 1100 5800 3250
+	6600 3100 6750 3100
 Wire Wire Line
-	5800 3250 6800 3250
+	6350 3450 6600 3450
 Wire Wire Line
-	5100 1200 5900 1200
-Text GLabel 5900 1200 2    50   Input ~ 0
-3V
+	6600 2700 6600 3100
+Connection ~ 6600 3450
 Wire Wire Line
-	6450 3100 6450 3600
-Connection ~ 6450 3100
+	6600 3450 6750 3450
+Connection ~ 6600 3100
 Wire Wire Line
-	6450 3100 6800 3100
-Text GLabel 6900 3600 2    50   Input ~ 0
-3V
+	6600 3100 6600 3450
+Wire Wire Line
+	7100 3100 7100 3350
+Wire Wire Line
+	7100 3350 7300 3350
+Connection ~ 7100 3350
+Wire Wire Line
+	7100 3350 7100 3750
+Text GLabel 7300 3350 2    50   Input ~ 0
+OUT_A
+Text GLabel 5750 3500 2    50   Input ~ 0
+OUT_A
+Wire Wire Line
+	5700 3250 5700 3500
+Wire Wire Line
+	5700 3500 5750 3500
+Wire Wire Line
+	7200 4200 6900 4200
+Text GLabel 6900 4200 0    50   Input ~ 0
+3V3
+Text GLabel 8600 4200 2    50   Input ~ 0
+-0V4
+Text GLabel 6900 4050 0    50   Input ~ 0
+1.3V
+Wire Wire Line
+	6900 4050 7000 4050
+Text GLabel 8600 4350 2    50   Input ~ 0
+1.3V
+Wire Wire Line
+	8600 4350 8300 4350
+Wire Wire Line
+	7000 4050 7000 4350
+Wire Wire Line
+	7000 4350 7200 4350
+Connection ~ 7000 4050
+Wire Wire Line
+	7000 4050 7200 4050
+Wire Wire Line
+	8600 4200 8300 4200
+Connection ~ 5600 5000
+Wire Wire Line
+	5600 5000 5600 5850
+Wire Wire Line
+	6050 4600 6050 4700
+Wire Wire Line
+	6050 4900 6050 5000
+Wire Wire Line
+	6350 4600 6350 4500
+Wire Wire Line
+	6350 4500 6600 4500
 $Comp
-L Device:R_Small_US R?
-U 1 1 6237D332
-P 6650 3600
-F 0 "R?" V 6855 3600 50  0000 C CNN
-F 1 "5K" V 6764 3600 50  0000 C CNN
-F 2 "" H 6650 3600 50  0001 C CNN
-F 3 "~" H 6650 3600 50  0001 C CNN
-	1    6650 3600
-	0    -1   -1   0   
+L Device:R_Small_US R83
+U 1 1 62785C48
+P 6850 4750
+F 0 "R83" V 6950 4700 50  0000 C CNN
+F 1 "330R" V 7050 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6850 4750 50  0001 C CNN
+F 3 "~" H 6850 4750 50  0001 C CNN
+	1    6850 4750
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6450 3600 6550 3600
-Wire Wire Line
-	6750 3600 6900 3600
-Wire Wire Line
-	5600 1500 5900 1500
-Connection ~ 5600 1500
-Text GLabel 5900 1500 2    50   Input ~ 0
-0V
-Text GLabel 6200 1750 0    50   Input ~ 0
-0V
-Text GLabel 3900 750  0    50   Input ~ 0
-5V
-Text GLabel 8300 2800 2    50   Input ~ 0
-5V
 $Comp
-L Device:R_Small_US R?
-U 1 1 623C63BB
-P 6200 2000
-F 0 "R?" V 6405 2000 50  0000 C CNN
-F 1 "1.5K" V 6314 2000 50  0000 C CNN
-F 2 "" H 6200 2000 50  0001 C CNN
-F 3 "~" H 6200 2000 50  0001 C CNN
-	1    6200 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 1750 6200 1900
-Wire Wire Line
-	6200 2800 6550 2800
-Wire Wire Line
-	6550 2800 6550 2950
-Wire Wire Line
-	6550 2950 6800 2950
-Wire Wire Line
-	6200 2450 6300 2450
-Connection ~ 6200 2450
-$Comp
-L Device:R_Small_US R?
-U 1 1 62413C51
-P 6400 2450
-F 0 "R?" V 6605 2450 50  0000 C CNN
-F 1 "1.75K" V 6514 2450 50  0000 C CNN
-F 2 "" H 6400 2450 50  0001 C CNN
-F 3 "~" H 6400 2450 50  0001 C CNN
-	1    6400 2450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 2100 6200 2450
-Wire Wire Line
-	6500 2450 6650 2450
-Wire Wire Line
-	6650 2800 6800 2800
-Wire Wire Line
-	5250 3250 5700 3250
-Wire Wire Line
-	6200 2450 6200 2800
-Wire Wire Line
-	6650 2450 6650 2650
-Wire Wire Line
-	5700 2650 5700 3250
-Wire Wire Line
-	5700 2650 6650 2650
-Connection ~ 6650 2650
-Wire Wire Line
-	6650 2650 6650 2800
-$Comp
-L MC-ADC:LM358 U?
-U 1 1 624BCBB6
-P 7400 5400
-F 0 "U?" H 7425 5415 50  0000 C CNN
-F 1 "LM358" H 7425 5324 50  0000 C CNN
-F 2 "" H 7400 5400 50  0001 C CNN
-F 3 "" H 7400 5400 50  0001 C CNN
-	1    7400 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 6000 6100 6000
-$Comp
-L Device:R_Small_US R?
-U 1 1 624BCBBD
-P 6200 6000
-F 0 "R?" V 6405 6000 50  0000 C CNN
-F 1 "1.5K" V 6314 6000 50  0000 C CNN
-F 2 "" H 6200 6000 50  0001 C CNN
-F 3 "~" H 6200 6000 50  0001 C CNN
-	1    6200 6000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6300 6000 6450 6000
-Wire Wire Line
-	8300 5700 8050 5700
-Wire Wire Line
-	5800 6150 6800 6150
-Wire Wire Line
-	6450 6000 6450 6450
-Connection ~ 6450 6000
-Wire Wire Line
-	6450 6000 6800 6000
-Text GLabel 6900 6450 2    50   Input ~ 0
-3V
-$Comp
-L Device:R_Small_US R?
-U 1 1 624BCBCA
-P 6650 6450
-F 0 "R?" V 6855 6450 50  0000 C CNN
-F 1 "5K" V 6764 6450 50  0000 C CNN
-F 2 "" H 6650 6450 50  0001 C CNN
-F 3 "~" H 6650 6450 50  0001 C CNN
-	1    6650 6450
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6450 6450 6550 6450
-Wire Wire Line
-	6750 6450 6900 6450
-Text GLabel 6200 4650 0    50   Input ~ 0
-0V
-Text GLabel 8300 5700 2    50   Input ~ 0
-5V
-$Comp
-L Device:R_Small_US R?
-U 1 1 624BCBD4
-P 6200 4900
-F 0 "R?" V 6405 4900 50  0000 C CNN
-F 1 "1.5K" V 6314 4900 50  0000 C CNN
-F 2 "" H 6200 4900 50  0001 C CNN
-F 3 "~" H 6200 4900 50  0001 C CNN
-	1    6200 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 4650 6200 4800
-Wire Wire Line
-	6200 5700 6550 5700
-Wire Wire Line
-	6550 5700 6550 5850
-Wire Wire Line
-	6550 5850 6800 5850
-Wire Wire Line
-	6200 5350 6300 5350
-Connection ~ 6200 5350
-$Comp
-L Device:R_Small_US R?
-U 1 1 624BCBE0
-P 6400 5350
-F 0 "R?" V 6605 5350 50  0000 C CNN
-F 1 "1.75K" V 6514 5350 50  0000 C CNN
-F 2 "" H 6400 5350 50  0001 C CNN
-F 3 "~" H 6400 5350 50  0001 C CNN
-	1    6400 5350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 5000 6200 5350
-Wire Wire Line
-	6500 5350 6650 5350
-Wire Wire Line
-	6650 5700 6800 5700
-Wire Wire Line
-	6200 5350 6200 5700
-Wire Wire Line
-	6650 5350 6650 5550
-Wire Wire Line
-	5700 5550 6650 5550
-Connection ~ 6650 5550
-Wire Wire Line
-	6650 5550 6650 5700
-Wire Wire Line
-	5800 1100 6250 1100
-Connection ~ 5800 1100
-Text GLabel 6250 1100 2    50   Input ~ 0
--5V
-Text GLabel 5800 6400 2    50   Input ~ 0
--5V
-Wire Wire Line
-	5800 6150 5800 6400
-Wire Wire Line
-	5700 5550 5700 6150
-Wire Wire Line
-	5700 6150 5250 6150
-Wire Wire Line
-	5250 4750 5850 4750
-Wire Wire Line
-	5850 4750 5850 4450
-Wire Wire Line
-	5850 4450 8350 4450
-Wire Wire Line
-	8350 4450 8350 3950
-Wire Wire Line
-	8350 2950 8050 2950
-Wire Wire Line
-	5250 4600 5750 4600
-Wire Wire Line
-	5750 4600 5750 4150
-Wire Wire Line
-	5750 4150 5850 4150
-$Comp
-L Device:R_Small_US R?
-U 1 1 6252739A
-P 5950 4150
-F 0 "R?" V 6155 4150 50  0000 C CNN
-F 1 "1.5K" V 6064 4150 50  0000 C CNN
-F 2 "" H 5950 4150 50  0001 C CNN
-F 3 "~" H 5950 4150 50  0001 C CNN
-	1    5950 4150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6050 4150 6300 4150
-Text GLabel 6900 3950 2    50   Input ~ 0
-3V
-$Comp
-L Device:R_Small_US R?
-U 1 1 62537A3D
-P 6650 3950
-F 0 "R?" V 6855 3950 50  0000 C CNN
-F 1 "5K" V 6764 3950 50  0000 C CNN
-F 2 "" H 6650 3950 50  0001 C CNN
-F 3 "~" H 6650 3950 50  0001 C CNN
-	1    6650 3950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6750 3950 6900 3950
-Wire Wire Line
-	6300 4150 6300 3950
-Wire Wire Line
-	6300 3950 6550 3950
-Wire Wire Line
-	6300 4150 8050 4150
-Wire Wire Line
-	8050 4150 8050 3250
-Connection ~ 6300 4150
-Text GLabel 8800 4650 2    50   Input ~ 0
-0V
-$Comp
-L Device:R_Small_US R?
-U 1 1 6256F4C0
-P 8800 4400
-F 0 "R?" V 9005 4400 50  0000 C CNN
-F 1 "1.5K" V 8914 4400 50  0000 C CNN
-F 2 "" H 8800 4400 50  0001 C CNN
-F 3 "~" H 8800 4400 50  0001 C CNN
-	1    8800 4400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8800 4650 8800 4500
-Wire Wire Line
-	8800 3950 8700 3950
-Connection ~ 8800 3950
-$Comp
-L Device:R_Small_US R?
-U 1 1 6256F4C9
-P 8600 3950
-F 0 "R?" V 8805 3950 50  0000 C CNN
-F 1 "1.75K" V 8714 3950 50  0000 C CNN
-F 2 "" H 8600 3950 50  0001 C CNN
-F 3 "~" H 8600 3950 50  0001 C CNN
-	1    8600 3950
+L Device:C_Small C83
+U 1 1 62785C4E
+P 6850 5150
+F 0 "C83" V 7000 5100 50  0000 C CNN
+F 1 "470 pF" V 7100 5150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6850 5150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/1206AA471JAT1A/808080" H 6850 5150 50  0001 C CNN
+	1    6850 5150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8800 4300 8800 3950
+	6600 5150 6750 5150
 Wire Wire Line
-	8500 3950 8350 3950
-Connection ~ 8350 3950
+	6750 4750 6600 4750
 Wire Wire Line
-	8350 3950 8350 2950
+	6600 4750 6600 5150
 Wire Wire Line
-	8800 3100 8050 3100
+	6950 5150 7100 5150
 Wire Wire Line
-	8800 3100 8800 3950
+	7100 4750 6950 4750
+Wire Wire Line
+	7300 5150 7100 5150
+Text GLabel 7300 5150 2    50   Input ~ 0
+OUT_B
+Wire Wire Line
+	7200 4650 7100 4650
+Connection ~ 7100 5150
+Wire Wire Line
+	7100 4650 7100 4750
+Wire Wire Line
+	6050 5000 5600 5000
+Connection ~ 6050 4600
+Wire Wire Line
+	6050 4600 5950 4600
+Wire Wire Line
+	6050 4600 6350 4600
+Connection ~ 7100 4750
+Wire Wire Line
+	7100 4750 7100 5150
+Wire Wire Line
+	6600 4750 6600 4500
+Connection ~ 6600 4750
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 7200 4500
+$Comp
+L Device:R_Small_US R84
+U 1 1 625A5543
+P 5850 4600
+F 0 "R84" V 6050 4550 50  0000 L CNN
+F 1 "2.2K " V 5950 4500 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 5850 4600 50  0001 C CNN
+F 3 "~" H 5850 4600 50  0001 C CNN
+	1    5850 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 4750 5850 5200
+Text GLabel 5850 5200 2    50   Input ~ 0
+OUT_B
+$Comp
+L Device:C_Small C93
+U 1 1 6288C771
+P 6050 6200
+F 0 "C93" H 6142 6246 50  0000 L CNN
+F 1 "43 nF" H 6142 6155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6050 6200 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21B7U1H433JA01L/2546778?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANohwB0iAzAAQCtAYiALqkAOALlBABVAHYBLPgHlMAWULZ8AVwBOhEAF9SAWhioQGSH2WKS5KiACsIUik7r7QA" H 6050 6200 50  0001 C CNN
+	1    6050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6300 6050 6400
+Wire Wire Line
+	6050 6400 5600 6400
+Wire Wire Line
+	5950 6000 6050 6000
+Wire Wire Line
+	6050 6000 6050 6100
+Wire Wire Line
+	5750 6000 5250 6000
+Wire Wire Line
+	8950 6000 8950 5150
+Connection ~ 6050 6000
+Wire Wire Line
+	6050 6000 8950 6000
+Wire Wire Line
+	8300 4500 8950 4500
+$Comp
+L Device:R_Small_US R82
+U 1 1 6290BEBE
+P 8650 4750
+F 0 "R82" V 8750 4700 50  0000 C CNN
+F 1 "330R" V 8850 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8650 4750 50  0001 C CNN
+F 3 "~" H 8650 4750 50  0001 C CNN
+	1    8650 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C82
+U 1 1 6290BEC4
+P 8650 5150
+F 0 "C82" V 8800 5100 50  0000 C CNN
+F 1 "470 pF" V 8900 5150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8650 5150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/1206AA471JAT1A/808080" H 8650 5150 50  0001 C CNN
+	1    8650 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 5150 8550 5150
+Wire Wire Line
+	8400 5150 8400 4750
+Wire Wire Line
+	8400 4750 8550 4750
+Wire Wire Line
+	8400 4750 8400 4650
+Wire Wire Line
+	8400 4650 8300 4650
+Connection ~ 8400 4750
+Wire Wire Line
+	8400 5150 8200 5150
+Connection ~ 8400 5150
+Text GLabel 8200 5150 0    50   Input ~ 0
+OUT_C
+Connection ~ 8950 4750
+Wire Wire Line
+	8950 4750 8950 4500
+Wire Wire Line
+	8750 4750 8950 4750
+Wire Wire Line
+	8750 5150 8950 5150
+Connection ~ 8950 5150
+Wire Wire Line
+	8950 5150 8950 4750
+Wire Wire Line
+	8300 4050 8450 4050
+Wire Wire Line
+	8450 3750 8300 3750
+Wire Wire Line
+	8450 3900 8450 3750
+Connection ~ 8450 3900
+Wire Wire Line
+	8300 3900 8450 3900
+Wire Wire Line
+	8450 4050 8450 3900
+Wire Wire Line
+	8450 3900 8650 3900
+$Comp
+L power:GND1 #PWR0104
+U 1 1 62A0E39B
+P 8650 3900
+F 0 "#PWR0104" H 8650 3650 50  0001 C CNN
+F 1 "GND1" H 8655 3727 50  0000 C CNN
+F 2 "" H 8650 3900 50  0001 C CNN
+F 3 "" H 8650 3900 50  0001 C CNN
+	1    8650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6150 5850 6150
+Wire Wire Line
+	5850 6150 5850 6600
+Text GLabel 5850 6600 2    50   Input ~ 0
+OUT_C
+Wire Notes Line
+	1550 1700 2600 1700
+Wire Notes Line
+	2600 800  1550 800 
+Text Notes 1550 750  0    50   ~ 0
+monitoring not necessary?\n
+Wire Notes Line
+	2600 800  2600 1700
+Wire Notes Line
+	1550 800  1550 1700
+$Comp
+L Device:R_Small_US R?
+U 1 1 622E9955
+P 1800 1200
+AR Path="/61F0AAD9/622E9955" Ref="R?"  Part="1" 
+AR Path="/61F25080/622E9955" Ref="R?"  Part="1" 
+AR Path="/622E9955" Ref="R86"  Part="1" 
+AR Path="/620D84A4/622E9955" Ref="R?"  Part="1" 
+AR Path="/620D8862/622E9955" Ref="R?"  Part="1" 
+AR Path="/620D8F0D/622E9955" Ref="R?"  Part="1" 
+F 0 "R86" H 1650 1150 50  0000 C CNN
+F 1 "10K" H 1650 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 1800 1200 50  0001 C CNN
+F 3 "~" H 1800 1200 50  0001 C CNN
+	1    1800 1200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1800 1550 1850 1550
+Wire Wire Line
+	1800 1550 1800 1300
+Wire Wire Line
+	1800 1100 1800 900 
+Wire Wire Line
+	1800 900  1850 900 
+Text GLabel 1850 900  2    50   Input ~ 0
+3V3
+$Comp
+L Device:C_Small C?
+U 1 1 6229A444
+P 750 5900
+AR Path="/61F9F3BA/6229A444" Ref="C?"  Part="1" 
+AR Path="/6229A444" Ref="C85"  Part="1" 
+F 0 "C85" H 842 5946 50  0000 L CNN
+F 1 "10 uF" H 842 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 750 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 750 5900 50  0001 C CNN
+	1    750  5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6229A44A
+P 1250 5900
+AR Path="/61F9F3BA/6229A44A" Ref="C?"  Part="1" 
+AR Path="/6229A44A" Ref="C86"  Part="1" 
+F 0 "C86" H 1342 5946 50  0000 L CNN
+F 1 "0.1 uF" H 1342 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1250 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 1250 5900 50  0001 C CNN
+	1    1250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 622A912B
+P 9250 4000
+AR Path="/61F9F3BA/622A912B" Ref="C?"  Part="1" 
+AR Path="/622A912B" Ref="C89"  Part="1" 
+F 0 "C89" H 9342 4046 50  0000 L CNN
+F 1 "10 uF" H 9342 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9250 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 9250 4000 50  0001 C CNN
+	1    9250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 622A9131
+P 9750 4000
+AR Path="/61F9F3BA/622A9131" Ref="C?"  Part="1" 
+AR Path="/622A9131" Ref="C90"  Part="1" 
+F 0 "C90" H 9842 4046 50  0000 L CNN
+F 1 "0.1 uF" H 9842 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9750 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 9750 4000 50  0001 C CNN
+	1    9750 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 5400 0    50   Input ~ 0
+-12V
+Wire Wire Line
+	750  5600 750  5800
+Wire Wire Line
+	750  5600 1000 5600
+Wire Wire Line
+	1250 5600 1250 5800
+Wire Wire Line
+	750  6000 750  6150
+Wire Wire Line
+	1250 6150 1250 6000
+Text Notes 1100 6700 0    50   ~ 0
+LM324 Bypass Capacitors
+Wire Wire Line
+	1000 5400 1000 5600
+Connection ~ 1000 5600
+Wire Wire Line
+	1000 5600 1250 5600
+Wire Wire Line
+	3650 1450 3200 1450
+Connection ~ 3650 1450
+Wire Wire Line
+	3400 1300 3200 1300
+Connection ~ 3400 1300
+Text GLabel 3200 1300 0    50   Input ~ 0
+-12V
+Text GLabel 3200 1450 0    50   Input ~ 0
++12V
+Text GLabel 1950 5400 0    50   Input ~ 0
++12V
+$Comp
+L Device:C_Small C?
+U 1 1 62371363
+P 1750 5900
+AR Path="/61F9F3BA/62371363" Ref="C?"  Part="1" 
+AR Path="/62371363" Ref="C87"  Part="1" 
+F 0 "C87" H 1842 5946 50  0000 L CNN
+F 1 "10 uF" H 1842 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1750 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 1750 5900 50  0001 C CNN
+	1    1750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 623715C9
+P 2250 5900
+AR Path="/61F9F3BA/623715C9" Ref="C?"  Part="1" 
+AR Path="/623715C9" Ref="C88"  Part="1" 
+F 0 "C88" H 2342 5946 50  0000 L CNN
+F 1 "0.1 uF" H 2342 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2250 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 2250 5900 50  0001 C CNN
+	1    2250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5600 1750 5800
+Wire Wire Line
+	2250 5600 2250 5800
+Wire Wire Line
+	1750 6000 1750 6150
+Wire Wire Line
+	2250 6150 2250 6000
+$Comp
+L power:GND1 #PWR0105
+U 1 1 623715D8
+P 1500 6300
+F 0 "#PWR0105" H 1500 6050 50  0001 C CNN
+F 1 "GND1" H 1505 6127 50  0000 C CNN
+F 2 "" H 1500 6300 50  0001 C CNN
+F 3 "" H 1500 6300 50  0001 C CNN
+	1    1500 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6300 1500 6150
+Wire Wire Line
+	1950 5400 2000 5400
+Wire Wire Line
+	2000 5400 2000 5600
+Wire Wire Line
+	2000 5600 1750 5600
+Wire Wire Line
+	2000 5600 2250 5600
+Connection ~ 2000 5600
+Wire Wire Line
+	1250 6150 1500 6150
+Connection ~ 1250 6150
+Connection ~ 1750 6150
+Connection ~ 1500 6150
+Wire Wire Line
+	1500 6150 1750 6150
+Wire Wire Line
+	1750 6150 2250 6150
+Wire Wire Line
+	750  6150 1250 6150
+$Comp
+L Device:C_Small C?
+U 1 1 624261F7
+P 10300 4000
+AR Path="/61F9F3BA/624261F7" Ref="C?"  Part="1" 
+AR Path="/624261F7" Ref="C91"  Part="1" 
+F 0 "C91" H 10392 4046 50  0000 L CNN
+F 1 "10 uF" H 10392 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10300 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 10300 4000 50  0001 C CNN
+	1    10300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62426481
+P 10800 4000
+AR Path="/61F9F3BA/62426481" Ref="C?"  Part="1" 
+AR Path="/62426481" Ref="C92"  Part="1" 
+F 0 "C92" H 10892 4046 50  0000 L CNN
+F 1 "0.1 uF" H 10892 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10800 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 10800 4000 50  0001 C CNN
+	1    10800 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 3550 0    50   Input ~ 0
+3V3
+Text GLabel 10550 3550 0    50   Input ~ 0
+1.3V
+Wire Wire Line
+	9450 3550 9500 3550
+Wire Wire Line
+	9500 3550 9500 3750
+Wire Wire Line
+	9500 3750 9250 3750
+Wire Wire Line
+	9250 3750 9250 3900
+Wire Wire Line
+	9500 3750 9750 3750
+Wire Wire Line
+	9750 3750 9750 3900
+Connection ~ 9500 3750
+Wire Wire Line
+	10300 3900 10300 3750
+Wire Wire Line
+	10300 3750 10600 3750
+Wire Wire Line
+	10600 3750 10600 3550
+Wire Wire Line
+	10600 3550 10550 3550
+Wire Wire Line
+	10600 3750 10800 3750
+Wire Wire Line
+	10800 3750 10800 3900
+Connection ~ 10600 3750
+Wire Wire Line
+	10300 4100 10300 4250
+Wire Wire Line
+	10300 4250 10800 4250
+Wire Wire Line
+	10800 4250 10800 4100
+Wire Wire Line
+	10300 4250 10000 4250
+Wire Wire Line
+	9750 4250 9750 4100
+Connection ~ 10300 4250
+Wire Wire Line
+	9250 4100 9250 4250
+Wire Wire Line
+	9250 4250 9750 4250
+Connection ~ 9750 4250
+Text Notes 9550 6050 0    50   ~ 0
+LT6238 Bypass Capacitors
+$Comp
+L power:GND1 #PWR0106
+U 1 1 624BB978
+P 10000 4400
+F 0 "#PWR0106" H 10000 4150 50  0001 C CNN
+F 1 "GND1" H 10005 4227 50  0000 C CNN
+F 2 "" H 10000 4400 50  0001 C CNN
+F 3 "" H 10000 4400 50  0001 C CNN
+	1    10000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4400 10000 4250
+Connection ~ 10000 4250
+Wire Wire Line
+	10000 4250 9750 4250
+$Comp
+L Device:C_Small C?
+U 1 1 62501DF1
+P 9750 5250
+AR Path="/61F9F3BA/62501DF1" Ref="C?"  Part="1" 
+AR Path="/62501DF1" Ref="C95"  Part="1" 
+F 0 "C95" H 9842 5296 50  0000 L CNN
+F 1 "10 uF" H 9842 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9750 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 9750 5250 50  0001 C CNN
+	1    9750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 625020AB
+P 10250 5250
+AR Path="/61F9F3BA/625020AB" Ref="C?"  Part="1" 
+AR Path="/625020AB" Ref="C94"  Part="1" 
+F 0 "C94" H 10342 5296 50  0000 L CNN
+F 1 "0.1 uF" H 10342 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10250 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 10250 5250 50  0001 C CNN
+	1    10250 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 4800 0    50   Input ~ 0
+-0V4
+Wire Wire Line
+	9750 5150 9750 5000
+Wire Wire Line
+	9750 5000 10000 5000
+Wire Wire Line
+	10000 5000 10000 4800
+Wire Wire Line
+	10000 4800 9950 4800
+Wire Wire Line
+	10250 5000 10250 5150
+Wire Wire Line
+	9750 5350 9750 5500
+Wire Wire Line
+	9750 5500 10000 5500
+Wire Wire Line
+	10250 5500 10250 5350
+$Comp
+L power:GND1 #PWR0107
+U 1 1 625581CD
+P 10000 5650
+F 0 "#PWR0107" H 10000 5400 50  0001 C CNN
+F 1 "GND1" H 10005 5477 50  0000 C CNN
+F 2 "" H 10000 5650 50  0001 C CNN
+F 3 "" H 10000 5650 50  0001 C CNN
+	1    10000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5650 10000 5500
+Connection ~ 10000 5500
+Wire Wire Line
+	10000 5500 10250 5500
+Connection ~ 10000 5000
+Wire Wire Line
+	10000 5000 10250 5000
 $EndSCHEMATC

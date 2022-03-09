@@ -28,8 +28,6 @@ F 3 "~" H 3850 4650 50  0001 C CNN
 $EndComp
 Text HLabel 4900 5500 3    50   Input ~ 0
 GND
-Text Notes 4050 7350 2    50   ~ 0
-add comparatorson both and logically AND together for LED on power status\n\n\n (windowed comparators or voltage supervisors)
 Text Notes 5200 5650 0    50   ~ 0
 74LVC1G07: should be an open drain buffer\n
 Wire Wire Line

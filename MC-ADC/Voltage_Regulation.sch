@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -13,95 +13,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5500 1450 0    50   ~ 0
-24V -> +5V Circuit
-Wire Wire Line
-	3500 1950 3500 2150
-Text HLabel 5250 2450 0    50   Output ~ 0
-5V
-Connection ~ 3750 1950
-Wire Wire Line
-	3500 1950 3750 1950
-Wire Wire Line
-	4150 1650 3750 1650
-Wire Wire Line
-	3750 1700 3750 1650
-Connection ~ 3750 1650
-$Comp
-L Device:C_Small C?
-U 1 1 617C79EA
-P 5550 2600
-F 0 "C?" H 5642 2646 50  0000 L CNN
-F 1 "unpopulated" H 5642 2555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 5550 2600 50  0001 C CNN
-F 3 "~" H 5550 2600 50  0001 C CNN
-	1    5550 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 2700 5550 3050
-Wire Wire Line
-	5550 3050 5750 3050
-Text HLabel 1250 1650 0    50   Input ~ 0
+Text HLabel 1250 3850 0    50   Input ~ 0
 Vdd
 $Comp
-L Device:L_Small L?
-U 1 1 61A83391
-P 4250 1650
-F 0 "L?" V 4450 1650 50  0000 L CNN
-F 1 "3.9uH" V 4350 1550 50  0000 L CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4250 1650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-126/9920565" H 4250 1650 50  0001 C CNN
-	1    4250 1650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3750 1950 3750 1900
-$Comp
-L Device:C_Small C?
-U 1 1 617DF962
-P 3750 1800
-F 0 "C?" H 3842 1846 50  0000 L CNN
-F 1 "4.7 uF" H 3842 1755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3750 1800 50  0001 C CNN
-F 3 "~" H 3750 1800 50  0001 C CNN
-	1    3750 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 1950 5300 1950
-Wire Wire Line
-	5300 1950 5300 1800
-$Comp
-L MC-ADC:NMK2412SC U?
-U 1 1 621121F5
-P 5850 5250
-F 0 "U?" H 6178 4746 50  0000 L CNN
-F 1 "NMK2412SC" H 6178 4655 50  0000 L CNN
-F 2 "" H 5850 5250 50  0001 C CNN
-F 3 "" H 5850 5250 50  0001 C CNN
-	1    5850 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L?
+L Device:L_Small L11
 U 1 1 62119700
 P 4200 5500
-F 0 "L?" V 4400 5500 50  0000 L CNN
+F 0 "L11" V 4400 5500 50  0000 L CNN
 F 1 "10uH" V 4300 5400 50  0000 L CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4200 5500 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-126/9920565" H 4200 5500 50  0001 C CNN
+F 2 "Footprints_MC-ADC:INDPM4040X190N" H 4200 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/vishay-dale/IFSC1515AHER100M01/2744232" H 4200 5500 50  0001 C CNN
 	1    4200 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C11
 U 1 1 62119706
 P 3750 5650
-F 0 "C?" H 3842 5696 50  0000 L CNN
+F 0 "C11" H 3842 5696 50  0000 L CNN
 F 1 "2.2 uF" H 3842 5605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3750 5650 50  0001 C CNN
-F 3 "~" H 3750 5650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/taiyo-yuden/GMK325BJ225KN-T/930725" H 3750 5650 50  0001 C CNN
 	1    3750 5650
 	1    0    0    -1  
 $EndComp
@@ -140,14 +72,14 @@ Text HLabel 4150 6500 0    50   Input ~ 0
 Text HLabel 5550 6500 2    50   Input ~ 0
 +12V
 Text HLabel 5250 7450 2    50   Input ~ 0
-0V
+GND
 Wire Wire Line
 	4850 7450 4850 7100
 $Comp
-L Device:C_Small C?
+L Device:C_Small C13
 U 1 1 62140DDC
 P 5150 6750
-F 0 "C?" H 5242 6796 50  0000 L CNN
+F 0 "C13" H 5242 6796 50  0000 L CNN
 F 1 "unpopulated" H 5242 6705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 5150 6750 50  0001 C CNN
 F 3 "~" H 5150 6750 50  0001 C CNN
@@ -155,10 +87,10 @@ F 3 "~" H 5150 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C12
 U 1 1 62142101
 P 4550 6750
-F 0 "C?" H 4650 6700 50  0000 L CNN
+F 0 "C12" H 4650 6700 50  0000 L CNN
 F 1 "unpopulated" H 4650 6800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 4550 6750 50  0001 C CNN
 F 3 "~" H 4550 6750 50  0001 C CNN
@@ -194,146 +126,321 @@ Wire Wire Line
 	4550 6500 4550 6650
 Text Notes 5500 5300 0    50   ~ 0
 24V -> +/-12V Circuit
-Text HLabel 5750 3050 2    50   Input ~ 0
-0V
-Text HLabel 4450 2250 0    50   Input ~ 0
-0V
 Wire Wire Line
-	1250 1650 1700 1650
-Wire Wire Line
-	1700 1650 3750 1650
-Connection ~ 1700 1650
-Wire Wire Line
-	1700 1650 1700 4050
+	1250 3850 1700 3850
 $Comp
-L MC-ADC:NMK2405SAC U?
-U 1 1 62216D88
-P 5900 1400
-F 0 "U?" H 6228 971 50  0000 L CNN
-F 1 "NMK2405SAC" H 6228 880 50  0000 L CNN
-F 2 "" H 5900 1400 50  0001 C CNN
-F 3 "" H 5900 1400 50  0001 C CNN
-	1    5900 1400
+L MC-ADC:R-78E3.3-0.5 U11
+U 1 1 623440BE
+P 5850 3700
+F 0 "U11" H 6178 3446 50  0000 L CNN
+F 1 "R-78E3.3-0.5" H 6178 3355 50  0000 L CNN
+F 2 "Package_SIP:SIP3_11.6x8.5mm" H 5850 3700 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/RECOM-Power/R-78E33-05?qs=sGAEpiMZZMuyVE%2FzJ6Hm15MDYDf%252Bvm5TgPIMDw4suvM%3D" H 5850 3700 50  0001 C CNN
+	1    5850 3700
 	1    0    0    -1  
 $EndComp
+Text Notes 5500 3650 0    50   ~ 0
+24V -> 3.3V Circuit
 $Comp
-L MC-ADC:NMK2405SAC U?
-U 1 1 62218407
-P 5950 3400
-F 0 "U?" H 6278 2971 50  0000 L CNN
-F 1 "NMK2405SAC" H 6278 2880 50  0000 L CNN
-F 2 "" H 5950 3400 50  0001 C CNN
-F 3 "" H 5950 3400 50  0001 C CNN
-	1    5950 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1650 5550 1650
-Text HLabel 3500 2150 0    50   Input ~ 0
-GND
-Wire Wire Line
-	5300 1800 5550 1800
-Wire Wire Line
-	4450 2250 5400 2250
-Wire Wire Line
-	5400 2250 5400 1950
-Wire Wire Line
-	5400 1950 5550 1950
-Wire Wire Line
-	5550 2100 5550 2450
-Wire Wire Line
-	5550 2450 5250 2450
-Connection ~ 5550 2450
-Wire Wire Line
-	5550 2450 5550 2500
-$Comp
-L Device:L_Small L?
-U 1 1 622238BD
-P 4250 4050
-F 0 "L?" V 4450 4050 50  0000 L CNN
-F 1 "3.9uH" V 4350 3950 50  0000 L CNN
-F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4250 4050 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-126/9920565" H 4250 4050 50  0001 C CNN
-	1    4250 4050
+L Device:L_Small L10
+U 1 1 6234AE9B
+P 4200 3850
+F 0 "L10" V 4400 3850 50  0000 L CNN
+F 1 "3.9 uH" V 4300 3750 50  0000 L CNN
+F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 4200 3850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/recom-power/RLS-397/9920568" H 4200 3850 50  0001 C CNN
+	1    4200 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 622238C4
-P 3750 3850
-F 0 "C?" H 3842 3896 50  0000 L CNN
-F 1 "4.7 uF" H 3842 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 3750 3850 50  0001 C CNN
-F 3 "~" H 3750 3850 50  0001 C CNN
-	1    3750 3850
+L Device:C_Small C10
+U 1 1 6234AEA1
+P 3750 4000
+F 0 "C10" H 3842 4046 50  0000 L CNN
+F 1 "4.7 uF" H 3842 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3750 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C475K4Z2A/2512117" H 3750 4000 50  0001 C CNN
+	1    3750 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 4050 3750 4050
+	1700 3850 3750 3850
 Wire Wire Line
-	3500 3650 3750 3650
+	3750 3900 3750 3850
+Connection ~ 3750 3850
 Wire Wire Line
-	3750 3750 3750 3650
-Connection ~ 3750 3650
+	3750 3850 4100 3850
 Wire Wire Line
-	3750 3950 3750 4050
-Connection ~ 3750 4050
+	3750 4100 3750 4150
 Wire Wire Line
-	3750 4050 4150 4050
-Wire Wire Line
-	3500 3650 3500 3450
-Text HLabel 3500 3450 0    50   Input ~ 0
+	3500 4150 3500 4350
+Text HLabel 3500 4350 0    50   Input ~ 0
 GND
-Connection ~ 1700 4050
 Wire Wire Line
-	1700 4050 1700 5500
+	3500 4150 3750 4150
 Wire Wire Line
-	3750 3650 5600 3650
+	4300 3850 5500 3850
 Wire Wire Line
-	4350 4050 4650 4050
+	4250 4150 4250 4000
 Wire Wire Line
-	4650 4050 4650 3800
+	3750 4150 4250 4150
+Connection ~ 3750 4150
 Wire Wire Line
-	4650 3800 5600 3800
+	4250 4000 5500 4000
 Wire Wire Line
-	5600 3950 4800 3950
+	5500 4400 5100 4400
 Wire Wire Line
-	4800 3950 4800 4400
-Wire Wire Line
-	4800 4400 4500 4400
-Text HLabel 4500 4400 0    50   Input ~ 0
-0V
+	5500 4400 5500 4550
 $Comp
-L Device:C_Small C?
-U 1 1 62239962
-P 5600 4600
-F 0 "C?" H 5692 4646 50  0000 L CNN
-F 1 "unpopulated" H 5692 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 5600 4600 50  0001 C CNN
-F 3 "~" H 5600 4600 50  0001 C CNN
-	1    5600 4600
+L Device:C_Small C18
+U 1 1 6235010C
+P 5500 4650
+F 0 "C18" H 5592 4696 50  0000 L CNN
+F 1 "unpopulated" H 5592 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5500 4650 50  0001 C CNN
+F 3 "~" H 5500 4650 50  0001 C CNN
+	1    5500 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 4700 5600 4850
+	5500 4150 5500 4400
+Connection ~ 5500 4400
+Text HLabel 5500 5000 2    50   Input ~ 0
+GND
 Wire Wire Line
-	5600 4100 5600 4450
+	5500 4750 5500 5000
 Wire Wire Line
-	5600 4450 5300 4450
-Connection ~ 5600 4450
+	5500 2050 4600 2050
+Connection ~ 1700 3850
 Wire Wire Line
-	5600 4450 5600 4500
+	1700 3850 1700 5500
 Wire Wire Line
-	4800 4400 4800 4850
+	1700 2050 1700 3850
 Wire Wire Line
-	4800 4850 5600 4850
-Connection ~ 4800 4400
-Text HLabel 5300 4450 0    50   Input ~ 0
--5V
-Text Notes 5600 3400 0    50   ~ 0
-24V -> -5V Circuit
-Text Notes 7300 4350 0    50   ~ 0
-Waiting for 3V reference selection
-Text HLabel 7950 4500 0    50   Input ~ 0
-3VREF
+	5500 2200 5300 2200
+Wire Wire Line
+	5300 2200 5300 2350
+Wire Wire Line
+	5500 2350 5300 2350
+Connection ~ 5300 2350
+Text HLabel 5900 3050 2    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C14
+U 1 1 6237B4E8
+P 4050 2450
+F 0 "C14" H 4142 2496 50  0000 L CNN
+F 1 "0.1 uF" H 4142 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4050 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 4050 2450 50  0001 C CNN
+	1    4050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2850 5900 2850
+Wire Wire Line
+	5300 2350 5300 2850
+Wire Wire Line
+	5900 2850 5900 3050
+Wire Wire Line
+	4050 1900 4050 2350
+Wire Wire Line
+	4050 2550 4050 2850
+Connection ~ 5300 2850
+$Comp
+L Device:C_Small C15
+U 1 1 6239089E
+P 4600 2450
+F 0 "C15" H 4692 2496 50  0000 L CNN
+F 1 "0.1 uF" H 4692 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4600 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 4600 2450 50  0001 C CNN
+	1    4600 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2850 4600 2850
+Wire Wire Line
+	4600 2550 4600 2850
+Connection ~ 4600 2850
+Wire Wire Line
+	4600 2850 5300 2850
+Wire Wire Line
+	4600 2350 4600 2050
+Connection ~ 4600 2050
+Wire Wire Line
+	4600 2050 1700 2050
+Wire Wire Line
+	4050 1900 5500 1900
+Wire Wire Line
+	6300 2050 6600 2050
+Wire Wire Line
+	6600 2050 6600 2200
+Wire Wire Line
+	6600 2200 6300 2200
+Connection ~ 6600 2050
+$Comp
+L Device:C_Small C16
+U 1 1 623A2B84
+P 6800 2300
+F 0 "C16" H 6892 2346 50  0000 L CNN
+F 1 "10 uF" H 6892 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6800 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 6800 2300 50  0001 C CNN
+	1    6800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 623A2B8C
+P 7300 2300
+F 0 "C17" H 7392 2346 50  0000 L CNN
+F 1 "0.1 uF" H 7392 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 7300 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 7300 2300 50  0001 C CNN
+	1    7300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2400 7300 2550
+Wire Wire Line
+	6800 2550 6800 2400
+Wire Wire Line
+	6800 2550 7050 2550
+Wire Wire Line
+	7050 2550 7050 2850
+Wire Wire Line
+	7050 2850 5900 2850
+Connection ~ 7050 2550
+Wire Wire Line
+	7050 2550 7300 2550
+Connection ~ 5900 2850
+Wire Wire Line
+	6600 2050 6800 2050
+Wire Wire Line
+	6800 2050 6800 2200
+Connection ~ 6800 2050
+Wire Wire Line
+	6800 2050 7300 2050
+Wire Wire Line
+	7300 2050 7300 2200
+Connection ~ 7300 2050
+Wire Wire Line
+	7300 2050 8000 2050
+Wire Wire Line
+	8000 2050 8000 2750
+$Comp
+L Device:R_Small_US R10
+U 1 1 623F13BF
+P 8000 2850
+F 0 "R10" H 8068 2896 50  0000 L CNN
+F 1 "1.87K" H 8068 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-3AEB1871V/2026771" H 8000 2850 50  0001 C CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 623F1E98
+P 8000 3300
+F 0 "R11" H 8068 3346 50  0000 L CNN
+F 1 "1.43K" H 8068 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 3300 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-PB3B1431V/6212771" H 8000 3300 50  0001 C CNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2950 8000 3100
+Text HLabel 8000 3900 2    50   Input ~ 0
+GND
+Wire Wire Line
+	8000 3400 8000 3900
+Wire Wire Line
+	8000 3100 7700 3100
+Connection ~ 8000 3100
+Wire Wire Line
+	8000 3100 8000 3200
+Text HLabel 7700 3100 0    50   Input ~ 0
+VREF
+Text Notes 8150 3100 0    50   ~ 0
+1.3V
+Text HLabel 7600 4650 0    50   Input ~ 0
+-12V
+Wire Wire Line
+	7600 4650 8200 4650
+Wire Wire Line
+	8200 4650 8200 4900
+$Comp
+L Device:R_Small_US R12
+U 1 1 624203D2
+P 8200 5000
+F 0 "R12" H 8268 5046 50  0000 L CNN
+F 1 "30.9K" H 8268 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8200 5000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-8ARW3092V/5163056?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbRADYBWCfMsgdhBoE4yQBdfABwBcoQBlbgCcAlgDsA5iAC%2B%2BAEwAGABwV4IJJDRY8hEiBgKAdEwAEAawDyACwC2mdl16QQAVTEjuF5AFlsqTACuQtgy%2BAC0cmoawgE6RJCkTIwgqmzS6UA" H 8200 5000 50  0001 C CNN
+	1    8200 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R13
+U 1 1 62420CA2
+P 8200 5550
+F 0 "R13" H 8268 5596 50  0000 L CNN
+F 1 "1.07K" H 8268 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8200 5550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-8ARW1071V/5162926?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbRADYBWCfMsgdhBoE4yQBdfABwBcoQBlbgCcAlgDsA5iAC%2B%2BAEwAGABwV4IJJDRY8hEuAB0CugAIA1gHkAFgFtM7Lr0ggAqmJHdzyALLZUmAK5C2DL4ALRyahrC-jpEkKSq%2BEzs0qlAA" H 8200 5550 50  0001 C CNN
+	1    8200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5100 8200 5300
+Wire Wire Line
+	8200 5650 8200 5950
+Wire Wire Line
+	8200 5950 7600 5950
+Text HLabel 7600 5950 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8200 5300 8750 5300
+Connection ~ 8200 5300
+Wire Wire Line
+	8200 5300 8200 5450
+Text HLabel 8750 5300 2    50   Input ~ 0
+VSE-
+Text Notes 8650 5200 0    50   ~ 0
+Approx. -0.4V
+Text HLabel 5100 4400 0    50   Input ~ 0
+VSE+
+Text Notes 4700 4600 0    50   ~ 0
+Approx. 3.3V
+Text Notes 5850 6350 0    50   ~ 0
++/- 11.64 to 12.6V
+Text Notes 8650 5500 0    50   ~ 0
+-0.421V to -0.389V
+$Comp
+L MC-ADC:RD-2412D_P U12
+U 1 1 622B3159
+P 5850 5250
+F 0 "U12" H 6178 4746 50  0000 L CNN
+F 1 "RD-2412D_P" H 6178 4655 50  0000 L CNN
+F 2 "Footprints_MC-ADC:RD-2412D" H 5850 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/recom-power/RD-2412D-P/2303678?s=N4IgTCBcDaIEoBEC0YAsBGMCD0AFEAugL5A" H 5850 5250 50  0001 C CNN
+	1    5850 5250
+	1    0    0    -1  
+$EndComp
+Text Notes 4600 4750 0    50   ~ 0
+3.99V to 3.201V
+$Comp
+L MC-ADC:MAX6126AASA30+ U10
+U 1 1 62296BB3
+P 5800 1650
+F 0 "U10" H 5900 1665 50  0000 C CNN
+F 1 "MAX6126AASA30+" H 5900 1574 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX6126AASA30/1867184?s=N4IgjCBcpg7LBOKoDGUBmBDANgZwKYA0IA9lANogBMADFQGxWwgC6xADgC5QgDKnAJwCWAOwDmIAL7EAtFWQg0kQQFcipCiACsIYkhbSQMpNEVRV6spEoQDh%2BdZABZAIIANemAYuXvF60kgA" H 5800 1650 50  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
