@@ -721,10 +721,10 @@ Wire Wire Line
 Text GLabel 5850 5200 2    50   Input ~ 0
 OUT_B
 $Comp
-L Device:C_Small C85
+L Device:C_Small C93
 U 1 1 6288C771
 P 6050 6200
-F 0 "C85" H 6142 6246 50  0000 L CNN
+F 0 "C93" H 6142 6246 50  0000 L CNN
 F 1 "43 nF" H 6142 6155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6050 6200 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GRM21B7U1H433JA01L/2546778?s=N4IgjCBcoEwAwBYCcVQGMoDMCGAbAzgKYA0IA9lANohwB0iAzAAQCtAYiALqkAOALlBABVAHYBLPgHlMAWULZ8AVwBOhEAF9SAWhioQGSH2WKS5KiACsIUik7r7QA" H 6050 6200 50  0001 C CNN
@@ -863,4 +863,307 @@ Wire Wire Line
 	1800 900  1850 900 
 Text GLabel 1850 900  2    50   Input ~ 0
 3V3
+$Comp
+L Device:C_Small C?
+U 1 1 6229A444
+P 750 5900
+AR Path="/61F9F3BA/6229A444" Ref="C?"  Part="1" 
+AR Path="/6229A444" Ref="C85"  Part="1" 
+F 0 "C85" H 842 5946 50  0000 L CNN
+F 1 "10 uF" H 842 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 750 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 750 5900 50  0001 C CNN
+	1    750  5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6229A44A
+P 1250 5900
+AR Path="/61F9F3BA/6229A44A" Ref="C?"  Part="1" 
+AR Path="/6229A44A" Ref="C86"  Part="1" 
+F 0 "C86" H 1342 5946 50  0000 L CNN
+F 1 "0.1 uF" H 1342 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1250 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 1250 5900 50  0001 C CNN
+	1    1250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 622A912B
+P 9250 4000
+AR Path="/61F9F3BA/622A912B" Ref="C?"  Part="1" 
+AR Path="/622A912B" Ref="C89"  Part="1" 
+F 0 "C89" H 9342 4046 50  0000 L CNN
+F 1 "10 uF" H 9342 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9250 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 9250 4000 50  0001 C CNN
+	1    9250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 622A9131
+P 9750 4000
+AR Path="/61F9F3BA/622A9131" Ref="C?"  Part="1" 
+AR Path="/622A9131" Ref="C90"  Part="1" 
+F 0 "C90" H 9842 4046 50  0000 L CNN
+F 1 "0.1 uF" H 9842 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9750 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 9750 4000 50  0001 C CNN
+	1    9750 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 5400 0    50   Input ~ 0
+-12V
+Wire Wire Line
+	750  5600 750  5800
+Wire Wire Line
+	750  5600 1000 5600
+Wire Wire Line
+	1250 5600 1250 5800
+Wire Wire Line
+	750  6000 750  6150
+Wire Wire Line
+	1250 6150 1250 6000
+Text Notes 1100 6700 0    50   ~ 0
+LM324 Bypass Capacitors
+Wire Wire Line
+	1000 5400 1000 5600
+Connection ~ 1000 5600
+Wire Wire Line
+	1000 5600 1250 5600
+Wire Wire Line
+	3650 1450 3200 1450
+Connection ~ 3650 1450
+Wire Wire Line
+	3400 1300 3200 1300
+Connection ~ 3400 1300
+Text GLabel 3200 1300 0    50   Input ~ 0
+-12V
+Text GLabel 3200 1450 0    50   Input ~ 0
++12V
+Text GLabel 1950 5400 0    50   Input ~ 0
++12V
+$Comp
+L Device:C_Small C?
+U 1 1 62371363
+P 1750 5900
+AR Path="/61F9F3BA/62371363" Ref="C?"  Part="1" 
+AR Path="/62371363" Ref="C87"  Part="1" 
+F 0 "C87" H 1842 5946 50  0000 L CNN
+F 1 "10 uF" H 1842 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 1750 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 1750 5900 50  0001 C CNN
+	1    1750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 623715C9
+P 2250 5900
+AR Path="/61F9F3BA/623715C9" Ref="C?"  Part="1" 
+AR Path="/623715C9" Ref="C88"  Part="1" 
+F 0 "C88" H 2342 5946 50  0000 L CNN
+F 1 "0.1 uF" H 2342 5855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 2250 5900 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 2250 5900 50  0001 C CNN
+	1    2250 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5600 1750 5800
+Wire Wire Line
+	2250 5600 2250 5800
+Wire Wire Line
+	1750 6000 1750 6150
+Wire Wire Line
+	2250 6150 2250 6000
+$Comp
+L power:GND1 #PWR0105
+U 1 1 623715D8
+P 1500 6300
+F 0 "#PWR0105" H 1500 6050 50  0001 C CNN
+F 1 "GND1" H 1505 6127 50  0000 C CNN
+F 2 "" H 1500 6300 50  0001 C CNN
+F 3 "" H 1500 6300 50  0001 C CNN
+	1    1500 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6300 1500 6150
+Wire Wire Line
+	1950 5400 2000 5400
+Wire Wire Line
+	2000 5400 2000 5600
+Wire Wire Line
+	2000 5600 1750 5600
+Wire Wire Line
+	2000 5600 2250 5600
+Connection ~ 2000 5600
+Wire Wire Line
+	1250 6150 1500 6150
+Connection ~ 1250 6150
+Connection ~ 1750 6150
+Connection ~ 1500 6150
+Wire Wire Line
+	1500 6150 1750 6150
+Wire Wire Line
+	1750 6150 2250 6150
+Wire Wire Line
+	750  6150 1250 6150
+$Comp
+L Device:C_Small C?
+U 1 1 624261F7
+P 10300 4000
+AR Path="/61F9F3BA/624261F7" Ref="C?"  Part="1" 
+AR Path="/624261F7" Ref="C91"  Part="1" 
+F 0 "C91" H 10392 4046 50  0000 L CNN
+F 1 "10 uF" H 10392 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10300 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 10300 4000 50  0001 C CNN
+	1    10300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 62426481
+P 10800 4000
+AR Path="/61F9F3BA/62426481" Ref="C?"  Part="1" 
+AR Path="/62426481" Ref="C92"  Part="1" 
+F 0 "C92" H 10892 4046 50  0000 L CNN
+F 1 "0.1 uF" H 10892 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10800 4000 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 10800 4000 50  0001 C CNN
+	1    10800 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 3550 0    50   Input ~ 0
+3V3
+Text GLabel 10550 3550 0    50   Input ~ 0
+1.3V
+Wire Wire Line
+	9450 3550 9500 3550
+Wire Wire Line
+	9500 3550 9500 3750
+Wire Wire Line
+	9500 3750 9250 3750
+Wire Wire Line
+	9250 3750 9250 3900
+Wire Wire Line
+	9500 3750 9750 3750
+Wire Wire Line
+	9750 3750 9750 3900
+Connection ~ 9500 3750
+Wire Wire Line
+	10300 3900 10300 3750
+Wire Wire Line
+	10300 3750 10600 3750
+Wire Wire Line
+	10600 3750 10600 3550
+Wire Wire Line
+	10600 3550 10550 3550
+Wire Wire Line
+	10600 3750 10800 3750
+Wire Wire Line
+	10800 3750 10800 3900
+Connection ~ 10600 3750
+Wire Wire Line
+	10300 4100 10300 4250
+Wire Wire Line
+	10300 4250 10800 4250
+Wire Wire Line
+	10800 4250 10800 4100
+Wire Wire Line
+	10300 4250 10000 4250
+Wire Wire Line
+	9750 4250 9750 4100
+Connection ~ 10300 4250
+Wire Wire Line
+	9250 4100 9250 4250
+Wire Wire Line
+	9250 4250 9750 4250
+Connection ~ 9750 4250
+Text Notes 9550 6050 0    50   ~ 0
+LT6238 Bypass Capacitors
+$Comp
+L power:GND1 #PWR0106
+U 1 1 624BB978
+P 10000 4400
+F 0 "#PWR0106" H 10000 4150 50  0001 C CNN
+F 1 "GND1" H 10005 4227 50  0000 C CNN
+F 2 "" H 10000 4400 50  0001 C CNN
+F 3 "" H 10000 4400 50  0001 C CNN
+	1    10000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4400 10000 4250
+Connection ~ 10000 4250
+Wire Wire Line
+	10000 4250 9750 4250
+$Comp
+L Device:C_Small C?
+U 1 1 62501DF1
+P 9750 5250
+AR Path="/61F9F3BA/62501DF1" Ref="C?"  Part="1" 
+AR Path="/62501DF1" Ref="C95"  Part="1" 
+F 0 "C95" H 9842 5296 50  0000 L CNN
+F 1 "10 uF" H 9842 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9750 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL32A106KLULNNE/3888965" H 9750 5250 50  0001 C CNN
+	1    9750 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 625020AB
+P 10250 5250
+AR Path="/61F9F3BA/625020AB" Ref="C?"  Part="1" 
+AR Path="/625020AB" Ref="C94"  Part="1" 
+F 0 "C94" H 10342 5296 50  0000 L CNN
+F 1 "0.1 uF" H 10342 5205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 10250 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/kyocera-avx/12105C104KAT2A/563725" H 10250 5250 50  0001 C CNN
+	1    10250 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 4800 0    50   Input ~ 0
+-0V4
+Wire Wire Line
+	9750 5150 9750 5000
+Wire Wire Line
+	9750 5000 10000 5000
+Wire Wire Line
+	10000 5000 10000 4800
+Wire Wire Line
+	10000 4800 9950 4800
+Wire Wire Line
+	10250 5000 10250 5150
+Wire Wire Line
+	9750 5350 9750 5500
+Wire Wire Line
+	9750 5500 10000 5500
+Wire Wire Line
+	10250 5500 10250 5350
+$Comp
+L power:GND1 #PWR0107
+U 1 1 625581CD
+P 10000 5650
+F 0 "#PWR0107" H 10000 5400 50  0001 C CNN
+F 1 "GND1" H 10005 5477 50  0000 C CNN
+F 2 "" H 10000 5650 50  0001 C CNN
+F 3 "" H 10000 5650 50  0001 C CNN
+	1    10000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5650 10000 5500
+Connection ~ 10000 5500
+Wire Wire Line
+	10000 5500 10250 5500
+Connection ~ 10000 5000
+Wire Wire Line
+	10000 5000 10250 5000
 $EndSCHEMATC

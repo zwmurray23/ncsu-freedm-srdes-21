@@ -209,19 +209,6 @@ Text HLabel 5500 5000 2    50   Input ~ 0
 GND
 Wire Wire Line
 	5500 4750 5500 5000
-$Comp
-L MC-ADC:MAX6216 U10
-U 1 1 6236B85D
-P 5800 1650
-AR Path="/6236B85D" Ref="U10"  Part="1" 
-AR Path="/61F9F3BA/6236B85D" Ref="U10"  Part="1" 
-F 0 "U10" H 5900 1665 50  0000 C CNN
-F 1 "MAX6126AASA30+" H 5900 1574 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 1650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX6126AASA30/1867184?s=N4IgjCBcpg7LBOKoDGUBmBDANgZwKYA0IA9lANogBMADFQGxWwgC6xADgC5QgDKnAJwCWAOwDmIAL7EAtFWQg0kQQFcipCiACsIYkhbSQMpNEVRV6spEoQDh%2BdZABZAIIANemAYuXvF60kgA" H 5800 1650 50  0001 C CNN
-	1    5800 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 2050 4600 2050
 Connection ~ 1700 3850
@@ -445,4 +432,15 @@ F 3 "https://www.digikey.com/en/products/detail/recom-power/RD-2412D-P/2303678?s
 $EndComp
 Text Notes 4600 4750 0    50   ~ 0
 3.99V to 3.201V
+$Comp
+L MC-ADC:MAX6126AASA30+ U10
+U 1 1 62296BB3
+P 5800 1650
+F 0 "U10" H 5900 1665 50  0000 C CNN
+F 1 "MAX6126AASA30+" H 5900 1574 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 1650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX6126AASA30/1867184?s=N4IgjCBcpg7LBOKoDGUBmBDANgZwKYA0IA9lANogBMADFQGxWwgC6xADgC5QgDKnAJwCWAOwDmIAL7EAtFWQg0kQQFcipCiACsIYkhbSQMpNEVRV6spEoQDh%2BdZABZAIIANemAYuXvF60kgA" H 5800 1650 50  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
