@@ -13,10 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 6475 3375 2    50   Input ~ 0
-PWMA_CLK_OUT
-Text HLabel 6475 3575 2    50   Input ~ 0
-PWMB_CLK_OUT
 Connection ~ 6225 2975
 Wire Wire Line
 	6125 2975 6225 2975
@@ -44,7 +40,6 @@ Wire Wire Line
 	6125 2575 6225 2575
 Wire Wire Line
 	6225 2475 6125 2475
-Connection ~ 5025 4075
 Wire Wire Line
 	5125 4075 5025 4075
 Wire Wire Line
@@ -84,6 +79,126 @@ Wire Wire Line
 Connection ~ 5025 4875
 Wire Wire Line
 	5025 5150 4975 5150
+Wire Wire Line
+	6225 4675 6225 5150
+Connection ~ 6225 4675
+Wire Wire Line
+	6125 4675 6225 4675
+Text HLabel 4975 5150 0    50   Input ~ 0
+GND
+Text HLabel 6625 3175 2    50   Input ~ 0
+24V
+Text HLabel 6225 5150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5025 4675 5025 4775
+Wire Wire Line
+	5025 4775 5125 4775
+Wire Wire Line
+	6225 2975 6225 3075
+Wire Wire Line
+	6125 3075 6225 3075
+Connection ~ 5025 4775
+Wire Wire Line
+	5025 4775 5025 4875
+Wire Wire Line
+	6125 4575 6225 4575
+Connection ~ 6225 4575
+Wire Wire Line
+	6225 4575 6225 4675
+Wire Wire Line
+	4775 2975 5125 2975
+Wire Wire Line
+	5125 2875 5025 2875
+Wire Wire Line
+	6475 3675 6125 3675
+Wire Wire Line
+	6125 3775 6225 3775
+Connection ~ 6225 3775
+Wire Wire Line
+	6125 3975 6225 3975
+Connection ~ 6225 3975
+Wire Wire Line
+	5125 3975 4775 3975
+Wire Wire Line
+	6125 3175 6400 3175
+Connection ~ 6225 3075
+Wire Wire Line
+	6125 3275 6400 3275
+Wire Wire Line
+	6400 3275 6400 3175
+Connection ~ 6400 3175
+Wire Wire Line
+	6400 3175 6625 3175
+Wire Wire Line
+	6125 3375 6225 3375
+Wire Wire Line
+	6225 3075 6225 3375
+Connection ~ 6225 3375
+Wire Wire Line
+	5125 3475 5025 3475
+Connection ~ 5025 3475
+Text HLabel 4900 3375 0    50   Input ~ 0
+PWMA_CLK_OUT
+Text HLabel 4775 2975 0    50   Output ~ 0
+SD_Data1
+Text HLabel 6575 3875 2    50   Output ~ 0
+SD_Data3
+Text HLabel 4775 3975 0    50   BiDi ~ 0
+~SAFE_STATE_FLAG~
+Wire Wire Line
+	6125 3875 6575 3875
+Wire Wire Line
+	6125 4075 6550 4075
+Text HLabel 6550 4075 2    50   Input ~ 0
+PWMB_CLK_OUT
+Wire Wire Line
+	6125 4175 6225 4175
+Connection ~ 6225 4175
+Wire Wire Line
+	6225 4175 6225 4275
+Wire Wire Line
+	6125 4375 6225 4375
+Connection ~ 6225 4375
+Wire Wire Line
+	6225 4375 6225 4475
+Wire Wire Line
+	6225 3375 6225 3475
+Wire Wire Line
+	6225 3775 6225 3975
+Wire Wire Line
+	6125 3575 6225 3575
+Connection ~ 6225 3575
+Wire Wire Line
+	5125 3675 5025 3675
+Wire Wire Line
+	5125 3775 5025 3775
+Wire Wire Line
+	5025 3775 5025 3675
+Connection ~ 5025 3675
+Wire Wire Line
+	5125 3875 5025 3875
+Wire Wire Line
+	5025 3875 5025 3775
+Connection ~ 5025 3775
+Wire Wire Line
+	5125 3575 5025 3575
+Wire Wire Line
+	5025 3475 5025 3575
+Connection ~ 5025 3575
+Wire Wire Line
+	5025 3575 5025 3675
+Connection ~ 5025 2875
+Wire Wire Line
+	5125 3375 4900 3375
+Wire Wire Line
+	5025 2875 5025 3075
+Text HLabel 4775 2775 0    50   Output ~ 0
+SD_Data2
+Text HLabel 6475 3675 2    50   Output ~ 0
+SD_Data4
+Wire Wire Line
+	5125 2675 5025 2675
 $Comp
 L Existing_IC_Models:86094328314755V1LF U?
 U 1 1 622C3C12
@@ -107,168 +222,55 @@ F 11 "https://www.arrow.com/en/products/86094328314755v1lf/amphenol-fci" H 5975 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5125 3875 5025 3875
+	4775 2775 5125 2775
 Wire Wire Line
-	6225 4675 6225 5150
-Connection ~ 6225 4675
+	5025 2675 5025 2575
 Wire Wire Line
-	6125 4675 6225 4675
-Text HLabel 4825 3975 0    50   BiDi ~ 0
-~SAFE_STATE_FLAG~
-Text HLabel 6475 3975 2    50   Output ~ 0
-SD_Data2
-Text HLabel 6475 3775 2    50   Output ~ 0
-SD_Data1
-Wire Wire Line
-	6225 3275 6225 3175
-Connection ~ 6225 3275
-Wire Wire Line
-	6125 3275 6225 3275
-Connection ~ 6225 4275
-Wire Wire Line
-	6125 4275 6225 4275
-Wire Wire Line
-	6225 4075 6225 4275
-Connection ~ 6225 4075
-Wire Wire Line
-	6125 4075 6225 4075
-Wire Wire Line
-	6225 3875 6225 4075
-Connection ~ 6225 3875
-Wire Wire Line
-	6125 3875 6225 3875
-Wire Wire Line
-	6225 3675 6225 3875
-Connection ~ 6225 3675
-Wire Wire Line
-	6125 3675 6225 3675
-Wire Wire Line
-	6225 3475 6225 3675
-Connection ~ 6225 3475
-Wire Wire Line
-	6125 3475 6225 3475
-Wire Wire Line
-	6225 4275 6225 4475
-Connection ~ 6225 4475
-Wire Wire Line
-	6125 4475 6225 4475
-Wire Wire Line
-	5025 3775 5025 3875
-Connection ~ 5025 3775
-Wire Wire Line
-	5125 3775 5025 3775
-Wire Wire Line
-	5025 3575 5025 3675
-Connection ~ 5025 3575
-Wire Wire Line
-	5125 3575 5025 3575
-Wire Wire Line
-	5025 3375 5025 3475
-Connection ~ 5025 3375
-Wire Wire Line
-	5125 3375 5025 3375
-Wire Wire Line
-	5025 3175 5025 3275
-Connection ~ 5025 3175
-Wire Wire Line
-	5125 3175 5025 3175
-Wire Wire Line
-	5025 2975 5025 3075
-Connection ~ 5025 2975
-Wire Wire Line
-	5125 2975 5025 2975
-Wire Wire Line
-	5025 2675 5025 2775
-Wire Wire Line
-	5025 2775 5025 2875
-Connection ~ 5025 2775
-Wire Wire Line
-	5125 2775 5025 2775
-Wire Wire Line
-	5125 2675 5025 2675
+	5025 2475 5125 2475
 Connection ~ 5025 2675
 Wire Wire Line
-	5025 2575 5025 2675
-Wire Wire Line
-	5125 2575 5025 2575
-Text HLabel 4975 5150 0    50   Input ~ 0
-GND
-Wire Wire Line
-	6475 4375 6125 4375
-Wire Wire Line
-	6125 4175 6475 4175
-Wire Wire Line
-	6475 3975 6125 3975
-Wire Wire Line
-	6125 3575 6475 3575
-Wire Wire Line
-	5125 3675 5025 3675
-Wire Wire Line
-	5125 3475 5025 3475
-Wire Wire Line
-	5125 3275 5025 3275
-Wire Wire Line
 	5125 3075 5025 3075
-Wire Wire Line
-	5125 2875 5025 2875
-Wire Wire Line
-	5125 2475 4625 2475
-Text HLabel 4625 2475 0    50   Input ~ 0
-24V
-Text HLabel 6225 5150 2    50   Input ~ 0
-GND
-Wire Wire Line
-	6125 3175 6225 3175
-Connection ~ 6225 3175
-Wire Wire Line
-	5025 4675 5025 4775
-Wire Wire Line
-	5025 4775 5125 4775
-Connection ~ 5025 3875
-Connection ~ 5025 2875
-Wire Wire Line
-	5025 2875 5025 2975
 Connection ~ 5025 3075
 Wire Wire Line
 	5025 3075 5025 3175
+Wire Wire Line
+	5125 3275 5025 3275
 Connection ~ 5025 3275
 Wire Wire Line
-	5025 3275 5025 3375
-Connection ~ 5025 3475
+	6225 3975 6225 4175
+Connection ~ 6225 3475
 Wire Wire Line
-	5025 3475 5025 3575
-Connection ~ 5025 3675
+	6225 3475 6225 3575
 Wire Wire Line
-	5025 3675 5025 3775
-Wire Wire Line
-	6225 2975 6225 3075
-Wire Wire Line
-	6125 3075 6225 3075
-Connection ~ 6225 3075
-Wire Wire Line
-	6225 3075 6225 3175
-Wire Wire Line
-	6225 3275 6225 3475
-Wire Wire Line
-	6475 3375 6125 3375
+	6125 3475 6225 3475
 Wire Wire Line
 	5025 3875 5025 4075
-Connection ~ 5025 4775
+Connection ~ 5025 3875
+Connection ~ 5025 4075
+Connection ~ 6225 4275
 Wire Wire Line
-	5025 4775 5025 4875
+	6225 4275 6225 4375
 Wire Wire Line
-	5125 3975 4825 3975
+	6125 4275 6225 4275
+Wire Wire Line
+	6125 4475 6225 4475
+Connection ~ 6225 4475
 Wire Wire Line
 	6225 4475 6225 4575
 Wire Wire Line
-	6125 4575 6225 4575
-Connection ~ 6225 4575
+	6225 3575 6225 3775
 Wire Wire Line
-	6225 4575 6225 4675
-Text HLabel 6475 4375 2    50   Output ~ 0
-SD_Data4
-Text HLabel 6475 4175 2    50   Output ~ 0
-SD_Data3
+	5125 2575 5025 2575
 Wire Wire Line
-	6125 3775 6475 3775
+	5025 3275 5025 3475
+Wire Wire Line
+	5125 3175 5025 3175
+Connection ~ 5025 3175
+Wire Wire Line
+	5025 3175 5025 3275
+Connection ~ 5025 2575
+Wire Wire Line
+	5025 2575 5025 2475
+Wire Wire Line
+	5025 2675 5025 2875
 $EndSCHEMATC
