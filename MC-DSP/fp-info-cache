@@ -1,4 +1,4 @@
-19098783397978517
+19102065774007004
 5-1634513-1
 516345131
 5-1634513-1
@@ -48782,6 +48782,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DP83822IRHBR
+IC_DP83822IRHBR
+
+
+0
+38
+38
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -83075,6 +83082,13 @@ mark_footprints
 0
 14
 14
+mark_footprints
+516345131
+5-1634513-1
+Connector
+0
+5
+5
 mark_footprints
 GT12MABE
 

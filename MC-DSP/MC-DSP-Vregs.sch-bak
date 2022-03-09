@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -80,7 +80,7 @@ U 1 1 62115698
 P 7000 2550
 F 0 "C24" H 6885 2504 50  0000 R CNN
 F 1 "2.2uF" H 6885 2595 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7038 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7038 2400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792" H 7000 2550 50  0001 C CNN
 	1    7000 2550
 	-1   0    0    1   
@@ -91,7 +91,7 @@ U 1 1 621161E4
 P 7600 2550
 F 0 "C25" H 7715 2596 50  0000 L CNN
 F 1 "2.2uF" H 7715 2505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7638 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7638 2400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792" H 7600 2550 50  0001 C CNN
 	1    7600 2550
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 6211E505
 P 7000 3450
 F 0 "C26" H 6885 3404 50  0000 R CNN
 F 1 "2.2uF" H 6885 3495 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7038 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7038 3300 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792" H 7000 3450 50  0001 C CNN
 	1    7000 3450
 	-1   0    0    1   
@@ -149,7 +149,7 @@ U 1 1 6211E50B
 P 7600 3450
 F 0 "C27" H 7715 3496 50  0000 L CNN
 F 1 "2.2uF" H 7715 3405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7638 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7638 3300 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B225KP8NNNC/3886792" H 7600 3450 50  0001 C CNN
 	1    7600 3450
 	1    0    0    -1  
@@ -244,7 +244,7 @@ U 1 1 62122762
 P 8725 4550
 F 0 "C31" H 8840 4596 50  0000 L CNN
 F 1 "10uF" H 8840 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8763 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8763 4400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 8725 4550 50  0001 C CNN
 	1    8725 4550
 	1    0    0    -1  
@@ -255,7 +255,7 @@ U 1 1 6212275C
 P 8125 4550
 F 0 "C30" H 8010 4504 50  0000 R CNN
 F 1 "10uF" H 8010 4595 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8163 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8163 4400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 8125 4550 50  0001 C CNN
 	1    8125 4550
 	-1   0    0    1   
@@ -324,7 +324,7 @@ AR Path="/6187F723/62466FB4" Ref="C28"  Part="1"
 AR Path="/61B9C0F2/62466FB4" Ref="C?"  Part="1" 
 F 0 "C28" H 5392 4546 50  0000 L CNN
 F 1 "4.7uF" H 5392 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5300 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5300 4500 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 5300 4500 50  0001 C CNN
 	1    5300 4500
 	1    0    0    -1  
@@ -407,7 +407,7 @@ AR Path="/6187F723/62F504B8" Ref="U20"  Part="1"
 AR Path="/61B9C0F2/62F504B8" Ref="T?"  Part="1" 
 F 0 "U20" V 5825 3175 50  0000 L CNN
 F 1 "R-78E3.3-1.0" V 5725 2950 50  0000 L CNN
-F 2 "R78E1205" H 5725 3400 50  0001 L CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_R-78B-2.0_THT" H 5725 3400 50  0001 L CNN
 F 3 "https://www.digikey.com/en/products/detail/recom-power/R-78E3-3-1-0/5327711" H 5725 3300 50  0001 L CNN
 	1    4875 3300
 	0    -1   -1   0   
@@ -420,7 +420,7 @@ AR Path="/6187F723/62F504C4" Ref="C21"  Part="1"
 AR Path="/61B9C0F2/62F504C4" Ref="C?"  Part="1" 
 F 0 "C21" H 3942 3446 50  0000 L CNN
 F 1 "10uF" H 3942 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3850 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3850 3400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 3850 3400 50  0001 C CNN
 	1    3850 3400
 	1    0    0    -1  
@@ -443,7 +443,7 @@ AR Path="/6187F723/62F504CA" Ref="C22"  Part="1"
 AR Path="/61B9C0F2/62F504CA" Ref="C?"  Part="1" 
 F 0 "C22" H 4642 3446 50  0000 L CNN
 F 1 "10uF" H 4642 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4550 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4550 3400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 4550 3400 50  0001 C CNN
 	1    4550 3400
 	1    0    0    -1  

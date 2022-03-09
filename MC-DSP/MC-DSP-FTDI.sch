@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -45,7 +45,7 @@ U 1 1 6198976A
 P 5450 1075
 F 0 "C202" H 5565 1121 50  0000 L CNN
 F 1 "0.1uF" H 5565 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5488 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5488 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 5450 1075 50  0001 C CNN
 	1    5450 1075
 	-1   0    0    -1  
@@ -61,7 +61,7 @@ U 1 1 6198E1FE
 P 5025 1075
 F 0 "C201" H 5140 1121 50  0000 L CNN
 F 1 "0.1uF" H 5140 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5063 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5063 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 5025 1075 50  0001 C CNN
 	1    5025 1075
 	-1   0    0    -1  
@@ -78,7 +78,7 @@ U 1 1 6198E794
 P 4600 1075
 F 0 "C200" H 4715 1121 50  0000 L CNN
 F 1 "0.1uF" H 4715 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4638 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4638 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 4600 1075 50  0001 C CNN
 	1    4600 1075
 	-1   0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 61999F17
 P 6150 1075
 F 0 "C203" H 6265 1121 50  0000 L CNN
 F 1 "0.1uF" H 6265 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6188 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6188 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6150 1075 50  0001 C CNN
 	1    6150 1075
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 61999F20
 P 6575 1075
 F 0 "C204" H 6690 1121 50  0000 L CNN
 F 1 "0.1uF" H 6690 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6613 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6613 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6575 1075 50  0001 C CNN
 	1    6575 1075
 	1    0    0    -1  
@@ -137,7 +137,7 @@ U 1 1 61999F2A
 P 7000 1075
 F 0 "C205" H 7115 1121 50  0000 L CNN
 F 1 "0.1uF" H 7115 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7038 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7038 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7000 1075 50  0001 C CNN
 	1    7000 1075
 	1    0    0    -1  
@@ -152,7 +152,7 @@ U 1 1 61999F33
 P 7425 1075
 F 0 "C206" H 7540 1121 50  0000 L CNN
 F 1 "0.1uF" H 7540 1030 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7463 925 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7463 925 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7425 1075 50  0001 C CNN
 	1    7425 1075
 	1    0    0    -1  
@@ -176,7 +176,7 @@ U 1 1 619A9802
 P 3175 1550
 F 0 "C211" H 3267 1596 50  0000 L CNN
 F 1 "4.7uF" H 3267 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3175 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3175 1550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 3175 1550 50  0001 C CNN
 	1    3175 1550
 	-1   0    0    -1  
@@ -187,7 +187,7 @@ U 1 1 619AA2BF
 P 2800 1550
 F 0 "C210" H 2892 1596 50  0000 L CNN
 F 1 "0.1uF" H 2892 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2800 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2800 1550 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2800 1550 50  0001 C CNN
 	1    2800 1550
 	-1   0    0    -1  
@@ -205,7 +205,7 @@ U 1 1 619C6526
 P 3125 2250
 F 0 "C213" H 3217 2296 50  0000 L CNN
 F 1 "4.7uF" H 3217 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3125 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3125 2250 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 3125 2250 50  0001 C CNN
 	1    3125 2250
 	-1   0    0    -1  
@@ -216,7 +216,7 @@ U 1 1 619C652C
 P 2750 2250
 F 0 "C212" H 2842 2296 50  0000 L CNN
 F 1 "0.1uF" H 2842 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2750 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2750 2250 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2750 2250 50  0001 C CNN
 	1    2750 2250
 	-1   0    0    -1  
@@ -606,7 +606,7 @@ U 1 1 62125A83
 P 3850 6900
 F 0 "C216" H 3965 6946 50  0000 L CNN
 F 1 "4.7uF" H 3965 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3888 6750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3888 6750 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 3850 6900 50  0001 C CNN
 	1    3850 6900
 	1    0    0    -1  
@@ -672,7 +672,7 @@ U 1 1 6217F84D
 P 3050 6900
 F 0 "C215" H 3165 6946 50  0000 L CNN
 F 1 "0.1uF" H 3165 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3088 6750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3088 6750 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3050 6900 50  0001 C CNN
 	1    3050 6900
 	-1   0    0    -1  
@@ -685,7 +685,7 @@ U 1 1 621859A0
 P 2600 6900
 F 0 "C214" H 2715 6946 50  0000 L CNN
 F 1 "4.7uF" H 2715 6855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 2638 6750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2638 6750 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 2600 6900 50  0001 C CNN
 	1    2600 6900
 	-1   0    0    -1  
@@ -870,7 +870,7 @@ U 1 1 62507ADB
 P 7900 1100
 F 0 "C207" H 8015 1146 50  0000 L CNN
 F 1 "0.1uF" H 8015 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 7938 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7938 950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 7900 1100 50  0001 C CNN
 	1    7900 1100
 	1    0    0    -1  
@@ -883,7 +883,7 @@ U 1 1 62507AE5
 P 8325 1100
 F 0 "C208" H 8440 1146 50  0000 L CNN
 F 1 "0.1uF" H 8440 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8363 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8363 950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 8325 1100 50  0001 C CNN
 	1    8325 1100
 	1    0    0    -1  
@@ -896,7 +896,7 @@ U 1 1 62507AEE
 P 8750 1100
 F 0 "C209" H 8865 1146 50  0000 L CNN
 F 1 "0.1uF" H 8865 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 8788 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8788 950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 8750 1100 50  0001 C CNN
 	1    8750 1100
 	1    0    0    -1  
@@ -941,7 +941,7 @@ U 1 1 62548433
 P 9350 1100
 F 0 "C195" H 9465 1146 50  0000 L CNN
 F 1 "0.1uF" H 9465 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 9388 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9388 950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9350 1100 50  0001 C CNN
 	1    9350 1100
 	1    0    0    -1  
@@ -954,7 +954,7 @@ U 1 1 6254843B
 P 9775 1100
 F 0 "C196" H 9890 1146 50  0000 L CNN
 F 1 "0.1uF" H 9890 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 9813 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9813 950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9775 1100 50  0001 C CNN
 	1    9775 1100
 	1    0    0    -1  
@@ -967,7 +967,7 @@ U 1 1 62548443
 P 10200 1100
 F 0 "C197" H 10315 1146 50  0000 L CNN
 F 1 "0.1uF" H 10315 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 10238 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10238 950 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 10200 1100 50  0001 C CNN
 	1    10200 1100
 	1    0    0    -1  
@@ -1008,7 +1008,7 @@ U 1 1 6186EE29
 P 3150 4900
 F 0 "C217" H 3242 4946 50  0000 L CNN
 F 1 "10nF" H 3242 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 3150 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3150 4900 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603X103J4HAC7867/8334457" H 3150 4900 50  0001 C CNN
 	1    3150 4900
 	-1   0    0    -1  

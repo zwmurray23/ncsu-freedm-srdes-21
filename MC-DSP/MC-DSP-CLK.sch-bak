@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -109,7 +109,7 @@ U 1 1 61A5EB87
 P 6375 3375
 F 0 "C13" H 6467 3421 50  0000 L CNN
 F 1 "0.1uF" H 6467 3330 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 6375 3375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6375 3375 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 6375 3375 50  0001 C CNN
 	1    6375 3375
 	1    0    0    -1  

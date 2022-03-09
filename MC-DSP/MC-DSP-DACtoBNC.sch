@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -66,7 +66,7 @@ U 1 1 62433A73
 P 4650 1950
 F 0 "C80" H 4600 1850 50  0000 R CNN
 F 1 "0.1uF" H 4600 2050 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4688 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4688 1800 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 4650 1950 50  0001 C CNN
 	1    4650 1950
 	-1   0    0    1   
@@ -90,7 +90,7 @@ U 1 1 62433A7F
 P 4950 1950
 F 0 "C81" H 4900 1850 50  0000 R CNN
 F 1 "0.1uF" H 4900 2050 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 4988 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4988 1800 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 4950 1950 50  0001 C CNN
 	1    4950 1950
 	-1   0    0    1   
@@ -101,7 +101,7 @@ U 1 1 62433A85
 P 5250 1950
 F 0 "C82" H 5200 1850 50  0000 R CNN
 F 1 "0.1uF" H 5200 2050 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder" H 5288 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5288 1800 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 5250 1950 50  0001 C CNN
 	1    5250 1950
 	-1   0    0    1   
@@ -382,7 +382,7 @@ U 1 1 62701E03
 P 7350 2950
 F 0 "J80" H 7750 3215 50  0000 C CNN
 F 1 "5-1634513-1" H 7750 3124 50  0000 C CNN
-F 2 "516345131" H 8000 3050 50  0001 L CNN
+F 2 "mark_footprints:516345131" H 8000 3050 50  0001 L CNN
 F 3 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5-1634513-1/1755956?s=N4IgTCBcDaIKwFoCMA2AzAFjktyQF0BfIA" H 8000 2950 50  0001 L CNN
 F 4 "Connector,Coaxial,BNC,PCB,Socket,R/A,Elbow,50Ohm,Nickel Plated,28.0mm" H 8000 2850 50  0001 L CNN "Description"
 F 5 "11" H 8000 2750 50  0001 L CNN "Height"
@@ -427,7 +427,7 @@ U 1 1 634EBB89
 P 7350 4250
 F 0 "J81" H 7750 4515 50  0000 C CNN
 F 1 "5-1634513-1" H 7750 4424 50  0000 C CNN
-F 2 "516345131" H 8000 4350 50  0001 L CNN
+F 2 "mark_footprints:516345131" H 8000 4350 50  0001 L CNN
 F 3 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5-1634513-1/1755956?s=N4IgTCBcDaIKwFoCMA2AzAFjktyQF0BfIA" H 8000 4250 50  0001 L CNN
 F 4 "Connector,Coaxial,BNC,PCB,Socket,R/A,Elbow,50Ohm,Nickel Plated,28.0mm" H 8000 4150 50  0001 L CNN "Description"
 F 5 "11" H 8000 4050 50  0001 L CNN "Height"
@@ -472,7 +472,7 @@ U 1 1 634EE6B5
 P 7350 5450
 F 0 "J82" H 7750 5715 50  0000 C CNN
 F 1 "5-1634513-1" H 7750 5624 50  0000 C CNN
-F 2 "516345131" H 8000 5550 50  0001 L CNN
+F 2 "mark_footprints:516345131" H 8000 5550 50  0001 L CNN
 F 3 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5-1634513-1/1755956?s=N4IgTCBcDaIKwFoCMA2AzAFjktyQF0BfIA" H 8000 5450 50  0001 L CNN
 F 4 "Connector,Coaxial,BNC,PCB,Socket,R/A,Elbow,50Ohm,Nickel Plated,28.0mm" H 8000 5350 50  0001 L CNN "Description"
 F 5 "11" H 8000 5250 50  0001 L CNN "Height"
