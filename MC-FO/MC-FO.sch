@@ -249,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 5650 2400 6600
 Text Notes 500  -75  0    118  ~ 0
-Test:\nCrosstalk between "agressor" and "victim"\nSquare wave, find delay and %accuracy \n\nTodo:\nFlip the detector footprint ---                                 DONE( the pins were labelled incorrectly in the schematic)\nreplace AND on detector output with NAND------ DONE (decided to use NOR instead\nwe got shipped the wrong voltage regulators? make sure part # is right? ---  corrrect schematic (mouser error)\nreplace Detector1 with simplified detector circuit---- DONE \nU142 has incorrect footprint, but it is being removed anyway --- DONE\n\nGlobal reset-Reset is only ½ way function of intention\nPin on conn for global reset and use that to gate all of the transmitters   --- Safe_state flag AND w/ Reset_FO(voltage monitors) and output of that should go to emitters and back out to backplane \n\n\n\ncombined the RESET1 and RESET2  signals to one RESET_GPIO   ---DONE\n\n\n***Add probe points on pretty much all signals (pwms, output enable fo, power rails, cont...)\n\n\n\n\n\n
+Test:\nCrosstalk between "agressor" and "victim"\nSquare wave, find delay and %accuracy \n\nTodo:\nFlip the detector footprint ---                                 DONE( the pins were labelled incorrectly in the schematic)\nreplace AND on detector output with NAND------ DONE (decided to use NOR instead\nwe got shipped the wrong voltage regulators? make sure part # is right? ---  corrrect schematic (mouser error)\nreplace Detector1 with simplified detector circuit---- DONE \nU142 has incorrect footprint, but it is being removed anyway --- DONE\n\nGlobal reset-Reset is only ½ way function of intention\nPin on conn for global reset and use that to gate all of the transmitters   --- Safe_state flag AND w/ Reset_FO(voltage monitors) and output of that should go to emitters and back out to backplane \n\n\n\ncombined the RESET1 and RESET2  signals to one RESET_GPIO   ---DONE\n\n\n***Add probe points on pretty much all signals (pwms, output enable fo, power rails, cont...) (done)\n\n\n\n\n\n
 Wire Wire Line
 	7150 1150 6550 1150
 Wire Wire Line
@@ -538,7 +538,7 @@ Connection ~ 5100 1150
 Wire Wire Line
 	5100 1150 4800 1150
 $Comp
-L MC-FO:74LVCE1G08W5-7 U11
+L Existing_IC_Models:74LVCE1G08W5-7 U11
 U 1 1 62292B2D
 P 5250 2625
 F 0 "U11" H 5225 2892 50  0000 C CNN
