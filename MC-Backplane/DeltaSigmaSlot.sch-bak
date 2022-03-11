@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 14
+Sheet 3 14
 Title ""
 Date ""
 Rev ""
@@ -119,21 +119,12 @@ Wire Wire Line
 	6125 3975 6225 3975
 Connection ~ 6225 3975
 Wire Wire Line
-	5125 3975 4775 3975
-Wire Wire Line
-	6125 3175 6400 3175
+	6125 4275 6475 4275
 Connection ~ 6225 3075
-Wire Wire Line
-	6125 3275 6400 3275
-Wire Wire Line
-	6400 3275 6400 3175
-Connection ~ 6400 3175
-Wire Wire Line
-	6400 3175 6625 3175
 Wire Wire Line
 	6125 3375 6225 3375
 Wire Wire Line
-	6225 3075 6225 3375
+	6225 3075 6225 3275
 Connection ~ 6225 3375
 Wire Wire Line
 	5125 3475 5025 3475
@@ -144,7 +135,7 @@ Text HLabel 4775 2975 0    50   Output ~ 0
 SD_Data1
 Text HLabel 6575 3875 2    50   Output ~ 0
 SD_Data3
-Text HLabel 4775 3975 0    50   BiDi ~ 0
+Text HLabel 6475 4275 2    50   BiDi ~ 0
 ~SAFE_STATE_FLAG~
 Wire Wire Line
 	6125 3875 6575 3875
@@ -155,8 +146,6 @@ PWMB_CLK_OUT
 Wire Wire Line
 	6125 4175 6225 4175
 Connection ~ 6225 4175
-Wire Wire Line
-	6225 4175 6225 4275
 Wire Wire Line
 	6125 4375 6225 4375
 Connection ~ 6225 4375
@@ -206,7 +195,7 @@ P 5125 2475
 AR Path="/61E8CB73/622C3C12" Ref="U?"  Part="1" 
 AR Path="/6231C7B7/622C3C12" Ref="U3"  Part="1" 
 AR Path="/6234E41C/622C3C12" Ref="U4"  Part="1" 
-F 0 "U4" H 5625 2740 50  0000 C CNN
+F 0 "U3" H 5625 2740 50  0000 C CNN
 F 1 "86094328314755V1LF" H 5625 2649 50  0000 C CNN
 F 2 "Footprints_MC-Backplane:86094328314755V1LF" V 5975 2575 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf" H 5975 2475 50  0001 L CNN
@@ -225,8 +214,6 @@ Wire Wire Line
 	4775 2775 5125 2775
 Wire Wire Line
 	5025 2675 5025 2575
-Wire Wire Line
-	5025 2475 5125 2475
 Connection ~ 5025 2675
 Wire Wire Line
 	5125 3075 5025 3075
@@ -244,14 +231,9 @@ Wire Wire Line
 Wire Wire Line
 	6125 3475 6225 3475
 Wire Wire Line
-	5025 3875 5025 4075
+	5025 3875 5025 3975
 Connection ~ 5025 3875
 Connection ~ 5025 4075
-Connection ~ 6225 4275
-Wire Wire Line
-	6225 4275 6225 4375
-Wire Wire Line
-	6125 4275 6225 4275
 Wire Wire Line
 	6125 4475 6225 4475
 Connection ~ 6225 4475
@@ -268,9 +250,24 @@ Wire Wire Line
 Connection ~ 5025 3175
 Wire Wire Line
 	5025 3175 5025 3275
-Connection ~ 5025 2575
-Wire Wire Line
-	5025 2575 5025 2475
 Wire Wire Line
 	5025 2675 5025 2875
+Wire Wire Line
+	6225 4175 6225 4375
+Wire Wire Line
+	5125 3975 5025 3975
+Connection ~ 5025 3975
+Wire Wire Line
+	5025 3975 5025 4075
+Wire Wire Line
+	6125 3175 6625 3175
+Wire Wire Line
+	6125 3275 6225 3275
+Connection ~ 6225 3275
+Wire Wire Line
+	6225 3275 6225 3375
+Text HLabel 4625 2475 0    50   Input ~ 0
+24V
+Wire Wire Line
+	4625 2475 5125 2475
 $EndSCHEMATC
