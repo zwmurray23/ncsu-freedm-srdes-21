@@ -831,7 +831,7 @@ Wire Notes Line
 Wire Notes Line
 	2600 800  1550 800 
 Text Notes 1550 750  0    50   ~ 0
-monitoring not necessary?\n
+monitoring not necessary.
 Wire Notes Line
 	2600 800  2600 1700
 Wire Notes Line

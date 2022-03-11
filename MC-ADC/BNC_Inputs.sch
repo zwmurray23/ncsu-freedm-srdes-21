@@ -120,11 +120,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 5150 3150 5150
 Connection ~ 3150 5150
-Wire Wire Line
-	1500 5150 1600 5150
-Wire Wire Line
-	1600 4200 1600 5150
-Connection ~ 1600 5150
 Text Notes 5050 3250 0    50   ~ 0
 buffer
 Text Notes 6850 3450 0    50   ~ 0
@@ -136,6 +131,7 @@ P 4100 3750
 AR Path="/620D84A4/62102CB7" Ref="D20"  Part="1" 
 AR Path="/620D8862/62102CB7" Ref="D30"  Part="1" 
 AR Path="/620D8F0D/62102CB7" Ref="D41"  Part="1" 
+AR Path="/62102CB7" Ref="D20"  Part="1" 
 F 0 "D20" V 4054 3830 50  0000 L CNN
 F 1 "D_Schottky" V 4145 3830 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 3750 50  0001 C CNN
@@ -169,6 +165,7 @@ P 4100 4250
 AR Path="/620D84A4/6210F5CE" Ref="D21"  Part="1" 
 AR Path="/620D8862/6210F5CE" Ref="D31"  Part="1" 
 AR Path="/620D8F0D/6210F5CE" Ref="D42"  Part="1" 
+AR Path="/6210F5CE" Ref="D21"  Part="1" 
 F 0 "D21" V 4054 4330 50  0000 L CNN
 F 1 "D_Schottky" V 4145 4330 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4250 50  0001 C CNN
@@ -304,8 +301,6 @@ Wire Wire Line
 Connection ~ 8900 4000
 Wire Wire Line
 	1800 4000 2250 4000
-Wire Wire Line
-	1600 5150 2250 5150
 $Comp
 L Device:R_Small_US R?
 U 1 1 62A8E56C
@@ -334,17 +329,53 @@ Connection ~ 2250 4000
 Wire Wire Line
 	2250 4000 2700 4000
 $Comp
-L Connector:Conn_Coaxial J4
-U 1 1 622978C7
-P 1600 4000
-AR Path="/620D84A4/622978C7" Ref="J4"  Part="1" 
-AR Path="/620D8862/622978C7" Ref="J2"  Part="1" 
-AR Path="/620D8F0D/622978C7" Ref="J3"  Part="1" 
-F 0 "J4" H 1750 4000 50  0000 L CNN
-F 1 "Conn_Coaxial" H 1350 4150 50  0000 L CNN
-F 2 "Footprints_MC-ADC:516345131" H 1600 4000 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5-1634513-1/1755956" H 1600 4000 50  0001 C CNN
-	1    1600 4000
-	-1   0    0    -1  
+L MC-ADC:5-1634513-1 J4
+U 1 1 6231CA9F
+P 1800 4000
+AR Path="/620D84A4/6231CA9F" Ref="J4"  Part="1" 
+AR Path="/620D8862/6231CA9F" Ref="J2"  Part="1" 
+AR Path="/620D8F0D/6231CA9F" Ref="J3"  Part="1" 
+F 0 "J4" H 2200 3535 50  0000 C CNN
+F 1 "5-1634513-1" H 2200 3626 50  0000 C CNN
+F 2 "516345131" H 2450 4100 50  0001 L CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1634513%7FE1%7Fpdf%7FEnglish%7FENG_CD_1634513_E1.pdf%7F5-1634513-1" H 2450 4000 50  0001 L CNN
+F 4 "Connector,Coaxial,BNC,PCB,Socket,R/A,Elbow,50Ohm,Nickel Plated,28.0mm" H 2450 3900 50  0001 L CNN "Description"
+F 5 "11" H 2450 3800 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 2450 3700 50  0001 L CNN "Manufacturer_Name"
+F 7 "5-1634513-1" H 2450 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "571-5-1634513-1" H 2450 3500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-1634513-1?qs=aUp63snYJwDREhKGM0u6sg%3D%3D" H 2450 3400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "5-1634513-1" H 2450 3300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/5-1634513-1/te-connectivity" H 2450 3200 50  0001 L CNN "Arrow Price/Stock"
+	1    1800 4000
+	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	1500 5150 1900 5150
+Wire Wire Line
+	1000 3900 900  3900
+Wire Wire Line
+	900  3900 900  4000
+Wire Wire Line
+	900  4000 1000 4000
+Wire Wire Line
+	900  4000 900  4200
+Wire Wire Line
+	900  4200 1900 4200
+Connection ~ 900  4000
+Wire Wire Line
+	1800 3800 1900 3800
+Wire Wire Line
+	1900 3800 1900 3900
+Wire Wire Line
+	1900 3900 1800 3900
+Wire Wire Line
+	1900 3900 1900 4200
+Connection ~ 1900 3900
+Wire Wire Line
+	1900 4200 1900 5150
+Connection ~ 1900 4200
+Connection ~ 1900 5150
+Wire Wire Line
+	1900 5150 2250 5150
 $EndSCHEMATC
