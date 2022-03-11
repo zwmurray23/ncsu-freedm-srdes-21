@@ -18,31 +18,19 @@ GND
 Wire Wire Line
 	6225 4800 6375 4800
 Wire Wire Line
-	6375 3300 6225 3300
-Wire Wire Line
 	6375 3700 6225 3700
 Wire Wire Line
 	6225 3900 6375 3900
 Text HLabel 4825 2600 0    50   Input ~ 0
 24V
 Wire Wire Line
-	5225 2600 5075 2600
-Wire Wire Line
 	5075 4000 5075 3900
 Connection ~ 5075 4000
 Wire Wire Line
 	5225 4000 5075 4000
-Wire Wire Line
-	5075 3900 5075 3800
 Connection ~ 5075 3900
 Wire Wire Line
 	5225 3900 5075 3900
-Wire Wire Line
-	5225 3800 5075 3800
-Wire Wire Line
-	5225 3600 5075 3600
-Wire Wire Line
-	5075 3400 5225 3400
 Wire Wire Line
 	5075 3200 5075 3100
 Wire Wire Line
@@ -64,8 +52,6 @@ Wire Wire Line
 	5225 2900 5075 2900
 Wire Wire Line
 	5225 2800 5075 2800
-Wire Wire Line
-	5075 2700 5225 2700
 Connection ~ 6375 4800
 Wire Wire Line
 	6375 4800 6375 5025
@@ -78,9 +64,9 @@ Wire Wire Line
 	6375 3400 6225 3400
 Text HLabel 5050 5175 0    50   Output ~ 0
 GND
-Text HLabel 6575 4500 2    50   Input ~ 0
+Text HLabel 6575 4100 2    50   Input ~ 0
 ADC_5
-Text HLabel 6575 4700 2    50   Input ~ 0
+Text HLabel 4925 3400 0    50   Input ~ 0
 ADC_6
 Wire Wire Line
 	6375 3800 6375 3900
@@ -88,20 +74,16 @@ Wire Wire Line
 	6225 4000 6375 4000
 Connection ~ 6375 4000
 Wire Wire Line
-	6375 4000 6375 4100
-Wire Wire Line
-	6375 4100 6225 4100
-Wire Wire Line
 	6575 4300 6225 4300
 Wire Wire Line
 	6575 4500 6225 4500
-Text HLabel 6575 4300 2    50   Input ~ 0
+Text HLabel 4925 3600 0    50   Input ~ 0
 ADC_4
 Wire Wire Line
 	6375 3300 6375 3400
 Connection ~ 6375 3400
 Wire Wire Line
-	6225 4700 6575 4700
+	6225 4100 6575 4100
 Wire Wire Line
 	6225 4200 6375 4200
 Connection ~ 6375 4200
@@ -115,37 +97,19 @@ Wire Wire Line
 Wire Wire Line
 	6225 4600 6375 4600
 Connection ~ 6375 4600
-Wire Wire Line
-	6375 4600 6375 4800
-Text HLabel 4925 3700 0    50   Input ~ 0
+Text HLabel 6575 4300 2    50   Input ~ 0
 ADC_3
-Text HLabel 4925 3500 0    50   Input ~ 0
-ADC_2
-Text HLabel 4925 3300 0    50   Input ~ 0
+Text HLabel 6575 4500 2    50   Input ~ 0
 ADC_1
 Connection ~ 6375 3700
 Connection ~ 6375 3900
 Wire Wire Line
 	6375 3900 6375 4000
-Connection ~ 6375 4100
 Wire Wire Line
-	6375 4100 6375 4200
+	4925 3400 5225 3400
 Wire Wire Line
-	4925 3300 5225 3300
-Wire Wire Line
-	4925 3500 5225 3500
-Wire Wire Line
-	4925 3700 5225 3700
-Wire Wire Line
-	5075 3400 5075 3600
-Connection ~ 5075 3800
-Connection ~ 5075 3600
-Wire Wire Line
-	5075 3600 5075 3800
-Wire Wire Line
-	5075 3200 5075 3400
+	4925 3600 5225 3600
 Connection ~ 5075 3200
-Connection ~ 5075 3400
 Wire Wire Line
 	6375 3400 6375 3500
 Wire Wire Line
@@ -155,11 +119,6 @@ Wire Wire Line
 	6375 3500 6375 3600
 Wire Wire Line
 	6375 3600 6225 3600
-Wire Wire Line
-	5075 2700 5075 2600
-Connection ~ 5075 2600
-Wire Wire Line
-	5075 2600 4825 2600
 $Comp
 L Existing_IC_Models:86094328314755V1LF U?
 U 1 1 62372321
@@ -275,4 +234,45 @@ Wire Wire Line
 Connection ~ 5075 4900
 Wire Wire Line
 	5075 4900 5075 5000
+Wire Wire Line
+	4925 3800 5225 3800
+Text HLabel 4925 3800 0    50   Input ~ 0
+ADC_2
+Wire Wire Line
+	5225 3700 5075 3700
+Connection ~ 5075 3700
+Wire Wire Line
+	5075 3700 5075 3900
+Wire Wire Line
+	5225 3500 5075 3500
+Connection ~ 5075 3500
+Wire Wire Line
+	5075 3500 5075 3700
+Wire Wire Line
+	6375 4000 6375 4200
+Wire Wire Line
+	6225 4700 6375 4700
+Wire Wire Line
+	6375 4600 6375 4700
+Connection ~ 6375 4700
+Wire Wire Line
+	6375 4700 6375 4800
+Wire Wire Line
+	5075 3200 5075 3300
+Wire Wire Line
+	5225 3300 5075 3300
+Connection ~ 5075 3300
+Wire Wire Line
+	5075 3300 5075 3500
+Wire Wire Line
+	4825 2600 5225 2600
+Wire Wire Line
+	6225 3300 6725 3300
+Text HLabel 6725 3300 2    50   Input ~ 0
+24V
+Wire Wire Line
+	5225 2700 5075 2700
+Wire Wire Line
+	5075 2700 5075 2800
+Connection ~ 5075 2800
 $EndSCHEMATC
