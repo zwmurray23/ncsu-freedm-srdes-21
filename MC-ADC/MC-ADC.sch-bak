@@ -339,7 +339,7 @@ Wire Wire Line
 	5250 5850 5600 5850
 Connection ~ 5600 5850
 Wire Wire Line
-	5600 5850 5600 7350
+	5600 5850 5600 6400
 Wire Wire Line
 	5250 3400 5350 3400
 Wire Wire Line
@@ -1166,4 +1166,7 @@ Wire Wire Line
 Connection ~ 10000 5000
 Wire Wire Line
 	10000 5000 10250 5000
+Connection ~ 5600 6400
+Wire Wire Line
+	5600 6400 5600 7350
 $EndSCHEMATC

@@ -121,7 +121,7 @@ Text GLabel 3750 1150 0    50   Input ~ 0
 Wire Wire Line
 	4100 1150 3750 1150
 Text GLabel 10700 2450 2    50   Input ~ 0
-ADCIN3
+ADCIN1
 Text GLabel 10700 2250 2    50   Input ~ 0
 ADCIN2
 Text GLabel 5350 3650 3    50   Input ~ 0
@@ -353,7 +353,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4900 5350 5200
 Text GLabel 10700 2050 2    50   Input ~ 0
-ADCIN1
+ADCIN3
 Text GLabel 5350 5200 3    50   Input ~ 0
 ADCIN2
 Text GLabel 5350 6550 3    50   Input ~ 0

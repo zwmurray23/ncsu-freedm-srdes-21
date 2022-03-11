@@ -134,7 +134,7 @@ AR Path="/620D8F0D/62102CB7" Ref="D41"  Part="1"
 AR Path="/62102CB7" Ref="D20"  Part="1" 
 F 0 "D20" V 4054 3830 50  0000 L CNN
 F 1 "D_Schottky" V 4145 3830 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 3750 50  0001 C CNN
+F 2 "Footprints_MC-ADC:SOT-23" H 4100 3750 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/smc-diode-solutions/MMBD4150TR/9828977" H 4100 3750 50  0001 C CNN
 	1    4100 3750
 	0    1    1    0   
@@ -168,7 +168,7 @@ AR Path="/620D8F0D/6210F5CE" Ref="D42"  Part="1"
 AR Path="/6210F5CE" Ref="D21"  Part="1" 
 F 0 "D21" V 4054 4330 50  0000 L CNN
 F 1 "D_Schottky" V 4145 4330 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4100 4250 50  0001 C CNN
+F 2 "Footprints_MC-ADC:SOT-23" H 4100 4250 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/smc-diode-solutions/MMBD4150TR/9828977" H 4100 4250 50  0001 C CNN
 	1    4100 4250
 	0    1    1    0   
@@ -337,7 +337,7 @@ AR Path="/620D8862/6231CA9F" Ref="J2"  Part="1"
 AR Path="/620D8F0D/6231CA9F" Ref="J3"  Part="1" 
 F 0 "J4" H 2200 3535 50  0000 C CNN
 F 1 "5-1634513-1" H 2200 3626 50  0000 C CNN
-F 2 "516345131" H 2450 4100 50  0001 L CNN
+F 2 "Footprints_MC-ADC:516345131" H 2450 4100 50  0001 L CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1634513%7FE1%7Fpdf%7FEnglish%7FENG_CD_1634513_E1.pdf%7F5-1634513-1" H 2450 4000 50  0001 L CNN
 F 4 "Connector,Coaxial,BNC,PCB,Socket,R/A,Elbow,50Ohm,Nickel Plated,28.0mm" H 2450 3900 50  0001 L CNN "Description"
 F 5 "11" H 2450 3800 50  0001 L CNN "Height"
