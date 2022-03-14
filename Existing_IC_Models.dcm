@@ -1,0 +1,140 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G08_copy
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G08_copy
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G07
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G07_copy
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G08_copy
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUC1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G07
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G07_copy
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G08_copy
+D Single AND Gate, Low-Voltage CMOS
+K Single Gate AND LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AUP1G32
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07QDCKTQ1
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G07QSE-7
+D Single Buffer Gate w/ Open Drain, Low-Voltage CMOS
+K Single Gate Buff LVC CMOS Open Drain
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G0832DBVT
+D Single AND-OR Gate, Low-Voltage CMOS
+K Single Gate AND-OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G32SE-7
+D Single OR Gate, Low-Voltage CMOS
+K Single Gate OR LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVCE1G08W5-7
+D IC GATE AND 1CH 2-INP SOT25
+F https://www.diodes.com/assets/Datasheets/74LVCE1G08.pdf
+$ENDCMP
+#
+$CMP 86094327313755E1LF
+D Generic connector, double row, 02x16, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP APT2012SGC
+D LED
+$ENDCMP
+#
+$CMP CGA6M3X7S2A475M200AE
+D 4.7 uF
+K capacitor cap
+F https://www.digikey.com/en/products/detail/tdk-corporation/CGA6M3X7S2A475M200AE/2782508
+$ENDCMP
+#
+$CMP GMC55X7R106M100NT
+D 10 uF
+K capacitor cap
+F https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/GMC55X7R106M100NT/14288754
+$ENDCMP
+#
+$CMP R-78E3.3-0.5
+D Switching Regulator 6-28Vin 3.3Vout 0.5A Switching Regulator, 6
+F http://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf
+$ENDCMP
+#
+$CMP R-78E5.0-0.5
+D Switching Regulator,7-28Vin,5Vout 0.5A Switching Regulator, 7
+F http://docs-emea.rs-online.com/webdocs/10a2/0900766b810a2db7.pdf
+$ENDCMP
+#
+$CMP TLV3501AID
+D 4.5ns Rail-to-Rail, High-Speed Comparator in Microsize Packages
+$ENDCMP
+#
+#End Doc Library
