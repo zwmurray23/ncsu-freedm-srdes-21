@@ -21,7 +21,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 5500 50 
 F3 "5V" I R 2050 5350 50 
 F4 "GND" I R 2050 5650 50 
-F5 "RESET_FO" I R 2050 5200 50 
+F5 "OUTPUT_ENABLE" I R 2050 5200 50 
 $EndSheet
 $Sheet
 S 1050 6100 1000 600 
@@ -31,7 +31,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 6450 50 
 F3 "5V" I R 2050 6300 50 
 F4 "GND" I R 2050 6600 50 
-F5 "RESET_FO" I R 2050 6200 50 
+F5 "OUTPUT_ENABLE" I R 2050 6200 50 
 $EndSheet
 $Sheet
 S 1050 1100 1000 600 
@@ -41,7 +41,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 1500 50 
 F3 "5V" I R 2050 1350 50 
 F4 "GND" I R 2050 1650 50 
-F5 "RESET_FO" I R 2050 1200 50 
+F5 "OUTPUT_ENABLE" I R 2050 1200 50 
 $EndSheet
 $Sheet
 S 1050 2100 1000 600 
@@ -51,7 +51,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 2450 50 
 F3 "5V" I R 2050 2300 50 
 F4 "GND" I R 2050 2600 50 
-F5 "RESET_FO" I R 2050 2200 50 
+F5 "OUTPUT_ENABLE" I R 2050 2200 50 
 $EndSheet
 $Sheet
 S 1050 3100 1000 650 
@@ -61,7 +61,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 3550 50 
 F3 "5V" I R 2050 3400 50 
 F4 "GND" I R 2050 3700 50 
-F5 "RESET_FO" I R 2050 3200 50 
+F5 "OUTPUT_ENABLE" I R 2050 3200 50 
 $EndSheet
 Wire Wire Line
 	3400 6300 2050 6300
@@ -114,7 +114,7 @@ EPWM1B
 Text GLabel 8650 900  2    50   Input ~ 0
 24V
 Text GLabel 2825 3550 2    50   Input ~ 0
-RESET_GPIO
+RESET_Gate_Drivers_GPIO
 Text GLabel 2950 5500 2    50   Input ~ 0
 EPWM2B
 Text GLabel 6875 3850 2    50   Output ~ 0
@@ -162,7 +162,7 @@ F1 "Emitter_Circuits.sch" 50
 F2 "EPWM" I R 2050 4500 50 
 F3 "5V" I R 2050 4350 50 
 F4 "GND" I R 2050 4650 50 
-F5 "RESET_FO" I R 2050 4200 50 
+F5 "OUTPUT_ENABLE" I R 2050 4200 50 
 $EndSheet
 Text GLabel 2950 4500 2    50   Input ~ 0
 EPWM2A
@@ -339,7 +339,7 @@ EPWM1B
 Text GLabel 10500 5025 2    50   Output ~ 0
 24V
 Text GLabel 8900 4225 0    50   Output ~ 0
-RESET_GPIO
+RESET_Gate_Drivers_GPIO
 Text GLabel 9225 3825 0    50   Output ~ 0
 EPWM2A
 Text GLabel 10175 4025 2    50   Output ~ 0
