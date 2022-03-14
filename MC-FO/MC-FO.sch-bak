@@ -101,7 +101,7 @@ Connection ~ 2400 2600
 Wire Wire Line
 	7150 1000 6750 1000
 Wire Wire Line
-	6750 1000 6750 2100
+	6750 1000 6750 1625
 Wire Wire Line
 	7150 2100 6750 2100
 Connection ~ 6750 2100
@@ -114,7 +114,7 @@ EPWM1B
 Text GLabel 8650 900  2    50   Input ~ 0
 24V
 Text GLabel 2825 3550 2    50   Input ~ 0
-RESET_GPIO
+RESET_Gate_Drivers_GPIO
 Text GLabel 2950 5500 2    50   Input ~ 0
 EPWM2B
 Text GLabel 6875 3850 2    50   Output ~ 0
@@ -255,7 +255,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2300 3400 3400
 Wire Wire Line
-	2400 6600 2400 7100
+	2400 6600 2400 6875
 $Sheet
 S 5350 4750 900  450 
 U 622415A4
@@ -339,7 +339,7 @@ EPWM1B
 Text GLabel 10500 5025 2    50   Output ~ 0
 24V
 Text GLabel 8900 4225 0    50   Output ~ 0
-RESET_GPIO
+RESET_Gate_Drivers_GPIO
 Text GLabel 9225 3825 0    50   Output ~ 0
 EPWM2A
 Text GLabel 10175 4025 2    50   Output ~ 0
@@ -630,7 +630,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 4125 9325 4325
 Wire Wire Line
-	9325 5325 9325 5550
+	9325 5325 9325 5400
 Connection ~ 9325 5325
 Wire Wire Line
 	9050 4425 9050 4825
@@ -681,4 +681,46 @@ Wire Wire Line
 	9225 3625 9450 3625
 Wire Wire Line
 	9950 3625 10175 3625
+$Comp
+L Connector:TestPoint TP?
+U 1 1 623077E1
+P 2400 6875
+F 0 "TP?" V 2325 6950 50  0000 L CNN
+F 1 "TestPoint" V 2458 6902 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2600 6875 50  0001 C CNN
+F 3 "~" H 2600 6875 50  0001 C CNN
+	1    2400 6875
+	0    1    1    0   
+$EndComp
+Connection ~ 2400 6875
+Wire Wire Line
+	2400 6875 2400 7100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62308A20
+P 6750 1625
+F 0 "TP?" H 6650 1825 50  0000 R CNN
+F 1 "TestPoint" H 6692 1742 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6950 1625 50  0001 C CNN
+F 3 "~" H 6950 1625 50  0001 C CNN
+	1    6750 1625
+	0    1    1    0   
+$EndComp
+Connection ~ 6750 1625
+Wire Wire Line
+	6750 1625 6750 2100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6230954D
+P 9325 5400
+F 0 "TP?" V 9250 5475 50  0000 L CNN
+F 1 "TestPoint" V 9383 5427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9525 5400 50  0001 C CNN
+F 3 "~" H 9525 5400 50  0001 C CNN
+	1    9325 5400
+	0    1    1    0   
+$EndComp
+Connection ~ 9325 5400
+Wire Wire Line
+	9325 5400 9325 5550
 $EndSCHEMATC
