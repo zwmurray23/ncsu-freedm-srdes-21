@@ -115,7 +115,7 @@ P 5125 2475
 AR Path="/61E8CB73/622C3C12" Ref="U?"  Part="1" 
 AR Path="/6231C7B7/622C3C12" Ref="U3"  Part="1" 
 AR Path="/6234E41C/622C3C12" Ref="U4"  Part="1" 
-F 0 "U3" H 5625 2740 50  0000 C CNN
+F 0 "U4" H 5625 2740 50  0000 C CNN
 F 1 "86094328314755V1LF" H 5625 2649 50  0000 C CNN
 F 2 "Footprints_MC-Backplane:86094328314755V1LF" V 5975 2575 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf" H 5975 2475 50  0001 L CNN

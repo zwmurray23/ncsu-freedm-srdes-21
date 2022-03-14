@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 14
+Sheet 5 14
 Title ""
 Date ""
 Rev ""
@@ -126,7 +126,7 @@ AR Path="/6237AA16/62372321" Ref="U5"  Part="1"
 AR Path="/62387225/62372321" Ref="U?"  Part="1" 
 AR Path="/62480E35/62372321" Ref="U10"  Part="1" 
 AR Path="/6248CEED/62372321" Ref="U11"  Part="1" 
-F 0 "U10" H 5725 2865 50  0000 C CNN
+F 0 "U5" H 5725 2865 50  0000 C CNN
 F 1 "86094328314755V1LF" H 5725 2774 50  0000 C CNN
 F 2 "Footprints_MC-Backplane:86094328314755V1LF" H 6075 2700 50  0001 L CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf" H 6075 2600 50  0001 L CNN

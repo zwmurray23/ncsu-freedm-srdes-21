@@ -602,7 +602,7 @@ F 11 "https://www.arrow.com/en/products/374472/erni-electronics" H 4225 500 50  
 	1    0    0    -1  
 $EndComp
 Text HLabel 2725 2900 0    50   Output ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Text HLabel 5000 1400 2    50   Output ~ 0
 GD6_EPWM_1A
 Text HLabel 5000 7800 2    50   Output ~ 0

@@ -34,7 +34,7 @@ F3 "24V_unprotected" I L 5100 6850 50
 F4 "GND" O R 6100 7100 50 
 $EndSheet
 Wire Wire Line
-	4800 6850 5100 6850
+	4800 6850 4875 6850
 $Sheet
 S 9200 900  1325 750 
 U 6231C7B7
@@ -84,7 +84,7 @@ U 62286C14
 F0 "GD1" 50
 F1 "GateDriveSlot.sch" 50
 F2 "GND" I R 2050 1475 50 
-F3 "GD_RESET" I R 2050 1225 50 
+F3 "GD_OUTPUT_RESET" I R 2050 1225 50 
 F4 "24V" I R 2050 625 50 
 F5 "EMITTER_ENABLE" I R 2050 1150 50 
 F6 "PWM2A" I R 2050 925 50 
@@ -101,7 +101,7 @@ U 6245016E
 F0 "GD4" 50
 F1 "GateDriveSlot.sch" 50
 F2 "GND" I R 2050 5000 50 
-F3 "GD_RESET" I R 2050 4750 50 
+F3 "GD_OUTPUT_RESET" I R 2050 4750 50 
 F4 "24V" I R 2050 4150 50 
 F5 "EMITTER_ENABLE" I R 2050 4675 50 
 F6 "~SAFE_STATE_FLAG~" B R 2050 4850 50 
@@ -118,7 +118,7 @@ U 6245C75C
 F0 "GD6" 50
 F1 "GateDriveSlot.sch" 50
 F2 "GND" I R 2050 7350 50 
-F3 "GD_RESET" I R 2050 7100 50 
+F3 "GD_OUTPUT_RESET" I R 2050 7100 50 
 F4 "24V" I R 2050 6500 50 
 F5 "EMITTER_ENABLE" I R 2050 7025 50 
 F6 "~SAFE_STATE_FLAG~" B R 2050 7200 50 
@@ -135,7 +135,7 @@ U 6245C76A
 F0 "GD5" 50
 F1 "GateDriveSlot.sch" 50
 F2 "GND" I R 2050 6175 50 
-F3 "GD_RESET" I R 2050 5925 50 
+F3 "GD_OUTPUT_RESET" I R 2050 5925 50 
 F4 "24V" I R 2050 5325 50 
 F5 "EMITTER_ENABLE" I R 2050 5850 50 
 F6 "PWM2A" I R 2050 5625 50 
@@ -243,7 +243,7 @@ Wire Wire Line
 Text Label 3050 1150 2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Text Label 3050 1225 2    50   ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
 	2050 2325 3050 2325
 Wire Wire Line
@@ -251,7 +251,7 @@ Wire Wire Line
 Text Label 3050 2325 2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Text Label 3050 2400 2    50   ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
 	2050 3500 3050 3500
 Wire Wire Line
@@ -259,7 +259,7 @@ Wire Wire Line
 Text Label 3050 3500 2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Text Label 3050 3575 2    50   ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
 	2050 4675 3050 4675
 Wire Wire Line
@@ -267,7 +267,7 @@ Wire Wire Line
 Text Label 3050 4675 2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Text Label 3050 4750 2    50   ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
 	2050 5850 3050 5850
 Wire Wire Line
@@ -275,7 +275,7 @@ Wire Wire Line
 Text Label 3050 5850 2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Text Label 3050 5925 2    50   ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
 	2050 7025 3050 7025
 Wire Wire Line
@@ -283,7 +283,7 @@ Wire Wire Line
 Text Label 3050 7025 2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Text Label 3050 7100 2    50   ~ 0
-GD_GPIO14_RESET
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
 	2050 625  2525 625 
 Text Label 2525 625  2    50   ~ 0
@@ -321,7 +321,7 @@ Wire Wire Line
 Text Label 3025 1325 2    50   ~ 0
 ~SAFE_STATE_FLAG~
 Wire Wire Line
-	2050 1475 2525 1475
+	2050 1475 2200 1475
 Text Label 2525 1475 2    50   ~ 0
 GND
 Wire Wire Line
@@ -354,10 +354,10 @@ Wire Wire Line
 	2050 7350 2525 7350
 Text Label 2525 7350 2    50   ~ 0
 GND
-Text Label 3900 2675 0    50   ~ 0
-GD_GPIO14_RESET
+Text Label 3625 2675 0    50   ~ 0
+GD_GPIO14_OUTPUT_RESET
 Wire Wire Line
-	4575 2675 3900 2675
+	4575 2675 4275 2675
 Wire Wire Line
 	2050 5400 3350 5400
 Wire Wire Line
@@ -485,7 +485,7 @@ Wire Wire Line
 Text Label 8725 5725 0    50   ~ 0
 GND
 Wire Wire Line
-	9200 5725 8725 5725
+	9200 5725 8950 5725
 Text Label 8725 4650 0    50   ~ 0
 GND
 Wire Wire Line
@@ -527,7 +527,7 @@ Wire Wire Line
 Text Label 8225 5575 0    50   ~ 0
 ~SAFE_STATE_FLAG~
 Wire Wire Line
-	6675 925  7650 925 
+	6675 925  7625 925 
 Text Label 7650 925  2    50   ~ 0
 ~SAFE_STATE_FLAG~
 Wire Wire Line
@@ -535,7 +535,7 @@ Wire Wire Line
 Text Label 7675 800  2    50   ~ 0
 GPIO12_EMITTER_ENABLE
 Wire Wire Line
-	4575 800  4100 800 
+	4575 800  4400 800 
 Text Label 4100 800  0    50   ~ 0
 24V
 Wire Wire Line
@@ -559,7 +559,7 @@ Wire Wire Line
 Text Label 8725 5025 0    50   ~ 0
 24V
 Wire Wire Line
-	6100 6850 6575 6850
+	6100 6850 6300 6850
 Text Label 6575 6850 2    50   ~ 0
 24V
 Text Label 6575 7100 2    50   ~ 0
@@ -569,7 +569,7 @@ Wire Wire Line
 Text Label 5025 6950 2    50   ~ 0
 GND
 Wire Wire Line
-	4800 6950 5025 6950
+	4800 6950 4850 6950
 Text Notes 725  1175 2    50   ~ 10
 Slot 1
 Text Notes 750  2275 2    50   ~ 10
@@ -600,7 +600,7 @@ U 622C765E
 F0 "GD2" 50
 F1 "GateDriveSlot.sch" 50
 F2 "GND" I R 2050 2650 50 
-F3 "GD_RESET" I R 2050 2400 50 
+F3 "GD_OUTPUT_RESET" I R 2050 2400 50 
 F4 "24V" I R 2050 1800 50 
 F5 "EMITTER_ENABLE" I R 2050 2325 50 
 F6 "~SAFE_STATE_FLAG~" B R 2050 2500 50 
@@ -617,7 +617,7 @@ U 6245017C
 F0 "GD3" 50
 F1 "GateDriveSlot.sch" 50
 F2 "GND" I R 2050 3825 50 
-F3 "GD_RESET" I R 2050 3575 50 
+F3 "GD_OUTPUT_RESET" I R 2050 3575 50 
 F4 "24V" I R 2050 2975 50 
 F5 "EMITTER_ENABLE" I R 2050 3500 50 
 F6 "PWM2A" I R 2050 3275 50 
@@ -703,7 +703,7 @@ F52 "GD6_EPWM_2A" O L 4575 5350 50
 F53 "GD6_GPIO16_STATUS_1" I L 4575 5500 50 
 F54 "GD6_EPWM_1B" O L 4575 5650 50 
 F55 "GD6_EPWM_1A" O L 4575 5575 50 
-F56 "GD_GPIO14_RESET" O L 4575 2675 50 
+F56 "GD_GPIO14_OUTPUT_RESET" O L 4575 2675 50 
 F57 "GD2_EPWM_10A" O L 4575 1875 50 
 F58 "GD2_EPWM_10B" O L 4575 1950 50 
 F59 "ADC2_D0" O R 6675 4325 50 
@@ -721,4 +721,127 @@ F70 "SD2_D2" I R 6675 2225 50
 $EndSheet
 Text Label 2525 5000 2    50   ~ 0
 GND
+$Comp
+L Connector:TestPoint TP1
+U 1 1 62328061
+P 2200 1475
+F 0 "TP1" H 2142 1501 50  0000 R CNN
+F 1 "TestPoint" H 2142 1592 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2400 1475 50  0001 C CNN
+F 3 "~" H 2400 1475 50  0001 C CNN
+	1    2200 1475
+	-1   0    0    1   
+$EndComp
+Connection ~ 2200 1475
+Wire Wire Line
+	2200 1475 2525 1475
+$Comp
+L Connector:TestPoint TP2
+U 1 1 62328780
+P 4275 2675
+F 0 "TP2" H 4225 2725 50  0000 R CNN
+F 1 "TestPoint" H 4217 2792 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4475 2675 50  0001 C CNN
+F 3 "~" H 4475 2675 50  0001 C CNN
+	1    4275 2675
+	-1   0    0    1   
+$EndComp
+Connection ~ 4275 2675
+Wire Wire Line
+	4275 2675 3625 2675
+$Comp
+L Connector:TestPoint TP7
+U 1 1 62329610
+P 7625 925
+F 0 "TP7" V 7625 1100 50  0000 L CNN
+F 1 "TestPoint" V 7670 1113 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 7825 925 50  0001 C CNN
+F 3 "~" H 7825 925 50  0001 C CNN
+	1    7625 925 
+	0    1    1    0   
+$EndComp
+Connection ~ 7625 925 
+Wire Wire Line
+	7625 925  7650 925 
+$Comp
+L Connector:TestPoint TP8
+U 1 1 6232BBED
+P 7675 800
+F 0 "TP8" V 7629 988 50  0000 L CNN
+F 1 "TestPoint" V 7700 1000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 7875 800 50  0001 C CNN
+F 3 "~" H 7875 800 50  0001 C CNN
+	1    7675 800 
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6232C061
+P 4400 800
+F 0 "TP3" H 4350 1075 50  0000 L CNN
+F 1 "TestPoint" H 4275 1000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4600 800 50  0001 C CNN
+F 3 "~" H 4600 800 50  0001 C CNN
+	1    4400 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 800 
+Wire Wire Line
+	4400 800  4100 800 
+$Comp
+L Connector:TestPoint TP4
+U 1 1 62337FB9
+P 4850 6950
+F 0 "TP4" H 4800 7000 50  0000 R CNN
+F 1 "TestPoint" H 4792 7067 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5050 6950 50  0001 C CNN
+F 3 "~" H 5050 6950 50  0001 C CNN
+	1    4850 6950
+	-1   0    0    1   
+$EndComp
+Connection ~ 4850 6950
+Wire Wire Line
+	4850 6950 5025 6950
+$Comp
+L Connector:TestPoint TP5
+U 1 1 6233880B
+P 4875 6850
+F 0 "TP5" H 4933 6968 50  0000 L CNN
+F 1 "TestPoint" H 4725 7075 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5075 6850 50  0001 C CNN
+F 3 "~" H 5075 6850 50  0001 C CNN
+	1    4875 6850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4875 6850
+Wire Wire Line
+	4875 6850 5100 6850
+$Comp
+L Connector:TestPoint TP6
+U 1 1 62338AF4
+P 6300 6850
+F 0 "TP6" H 6250 6900 50  0000 R CNN
+F 1 "TestPoint" H 6242 6967 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6500 6850 50  0001 C CNN
+F 3 "~" H 6500 6850 50  0001 C CNN
+	1    6300 6850
+	-1   0    0    1   
+$EndComp
+Connection ~ 6300 6850
+Wire Wire Line
+	6300 6850 6575 6850
+$Comp
+L Connector:TestPoint TP9
+U 1 1 623390BB
+P 8950 5725
+F 0 "TP9" H 8900 5875 50  0000 R CNN
+F 1 "TestPoint" H 9050 5950 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9150 5725 50  0001 C CNN
+F 3 "~" H 9150 5725 50  0001 C CNN
+	1    8950 5725
+	-1   0    0    1   
+$EndComp
+Connection ~ 8950 5725
+Wire Wire Line
+	8950 5725 8725 5725
 $EndSCHEMATC
