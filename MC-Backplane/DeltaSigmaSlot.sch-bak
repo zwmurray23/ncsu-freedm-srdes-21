@@ -62,9 +62,7 @@ Text HLabel 6475 3575 2    50   BiDi ~ 0
 Wire Wire Line
 	6125 3175 6575 3175
 Wire Wire Line
-	6125 3375 6550 3375
-Text HLabel 6550 3375 2    50   Input ~ 0
-PWMB_CLK_OUT
+	6125 3375 6225 3375
 Wire Wire Line
 	6125 3475 6225 3475
 Connection ~ 6225 3475
@@ -146,7 +144,7 @@ Wire Wire Line
 	5125 3275 5025 3275
 Connection ~ 5025 3275
 Wire Wire Line
-	6225 3275 6225 3475
+	6225 3275 6225 3375
 Connection ~ 6225 2775
 Wire Wire Line
 	6225 2775 6225 2875
@@ -190,4 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	5025 3975 5025 4450
 Connection ~ 5025 3975
+Connection ~ 6225 3375
+Wire Wire Line
+	6225 3375 6225 3475
 $EndSCHEMATC

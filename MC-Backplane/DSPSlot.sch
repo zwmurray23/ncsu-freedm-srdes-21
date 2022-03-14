@@ -141,7 +141,7 @@ Wire Wire Line
 	4800 4600 4800 4500
 Connection ~ 4800 4600
 Wire Wire Line
-	4800 4400 4800 4200
+	4800 4400 4800 4300
 Connection ~ 4800 4400
 Wire Wire Line
 	4800 4200 4800 4000
@@ -185,7 +185,7 @@ Wire Wire Line
 	4800 7300 4800 7500
 Connection ~ 4800 7300
 Wire Wire Line
-	4800 7100 4800 7300
+	4800 7100 4800 7200
 Connection ~ 4800 7100
 Wire Wire Line
 	4800 9825 5050 9825
@@ -349,7 +349,7 @@ Wire Wire Line
 Wire Wire Line
 	4375 7400 5000 7400
 Wire Wire Line
-	4375 7200 5000 7200
+	4375 7200 4800 7200
 Wire Wire Line
 	4375 6600 5000 6600
 Wire Wire Line
@@ -371,7 +371,7 @@ Wire Wire Line
 Wire Wire Line
 	4375 4500 4800 4500
 Wire Wire Line
-	4375 4300 5000 4300
+	4375 4300 4800 4300
 Wire Wire Line
 	4375 4100 5000 4100
 Wire Wire Line
@@ -639,8 +639,6 @@ Text HLabel 2750 3500 0    50   Output ~ 0
 GD_EPWM_5B
 Text HLabel 5000 5100 2    50   Output ~ 0
 GD_EPWM_5A
-Text HLabel 5000 7200 2    50   Output ~ 0
-SD1_EPWM14B_CLK_OUT
 Text HLabel 2750 8900 0    50   Output ~ 0
 SD1_EPWM14A_CLK_OUT
 Text HLabel 2750 3700 0    50   Input ~ 0
@@ -673,8 +671,6 @@ Text HLabel 5000 9000 2    50   Output ~ 0
 GD1_EPWM_11B
 Text HLabel 5000 2600 2    50   Output ~ 0
 GD1_EPWM_11A
-Text HLabel 5000 4300 2    50   Input ~ 0
-SD2_EPWM13B_CLK_OUT
 Text HLabel 2750 6000 0    50   Input ~ 0
 SD2_EPWM13A_CLK_OUT
 Text HLabel 5050 9825 2    50   Output ~ 0
@@ -799,4 +795,10 @@ Wire Wire Line
 Connection ~ 2950 2200
 Wire Wire Line
 	2950 2200 2950 2300
+Connection ~ 4800 7200
+Wire Wire Line
+	4800 7200 4800 7300
+Connection ~ 4800 4300
+Wire Wire Line
+	4800 4300 4800 4200
 $EndSCHEMATC
