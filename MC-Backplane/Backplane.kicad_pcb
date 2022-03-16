@@ -2945,7 +2945,7 @@
   (gr_text SD1 (at 173.5582 137.8585) (layer B.SilkS) (tstamp 6230AC2D)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text SD2 (at 173.4566 137.8585) (layer F.SilkS) (tstamp 6230AC2C)
+  (gr_text SD1 (at 173.4566 137.8585) (layer F.SilkS) (tstamp 6230AC2C)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text SD2 (at 193.929 137.9347) (layer B.SilkS) (tstamp 6230AC2D)
