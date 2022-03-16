@@ -57,7 +57,7 @@ Wire Wire Line
 Text Notes 5500 2800 0    50   ~ 0
 Reverse Polarity Protection Circuit
 $Comp
-L MC-Backplane:64600001223 U?
+L Existing_IC_Models:64600001223 U?
 U 1 1 61FBD2D7
 P 5200 3400
 AR Path="/61FBD2D7" Ref="U?"  Part="1" 
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 3200 4800 3200
 $Comp
-L MC-Backplane:SISS05DN-T1-GE3 U?
+L Existing_IC_Models:SISS05DN-T1-GE3 U?
 U 1 1 61FBD2E8
 P 6600 3200
 AR Path="/61FBD2E8" Ref="U?"  Part="1" 

@@ -10,6 +10,11 @@ D ERNI ERNIPRESS Series 160 Way 2.54mm Pitch, Type TE Class C2, 5 Row a/b/c/d/e,
 F https://www.erni.com/fileadmin/import/products/assets/DC0002184.PDF
 $ENDCMP
 #
+$CMP 64600001223
+D Fuse Block cart 250V 6.3A PCB
+F https://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_646_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP 86094328314755V1LF
 D DIN Headers & Receptacles, Backplane Connector, Standard Receptacle, Vertical, Through Hole, Style C/2, 32 ways, Class II
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf
