@@ -1,4 +1,4 @@
-19239154232131858
+19239155320237738
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50880,8 +50880,8 @@ Footprints_MC-Backplane
 374472-1
 Connector
 0
-162
-162
+160
+160
 Footprints_MC-Backplane
 1730010
 1730010
@@ -50901,8 +50901,8 @@ Footprints_MC-Backplane
 86094328314755V1LF-2
 Connector
 0
-50
-50
+32
+32
 Footprints_MC-Backplane
 MountingHole_3.2mm_M3
 Mounting Hole 3.2mm, no annular, M3

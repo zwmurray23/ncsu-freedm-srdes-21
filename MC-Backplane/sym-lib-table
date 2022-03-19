@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Backplane-rescue)(type Legacy)(uri ${KIPRJMOD}/Backplane-rescue.lib)(options "")(descr ""))
+  (lib (name Existing_IC_Models)(type Legacy)(uri ${KIPRJMOD}/Existing_IC_Models.lib)(options "")(descr ""))
+  (lib (name MC-Backplane)(type Legacy)(uri ${KIPRJMOD}/MC-Backplane.lib)(options "")(descr ""))
 )

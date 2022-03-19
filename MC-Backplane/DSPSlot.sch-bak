@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 12 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -50,16 +50,8 @@ Wire Wire Line
 Connection ~ 2950 7800
 Connection ~ 2950 7500
 Wire Wire Line
-	2950 7500 2950 7800
-Connection ~ 2950 5300
+	2950 7500 2950 7700
 Connection ~ 2950 5100
-Wire Wire Line
-	2950 5100 2950 5200
-Wire Wire Line
-	2950 2200 2950 2400
-Connection ~ 2950 2200
-Wire Wire Line
-	2950 2000 2950 2100
 Connection ~ 2950 2000
 Wire Wire Line
 	2950 1800 2950 2000
@@ -69,8 +61,6 @@ Wire Wire Line
 Connection ~ 2950 1600
 Wire Wire Line
 	2950 1400 2950 1600
-Wire Wire Line
-	4800 3400 4800 3500
 Connection ~ 4800 3400
 Wire Wire Line
 	4800 3200 4800 3400
@@ -78,18 +68,9 @@ Connection ~ 4800 3200
 Wire Wire Line
 	4800 3000 4800 3200
 Connection ~ 4800 3000
-Wire Wire Line
-	4800 2800 4800 3000
-Connection ~ 4800 2800
 Connection ~ 4800 3600
 Connection ~ 4800 2700
-Wire Wire Line
-	4800 2700 4800 2800
-Wire Wire Line
-	4800 6900 4800 7000
 Connection ~ 4800 6900
-Wire Wire Line
-	4800 6700 4800 6800
 Connection ~ 4800 6700
 Wire Wire Line
 	4800 6500 4800 6700
@@ -102,7 +83,7 @@ Wire Wire Line
 Connection ~ 4800 6100
 Connection ~ 4800 5800
 Wire Wire Line
-	4800 5800 4800 6100
+	4800 5800 4800 6000
 Connection ~ 2950 4400
 Connection ~ 2950 4200
 Wire Wire Line
@@ -110,16 +91,9 @@ Wire Wire Line
 Wire Wire Line
 	2950 4900 2950 4700
 Connection ~ 2950 4900
-Wire Wire Line
-	2950 4700 2950 4500
 Connection ~ 2950 4700
 Wire Wire Line
-	2950 4500 2950 4400
-Connection ~ 2950 4500
-Wire Wire Line
 	2950 5100 2950 4900
-Wire Wire Line
-	2950 8400 2950 8500
 Connection ~ 2950 8400
 Wire Wire Line
 	2950 8200 2950 8400
@@ -164,10 +138,10 @@ Wire Wire Line
 	4800 4800 4800 4600
 Connection ~ 4800 4800
 Wire Wire Line
-	4800 4600 4800 4400
+	4800 4600 4800 4500
 Connection ~ 4800 4600
 Wire Wire Line
-	4800 4400 4800 4200
+	4800 4400 4800 4300
 Connection ~ 4800 4400
 Wire Wire Line
 	4800 4200 4800 4000
@@ -211,7 +185,7 @@ Wire Wire Line
 	4800 7300 4800 7500
 Connection ~ 4800 7300
 Wire Wire Line
-	4800 7100 4800 7300
+	4800 7100 4800 7200
 Connection ~ 4800 7100
 Wire Wire Line
 	4800 9825 5050 9825
@@ -253,13 +227,8 @@ Wire Wire Line
 	2950 5900 2950 6100
 Connection ~ 2950 5900
 Wire Wire Line
-	2950 5700 2950 5900
+	2950 5700 2950 5800
 Connection ~ 2950 5700
-Wire Wire Line
-	2950 5500 2950 5700
-Connection ~ 2950 5500
-Wire Wire Line
-	2950 5300 2950 5400
 Wire Wire Line
 	2950 4000 2950 4200
 Connection ~ 2950 4000
@@ -278,71 +247,65 @@ Connection ~ 2950 3200
 Wire Wire Line
 	2950 3000 2950 3200
 Connection ~ 2950 3000
-Wire Wire Line
-	2950 2800 2950 3000
 Connection ~ 2950 2800
 Wire Wire Line
 	2950 2600 2950 2800
 Connection ~ 2950 2600
 Wire Wire Line
-	2950 2400 2950 2600
+	2950 2400 2950 2500
 Connection ~ 2950 2400
 Text HLabel 2800 9875 0    50   Output ~ 0
 GND
-Text HLabel 2750 8300 0    50   Output ~ 0
-ADC_15
+Text HLabel 2750 8500 0    50   Output ~ 0
+ADC1_15
+Text HLabel 5000 6800 2    50   Output ~ 0
+ADC1_14
 Text HLabel 5000 6600 2    50   Output ~ 0
-ADC_14
-Text HLabel 5000 6400 2    50   Output ~ 0
-ADC_D3
-Text HLabel 2750 5000 0    50   Output ~ 0
-ADC_D2
-Text HLabel 5000 3300 2    50   Output ~ 0
-ADC_B5
-Text HLabel 2750 1900 0    50   Output ~ 0
-ADC_B4
-Text HLabel 2750 7900 0    50   Output ~ 0
-ADC_D1
-Text HLabel 5000 6200 2    50   Output ~ 0
-ADC_D0
-Text HLabel 2750 4800 0    50   Output ~ 0
-ADC_C5
-Text HLabel 5000 3100 2    50   Output ~ 0
-ADC_C4
-Text HLabel 2750 1700 0    50   Output ~ 0
-ADC_A5
+ADC1_D3
+Text HLabel 2750 5200 0    50   Output ~ 0
+ADC1_D2
+Text HLabel 5000 3500 2    50   Output ~ 0
+ADC1_B5
+Text HLabel 2750 2100 0    50   Output ~ 0
+ADC1_B4
 Text HLabel 2750 8100 0    50   Output ~ 0
-ADC_A4
-Text HLabel 5000 6000 2    50   Output ~ 0
-ADC_B3
-Text HLabel 2750 1300 0    50   Output ~ 0
-ADC_C3
-Text HLabel 2750 7700 0    50   Output ~ 0
-ADC_C2
-Text HLabel 2750 4600 0    50   Output ~ 0
-ADC_B2
-Text HLabel 5000 2900 2    50   Output ~ 0
-ADC_A3
+ADC2_D1
+Text HLabel 5000 6400 2    50   Output ~ 0
+ADC2_D0
+Text HLabel 2750 5000 0    50   Output ~ 0
+ADC2_C5
+Text HLabel 5000 3300 2    50   Output ~ 0
+ADC2_C4
+Text HLabel 2750 1900 0    50   Output ~ 0
+ADC2_A5
+Text HLabel 2750 8300 0    50   Output ~ 0
+ADC2_A4
+Text HLabel 5000 6200 2    50   Output ~ 0
+ADC3_B3
 Text HLabel 2750 1500 0    50   Output ~ 0
-ADC_A2
-Text HLabel 2750 2300 0    50   Input ~ 0
-24V
+ADC3_C3
+Text HLabel 2750 7900 0    50   Output ~ 0
+ADC3_C2
+Text HLabel 2750 4800 0    50   Output ~ 0
+ADC3_B2
+Text HLabel 5000 3100 2    50   Output ~ 0
+ADC3_A3
+Text HLabel 2750 1700 0    50   Output ~ 0
+ADC3_A2
 Text HLabel 2750 4100 0    50   Output ~ 0
 GD2_EPWM_10B
-Text HLabel 5000 2400 2    50   Output ~ 0
+Text HLabel 5000 5700 2    50   Output ~ 0
 GD2_EPWM_10A
 Wire Wire Line
 	2750 7600 3375 7600
 Wire Wire Line
-	2750 7700 3375 7700
+	2950 7700 3375 7700
 Wire Wire Line
 	2750 7900 3375 7900
 Wire Wire Line
 	2750 8100 3375 8100
 Wire Wire Line
 	2750 8300 3375 8300
-Wire Wire Line
-	2950 8500 3375 8500
 Wire Wire Line
 	2750 8700 3375 8700
 Wire Wire Line
@@ -386,19 +349,13 @@ Wire Wire Line
 Wire Wire Line
 	4375 7400 5000 7400
 Wire Wire Line
-	4375 7200 5000 7200
-Wire Wire Line
-	4375 7000 4800 7000
-Wire Wire Line
-	4375 6800 4800 6800
+	4375 7200 4800 7200
 Wire Wire Line
 	4375 6600 5000 6600
 Wire Wire Line
 	4375 6400 5000 6400
 Wire Wire Line
 	4375 6200 5000 6200
-Wire Wire Line
-	4375 6000 5000 6000
 Wire Wire Line
 	4375 5700 5000 5700
 Wire Wire Line
@@ -412,9 +369,9 @@ Wire Wire Line
 Wire Wire Line
 	4375 4700 5000 4700
 Wire Wire Line
-	4375 4500 5000 4500
+	4375 4500 4800 4500
 Wire Wire Line
-	4375 4300 5000 4300
+	4375 4300 4800 4300
 Wire Wire Line
 	4375 4100 5000 4100
 Wire Wire Line
@@ -422,13 +379,11 @@ Wire Wire Line
 Wire Wire Line
 	4375 3700 4800 3700
 Wire Wire Line
-	4375 3500 4800 3500
+	4375 3500 5000 3500
 Wire Wire Line
 	4375 3300 5000 3300
 Wire Wire Line
 	4375 3100 5000 3100
-Wire Wire Line
-	4375 2900 5000 2900
 Wire Wire Line
 	4375 5900 5000 5900
 Wire Wire Line
@@ -468,17 +423,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 5700 3375 5700
 Wire Wire Line
-	2950 5500 3375 5500
-Wire Wire Line
-	2950 5300 3375 5300
-Wire Wire Line
 	2950 5100 3375 5100
 Wire Wire Line
 	2950 4900 3375 4900
 Wire Wire Line
 	2950 4700 3375 4700
-Wire Wire Line
-	2950 4500 3375 4500
 Wire Wire Line
 	2950 4400 3375 4400
 Wire Wire Line
@@ -501,8 +450,6 @@ Wire Wire Line
 	2950 2600 3375 2600
 Wire Wire Line
 	2950 2400 3375 2400
-Wire Wire Line
-	2950 2200 3375 2200
 Wire Wire Line
 	2950 1800 3375 1800
 Wire Wire Line
@@ -574,8 +521,6 @@ Wire Wire Line
 Wire Wire Line
 	4375 3000 4800 3000
 Wire Wire Line
-	4375 2800 4800 2800
-Wire Wire Line
 	4375 2700 4800 2700
 Wire Wire Line
 	4375 2500 4800 2500
@@ -604,19 +549,15 @@ Wire Wire Line
 Wire Wire Line
 	2750 6000 3375 6000
 Wire Wire Line
-	2750 5800 3375 5800
+	2950 5800 3375 5800
 Wire Wire Line
 	2750 5600 3375 5600
-Wire Wire Line
-	2950 5400 3375 5400
-Wire Wire Line
-	2950 5200 3375 5200
 Wire Wire Line
 	2750 5000 3375 5000
 Wire Wire Line
 	2750 4800 3375 4800
 Wire Wire Line
-	2750 4600 3375 4600
+	2750 5200 3375 5200
 Wire Wire Line
 	2750 4300 3375 4300
 Wire Wire Line
@@ -632,21 +573,13 @@ Wire Wire Line
 Wire Wire Line
 	2750 3100 3375 3100
 Wire Wire Line
-	2750 2900 3375 2900
-Wire Wire Line
-	2750 2500 3375 2500
-Wire Wire Line
-	2750 2300 3375 2300
-Wire Wire Line
-	2950 2100 3375 2100
+	2950 2500 3375 2500
 Wire Wire Line
 	2750 1900 3375 1900
 Wire Wire Line
 	2750 1500 3375 1500
 Wire Wire Line
 	2750 1700 3375 1700
-Wire Wire Line
-	2750 1300 3375 1300
 $Comp
 L Existing_IC_Models:374472 U?
 U 1 1 6274352A
@@ -668,134 +601,204 @@ F 11 "https://www.arrow.com/en/products/374472/erni-electronics" H 4225 500 50  
 	1    3375 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 2750 6200 0    50   Output ~ 0
-GD_GPIO14_RESET
-Text HLabel 2750 3100 0    50   Output ~ 0
-GD6_EPWM_1A
-Text HLabel 5000 4500 2    50   Output ~ 0
-GD6_EPWM_1B
-Text HLabel 5000 4700 2    50   Input ~ 0
-GD6_GPIO16_STATUS_1
-Text HLabel 5000 7800 2    50   Output ~ 0
-GD6_EPWM_2A
+Text HLabel 2725 2900 0    50   Output ~ 0
+GD_GPIO14_OUTPUT_RESET
 Text HLabel 5000 1400 2    50   Output ~ 0
+GD6_EPWM_1A
+Text HLabel 5000 7800 2    50   Output ~ 0
+GD6_EPWM_1B
+Text HLabel 2750 3100 0    50   Input ~ 0
+GD6_GPIO16_STATUS_1
+Text HLabel 2750 6400 0    50   Output ~ 0
+GD6_EPWM_2A
+Text HLabel 5000 4700 2    50   Output ~ 0
 GD6_EPWM_2B
-Text HLabel 2750 6400 0    50   Input ~ 0
+Text HLabel 2750 6200 0    50   Input ~ 0
 GD6_GPIO15_STATUS_2
-Text HLabel 5000 1600 2    50   Output ~ 0
-GD5_EPWM_3A
 Text HLabel 2750 3300 0    50   Output ~ 0
+GD5_EPWM_3A
+Text HLabel 5000 1600 2    50   Output ~ 0
 GD5_EPWM_3B
-Text HLabel 2750 3500 0    50   Input ~ 0
-GD5_GPIO19_STATUS_1
-Text HLabel 2750 6600 0    50   Output ~ 0
-GD5_EPWM_4A
-Text HLabel 5000 8000 2    50   Output ~ 0
-GD5_EPWM_4B
 Text HLabel 5000 4900 2    50   Input ~ 0
-GD5_GPIO18_STATUS_2
-Text HLabel 2750 3700 0    50   Input ~ 0
-GD4_GPIO22_STATUS_2
-Text HLabel 2750 6800 0    50   Output ~ 0
-GD_EPWM_6B
-Text HLabel 5000 5100 2    50   Output ~ 0
-GD_EPWM_6A
-Text HLabel 5000 2000 2    50   Input ~ 0
-GD4_GPIO23_STATUS_1
-Text HLabel 5000 1800 2    50   Output ~ 0
-GD_EPWM_5B
+GD5_GPIO19_STATUS_1
 Text HLabel 5000 8200 2    50   Output ~ 0
+GD5_EPWM_4A
+Text HLabel 2750 6600 0    50   Output ~ 0
+GD5_EPWM_4B
+Text HLabel 5000 8000 2    50   Input ~ 0
+GD5_GPIO18_STATUS_2
+Text HLabel 5000 1800 2    50   Input ~ 0
+GD4_GPIO22_STATUS_2
+Text HLabel 5000 8400 2    50   Output ~ 0
+GD_EPWM_6B
+Text HLabel 5000 2000 2    50   Output ~ 0
+GD_EPWM_6A
+Text HLabel 2750 6800 0    50   Input ~ 0
+GD4_GPIO23_STATUS_1
+Text HLabel 2750 3500 0    50   Output ~ 0
+GD_EPWM_5B
+Text HLabel 5000 5100 2    50   Output ~ 0
 GD_EPWM_5A
-Text HLabel 5000 4100 2    50   Output ~ 0
-SD1_EPWM14B_CLK_OUT
-Text HLabel 2750 5800 0    50   Output ~ 0
+Text HLabel 2750 8900 0    50   Output ~ 0
 SD1_EPWM14A_CLK_OUT
-Text HLabel 5000 2200 2    50   Input ~ 0
+Text HLabel 2750 3700 0    50   Input ~ 0
 GD3_GPIO24_STATUS_2
-Text HLabel 5000 5300 2    50   Output ~ 0
+Text HLabel 5000 2200 2    50   Output ~ 0
 GD3_EPWM_8B
 Text HLabel 2750 3900 0    50   Output ~ 0
 GD3_EPWM_8A
 Text HLabel 5000 8600 2    50   Input ~ 0
 GD3_GPIO25_STATUS_1
-Text HLabel 5000 8400 2    50   Output ~ 0
+Text HLabel 5000 5300 2    50   Output ~ 0
 GD3_EPWM_7B
 Text HLabel 2750 7000 0    50   Output ~ 0
 GD3_EPWM_7A
-Text HLabel 2750 7400 0    50   Input ~ 0
+Text HLabel 5000 2400 2    50   Input ~ 0
 GD2_GPIO45_STATUS_1
-Text HLabel 5000 8800 2    50   Input ~ 0
+Text HLabel 5000 5500 2    50   Input ~ 0
 GD2_GPIO44_STATUS_2
 Text HLabel 2750 7200 0    50   Output ~ 0
 GD2_EPWM_9B
-Text HLabel 5000 5500 2    50   Output ~ 0
+Text HLabel 5000 8800 2    50   Output ~ 0
 GD2_EPWM_9A
-Text HLabel 2750 7600 0    50   Input ~ 0
+Text HLabel 2750 7400 0    50   Input ~ 0
 GD1_GPIO52_STATUS_2
-Text HLabel 5000 2600 2    50   Output ~ 0
+Text HLabel 2750 7600 0    50   Output ~ 0
 GD1_EPWM_12B
-Text HLabel 5000 9000 2    50   Output ~ 0
-GD1_EPWM_12A
-Text HLabel 5000 5900 2    50   Input ~ 0
-GD1_GPIO53_STATUS_1
-Text HLabel 5000 5700 2    50   Output ~ 0
-GD1_EPWM_11B
 Text HLabel 2750 4300 0    50   Output ~ 0
+GD1_EPWM_12A
+Text HLabel 5000 9000 2    50   Output ~ 0
+GD1_EPWM_11B
+Text HLabel 5000 2600 2    50   Output ~ 0
 GD1_EPWM_11A
-Text HLabel 5000 4300 2    50   Input ~ 0
-SD2_EPWM13B_CLK_OUT
-Text HLabel 2750 2900 0    50   Input ~ 0
+Text HLabel 2750 6000 0    50   Input ~ 0
 SD2_EPWM13A_CLK_OUT
-Text HLabel 2750 5600 0    50   Input ~ 0
-24V
 Text HLabel 5050 9825 2    50   Output ~ 0
 GND
 Text HLabel 5000 7600 2    50   BiDi ~ 0
 ~SAFE_STATE_FLAG~
 Text HLabel 2750 9300 0    50   Output ~ 0
 GPIO12_EMITTER_ENABLE
-Text HLabel 5000 3900 2    50   Input ~ 0
+Text HLabel 5000 7000 2    50   Input ~ 0
 SD1_D1
-Text HLabel 5000 7200 2    50   Input ~ 0
-SD1_D4
-Text HLabel 2750 8900 0    50   Input ~ 0
+Text HLabel 5000 3900 2    50   Input ~ 0
 SD1_D3
-Text HLabel 2750 2500 0    50   Input ~ 0
-SD1_D2
-Text HLabel 2750 2700 0    50   Input ~ 0
-SD2_D1
-Text HLabel 2750 6000 0    50   Input ~ 0
-SD2_D4
-Text HLabel 5000 7400 2    50   Input ~ 0
-SD2_D3
-Text HLabel 2750 9100 0    50   Input ~ 0
-SD2_D2
 Text HLabel 2750 8700 0    50   Input ~ 0
-24V
-Connection ~ 2950 5200
-Wire Wire Line
-	2950 5200 2950 5300
-Connection ~ 2950 5400
-Wire Wire Line
-	2950 5400 2950 5500
-Connection ~ 2950 2100
-Wire Wire Line
-	2950 2100 2950 2200
-Connection ~ 4800 3500
-Wire Wire Line
-	4800 3500 4800 3600
+SD1_D2
+Text HLabel 5000 4100 2    50   Input ~ 0
+SD2_D1
+Text HLabel 2750 9100 0    50   Input ~ 0
+SD2_D4
+Text HLabel 2750 2700 0    50   Input ~ 0
+SD2_D2
 Connection ~ 4800 3700
 Wire Wire Line
 	4800 3700 4800 3600
-Connection ~ 4800 6800
-Wire Wire Line
-	4800 6800 4800 6900
-Connection ~ 4800 7000
-Wire Wire Line
-	4800 7000 4800 7100
 Wire Wire Line
 	2750 2700 3375 2700
-Connection ~ 2950 8500
 Wire Wire Line
-	2950 8500 2950 8600
+	4800 6900 4800 7100
+Wire Wire Line
+	4375 7000 5000 7000
+Connection ~ 2950 5800
+Wire Wire Line
+	2950 5800 2950 5900
+Text HLabel 2750 4500 0    50   Input ~ 0
+24V
+Wire Wire Line
+	2750 4500 3375 4500
+Connection ~ 2950 2500
+Wire Wire Line
+	2950 2500 2950 2600
+Text HLabel 2750 5600 0    50   Input ~ 0
+SD1_D4
+Text HLabel 5000 7400 2    50   Input ~ 0
+SD2_D3
+Wire Wire Line
+	3375 5500 2950 5500
+Connection ~ 2950 5500
+Wire Wire Line
+	2950 5500 2950 5700
+Wire Wire Line
+	2950 2800 2950 3000
+Wire Wire Line
+	3375 2900 2725 2900
+Connection ~ 4800 4500
+Wire Wire Line
+	4800 4500 4800 4400
+Connection ~ 2950 7700
+Wire Wire Line
+	2950 7700 2950 7800
+Wire Wire Line
+	2950 8400 2950 8600
+Wire Wire Line
+	2750 8500 3375 8500
+Wire Wire Line
+	4800 6700 4800 6900
+Wire Wire Line
+	4375 6800 5000 6800
+Wire Wire Line
+	2950 2200 3375 2200
+Wire Wire Line
+	2750 2100 3375 2100
+Wire Wire Line
+	3375 2300 2950 2300
+Connection ~ 2950 2300
+Wire Wire Line
+	2950 2300 2950 2400
+Wire Wire Line
+	4800 3400 4800 3600
+Wire Wire Line
+	2950 5100 2950 5300
+Connection ~ 2950 5300
+Wire Wire Line
+	2950 5300 2950 5400
+Wire Wire Line
+	3375 5300 2950 5300
+Wire Wire Line
+	2950 5400 3375 5400
+Connection ~ 2950 5400
+Wire Wire Line
+	2950 5400 2950 5500
+Connection ~ 4800 2900
+Wire Wire Line
+	4800 2900 4800 3000
+Wire Wire Line
+	4375 2900 4800 2900
+Wire Wire Line
+	3375 4600 2950 4600
+Connection ~ 2950 4600
+Wire Wire Line
+	2950 4600 2950 4700
+Text HLabel 2750 1300 0    50   Input ~ 0
+24V
+Text HLabel 5000 5900 2    50   Input ~ 0
+GD1_GPIO53_STATUS_1
+Wire Wire Line
+	4375 6000 4800 6000
+Connection ~ 4800 6000
+Wire Wire Line
+	4800 6000 4800 6100
+Wire Wire Line
+	2950 2000 2950 2200
+Wire Wire Line
+	2950 4400 2950 4600
+Wire Wire Line
+	4375 2800 4800 2800
+Wire Wire Line
+	4800 2700 4800 2800
+Connection ~ 4800 2800
+Wire Wire Line
+	4800 2800 4800 2900
+Wire Wire Line
+	3375 1300 2750 1300
+Connection ~ 2950 2200
+Wire Wire Line
+	2950 2200 2950 2300
+Connection ~ 4800 7200
+Wire Wire Line
+	4800 7200 4800 7300
+Connection ~ 4800 4300
+Wire Wire Line
+	4800 4300 4800 4200
 $EndSCHEMATC
