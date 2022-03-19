@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 8
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -324,7 +324,7 @@ AR Path="/6187F723/62466FB4" Ref="C28"  Part="1"
 AR Path="/61B9C0F2/62466FB4" Ref="C?"  Part="1" 
 F 0 "C28" H 5392 4546 50  0000 L CNN
 F 1 "4.7uF" H 5392 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5300 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5300 4500 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/tdk-corporation/C1608X5R1V475K080AC/3648577" H 5300 4500 50  0001 C CNN
 	1    5300 4500
 	1    0    0    -1  
@@ -420,7 +420,7 @@ AR Path="/6187F723/62F504C4" Ref="C21"  Part="1"
 AR Path="/61B9C0F2/62F504C4" Ref="C?"  Part="1" 
 F 0 "C21" H 3942 3446 50  0000 L CNN
 F 1 "10uF" H 3942 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3850 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3850 3400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 3850 3400 50  0001 C CNN
 	1    3850 3400
 	1    0    0    -1  
@@ -443,7 +443,7 @@ AR Path="/6187F723/62F504CA" Ref="C22"  Part="1"
 AR Path="/61B9C0F2/62F504CA" Ref="C?"  Part="1" 
 F 0 "C22" H 4642 3446 50  0000 L CNN
 F 1 "10uF" H 4642 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4550 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4550 3400 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RECAUTO/6575893?s=N4IgjCBcpgLFoDGUBmBDANgZwKYBoQB7KAbRACYBmADgHYaQBdAgBwBcoQBlNgJwEsAdgHMQAXwJgAbAhDJI6bPiKkQlAJzlYM5iHaceAkeIIBacrPl8ArsuKQyAVhAF1TCSFNvocqDbuqEIxiHhYO4AAM1gBiTAQyPvwAJpymYBEWrByQIC4gbACeLDicSVjIIUA" H 4550 3400 50  0001 C CNN
 	1    4550 3400
 	1    0    0    -1  
