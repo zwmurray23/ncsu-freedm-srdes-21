@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -72,19 +72,6 @@ F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VDDA #PWR?
-U 1 1 62433A79
-P 4800 1800
-AR Path="/62086B6E/62433A79" Ref="#PWR?"  Part="1" 
-AR Path="/61B9C0F2/62433A79" Ref="#PWR0173"  Part="1" 
-F 0 "#PWR0173" H 4800 1650 50  0001 C CNN
-F 1 "VDDA" H 4815 1973 50  0000 C CNN
-F 2 "" H 4800 1800 50  0001 C CNN
-F 3 "" H 4800 1800 50  0001 C CNN
-	1    4800 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C81
 U 1 1 62433A7F
 P 4950 1950
@@ -106,8 +93,6 @@ F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082"
 	1    5250 1950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 1800 4650 1800
 Connection ~ 4950 1800
 Wire Wire Line
 	4950 1800 5250 1800
@@ -116,25 +101,9 @@ Wire Wire Line
 Connection ~ 4950 2100
 Wire Wire Line
 	4950 2100 5250 2100
-Connection ~ 4800 1800
-Wire Wire Line
-	4800 1800 4950 1800
 Connection ~ 4800 2100
 Wire Wire Line
 	4800 2100 4950 2100
-$Comp
-L power:VDDA #PWR?
-U 1 1 624345BF
-P 5850 2650
-AR Path="/62086B6E/624345BF" Ref="#PWR?"  Part="1" 
-AR Path="/61B9C0F2/624345BF" Ref="#PWR0174"  Part="1" 
-F 0 "#PWR0174" H 5850 2500 50  0001 C CNN
-F 1 "VDDA" H 6000 2700 50  0000 C CNN
-F 2 "" H 5850 2650 50  0001 C CNN
-F 3 "" H 5850 2650 50  0001 C CNN
-	1    5850 2650
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6243580E
@@ -214,19 +183,6 @@ F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDDA #PWR?
-U 1 1 6337731D
-P 5850 3950
-AR Path="/62086B6E/6337731D" Ref="#PWR?"  Part="1" 
-AR Path="/61B9C0F2/6337731D" Ref="#PWR0176"  Part="1" 
-F 0 "#PWR0176" H 5850 3800 50  0001 C CNN
-F 1 "VDDA" H 6000 4000 50  0000 C CNN
-F 2 "" H 5850 3950 50  0001 C CNN
-F 3 "" H 5850 3950 50  0001 C CNN
-	1    5850 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 63377323
 P 5850 4550
@@ -300,19 +256,6 @@ F 1 "OPA365xxD" H 5950 5600 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5850 5250 50  0001 L CNN
 F 3 "https://www.digikey.com/en/products/detail/texas-instruments/OPA365AID/1219893" H 6100 5600 50  0001 C CNN
 	1    5950 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR?
-U 1 1 6337C61B
-P 5850 5150
-AR Path="/62086B6E/6337C61B" Ref="#PWR?"  Part="1" 
-AR Path="/61B9C0F2/6337C61B" Ref="#PWR0178"  Part="1" 
-F 0 "#PWR0178" H 5850 5000 50  0001 C CNN
-F 1 "VDDA" H 6000 5200 50  0000 C CNN
-F 2 "" H 5850 5150 50  0001 C CNN
-F 3 "" H 5850 5150 50  0001 C CNN
-	1    5850 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -502,4 +445,58 @@ Wire Wire Line
 	7350 5450 7000 5450
 Wire Wire Line
 	7350 4250 7000 4250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6242ED79
+P 5850 3950
+AR Path="/6187F723/6242ED79" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/6242ED79" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 5850 3800 50  0001 C CNN
+F 1 "+3V3" H 5865 4123 50  0000 C CNN
+F 2 "" H 5850 3950 50  0001 C CNN
+F 3 "" H 5850 3950 50  0001 C CNN
+	1    5850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62430BBE
+P 5850 2650
+AR Path="/6187F723/62430BBE" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/62430BBE" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 5850 2500 50  0001 C CNN
+F 1 "+3V3" H 5865 2823 50  0000 C CNN
+F 2 "" H 5850 2650 50  0001 C CNN
+F 3 "" H 5850 2650 50  0001 C CNN
+	1    5850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62431898
+P 5850 5150
+AR Path="/6187F723/62431898" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/62431898" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 5850 5000 50  0001 C CNN
+F 1 "+3V3" H 5865 5323 50  0000 C CNN
+F 2 "" H 5850 5150 50  0001 C CNN
+F 3 "" H 5850 5150 50  0001 C CNN
+	1    5850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6243256E
+P 5100 1800
+AR Path="/6187F723/6243256E" Ref="#PWR?"  Part="1" 
+AR Path="/61B9C0F2/6243256E" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 5100 1650 50  0001 C CNN
+F 1 "+3V3" H 5115 1973 50  0000 C CNN
+F 2 "" H 5100 1800 50  0001 C CNN
+F 3 "" H 5100 1800 50  0001 C CNN
+	1    5100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1800 4950 1800
 $EndSCHEMATC

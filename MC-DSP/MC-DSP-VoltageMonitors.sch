@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -72,23 +72,10 @@ F 3 "" H 5350 2650 50  0001 C CNN
 	1    5350 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR0167
-U 1 1 61B77D23
-P 3400 2050
-F 0 "#PWR0167" H 3400 1900 50  0001 C CNN
-F 1 "+3V3" H 3415 2223 50  0000 C CNN
-F 2 "" H 3400 2050 50  0001 C CNN
-F 3 "" H 3400 2050 50  0001 C CNN
-	1    3400 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 2250 5550 2250
 Wire Wire Line
 	3300 2250 3600 2250
-Wire Wire Line
-	3300 2050 3400 2050
 Wire Wire Line
 	3600 2250 3600 3250
 Wire Wire Line
@@ -107,17 +94,6 @@ F 3 "" H 5850 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 2950 5900 3050
-$Comp
-L power:+3V3 #PWR0169
-U 1 1 61F51CC0
-P 5900 2950
-F 0 "#PWR0169" H 5900 2800 50  0001 C CNN
-F 1 "+3V3" H 5915 3123 50  0000 C CNN
-F 2 "" H 5900 2950 50  0001 C CNN
-F 3 "" H 5900 2950 50  0001 C CNN
-	1    5900 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 3250 5550 3250
 Connection ~ 5850 3250
@@ -165,17 +141,6 @@ F 5 "" H 4550 2350 50  0001 L BNN "Package"
 	1    4550 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+1V2 #PWR0170
-U 1 1 633B1389
-P 5350 2050
-F 0 "#PWR0170" H 5350 1900 50  0001 C CNN
-F 1 "+1V2" H 5365 2223 50  0000 C CNN
-F 2 "" H 5350 2050 50  0001 C CNN
-F 3 "" H 5350 2050 50  0001 C CNN
-	1    5350 2050
-	1    0    0    -1  
-$EndComp
 Text Notes 2650 3450 0    50   ~ 0
 check maximum open drain current, based on all pullups on all cards
 Wire Wire Line
@@ -184,8 +149,6 @@ Wire Wire Line
 	3450 2650 3450 2550
 Wire Wire Line
 	3450 2350 3450 2050
-Wire Wire Line
-	3450 2050 3400 2050
 Wire Wire Line
 	5400 2650 5400 2550
 Wire Wire Line
@@ -198,12 +161,22 @@ Wire Wire Line
 	5350 2650 5400 2650
 Wire Wire Line
 	5250 2650 5350 2650
-Connection ~ 5350 2050
-Wire Wire Line
-	5350 2050 5400 2050
-Wire Wire Line
-	5250 2050 5350 2050
-Connection ~ 3400 2050
 NoConn ~ 3850 2450
 NoConn ~ 1900 2450
+Text HLabel 5400 1700 0    50   Input ~ 0
+SYS_1.2V
+Text HLabel 3450 1700 0    50   Input ~ 0
+SYS_3.3V
+Wire Wire Line
+	5250 2050 5400 2050
+Wire Wire Line
+	5400 2050 5400 1700
+Connection ~ 5400 2050
+Wire Wire Line
+	3300 2050 3450 2050
+Wire Wire Line
+	3450 2050 3450 1700
+Connection ~ 3450 2050
+Text HLabel 5900 2950 2    50   Input ~ 0
+SYS_3.3V
 $EndSCHEMATC

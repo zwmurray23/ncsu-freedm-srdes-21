@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -842,71 +842,71 @@ F 3 "?????????" H 9600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10125 825  10125 950 
+	10825 825  10825 950 
 $Comp
 L Device:C C195
 U 1 1 62548433
-P 9350 1100
-F 0 "C195" H 9465 1146 50  0000 L CNN
-F 1 "0.1uF" H 9465 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9388 950 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9350 1100 50  0001 C CNN
-	1    9350 1100
+P 10050 1100
+F 0 "C195" H 10165 1146 50  0000 L CNN
+F 1 "0.1uF" H 10165 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10088 950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 10050 1100 50  0001 C CNN
+	1    10050 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 950  9775 950 
+	10050 950  10475 950 
 $Comp
 L Device:C C196
 U 1 1 6254843B
-P 9775 1100
-F 0 "C196" H 9890 1146 50  0000 L CNN
-F 1 "0.1uF" H 9890 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9813 950 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 9775 1100 50  0001 C CNN
-	1    9775 1100
+P 10475 1100
+F 0 "C196" H 10590 1146 50  0000 L CNN
+F 1 "0.1uF" H 10590 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10513 950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 10475 1100 50  0001 C CNN
+	1    10475 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 9775 950 
-Connection ~ 9775 1250
+Connection ~ 10475 950 
+Connection ~ 10475 1250
 $Comp
 L Device:C C197
 U 1 1 62548443
-P 10200 1100
-F 0 "C197" H 10315 1146 50  0000 L CNN
-F 1 "0.1uF" H 10315 1055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10238 950 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 10200 1100 50  0001 C CNN
-	1    10200 1100
+P 10900 1100
+F 0 "C197" H 11015 1146 50  0000 L CNN
+F 1 "0.1uF" H 11015 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10938 950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 10900 1100 50  0001 C CNN
+	1    10900 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9775 950  10125 950 
-Connection ~ 10125 950 
+	10475 950  10825 950 
+Connection ~ 10825 950 
 Wire Wire Line
-	10125 950  10200 950 
+	10825 950  10900 950 
 Wire Wire Line
-	10200 1250 9950 1250
-Text HLabel 10125 825  0    50   Input ~ 0
+	10900 1250 10650 1250
+Text HLabel 10825 825  0    50   Input ~ 0
 DSP_3V3
 $Comp
 L power:GND #PWR0185
 U 1 1 6254842D
-P 9950 1250
-F 0 "#PWR0185" H 9950 1000 50  0001 C CNN
-F 1 "GND" H 9955 1077 50  0000 C CNN
-F 2 "" H 9950 1250 50  0001 C CNN
-F 3 "" H 9950 1250 50  0001 C CNN
-	1    9950 1250
+P 10650 1250
+F 0 "#PWR0185" H 10650 1000 50  0001 C CNN
+F 1 "GND" H 10655 1077 50  0000 C CNN
+F 2 "" H 10650 1250 50  0001 C CNN
+F 3 "" H 10650 1250 50  0001 C CNN
+	1    10650 1250
 	1    0    0    -1  
 $EndComp
-Connection ~ 9950 1250
+Connection ~ 10650 1250
 Wire Wire Line
-	9950 1250 9775 1250
+	10650 1250 10475 1250
 Wire Wire Line
 	8325 1250 7900 1250
 Wire Wire Line
-	9775 1250 9350 1250
+	10475 1250 10050 1250
 $Comp
 L Device:C_Small C217
 U 1 1 6186EE29
@@ -1077,4 +1077,32 @@ F 3 "~" H 5700 3800 50  0001 C CNN
 $EndComp
 Text GLabel 2400 1250 0    50   Input ~ 0
 EMU_3V3
+$Comp
+L Device:C C218
+U 1 1 625764BD
+P 9550 800
+F 0 "C218" V 9700 700 50  0000 L CNN
+F 1 "10pF 3000V" V 9800 600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" H 9588 650 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/CC1812JKNPOEBN100/5884813" H 9550 800 50  0001 C CNN
+	1    9550 800 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9300 800  0    50   Input ~ 0
+EMU_GND
+$Comp
+L power:GND #PWR0132
+U 1 1 62578C81
+P 9800 800
+F 0 "#PWR0132" H 9800 550 50  0001 C CNN
+F 1 "GND" H 9805 627 50  0000 C CNN
+F 2 "" H 9800 800 50  0001 C CNN
+F 3 "" H 9800 800 50  0001 C CNN
+	1    9800 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 800  9400 800 
+Wire Wire Line
+	9700 800  9800 800 
 $EndSCHEMATC

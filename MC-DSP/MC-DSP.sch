@@ -246,17 +246,6 @@ Wire Wire Line
 Connection ~ -2750 10450
 Wire Wire Line
 	-2750 10450 -2750 10350
-$Comp
-L power:+3V3 #PWR0103
-U 1 1 61CCB576
-P -2650 3300
-F 0 "#PWR0103" H -2650 3150 50  0001 C CNN
-F 1 "+3V3" H -2635 3473 50  0000 C CNN
-F 2 "" H -2650 3300 50  0001 C CNN
-F 3 "" H -2650 3300 50  0001 C CNN
-	1    -2650 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-2650 3300 -2650 3400
 Connection ~ -2650 3400
@@ -340,17 +329,6 @@ Wire Wire Line
 Connection ~ -2650 6000
 Wire Wire Line
 	-2650 6000 -2650 6100
-$Comp
-L power:+3V3 #PWR0105
-U 1 1 61CE02BE
-P -4450 3300
-F 0 "#PWR0105" H -4450 3150 50  0001 C CNN
-F 1 "+3V3" H -4435 3473 50  0000 C CNN
-F 2 "" H -4450 3300 50  0001 C CNN
-F 3 "" H -4450 3300 50  0001 C CNN
-	1    -4450 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-4450 3300 -4450 3400
 Connection ~ -4450 4000
@@ -425,21 +403,6 @@ F 3 "" H -4600 2700 50  0001 C CNN
 	1    -4600 2700
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR0108
-U 1 1 61D06B25
-P -4600 1650
-F 0 "#PWR0108" H -4600 1500 50  0001 C CNN
-F 1 "+3V3" H -4585 1823 50  0000 C CNN
-F 2 "" H -4600 1650 50  0001 C CNN
-F 3 "" H -4600 1650 50  0001 C CNN
-	1    -4600 1650
-	-1   0    0    -1  
-$EndComp
-Text GLabel 16450 1550 2    50   Input ~ 0
-DPS_SCI-TX
-Text GLabel 16450 1650 2    50   Input ~ 0
-DPS_SCI-RX
 Connection ~ -4500 1650
 Wire Wire Line
 	-4500 1650 -4500 1750
@@ -1040,18 +1003,6 @@ Text Label 16300 600  0    50   ~ 0
 CLB_OUTPUTX_BAR8
 Text Label 14200 4850 2    50   ~ 0
 XCLKOUT
-Wire Wire Line
-	16450 1650 16350 1650
-Wire Wire Line
-	16350 1650 16350 1700
-Wire Wire Line
-	16350 1700 16250 1700
-Wire Wire Line
-	16250 1600 16350 1600
-Wire Wire Line
-	16350 1600 16350 1550
-Wire Wire Line
-	16350 1550 16450 1550
 Entry Wire Line
 	16550 -400 16650 -300
 Entry Wire Line
@@ -1299,9 +1250,9 @@ F 3 "~" H -2500 -1000 50  0001 C CNN
 $EndComp
 Text GLabel 7375 -2800 2    50   Input ~ 0
 Bus_FrontBreakout
-Text Label 13150 -5125 2    50   ~ 0
+Text Label 13500 -2300 0    50   ~ 0
 OUTPUTXBAR7
-Text Label 13150 -5025 2    50   ~ 0
+Text Label 13500 -2200 0    50   ~ 0
 OUTPUTXBAR8
 Text Label 11300 -2150 2    50   ~ 0
 ADCSOCAO
@@ -1319,9 +1270,9 @@ Text Label 9050 -2150 0    50   ~ 0
 CLB_OUTPUTX_BAR3
 Text Label 9050 -2050 0    50   ~ 0
 CLB_OUTPUTX_BAR4
-Text Label 12700 -4425 2    50   ~ 0
+Text Label 13500 -2000 0    50   ~ 0
 CLB_OUTPUTX_BAR7
-Text Label 12700 -4325 2    50   ~ 0
+Text Label 13500 -1900 0    50   ~ 0
 CLB_OUTPUTX_BAR8
 Text Label 11300 -2450 2    50   ~ 0
 XCLKOUT
@@ -1358,19 +1309,11 @@ Wire Wire Line
 Wire Wire Line
 	9000 -2050 9925 -2050
 Wire Wire Line
-	11975 -4425 12850 -4425
-Wire Wire Line
-	11975 -4325 12850 -4325
-Wire Wire Line
 	7475 -2350 8175 -2350
 Wire Wire Line
 	7475 -2150 8175 -2150
 Wire Wire Line
 	7475 -2050 8175 -2050
-Wire Wire Line
-	12425 -5125 13300 -5125
-Wire Wire Line
-	12425 -5025 13300 -5025
 $Comp
 L power:GND #PWR0124
 U 1 1 62C50E0A
@@ -1690,10 +1633,6 @@ Entry Wire Line
 Entry Wire Line
 	7375 -2150 7475 -2050
 Entry Wire Line
-	12325 -5425 12425 -5325
-Entry Wire Line
-	12325 -5325 12425 -5225
-Entry Wire Line
 	8900 -2550 9000 -2450
 Entry Wire Line
 	8900 -2450 9000 -2350
@@ -1701,18 +1640,6 @@ Entry Wire Line
 	8900 -2250 9000 -2150
 Entry Wire Line
 	8900 -2150 9000 -2050
-Entry Wire Line
-	11875 -4725 11975 -4625
-Entry Wire Line
-	11875 -4625 11975 -4525
-Entry Wire Line
-	12325 -5225 12425 -5125
-Entry Wire Line
-	12325 -5125 12425 -5025
-Entry Wire Line
-	11875 -4525 11975 -4425
-Entry Wire Line
-	11875 -4425 11975 -4325
 Entry Wire Line
 	10475 -2550 10575 -2450
 Entry Wire Line
@@ -1740,39 +1667,10 @@ F 3 "" H 9825 -1650 50  0001 C CNN
 	1    9825 -1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0132
-U 1 1 63240751
-P 11350 -1600
-F 0 "#PWR0132" H 11350 -1850 50  0001 C CNN
-F 1 "GND" H 11355 -1773 50  0000 C CNN
-F 2 "" H 11350 -1600 50  0001 C CNN
-F 3 "" H 11350 -1600 50  0001 C CNN
-	1    11350 -1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11350 -2250 11450 -2250
-Wire Wire Line
-	11350 -2250 11350 -1600
 Wire Wire Line
 	9825 -2250 9925 -2250
-Wire Wire Line
-	11975 -4525 12900 -4525
-Wire Wire Line
-	11975 -4625 12900 -4625
-Text Label 12025 -4525 0    50   ~ 0
+Text Label 13500 -2100 0    50   ~ 0
 CLB_OUTPUTX_BAR6
-Text Label 12025 -4625 0    50   ~ 0
-CLB_OUTPUTX_BAR5
-Wire Wire Line
-	12425 -5225 13125 -5225
-Wire Wire Line
-	12425 -5325 13125 -5325
-Text Label 12975 -5225 2    50   ~ 0
-OUTPUTXBAR6
-Text Label 12975 -5325 2    50   ~ 0
-OUTPUTXBAR5
 Wire Wire Line
 	8075 -2250 8075 -1650
 Wire Wire Line
@@ -1890,35 +1788,35 @@ Text Label 7750 1250 2    50   ~ 0
 EPWM12B
 Text Label 10050 1450 0    50   ~ 0
 SD1_D3
-Text Label 14100 -5250 2    50   ~ 0
+Text Label 13500 -3500 0    50   ~ 0
 SD1_C3
 Text Label 10050 1550 0    50   ~ 0
 SD1_D4
-Text Label 14100 -5150 2    50   ~ 0
+Text Label 13500 -3400 0    50   ~ 0
 SD1_C4
 Text Label 10050 2200 0    50   ~ 0
 SD2_D1
-Text Label 14100 -4950 2    50   ~ 0
+Text Label 13500 -3200 0    50   ~ 0
 SD2_C1
 Text Label 10050 2300 0    50   ~ 0
 SD2_D2
-Text Label 14100 -4850 2    50   ~ 0
+Text Label 13500 -3100 0    50   ~ 0
 SD2_C2
 Text Label 10050 2400 0    50   ~ 0
 SD2_D3
-Text Label 14100 -4750 2    50   ~ 0
+Text Label 13500 -3000 0    50   ~ 0
 SD2_C3
 Text Label 10050 2500 0    50   ~ 0
 SD2_D4
-Text Label 14100 -4650 2    50   ~ 0
+Text Label 13500 -2900 0    50   ~ 0
 SD2_C4
 Text Label 10050 2100 0    50   ~ 0
 EPWM13A
-Text Label 14100 -4400 2    50   ~ 0
+Text Label 13500 -2700 0    50   ~ 0
 EPWM13B
 Text Label 10050 1150 0    50   ~ 0
 EPWM14A
-Text Label 14100 -4200 2    50   ~ 0
+Text Label 13500 -2600 0    50   ~ 0
 EPWM14B
 Text Label 7750 5050 2    50   ~ 0
 EPWM3B
@@ -1942,11 +1840,11 @@ Text Label 7750 3250 2    50   ~ 0
 EPWM8A
 Text Label 10050 1350 0    50   ~ 0
 SD1_D2
-Text Label 14100 -5350 2    50   ~ 0
+Text Label 13500 -3600 0    50   ~ 0
 SD1_C2
 Text Label 10050 1250 0    50   ~ 0
 SD1_D1
-Text Label 14100 -5450 2    50   ~ 0
+Text Label 13500 -3700 0    50   ~ 0
 SD1_C1
 $Sheet
 S 7850 800  2100 5150
@@ -2087,46 +1985,13 @@ Safe_State
 Entry Wire Line
 	4450 -2450 4550 -2550
 $Comp
-L Device:C C194
-U 1 1 625A7E58
-P 4150 2800
-F 0 "C194" V 4050 2650 50  0000 C CNN
-F 1 "0.1uF" V 4050 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4188 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 4150 2800 50  0001 C CNN
-	1    4150 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C193
-U 1 1 625A7B1E
-P 3950 2800
-F 0 "C193" V 3850 2650 50  0000 C CNN
-F 1 "0.1uF" V 3850 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3988 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3950 2800 50  0001 C CNN
-	1    3950 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C192
-U 1 1 625730D4
-P 3750 2800
-F 0 "C192" V 3650 2650 50  0000 C CNN
-F 1 "0.1uF" V 3650 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3788 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3750 2800 50  0001 C CNN
-	1    3750 2800
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C191
 U 1 1 625730CE
 P 3550 2800
 F 0 "C191" V 3450 2650 50  0000 C CNN
 F 1 "0.1uF" V 3450 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3588 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3550 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3588 2650 50  0001 C CNN
+F 3 "?" H 3550 2800 50  0001 C CNN
 	1    3550 2800
 	-1   0    0    1   
 $EndComp
@@ -2136,8 +2001,8 @@ U 1 1 625730C8
 P 3350 2800
 F 0 "C190" V 3250 2650 50  0000 C CNN
 F 1 "0.1uF" V 3250 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3388 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3350 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3388 2650 50  0001 C CNN
+F 3 "?" H 3350 2800 50  0001 C CNN
 	1    3350 2800
 	-1   0    0    1   
 $EndComp
@@ -2147,8 +2012,8 @@ U 1 1 625730C2
 P 3150 2800
 F 0 "C189" V 3050 2650 50  0000 C CNN
 F 1 "0.1uF" V 3050 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3188 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3150 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3188 2650 50  0001 C CNN
+F 3 "?" H 3150 2800 50  0001 C CNN
 	1    3150 2800
 	-1   0    0    1   
 $EndComp
@@ -2158,8 +2023,8 @@ U 1 1 625730BC
 P 2950 2800
 F 0 "C188" V 2850 2650 50  0000 C CNN
 F 1 "0.1uF" V 2850 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2988 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2950 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2988 2650 50  0001 C CNN
+F 3 "?" H 2950 2800 50  0001 C CNN
 	1    2950 2800
 	-1   0    0    1   
 $EndComp
@@ -2169,8 +2034,8 @@ U 1 1 625730B6
 P 2750 2800
 F 0 "C187" V 2650 2650 50  0000 C CNN
 F 1 "0.1uF" V 2650 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2788 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2750 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2788 2650 50  0001 C CNN
+F 3 "?" H 2750 2800 50  0001 C CNN
 	1    2750 2800
 	-1   0    0    1   
 $EndComp
@@ -2180,8 +2045,8 @@ U 1 1 625730B0
 P 2550 2800
 F 0 "C186" V 2450 2650 50  0000 C CNN
 F 1 "0.1uF" V 2450 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2588 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2550 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2588 2650 50  0001 C CNN
+F 3 "?" H 2550 2800 50  0001 C CNN
 	1    2550 2800
 	-1   0    0    1   
 $EndComp
@@ -2191,8 +2056,8 @@ U 1 1 62542D48
 P 2350 2800
 F 0 "C185" V 2250 2650 50  0000 C CNN
 F 1 "0.1uF" V 2250 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2388 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2350 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2388 2650 50  0001 C CNN
+F 3 "?" H 2350 2800 50  0001 C CNN
 	1    2350 2800
 	-1   0    0    1   
 $EndComp
@@ -2202,8 +2067,8 @@ U 1 1 62542D42
 P 2150 2800
 F 0 "C184" V 2050 2650 50  0000 C CNN
 F 1 "0.1uF" V 2050 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2188 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2150 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2188 2650 50  0001 C CNN
+F 3 "?" H 2150 2800 50  0001 C CNN
 	1    2150 2800
 	-1   0    0    1   
 $EndComp
@@ -2213,8 +2078,8 @@ U 1 1 62542D3C
 P 1950 2800
 F 0 "C183" V 1850 2650 50  0000 C CNN
 F 1 "0.1uF" V 1850 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1988 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1950 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1988 2650 50  0001 C CNN
+F 3 "?" H 1950 2800 50  0001 C CNN
 	1    1950 2800
 	-1   0    0    1   
 $EndComp
@@ -2224,8 +2089,8 @@ U 1 1 62542D36
 P 1750 2800
 F 0 "C182" V 1650 2650 50  0000 C CNN
 F 1 "0.1uF" V 1650 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1788 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1750 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1788 2650 50  0001 C CNN
+F 3 "?" H 1750 2800 50  0001 C CNN
 	1    1750 2800
 	-1   0    0    1   
 $EndComp
@@ -2235,8 +2100,8 @@ U 1 1 62542D30
 P 1550 2800
 F 0 "C181" V 1450 2650 50  0000 C CNN
 F 1 "0.1uF" V 1450 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1588 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1550 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1588 2650 50  0001 C CNN
+F 3 "?" H 1550 2800 50  0001 C CNN
 	1    1550 2800
 	-1   0    0    1   
 $EndComp
@@ -2246,8 +2111,8 @@ U 1 1 62542D2A
 P 1350 2800
 F 0 "C180" V 1250 2650 50  0000 C CNN
 F 1 "0.1uF" V 1250 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1388 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1350 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1388 2650 50  0001 C CNN
+F 3 "?" H 1350 2800 50  0001 C CNN
 	1    1350 2800
 	-1   0    0    1   
 $EndComp
@@ -2257,8 +2122,8 @@ U 1 1 62542D24
 P 1150 2800
 F 0 "C179" V 1050 2650 50  0000 C CNN
 F 1 "0.1uF" V 1050 2950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1188 2650 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1150 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1188 2650 50  0001 C CNN
+F 3 "?" H 1150 2800 50  0001 C CNN
 	1    1150 2800
 	-1   0    0    1   
 $EndComp
@@ -2268,8 +2133,8 @@ U 1 1 6250FA21
 P 3250 1550
 F 0 "C178" V 3150 1400 50  0000 C CNN
 F 1 "0.1uF" V 3150 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3288 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3250 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3288 1400 50  0001 C CNN
+F 3 "?" H 3250 1550 50  0001 C CNN
 	1    3250 1550
 	-1   0    0    1   
 $EndComp
@@ -2279,20 +2144,9 @@ U 1 1 6250F4D9
 P 3050 1550
 F 0 "C177" V 2950 1400 50  0000 C CNN
 F 1 "0.1uF" V 2950 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3088 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 3050 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 3088 1400 50  0001 C CNN
+F 3 "?" H 3050 1550 50  0001 C CNN
 	1    3050 1550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C176
-U 1 1 62509DFE
-P 2450 1550
-F 0 "C176" V 2350 1400 50  0000 C CNN
-F 1 "0.1uF" V 2350 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2488 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2450 1550 50  0001 C CNN
-	1    2450 1550
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2301,8 +2155,8 @@ U 1 1 62509B15
 P 2250 1550
 F 0 "C175" V 2150 1400 50  0000 C CNN
 F 1 "0.1uF" V 2150 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2288 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2250 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2288 1400 50  0001 C CNN
+F 3 "?" H 2250 1550 50  0001 C CNN
 	1    2250 1550
 	-1   0    0    1   
 $EndComp
@@ -2312,8 +2166,8 @@ U 1 1 625098E5
 P 2050 1550
 F 0 "C174" V 1950 1400 50  0000 C CNN
 F 1 "0.1uF" V 1950 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2088 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 2050 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 2088 1400 50  0001 C CNN
+F 3 "?" H 2050 1550 50  0001 C CNN
 	1    2050 1550
 	-1   0    0    1   
 $EndComp
@@ -2323,8 +2177,8 @@ U 1 1 62509613
 P 1850 1550
 F 0 "C173" V 1750 1400 50  0000 C CNN
 F 1 "0.1uF" V 1750 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1888 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1850 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1888 1400 50  0001 C CNN
+F 3 "?" H 1850 1550 50  0001 C CNN
 	1    1850 1550
 	-1   0    0    1   
 $EndComp
@@ -2334,12 +2188,12 @@ U 1 1 6250937B
 P 1650 1550
 F 0 "C172" V 1550 1400 50  0000 C CNN
 F 1 "0.1uF" V 1550 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1650 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1688 1400 50  0001 C CNN
+F 3 "?" H 1650 1550 50  0001 C CNN
 	1    1650 1550
 	-1   0    0    1   
 $EndComp
-Text Notes 2500 -1550 0    50   ~ 0
+Text Notes 2350 -1950 0    50   ~ 0
 20-39
 $Comp
 L Device:R R100
@@ -2391,8 +2245,8 @@ U 1 1 61D4E27A
 P 1450 1550
 F 0 "C171" V 1350 1400 50  0000 C CNN
 F 1 "0.1uF" V 1350 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1488 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1450 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1488 1400 50  0001 C CNN
+F 3 "?" H 1450 1550 50  0001 C CNN
 	1    1450 1550
 	-1   0    0    1   
 $EndComp
@@ -2402,8 +2256,8 @@ U 1 1 61D3D678
 P 1250 1550
 F 0 "C170" V 1150 1400 50  0000 C CNN
 F 1 "0.1uF" V 1150 1700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1288 1400 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7R9BB104/2103082" H 1250 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1288 1400 50  0001 C CNN
+F 3 "?" H 1250 1550 50  0001 C CNN
 	1    1250 1550
 	-1   0    0    1   
 $EndComp
@@ -2458,51 +2312,16 @@ F 3 "" H 11850 50  50  0001 C CNN
 	1    11850 50  
 	1    0    0    -1  
 $EndComp
-Text Notes 1125 6025 0    50   ~ 0
-TODO:\n\nSTRECH:\nadd more testpoints\nFix isolators\nfix USB protection\n\nBUY:\nnew C21,22,28\nright angle header\nbackplane connector\nisolators\nUSB protection\n\nDONE:\ndropped ethernet\nDrop ethercats, switch MMCX to BNC\nADC vrefs\nDAC regs\nCalculate Safe_State Pull Downs\nNew 3.3V reg\nNew 1.2V reg\nNew 3.0V reg\nbreakout purple stuff to duponts (maybe GPIOs?)\nedge connecter\nFix 12 Mhz clock\n\nFix backplane connector\ncompleted BP connector pin connections\nright angle headers\nadd FP for bigger reg caps
-Text Notes 2250 3350 0    50   ~ 0
+Text Notes 2750 3300 0    50   ~ 0
 Place near U1 170-199\n
-Wire Wire Line
-	4050 3150 4150 3150
-Connection ~ 4050 3150
-Wire Wire Line
-	3950 3150 4050 3150
 Wire Wire Line
 	3350 2450 3550 2450
 Wire Wire Line
-	3550 2450 3750 2450
-Connection ~ 3550 2450
-Wire Wire Line
 	3550 2650 3550 2450
 Wire Wire Line
-	3750 2450 3950 2450
-Connection ~ 3750 2450
-Wire Wire Line
-	3750 2650 3750 2450
-Wire Wire Line
-	3950 2450 4150 2450
-Connection ~ 3950 2450
-Wire Wire Line
-	3950 2650 3950 2450
-Wire Wire Line
-	3950 3150 3750 3150
-Connection ~ 3950 3150
-Wire Wire Line
-	3950 2950 3950 3150
-Wire Wire Line
-	3750 3150 3550 3150
-Connection ~ 3750 3150
-Wire Wire Line
-	3750 2950 3750 3150
-Wire Wire Line
 	3550 3150 3350 3150
-Connection ~ 3550 3150
 Wire Wire Line
 	3550 2950 3550 3150
-Wire Wire Line
-	4150 2950 4150 3150
-Wire Wire Line
-	4150 2450 4150 2650
 Wire Wire Line
 	3150 3150 3350 3150
 Wire Wire Line
@@ -2543,7 +2362,7 @@ Connection ~ 2750 3150
 Wire Wire Line
 	2750 2950 2750 3150
 Wire Wire Line
-	2550 3150 2350 3150
+	2550 3150 2450 3150
 Connection ~ 2550 3150
 Wire Wire Line
 	2550 2950 2550 3150
@@ -2552,27 +2371,11 @@ Wire Wire Line
 Wire Wire Line
 	3350 2450 3350 2650
 Wire Wire Line
-	1250 2450 1350 2450
-Connection ~ 1250 2450
-Wire Wire Line
 	2150 3150 2350 3150
-Wire Wire Line
-	1150 2450 1250 2450
-$Comp
-L power:+3V3 #PWR0112
-U 1 1 61E39C9E
-P 1250 2450
-F 0 "#PWR0112" H 1250 2300 50  0001 C CNN
-F 1 "+3V3" H 1265 2623 50  0000 C CNN
-F 2 "" H 1250 2450 50  0001 C CNN
-F 3 "" H 1250 2450 50  0001 C CNN
-	1    1250 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1150 2650 1150 2450
 Wire Wire Line
-	1350 2450 1550 2450
+	1350 2450 1450 2450
 Connection ~ 1350 2450
 Wire Wire Line
 	1350 2650 1350 2450
@@ -2630,12 +2433,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0111
 U 1 1 61E2DE06
-P 4050 3150
-F 0 "#PWR0111" H 4050 2900 50  0001 C CNN
-F 1 "GND" H 4055 2977 50  0000 C CNN
-F 2 "" H 4050 3150 50  0001 C CNN
-F 3 "" H 4050 3150 50  0001 C CNN
-	1    4050 3150
+P 2450 3150
+F 0 "#PWR0111" H 2450 2900 50  0001 C CNN
+F 1 "GND" H 2455 2977 50  0000 C CNN
+F 2 "" H 2450 3150 50  0001 C CNN
+F 3 "" H 2450 3150 50  0001 C CNN
+	1    2450 3150
 	1    0    0    -1  
 $EndComp
 Connection ~ 3150 1900
@@ -2662,9 +2465,6 @@ F 3 "" H 3150 1900 50  0001 C CNN
 	1    3150 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 1900 2250 1900
-Connection ~ 2350 1900
 Wire Wire Line
 	1350 1200 1450 1200
 Connection ~ 1350 1200
@@ -2693,13 +2493,9 @@ Connection ~ 2050 1200
 Wire Wire Line
 	2050 1400 2050 1200
 Wire Wire Line
-	2250 1200 2450 1200
-Connection ~ 2250 1200
-Wire Wire Line
 	2250 1400 2250 1200
 Wire Wire Line
-	2250 1900 2050 1900
-Connection ~ 2250 1900
+	2250 1900 2150 1900
 Wire Wire Line
 	2250 1700 2250 1900
 Wire Wire Line
@@ -2724,21 +2520,15 @@ Wire Wire Line
 	1250 1900 1450 1900
 Wire Wire Line
 	1250 1700 1250 1900
-Wire Wire Line
-	2450 1900 2350 1900
-Wire Wire Line
-	2450 1700 2450 1900
-Wire Wire Line
-	2450 1200 2450 1400
 $Comp
 L power:GND #PWR0109
 U 1 1 61D58754
-P 2350 1900
-F 0 "#PWR0109" H 2350 1650 50  0001 C CNN
-F 1 "GND" H 2355 1727 50  0000 C CNN
-F 2 "" H 2350 1900 50  0001 C CNN
-F 3 "" H 2350 1900 50  0001 C CNN
-	1    2350 1900
+P 2150 1900
+F 0 "#PWR0109" H 2150 1650 50  0001 C CNN
+F 1 "GND" H 2155 1727 50  0000 C CNN
+F 2 "" H 2150 1900 50  0001 C CNN
+F 3 "" H 2150 1900 50  0001 C CNN
+	1    2150 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2753,17 +2543,13 @@ F 3 "" H 1350 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 5100 -2900 1150 750 
+S 5100 -3200 1150 750 
 U 61B359B1
 F0 "Votage Monitors" 50
 F1 "MC-DSP-VoltageMonitors.sch" 50
 F2 "SafeState" I L 5100 -2550 50 
-$EndSheet
-$Sheet
-S 2150 -2850 1025 1100
-U 6187F723
-F0 "Voltage Regulators" 50
-F1 "MC-DSP-Vregs.sch" 50
+F3 "SYS_1.2V" I L 5100 -3000 50 
+F4 "SYS_3.3V" I L 5100 -3100 50 
 $EndSheet
 Entry Wire Line
 	11500 -350 11600 -250
@@ -2786,11 +2572,6 @@ Text Label 10050 1050 0    50   ~ 0
 Safe_State
 Entry Wire Line
 	10475 -2250 10575 -2150
-Wire Wire Line
-	11450 -2350 11350 -2350
-Wire Wire Line
-	11350 -2350 11350 -2250
-Connection ~ 11350 -2250
 Text Label 7750 1350 2    50   ~ 0
 GPIO53
 Text Label 7750 2300 2    50   ~ 0
@@ -2843,20 +2624,6 @@ Text Label 14200 2750 2    50   ~ 0
 GPIO52
 Text Label 14200 2850 2    50   ~ 0
 GPIO53
-$Comp
-L power:VDD #PWR?
-U 1 1 66EF1F4B
-P 7650 950
-AR Path="/6187F723/66EF1F4B" Ref="#PWR?"  Part="1" 
-AR Path="/61B9C0F2/66EF1F4B" Ref="#PWR?"  Part="1" 
-AR Path="/66EF1F4B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7650 800 50  0001 C CNN
-F 1 "VDD" H 7665 1123 50  0000 C CNN
-F 2 "" H 7650 950 50  0001 C CNN
-F 3 "" H 7650 950 50  0001 C CNN
-	1    7650 950 
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	13350 1000 13250 1100
 Entry Wire Line
@@ -2918,10 +2685,10 @@ Entry Wire Line
 Entry Wire Line
 	13850 2850 13750 2950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 6798EE39
 P 10150 5850
-F 0 "#PWR?" H 10150 5600 50  0001 C CNN
+F 0 "#PWR0131" H 10150 5600 50  0001 C CNN
 F 1 "GND" H 10155 5677 50  0000 C CNN
 F 2 "" H 10150 5850 50  0001 C CNN
 F 3 "" H 10150 5850 50  0001 C CNN
@@ -3204,10 +2971,205 @@ Entry Wire Line
 	7150 2900 7050 3000
 Wire Bus Line
 	7050 6200 10750 6200
-Text GLabel 1400 3550 2    50   Input ~ 0
-DPS_SCI-TX
-Text GLabel 1400 3650 2    50   Input ~ 0
+$Comp
+L power:+24V #PWR?
+U 1 1 624AD62E
+P 7650 950
+AR Path="/6187F723/624AD62E" Ref="#PWR?"  Part="1" 
+AR Path="/624AD62E" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 7650 800 50  0001 C CNN
+F 1 "+24V" H 7665 1123 50  0000 C CNN
+F 2 "" H 7650 950 50  0001 C CNN
+F 3 "" H 7650 950 50  0001 C CNN
+	1    7650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 62504C36
+P -4450 3300
+AR Path="/6187F723/62504C36" Ref="#PWR?"  Part="1" 
+AR Path="/62504C36" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H -4450 3150 50  0001 C CNN
+F 1 "VDD" H -4435 3473 50  0000 C CNN
+F 2 "" H -4450 3300 50  0001 C CNN
+F 3 "" H -4450 3300 50  0001 C CNN
+	1    -4450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 6255B142
+P -2650 3300
+AR Path="/6187F723/6255B142" Ref="#PWR?"  Part="1" 
+AR Path="/6255B142" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H -2650 3150 50  0001 C CNN
+F 1 "VDD" H -2635 3473 50  0000 C CNN
+F 2 "" H -2650 3300 50  0001 C CNN
+F 3 "" H -2650 3300 50  0001 C CNN
+	1    -2650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR0130
+U 1 1 625AA475
+P -4600 1650
+F 0 "#PWR0130" H -4600 1500 50  0001 C CNN
+F 1 "VDDA" H -4585 1823 50  0000 C CNN
+F 2 "" H -4600 1650 50  0001 C CNN
+F 3 "" H -4600 1650 50  0001 C CNN
+	1    -4600 1650
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 2000 -3350 1000 1100
+U 6187F723
+F0 "Voltage Regulators" 50
+F1 "MC-DSP-Vregs.sch" 50
+F2 "SYS_3.3V" I R 3000 -3100 50 
+F3 "DSP_VDDA_3.3V" I R 3000 -2750 50 
+F4 "DSP_VDD_3.3V" I R 3000 -2650 50 
+F5 "DSP_VDD_1.2V" I R 3000 -2550 50 
+F6 "SYS_24V" I L 2000 -3100 50 
+F7 "SYS_1.2V" I R 3000 -3000 50 
+$EndSheet
+Wire Wire Line
+	2000 -3100 1800 -3100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62848B86
+P 3200 -3100
+AR Path="/61978594/62848B86" Ref="#PWR?"  Part="1" 
+AR Path="/62848B86" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 3200 -3250 50  0001 C CNN
+F 1 "+3V3" H 3215 -2927 50  0000 C CNN
+F 2 "" H 3200 -3100 50  0001 C CNN
+F 3 "" H 3200 -3100 50  0001 C CNN
+	1    3200 -3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 6284B6C7
+P 3600 -2650
+AR Path="/6187F723/6284B6C7" Ref="#PWR?"  Part="1" 
+AR Path="/6284B6C7" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 3600 -2800 50  0001 C CNN
+F 1 "VDD" H 3615 -2477 50  0000 C CNN
+F 2 "" H 3600 -2650 50  0001 C CNN
+F 3 "" H 3600 -2650 50  0001 C CNN
+	1    3600 -2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR0136
+U 1 1 628EFBD5
+P 3800 -2550
+F 0 "#PWR0136" H 3800 -2700 50  0001 C CNN
+F 1 "+1V2" H 3815 -2377 50  0000 C CNN
+F 2 "" H 3800 -2550 50  0001 C CNN
+F 3 "" H 3800 -2550 50  0001 C CNN
+	1    3800 -2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR0137
+U 1 1 628F000C
+P 3400 -2750
+F 0 "#PWR0137" H 3400 -2900 50  0001 C CNN
+F 1 "VDDA" H 3415 -2577 50  0000 C CNN
+F 2 "" H 3400 -2750 50  0001 C CNN
+F 3 "" H 3400 -2750 50  0001 C CNN
+	1    3400 -2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR0138
+U 1 1 629E54EC
+P 1800 -3100
+F 0 "#PWR0138" H 1800 -3250 50  0001 C CNN
+F 1 "+24V" H 1815 -2927 50  0000 C CNN
+F 2 "" H 1800 -3100 50  0001 C CNN
+F 3 "" H 1800 -3100 50  0001 C CNN
+	1    1800 -3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 -2750 3400 -2750
+Wire Wire Line
+	3000 -2650 3600 -2650
+Wire Wire Line
+	3000 -2550 3800 -2550
+Wire Wire Line
+	3000 -3000 5100 -3000
+Wire Wire Line
+	3000 -3100 3200 -3100
+Connection ~ 3200 -3100
+Wire Wire Line
+	3200 -3100 5100 -3100
+$Comp
+L power:VDD #PWR?
+U 1 1 633BBBFE
+P 1450 2450
+AR Path="/6187F723/633BBBFE" Ref="#PWR?"  Part="1" 
+AR Path="/633BBBFE" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 1450 2300 50  0001 C CNN
+F 1 "VDD" H 1465 2623 50  0000 C CNN
+F 2 "" H 1450 2450 50  0001 C CNN
+F 3 "" H 1450 2450 50  0001 C CNN
+	1    1450 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 2450
+Wire Wire Line
+	1450 2450 1550 2450
+Wire Wire Line
+	1150 2450 1350 2450
+Text Notes 1300 6850 0    50   ~ 0
+TODO:\n\nSTRECH:\nadd more testpoints\nFix isolators\nfix USB protection\n0402 CAPs\n\n\nZach order:\nright angle header\nC218\nisolators\n\nBUY:\nnew C21,22,28\nbackplane connector\nUSB protection\n\nDONE:\ndropped ethernet\nDrop ethercats, switch MMCX to BNC\nADC vrefs\nDAC regs\nCalculate Safe_State Pull Downs\nNew 3.3V reg\nNew 1.2V reg\nNew 3.0V reg\nbreakout purple stuff to duponts (maybe GPIOs?)\nedge connecter\nFix 12 Mhz clock\n\nFix backplane connector\ncompleted BP connector pin connections\nright angle headers\nadd FP for bigger reg caps\nmake isolation seperation bigger\n
+Text Notes 13350 -3850 0    50   ~ 0
+Unused:
+Text Label 13500 -2400 0    50   ~ 0
+OUTPUTXBAR6
+Connection ~ 2450 3150
+Wire Wire Line
+	2450 3150 2350 3150
+Connection ~ 2150 1900
+Wire Wire Line
+	2150 1900 2050 1900
+Text GLabel 16400 1650 2    50   Input ~ 0
 DPS_SCI-RX
+Text GLabel 16400 1550 2    50   Input ~ 0
+DPS_SCI-TX
+Wire Wire Line
+	16250 1700 16350 1700
+Wire Wire Line
+	16350 1700 16350 1650
+Wire Wire Line
+	16350 1650 16400 1650
+Wire Wire Line
+	16400 1550 16300 1550
+Wire Wire Line
+	16300 1550 16300 1600
+Wire Wire Line
+	16300 1600 16250 1600
+$Comp
+L power:GND #PWR?
+U 1 1 641DAE5D
+P 11350 -1700
+F 0 "#PWR?" H 11350 -1950 50  0001 C CNN
+F 1 "GND" H 11355 -1873 50  0000 C CNN
+F 2 "" H 11350 -1700 50  0001 C CNN
+F 3 "" H 11350 -1700 50  0001 C CNN
+	1    11350 -1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 -1700 11350 -2250
+Wire Wire Line
+	11350 -2350 11450 -2350
+Wire Wire Line
+	11450 -2250 11350 -2250
 Wire Bus Line
 	4450 -2450 4450 -1450
 Wire Wire Line
@@ -3236,4 +3198,7 @@ Wire Bus Line
 	10750 1050 10750 6200
 Wire Bus Line
 	7050 1250 7050 6200
+Connection ~ 11350 -2250
+Wire Wire Line
+	11350 -2250 11350 -2350
 $EndSCHEMATC
