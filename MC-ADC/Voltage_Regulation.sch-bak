@@ -392,63 +392,16 @@ Text HLabel 7700 3100 0    50   Input ~ 0
 VREF
 Text Notes 8150 3100 0    50   ~ 0
 1.3V
-Text HLabel 7600 4650 0    50   Input ~ 0
+Text HLabel 8000 6150 2    50   Input ~ 0
 -12V
-Wire Wire Line
-	7600 4650 8200 4650
-Wire Wire Line
-	8200 4650 8200 4900
-$Comp
-L Device:R_Small_US R12
-U 1 1 624203D2
-P 8200 5000
-AR Path="/624203D2" Ref="R12"  Part="1" 
-AR Path="/61F9F3BA/624203D2" Ref="R12"  Part="1" 
-F 0 "R12" H 8268 5046 50  0000 L CNN
-F 1 "30.9K" H 8268 4955 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8200 5000 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-8ARW3092V/5163056?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbRADYBWCfMsgdhBoE4yQBdfABwBcoQBlbgCcAlgDsA5iAC%2B%2BAEwAGABwV4IJJDRY8hEiBgKAdEwAEAawDyACwC2mdl16QQAVTEjuF5AFlsqTACuQtgy%2BAC0cmoawgE6RJCkTIwgqmzS6UA" H 8200 5000 50  0001 C CNN
-	1    8200 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R13
-U 1 1 62420CA2
-P 8200 5550
-AR Path="/62420CA2" Ref="R13"  Part="1" 
-AR Path="/61F9F3BA/62420CA2" Ref="R13"  Part="1" 
-F 0 "R13" H 8268 5596 50  0000 L CNN
-F 1 "1.07K" H 8268 5505 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" H 8200 5550 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-8ARW1071V/5162926?s=N4IgjCBcoMxaBjKAzAhgGwM4FMA0IB7KAbRADYBWCfMsgdhBoE4yQBdfABwBcoQBlbgCcAlgDsA5iAC%2B%2BAEwAGABwV4IJJDRY8hEuAB0CugAIA1gHkAFgFtM7Lr0ggAqmJHdzyALLZUmAK5C2DL4ALRyahrC-jpEkKSq%2BEzs0qlAA" H 8200 5550 50  0001 C CNN
-	1    8200 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 5100 8200 5300
-Wire Wire Line
-	8200 5650 8200 5950
-Wire Wire Line
-	8200 5950 7600 5950
-Text HLabel 7600 5950 0    50   Input ~ 0
+Text HLabel 8000 4350 2    50   Input ~ 0
 GND
-Wire Wire Line
-	8200 5300 8750 5300
-Connection ~ 8200 5300
-Wire Wire Line
-	8200 5300 8200 5450
-Text HLabel 8750 5300 2    50   Input ~ 0
-VSE-
-Text Notes 8650 5200 0    50   ~ 0
-Approx. -0.4V
 Text HLabel 5100 4400 0    50   Input ~ 0
 VSE+
 Text Notes 4700 4600 0    50   ~ 0
 Approx. 3.3V
 Text Notes 5850 6350 0    50   ~ 0
 +/- 11.64 to 12.6V
-Text Notes 8650 5500 0    50   ~ 0
--0.421V to -0.389V
 $Comp
 L MC-ADC:RD-2412D_P U12
 U 1 1 622B3159
@@ -473,4 +426,98 @@ F 3 "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integra
 	1    5800 1650
 	1    0    0    -1  
 $EndComp
+Text HLabel 10100 5650 2    50   Input ~ 0
+VSE-
+$Comp
+L Device:D_Schottky D11
+U 1 1 623DC229
+P 8000 4950
+F 0 "D11" V 8046 4870 50  0000 R CNN
+F 1 "MBR0520L" V 7955 4870 50  0000 R CNN
+F 2 "Footprints_MC-ADC:SOD3716X135N" H 8000 4950 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/micro-commercial-co/MBR0520L-TP/3191585" H 8000 4950 50  0001 C CNN
+	1    8000 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D12
+U 1 1 623DE9FB
+P 8000 5350
+F 0 "D12" V 8046 5270 50  0000 R CNN
+F 1 "MBR0520L" V 7955 5270 50  0000 R CNN
+F 2 "Footprints_MC-ADC:SOD3716X135N" H 8000 5350 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/micro-commercial-co/MBR0520L-TP/3191585" H 8000 5350 50  0001 C CNN
+	1    8000 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky D13
+U 1 1 623DF10A
+P 8650 5150
+F 0 "D13" V 8604 5230 50  0000 L CNN
+F 1 "MBR0520L" V 8695 5230 50  0000 L CNN
+F 2 "Footprints_MC-ADC:SOD3716X135N" H 8650 5150 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/micro-commercial-co/MBR0520L-TP/3191585" H 8650 5150 50  0001 C CNN
+	1    8650 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 623E0174
+P 9350 5150
+F 0 "C19" H 9442 5196 50  0000 L CNN
+F 1 "10uF" H 9442 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9350 5150 50  0001 C CNN
+F 3 "~" H 9350 5150 50  0001 C CNN
+	1    9350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5100 8000 5200
+Wire Wire Line
+	8000 4750 8650 4750
+Wire Wire Line
+	8650 4750 8650 5000
+Wire Wire Line
+	8000 4750 8000 4800
+Wire Wire Line
+	8000 4350 8000 4750
+Connection ~ 8000 4750
+Wire Wire Line
+	8000 5500 8000 5650
+Wire Wire Line
+	8000 5650 8650 5650
+Connection ~ 8000 5650
+Wire Wire Line
+	8000 5650 8000 5750
+Wire Wire Line
+	8650 5650 8650 5300
+Connection ~ 8650 5650
+Wire Wire Line
+	8650 5650 9350 5650
+Wire Wire Line
+	8000 5950 8000 6150
+Wire Wire Line
+	9350 5250 9350 5650
+Connection ~ 9350 5650
+Wire Wire Line
+	9350 5650 10100 5650
+Wire Wire Line
+	9350 5050 9350 4750
+Wire Wire Line
+	9350 4750 8650 4750
+Connection ~ 8650 4750
+$Comp
+L Device:R_Small_US R15
+U 1 1 623E2847
+P 8000 5850
+F 0 "R15" H 8068 5896 50  0000 L CNN
+F 1 "1.5K" H 8068 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8000 5850 50  0001 C CNN
+F 3 "~" H 8000 5850 50  0001 C CNN
+	1    8000 5850
+	1    0    0    -1  
+$EndComp
+Text Notes 10050 5500 0    50   ~ 0
+Approx. -0.4V
 $EndSCHEMATC

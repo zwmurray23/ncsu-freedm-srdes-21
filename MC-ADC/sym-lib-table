@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name bark)(type Legacy)(uri C:/Users/Zach/Desktop/NCSU/485/MC-ADC/5-1634513-1.lib)(options "")(descr ""))
-  (lib (name MC-ADC-rescue)(type Legacy)(uri ${KIPRJMOD}/MC-ADC-rescue.lib)(options "")(descr ""))
-  (lib (name KiCAD)(type Legacy)(uri ${KICAD_SYMBOL_DIR})(options "")(descr ""))
+  (lib (name bark)(type Legacy)(uri C:/Users/Zach/Desktop/NCSU/485/MC-ADC/5-1634513-1.lib)(options "")(descr "")(disabled))
+  (lib (name MC-ADC-rescue)(type Legacy)(uri ${KIPRJMOD}/MC-ADC-rescue.lib)(options "")(descr "")(disabled))
+  (lib (name KiCAD)(type Legacy)(uri ${KICAD_SYMBOL_DIR})(options "")(descr "")(disabled))
 )
