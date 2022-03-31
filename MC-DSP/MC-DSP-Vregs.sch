@@ -131,14 +131,14 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 6245D2FE
-P 7750 4600
+P 9400 4550
 AR Path="/6245D2FE" Ref="R?"  Part="1" 
 AR Path="/6187F723/6245D2FE" Ref="R21"  Part="1" 
-F 0 "R21" H 7820 4646 50  0000 L CNN
-F 1 "56R" H 7820 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7680 4600 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AKwpwAyIAugL5A" H 7750 4600 50  0001 C CNN
-	1    7750 4600
+F 0 "R21" H 9470 4596 50  0000 L CNN
+F 1 "56R" H 9470 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9330 4550 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0756RL/727301?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AKwpwAyIAugL5A" H 9400 4550 50  0001 C CNN
+	1    9400 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -234,14 +234,6 @@ Wire Wire Line
 	8900 4800 8900 4700
 Wire Wire Line
 	8150 4700 8150 4800
-Wire Wire Line
-	7750 4450 7750 4400
-Wire Wire Line
-	7750 4400 8150 4400
-Wire Wire Line
-	7750 4750 7750 4800
-Wire Wire Line
-	7750 4800 8150 4800
 Connection ~ 8150 4800
 Wire Wire Line
 	8150 4800 8900 4800
@@ -274,7 +266,7 @@ Wire Wire Line
 	8700 4400 8900 4400
 Connection ~ 8900 4400
 Wire Wire Line
-	8900 4400 9600 4400
+	8900 4400 9400 4400
 Text HLabel 5900 4400 0    50   Input ~ 0
 SYS_24V
 Wire Wire Line
@@ -288,15 +280,9 @@ Wire Wire Line
 	6200 4400 6450 4400
 Wire Wire Line
 	5900 4800 6200 4800
-Connection ~ 7750 4800
-Wire Wire Line
-	7750 4400 7650 4400
-Connection ~ 7750 4400
 Wire Wire Line
 	7150 4700 7150 4800
 Connection ~ 7150 4800
-Wire Wire Line
-	7150 4800 7750 4800
 Wire Wire Line
 	6200 4700 6200 4800
 Connection ~ 6200 4800
@@ -428,4 +414,16 @@ Wire Wire Line
 Connection ~ 8650 3650
 Wire Wire Line
 	8650 3650 8750 3650
+Connection ~ 9400 4400
+Wire Wire Line
+	9400 4400 9600 4400
+Wire Wire Line
+	9400 4700 9400 4800
+Wire Wire Line
+	9400 4800 8900 4800
+Connection ~ 8900 4800
+Wire Wire Line
+	7650 4400 8150 4400
+Wire Wire Line
+	7150 4800 8150 4800
 $EndSCHEMATC
