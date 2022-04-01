@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# FREEDM_Systems_Center_FSilk_20mm
+#
+DEF FREEDM_Systems_Center_FSilk_20mm U 0 40 Y Y 1 F N
+F0 "U" -550 100 50 H V C CNN
+F1 "FREEDM_Systems_Center_FSilk_20mm" 0 0 50 H V C CNN
+F2 "NCSU logo:NC_State_University_2row_FSilk" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -750 -50 750 50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# NC_State_University_2row_FCu_Neg
+#
+DEF NC_State_University_2row_FCu_Neg U 0 40 Y Y 1 F N
+F0 "U" -550 100 50 H V C CNN
+F1 "NC_State_University_2row_FCu_Neg" 0 0 50 H V C CNN
+F2 "NCSU logo:NC_State_University_2row_FCu_neg" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -700 -50 700 50 0 1 0 f
+X ~ 1 -800 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# NC_State_University_2row_FCu_Pos
+#
+DEF NC_State_University_2row_FCu_Pos U 0 40 Y Y 1 F N
+F0 "U" -550 100 50 H V C CNN
+F1 "NC_State_University_2row_FCu_Pos" 0 0 50 H V C CNN
+F2 "NCSU logo:NC_State_University_2row-FCu_pos" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -700 -50 700 50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# NC_State_University_2row_FSilk
+#
+DEF NC_State_University_2row_FSilk U 0 40 Y Y 1 F N
+F0 "U" -550 100 50 H V C CNN
+F1 "NC_State_University_2row_FSilk" 0 0 50 H V C CNN
+F2 "NCSU logo:NC_State_University_2row_FSilk" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -600 -50 600 50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+#End Library

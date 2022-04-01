@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R-78E5.0-0.5
+D Switching Regulator,7-28Vin,5Vout 0.5A Switching Regulator, 7
+K
+F http://docs-emea.rs-online.com/webdocs/10a2/0900766b810a2db7.pdf
+$ENDCMP
+#
+#End Doc Library
