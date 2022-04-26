@@ -127,5 +127,5 @@ Wire Wire Line
 Wire Wire Line
 	6625 3050 6625 3150
 Text Notes 3550 1750 0    50   ~ 0
-there is a correction on this page. Originally the input of zener was parked as pin 2 which does not match the footprint. The output was marked as pin 1 which is actuallt the input..  \n\nTHe PMOS also had issues. The pin numbers did not match the footprint. Ended up with the source connected to 3 different points with the gate and drain attached to numbering.  
+there is a correction on this page. Originally the input of zener was parked as pin 2 which does not match the footprint. The output was marked as pin 1 which is actually the input..  \n\nTHe PMOS also had issues. The pin numbers did not match the footprint. Ended up with the source connected to 3 different points with the gate and drain attached to numbering.  
 $EndSCHEMATC
