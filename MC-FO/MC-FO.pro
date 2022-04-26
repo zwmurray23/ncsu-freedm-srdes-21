@@ -1,4 +1,4 @@
-update=3/12/2022 12:15:07 AM
+update=4/26/2022 5:59:55 PM
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=MC-FO2.net
+LastNetListRead=MC-FO.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0

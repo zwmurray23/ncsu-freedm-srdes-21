@@ -114,7 +114,7 @@ U 1 1 61A5F13F
 P 7075 2775
 F 0 "U184" H 7075 3345 50  0000 C CNN
 F 1 "BU4847F-TR" H 7075 3254 50  0000 C CNN
-F 2 "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" H 7075 2775 50  0001 L BNN
+F 2 "Footprints_MC-FO:BU4847F-TR" H 7075 2775 50  0001 L BNN
 F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bu48xxg-e.pdf" H 7075 2775 50  0001 L BNN
 F 4 "Rohm" H 7075 2775 50  0001 L BNN "Manufacturer"
 F 5 "SOT130P210X105-4N" H 7075 2775 50  0001 L BNN "Package"
@@ -127,7 +127,7 @@ U 1 1 61A601DB
 P 5125 2775
 F 0 "U183" H 5125 3345 50  0000 C CNN
 F 1 "BU4831F-TR" H 5125 3254 50  0000 C CNN
-F 2 "Package_SO:SOP-4_3.8x4.1mm_P2.54mm" H 5125 2775 50  0001 L BNN
+F 2 "Footprints_MC-FO:BU4847F-TR" H 5125 2775 50  0001 L BNN
 F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/voltage_detector/bu48xxg-e.pdf" H 5125 2775 50  0001 L BNN
 F 4 "Rohm" H 5125 2775 50  0001 L BNN "Manufacturer"
 F 5 "SOT130P210X105-4N" H 5125 2775 50  0001 L BNN "Package"
