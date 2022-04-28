@@ -20,4 +20,10 @@ D DIN Headers & Receptacles, Backplane Connector, Standard Receptacle, Vertical,
 F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-8609-2140.pdf
 $ENDCMP
 #
+$CMP Zener_diode_3
+D Zener diode
+K diode
+F ~
+$ENDCMP
+#
 #End Doc Library
